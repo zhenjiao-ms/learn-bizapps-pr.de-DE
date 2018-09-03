@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.powerapps-common-data-service.5-learn-about-security-concepts
+title: Erfahren Sie mehr über Sicherheitskonzepte
+metadata:
+  title: Erfahren Sie mehr über Sicherheitskonzepte
+  description: Erfahren Sie mehr über Sicherheitskonzepte
+  ms.openlocfilehash: b806fa30eff6ec200e32a1ebc8d32ae413df94fd
+  ms.sourcegitcommit: 546746b48975ee44547aff14f3e523d78391bfc5
+  ms.translationtype: HT
+  ms.contentlocale: de-DE
+  ms.lasthandoff: 08/28/2018
+  ms.locfileid: "43139973"
+durationInMinutes: 12
+content: '[!include[](includes/5-learn-about-security-concepts.md)]'

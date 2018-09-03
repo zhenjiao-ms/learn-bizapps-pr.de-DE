@@ -1,0 +1,34 @@
+### YamlMime:Module
+uid: learn-bizapps.powerapps-common-data-service
+metadata:
+  title: Erste Schritte mit dem Common Data Service
+  description: Mit dem Common Data Service für Apps können Sie die Daten, die von Geschäftsanwendungen verwendet werden, sicher speichern und verwalten. Standardentitäten und benutzerdefinierte Entitäten in CDS für Apps bieten eine sichere und cloudbasierte Speicheroption für Ihre Daten.
+  ms.date: 09/24/2018
+  ms.openlocfilehash: 1d8d4b1c4e93fd0d9a34b437ca0784e4e9ab1409
+  ms.sourcegitcommit: cadea6dad88b4c50bdb88ffe0472c9c60e2abc73
+  ms.translationtype: HT
+  ms.contentlocale: de-DE
+  ms.lasthandoff: 08/29/2018
+  ms.locfileid: "43153567"
+title: Erste Schritte mit dem Common Data Service
+summary: Mit dem Common Data Service (CDS) für Apps können Sie Daten speichern und verwalten.
+abstract: Mit dem Common Data Service für Apps können Sie die Daten, die von Geschäftsanwendungen verwendet werden, sicher speichern und verwalten. Standardentitäten und benutzerdefinierte Entitäten in CDS für Apps bieten eine sichere und cloudbasierte Speicheroption für Ihre Daten.
+cardDescription: Mit dem Common Data Service (CDS) für Apps können Sie Daten speichern und verwalten.
+iconUrl: http://via.placeholder.com/120x120
+levels:
+- beginner
+roles:
+- business-user
+products:
+- flow
+- PowerApps
+- d365
+units:
+- learn-bizapps.powerapps-common-data-service.1-introduction
+- learn-bizapps.powerapps-common-data-service.2-learn-about-entities
+- learn-bizapps.powerapps-common-data-service.3-types-of-entities
+- learn-bizapps.powerapps-common-data-service.4-import-data-into-your-database
+- learn-bizapps.powerapps-common-data-service.5-learn-about-security-concepts
+- learn-bizapps.powerapps-common-data-service.6-knowledge-check
+- learn-bizapps.powerapps-common-data-service.7-summary
+achievement: learn.powerapps-common-data-service.badge

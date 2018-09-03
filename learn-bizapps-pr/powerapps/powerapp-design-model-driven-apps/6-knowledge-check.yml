@@ -1,0 +1,43 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.powerapps-design-model-driven-apps.6-knowledge-check
+metadata:
+  title: Quiz zu ersten Schritten mit modellgesteuerten Apps
+  description: In diesem Quiz wird Ihr Wissen zu den ersten Schritten zum Erstellen modellgesteuerter Apps getestet.
+  ms.date: 09/24/2018
+  ms.openlocfilehash: 28d4b13b5c8ef5579bffd824b1cf199232d55ff9
+  ms.sourcegitcommit: 32bef1173ca212eec11871d88c6b927193556fb2
+  ms.translationtype: HT
+  ms.contentlocale: de-DE
+  ms.lasthandoff: 08/30/2018
+  ms.locfileid: "43289906"
+title: 'Wissenstest: Erste Schritte mit modellgesteuerten Apps'
+durationInMinutes: 5
+content: Dies ist ein Quiz zu ersten Schritten mit modellgesteuerten Apps.
+quiz:
+  title: Quiz zu ersten Schritten mit modellgesteuerten Apps
+  questions:
+  - content: Welche der folgenden Aussagen über Entitäten trifft zu?
+    choices:
+    - content: Entitäten sind Eigenschaften, die zur Definition eines Felds beitragen.
+      incorrectExplanation: Entitäten sind keine Eigenschaften. Aber sie verfügen über Eigenschaften.
+      isCorrect: false
+    - content: Entitäten verfügen über Felder.
+      incorrectExplanation: Entitäten verfügen nicht über Felder. Eigenschaften verfügen über Felder.
+      isCorrect: false
+    - content: Kontonamen sind ein Entitätstyp.
+      correctExplanation: Konten sind eine allgemeine Entität, die verwendet wird, um Kunden zu beschreiben.
+      isCorrect: true
+    - content: Mit Beziehungen wird ein Feld einer Eigenschaft zugeordnet.
+      incorrectExplanation: Beziehungen definieren, wie Entitäten miteinander verknüpft werden können. Sie stellen keine Zusammenhänge zwischen Entitäten oder Feldern her.
+      isCorrect: false
+  - content: Welche der folgenden Aussagen über die Sicherheit für modellgesteuerte Apps ist zutreffend?
+    choices:
+    - content: Sicherheit basiert auf Microsoft SharePoint-Berechtigungen.
+      incorrectExplanation: Sicherheit für modellgesteuerte Apps basiert auf Rollen, die eine Gruppe von Berechtigungen enthalten.
+      isCorrect: false
+    - content: Sicherheitsrollen können Teams zugewiesen werden.
+      correctExplanation: Sicherheitsrollen können Teams und Einzelpersonen zugewiesen werden.
+      isCorrect: true
+    - content: Sicherheitsrollen werden von Microsoft Windows definiert und können nicht geändert werden.
+      incorrectExplanation: Sicherheitsrollen können angepasst werden.
+      isCorrect: false

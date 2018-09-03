@@ -1,0 +1,33 @@
+### YamlMime:Module
+uid: learn-bizapps.powerapps-design-model-driven-apps
+metadata:
+  title: Erste Schritte mit modellgesteuerten Apps
+  description: Der Entwurf einer modellgesteuerten App ist ein Ansatz, der sich auf das schnelle Hinzufügen von Komponenten zu Ihren Apps konzentriert. Zu diesen Komponenten gehören Dashboards, Formulare, Ansichten und Diagramme. Mit keinem bzw. sehr wenig Code können Sie Apps erstellen, die einfach oder sehr komplex sind. Im Gegensatz zur Canvas-App-Entwicklung, in der der Designer die vollständige Kontrolle über das App-Layout hat, wird ein Großteil des Layouts in modellgesteuerten Apps von den Komponenten bestimmt, die Sie hinzufügen. Anders gesagt, der Schwerpunkt liegt mehr auf dem schnellen Anzeigen Ihrer Geschäftsdaten und der Entscheidungsfindung als auf anspruchsvollem App-Design.
+  ms.date: 09/24/2018
+  ms.openlocfilehash: aa9cad66e1bf8a2f2c1ce69192cca9925b6afd5c
+  ms.sourcegitcommit: 32bef1173ca212eec11871d88c6b927193556fb2
+  ms.translationtype: HT
+  ms.contentlocale: de-DE
+  ms.lasthandoff: 08/30/2018
+  ms.locfileid: "43289880"
+title: Erste Schritte mit modellgesteuerten Apps
+summary: Erfahren Sie, wie Sie Geschäftsdaten schnell mit einem modellgesteuerten Ansatz anzeigen.
+abstract: Der Entwurf einer modellgesteuerten App ist ein Ansatz, der sich auf das schnelle Hinzufügen von Komponenten zu Ihren Apps konzentriert. Zu diesen Komponenten gehören Dashboards, Formulare, Ansichten und Diagramme. Mit keinem bzw. sehr wenig Code können Sie Apps erstellen, die einfach oder sehr komplex sind. Im Gegensatz zur Canvas-App-Entwicklung, in der der Designer die vollständige Kontrolle über das App-Layout hat, wird ein Großteil des Layouts in modellgesteuerten Apps von den Komponenten bestimmt, die Sie hinzufügen. Anders gesagt, der Schwerpunkt liegt mehr auf dem schnellen Anzeigen Ihrer Geschäftsdaten und der Entscheidungsfindung als auf anspruchsvollem App-Design.
+cardDescription: Erfahren Sie, wie Sie Geschäftsdaten schnell mit einem modellgesteuerten Ansatz anzeigen.
+iconUrl: http://via.placeholder.com/120x120
+levels:
+- beginner
+roles:
+- business-user
+products:
+- PowerApps
+- d365
+units:
+- learn-bizapps.powerapps-design-model-driven-apps.1-introduction
+- learn-bizapps.powerapps-design-model-driven-apps.2-building-blocks-of-model-driven-apps
+- learn-bizapps.powerapps-design-model-driven-apps.3-create-a-model-driven-app
+- learn-bizapps.powerapps-design-model-driven-apps.4-explore-sample-model-driven-apps
+- learn-bizapps.powerapps-design-model-driven-apps.5-control-security-when-sharing-model-driven-apps
+- learn-bizapps.powerapps-design-model-driven-apps.6-knowledge-check
+- learn-bizapps.powerapps-design-model-driven-apps.7-summary
+achievement: learn.powerapps-design-model-driven-apps.badge
