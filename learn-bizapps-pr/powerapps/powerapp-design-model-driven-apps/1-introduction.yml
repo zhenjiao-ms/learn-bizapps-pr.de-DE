@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.powerapps-design-model-driven-apps.1-introduction
+title: Einführung in modellgesteuerte Apps
+metadata:
+  title: Einführung in modellgesteuerte Apps
+  description: Einführung in modellgesteuerte Apps
+  ms.openlocfilehash: da966bc9bd7ee1eae70e98705540f5efabf91645
+  ms.sourcegitcommit: 546746b48975ee44547aff14f3e523d78391bfc5
+  ms.translationtype: HT
+  ms.contentlocale: de-DE
+  ms.lasthandoff: 08/28/2018
+  ms.locfileid: "43141086"
+durationInMinutes: 12
+content: '[!include[](includes/1-introduction.md)]'
