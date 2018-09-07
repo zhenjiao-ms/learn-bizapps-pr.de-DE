@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.get-started-with-power-bi.1-introduction
+metadata:
+  title: Einführung
+  description: Einführung
+  displayType: one-column
+  ms.openlocfilehash: 1797cf3fd9d4ffb03e76c7dc6beed68006510464
+  ms.sourcegitcommit: 25c2f12d3df91ded28ea90b44f84e205cb0da8a1
+  ms.translationtype: HT
+  ms.contentlocale: de-DE
+  ms.lasthandoff: 08/23/2018
+  ms.locfileid: "42705327"
+title: Einführung
+durationInMinutes: 3
+content: '[!include[](includes/1-introduction.md)]'

@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.flow-create-approval.2-process-approval-request
+title: Verarbeiten einer Genehmigungsanforderung
+metadata:
+  title: Verarbeiten einer Genehmigungsanforderung
+  description: Erfahren Sie, wie Sie eine Genehmigungsanforderung verarbeiten.
+  ms.openlocfilehash: 46911e78862d1aa48514598256c2419e1465c717
+  ms.sourcegitcommit: 25c2f12d3df91ded28ea90b44f84e205cb0da8a1
+  ms.translationtype: HT
+  ms.contentlocale: de-DE
+  ms.lasthandoff: 08/23/2018
+  ms.locfileid: "42708826"
+durationInMinutes: 15
+content: '[!include[](includes/2-process-approval-request.md)]'

@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.flow-create-approval.1-create-approval-request
+title: Erstellen einer Genehmigungsanforderung für eine SharePoint-Liste
+metadata:
+  title: Erstellen einer Genehmigungsanforderung für eine SharePoint-Liste
+  description: Erfahren Sie, wie Sie eine Genehmigungsanforderung für eine SharePoint-Liste erstellen.
+  ms.openlocfilehash: 85e90a4dd3a4f7813871d4cd294f1002bbb8a02c
+  ms.sourcegitcommit: 25c2f12d3df91ded28ea90b44f84e205cb0da8a1
+  ms.translationtype: HT
+  ms.contentlocale: de-DE
+  ms.lasthandoff: 08/23/2018
+  ms.locfileid: "42707498"
+durationInMinutes: 15
+content: '[!include[](includes/1-create-approval-request.md)]'
