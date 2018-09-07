@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.powerapps-get-started.3-powerapps-related-technologies
+title: Mit PowerApps verknüpfte Technologien
+metadata:
+  title: Mit PowerApps verknüpfte Technologien
+  description: Erfahren Sie mehr dazu, wie Sie PowerApps mit anderen Technologien einsetzen können, um Apps zu erstellen und für Ihre gesamte Organisation freizugeben.
+  ms.openlocfilehash: eb627e0ca5280bf4df7cccb9943dc11b1e7a50ad
+  ms.sourcegitcommit: 1a23ee037ee3410c612e446ea6b0c64bc333db5d
+  ms.translationtype: HT
+  ms.contentlocale: de-DE
+  ms.lasthandoff: 08/28/2018
+  ms.locfileid: "43116490"
+durationInMinutes: 10
+content: '[!include[](includes/3-powerapps-related-technologies.md)]'

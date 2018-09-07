@@ -1,0 +1,53 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.powerapps-customize.4-quiz-customize-an-app
+title: 'Wissenstest: Anpassen einer App'
+metadata:
+  title: Anpassen einer App – Quiz
+  description: In diesem Quiz wird Ihr Wissen über das Anpassen einer App getestet.
+  ms.openlocfilehash: de66befdb5eae1fb98c4c3feea3da9506e8b4c32
+  ms.sourcegitcommit: 609626c2526eb275d1789eb2a081ff543d89e967
+  ms.translationtype: HT
+  ms.contentlocale: de-DE
+  ms.lasthandoff: 08/29/2018
+  ms.locfileid: "43192767"
+durationInMinutes: 10
+content: Anpassen einer App – Quiz
+quiz:
+  title: Anpassen einer App – Quiz
+  questions:
+  - content: Wo passen Sie in PowerApps eine App an?
+    choices:
+    - content: web.powerapps.com
+      isCorrect: false
+      incorrectExplanation: Unter web.powerapps.com können Sie alle Ihre Apps anzeigen. Sie können sie dort aber nicht anpassen.
+    - content: PowerApps Studio
+      correctExplanation: Die Anpassung von Apps erfolgt in PowerApps Studio.
+      isCorrect: true
+    - content: Microsoft SharePoint
+      incorrectExplanation: SharePoint kann die Datenquelle für Apps sein, aber Sie können Apps dort nicht anpassen.
+      isCorrect: false
+    - content: Microsoft AppSource
+      incorrectExplanation: Sie installieren Apps über Microsoft AppSource, aber die Anpassung erfolgt in PowerApps Studio.
+      isCorrect: false
+  - content: Welche der folgenden Antwortmöglichkeiten ist kein App-Bildschirm, der von PowerApps generiert wird?
+    choices:
+    - content: Bildschirm zum Durchsuchen
+      incorrectExplanation: Der Bildschirm zum Durchsuchen wird in Apps, die von PowerApps generiert werden, standardmäßig geöffnet.
+      isCorrect: false
+    - content: Bildschirm zum Bearbeiten/Erstellen
+      correctExplanation: Wenn PowerApps eine App generiert, enthält diese einen Bildschirm zum Durchsuchen, einen Bildschirm mit Details und einen Bildschirm zum Bearbeiten/Erstellen.
+      isCorrect: false
+    - content: Vorschaubereich
+      incorrectExplanation: Obwohl die Schaltfläche „Ausführen“ Ihre App so startet, dass Sie eine Vorschau anzeigen können, ist der Vorschaubereich kein Hauptbildschirm.
+      isCorrect: true
+  - content: Welcher Bildschirm wird in Apps, die von PowerApps generiert werden, standardmäßig geöffnet?
+    choices:
+    - content: Vorschaubereich
+      incorrectExplanation: Die Schaltfläche „Ausführen“ startet Ihre App so, dass Sie eine Vorschau anzeigen können, aber der Vorschaubereich ist kein Hauptbildschirm.
+      isCorrect: false
+    - content: Detailbildschirm
+      incorrectExplanation: Der Bildschirm zum Durchsuchen ist der erste Bildschirm. In der Regel wird ein Detailbildschirm geöffnet, wenn ein bestimmtes Element im Bildschirm zum Durchsuchen ausgewählt wird.
+      isCorrect: false
+    - content: Bildschirm zum Durchsuchen
+      correctExplanation: Wenn PowerApps-Apps gestartet werden, ist der Bildschirm zum Durchsuchen immer der erste Bildschirm.
+      isCorrect: true

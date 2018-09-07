@@ -1,0 +1,99 @@
+### YamlMime:Achievements
+achievements:
+- uid: learn.automate-process-using-flow.trophy
+  type: trophy
+  title: Trophäe für das Automatisieren eines Unternehmensprozesses mithilfe von Flow
+  summary: Trophäe für den Lernpfad „Automatisieren eines Unternehmensprozesses mithilfe von Flow“
+  iconUrl: http://via.placeholder.com/120x120
+- uid: learn.create-powerapps.trophy
+  type: trophy
+  title: Trophäe für das Erstellen einer App in PowerApps
+  summary: Trophäe für den Lernpfad „Erstellen einer App in PowerApps“
+  iconUrl: http://via.placeholder.com/120x120
+- uid: learn.customer-service-hub-cases-slas.trophy
+  type: trophy
+  title: Arbeiten mit Fällen und SLAs in Dynamics 365 for Customer Service
+  summary: Trophäe für den Lernpfad „Arbeiten mit Fällen und SLAs in Dynamics 365 for Customer Service“
+  iconUrl: http://via.placeholder.com/120x120
+- uid: learn.sample-module-bizapps.badge
+  type: badge
+  title: Beispielmodul mit CloudShell-Abzeichen
+  summary: Abzeichen für das Modul „Beispielmodul mit CloudShell“
+  iconUrl: http://via.placeholder.com/120x120
+- uid: learn.sample-module-dynamics.badge
+  type: badge
+  title: Abzeichen für „Dynamics-Beispielmodul“
+  summary: Abzeichen für das Modul „Dynamics-Beispielmodul“
+  iconUrl: http://via.placeholder.com/120x120
+- uid: learn.sample-module-power-apps.badge
+  type: badge
+  title: Abzeichen für das PowerApps-Beispielmodul
+  summary: Abzeichen für das Modul „PowerApps-Beispielmodul“
+  iconUrl: http://via.placeholder.com/120x120
+- uid: learn.sample-module-power-bi.badge
+  type: badge
+  title: Abzeichen für das Power BI-Beispielmodul
+  summary: Abzeichen für das Modul „Power BI-Beispielmodul“
+  iconUrl: http://via.placeholder.com/120x120
+- uid: learn.customer-service-cases.badge
+  type: badge
+  title: Abzeichen für Customer Service-Anfragen
+  summary: Abzeichen für das Modul „Customer Service-Anfragen“
+  iconUrl: http://via.placeholder.com/120x120
+- uid: learn.customer-service-get-started.badge
+  type: badge
+  title: Abzeichen für „Erste Schritte mit Customer Service for Dynamics 365“
+  summary: Abzeichen für das Modul „Erste Schritte mit Customer Service for Dynamics 365“
+  iconUrl: http://via.placeholder.com/120x120
+- uid: learn.powerapps-customize.badge
+  type: badge
+  title: Abzeichen für das Anpassen und Verwalten von PowerApps
+  summary: Abzeichen für das Modul „Anpassen und Verwalten von PowerApps“
+  iconUrl: http://via.placeholder.com/120x120
+- uid: learn.powerapps-get-started.badge
+  type: badge
+  title: Abzeichen für „Erste Schritte mit PowerApps“
+  summary: Abzeichen für das Modul „Erste Schritte mit PowerApps“
+  iconUrl: http://via.placeholder.com/120x120
+- uid: learn.powerapps-manage.badge
+  type: badge
+  title: Abzeichen für das Verwalten von PowerApps
+  summary: Abzeichen für das Modul „Verwalten von PowerApps“
+  iconUrl: http://via.placeholder.com/120x120
+- uid: learn.flow-create-approval.badge
+  type: badge
+  title: Abzeichen für das Erstellen eines Genehmigungsflows
+  summary: Abzeichen für das Modul „Erstellen eines Genehmigungsflows“
+  iconUrl: http://via.placeholder.com/120x120
+- uid: learn.flow-get-started.badge
+  type: badge
+  title: Abzeichen „Erste Schritte mit Microsoft Flow“
+  summary: Abzeichen für das Modul „Erste Schritte mit Microsoft Flow“
+  iconUrl: http://via.placeholder.com/120x120
+- uid: learn.get-started-with-power-bi.badge
+  type: badge
+  title: Abzeichen „Erste Schritte mit Power BI“
+  summary: Abzeichen für das Modul „Erste Schritte mit Power BI“
+  iconUrl: http://via.placeholder.com/120x120
+- uid: learn.powerapps-design-model-driven-apps.badge
+  type: badge
+  title: Erste Schritte mit modellgesteuerten Apps
+  summary: Abzeichen für das Modul „Erste Schritte mit modellgesteuerten PowerApps“
+  iconUrl: http://via.placeholder.com/120x120
+- uid: learn.powerapps-business-process-flow.badge
+  type: badge
+  title: Erste Schritte mit Geschäftsprozessflows
+  summary: Abzeichen für das Modul „Erste Schritte mit Geschäftsprozessflows“
+  iconUrl: http://via.placeholder.com/120x120
+- uid: learn.powerapps-common-data-service.badge
+  type: badge
+  title: Erste Schritte mit dem Common Data Service
+  summary: Abzeichen für das Modul „Erste Schritte mit dem Common Data Service“
+  iconUrl: http://via.placeholder.com/120x120
+metadata:
+  ms.openlocfilehash: 7ca87b8df0d52024acc91224c612b6684d355559
+  ms.sourcegitcommit: 546746b48975ee44547aff14f3e523d78391bfc5
+  ms.translationtype: HT
+  ms.contentlocale: de-DE
+  ms.lasthandoff: 08/28/2018
+  ms.locfileid: "43139352"

@@ -1,0 +1,27 @@
+### YamlMime:LearningPath
+uid: learn-bizapps.create-powerapps
+title: Erstellen einer App in PowerApps
+summary: In diesem Lernpfad erhalten Sie eine Einführung in PowerApps und Unterstützung beim Erstellen und Anpassen einer App und erfahren, wie Sie erstellte Apps verwalten und verteilen können.
+cardDescription: Erstellen, Anpassen und Freigeben einer App
+iconUrl: http://via.placeholder.com/120x120
+levels:
+- beginner
+roles:
+- business-user
+products:
+- PowerApps
+prerequisites: In diesem Lernpfad wird vorausgesetzt, dass Sie sich mit OneDrive, SharePoint und Excel auskennen.
+metadata:
+  title: Erstellen einer App in PowerApps
+  description: In diesem Lernpfad erhalten Sie eine Einführung in PowerApps und Unterstützung beim Erstellen und Anpassen einer App und erfahren, wie Sie erstellte Apps verwalten und verteilen können.
+  ms.openlocfilehash: 581a84e6209420c9a569c38e9b628baa9a5e5a6a
+  ms.sourcegitcommit: 11f38bf857b2bb8bb6adb06a6ba0154e98bf24b3
+  ms.translationtype: HT
+  ms.contentlocale: de-DE
+  ms.lasthandoff: 08/29/2018
+  ms.locfileid: "43239663"
+modules:
+- learn-bizapps.powerapps-get-started
+- learn-bizapps.powerapps-customize
+- learn-bizapps.powerapps-manage
+achievement: learn.create-powerapps.trophy
