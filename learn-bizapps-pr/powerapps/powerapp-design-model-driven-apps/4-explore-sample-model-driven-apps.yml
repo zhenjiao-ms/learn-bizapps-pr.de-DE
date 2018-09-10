@@ -4,11 +4,11 @@ title: Untersuchen von Beispielen modellgesteuerter Apps
 metadata:
   title: Untersuchen von Beispielen modellgesteuerter Apps
   description: Untersuchen von Beispielen modellgesteuerter Apps
-  ms.openlocfilehash: 53cb366ad0c0aecc6a1de6f2f1df3cf4ce83f633
-  ms.sourcegitcommit: 546746b48975ee44547aff14f3e523d78391bfc5
+  ms.openlocfilehash: adb941c5a9f836e0096ee152aec00ced1ed8147e
+  ms.sourcegitcommit: 667c046355c7ad9495755fcee65e73d5fa279d50
   ms.translationtype: HT
   ms.contentlocale: de-DE
-  ms.lasthandoff: 08/28/2018
-  ms.locfileid: "43140821"
-durationInMinutes: 12
+  ms.lasthandoff: 08/31/2018
+  ms.locfileid: "43378219"
+durationInMinutes: 10
 content: '[!include[](includes/4-explore-sample-model-driven-apps.md)]'

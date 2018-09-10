@@ -4,12 +4,12 @@ metadata:
   title: Erste Schritte mit dem Common Data Service
   description: Mit dem Common Data Service für Apps können Sie die Daten, die von Geschäftsanwendungen verwendet werden, sicher speichern und verwalten. Standardentitäten und benutzerdefinierte Entitäten in CDS für Apps bieten eine sichere und cloudbasierte Speicheroption für Ihre Daten.
   ms.date: 09/24/2018
-  ms.openlocfilehash: 1d8d4b1c4e93fd0d9a34b437ca0784e4e9ab1409
-  ms.sourcegitcommit: cadea6dad88b4c50bdb88ffe0472c9c60e2abc73
+  ms.openlocfilehash: a76756a3de3cfb5b8f2749b763e0caef9a640609
+  ms.sourcegitcommit: d2e8b297a840d5958013d9a61963ce41c6b4ed22
   ms.translationtype: HT
   ms.contentlocale: de-DE
-  ms.lasthandoff: 08/29/2018
-  ms.locfileid: "43153567"
+  ms.lasthandoff: 09/06/2018
+  ms.locfileid: "43848359"
 title: Erste Schritte mit dem Common Data Service
 summary: Mit dem Common Data Service (CDS) für Apps können Sie Daten speichern und verwalten.
 abstract: Mit dem Common Data Service für Apps können Sie die Daten, die von Geschäftsanwendungen verwendet werden, sicher speichern und verwalten. Standardentitäten und benutzerdefinierte Entitäten in CDS für Apps bieten eine sichere und cloudbasierte Speicheroption für Ihre Daten.
@@ -20,8 +20,8 @@ levels:
 roles:
 - business-user
 products:
-- bizapps-flow
 - bizapps-d365
+- bizapps-flow
 - bizapps-power-apps
 units:
 - learn-bizapps.powerapps-common-data-service.1-introduction
