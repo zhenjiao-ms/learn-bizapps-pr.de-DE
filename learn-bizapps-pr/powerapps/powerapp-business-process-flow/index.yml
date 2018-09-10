@@ -1,26 +1,32 @@
-### YamlMime:Module 
+### YamlMime:Module
 uid: learn-bizapps.business-process-flow
 metadata:
   title: Erste Schritte mit Geschäftsprozessflows
-  description: 'Geschäftsprozessflows stellen sicher, dass Benutzer Daten konsistent eingeben und immer dann, wenn sie mit einem Kunden arbeiten, die gleichen Schritte ausführen. Geschäftsprozessflows verwenden die gleiche zugrunde liegende Technologie wie andere Prozesse, aber sie bieten Funktionen, die sich sehr von anderen Funktionen unterscheiden, die Prozesse verwenden.'
+  description: Geschäftsprozessflows stellen sicher, dass Benutzer Daten konsistent eingeben und immer dann, wenn sie mit einem Kunden arbeiten, die gleichen Schritte ausführen. Geschäftsprozessflows verwenden die gleiche zugrunde liegende Technologie wie andere Prozesse, aber sie bieten Funktionen, die sich sehr von anderen Funktionen unterscheiden, die Prozesse verwenden.
   ms.date: 09/24/2018
+  ms.openlocfilehash: ab8099441bcd5a633d61d390cd4250a028024130
+  ms.sourcegitcommit: d2e8b297a840d5958013d9a61963ce41c6b4ed22
+  ms.translationtype: HT
+  ms.contentlocale: de-DE
+  ms.lasthandoff: 09/06/2018
+  ms.locfileid: "43848589"
 title: Erste Schritte mit Geschäftsprozessflows
-summary: 'Geschäftsprozessflows stellen sicher, dass Daten konsistent eingegeben werden.'
-abstract: 'Geschäftsprozessflows stellen sicher, dass Benutzer Daten konsistent eingeben und immer dann, wenn sie mit einem Kunden arbeiten, die gleichen Schritte ausführen. Geschäftsprozessflows verwenden die gleiche zugrunde liegende Technologie wie andere Prozesse, aber sie bieten Funktionen, die sich sehr von anderen Funktionen unterscheiden, die Prozesse verwenden.'
-cardDescription: 'Geschäftsprozessflows stellen sicher, dass Daten konsistent eingegeben werden.'
-iconUrl: 'http://via.placeholder.com/120x120'
+summary: Geschäftsprozessflows stellen sicher, dass Daten konsistent eingegeben werden.
+abstract: Geschäftsprozessflows stellen sicher, dass Benutzer Daten konsistent eingeben und immer dann, wenn sie mit einem Kunden arbeiten, die gleichen Schritte ausführen. Geschäftsprozessflows verwenden die gleiche zugrunde liegende Technologie wie andere Prozesse, aber sie bieten Funktionen, die sich sehr von anderen Funktionen unterscheiden, die Prozesse verwenden.
+cardDescription: Geschäftsprozessflows stellen sicher, dass Daten konsistent eingegeben werden.
+iconUrl: http://via.placeholder.com/120x120
 levels:
-  - beginner
+- beginner
 roles:
-  - business-user
+- business-user
 products:
-  - bizapps-d365
-  - bizapps-flow
-  - bizapps-power-apps
+- bizapps-d365
+- bizapps-flow
+- bizapps-power-apps
 units:
-  - learn-bizapps.powerapps-business-process-flow.1-introduction
-  - learn-bizapps.powerapps-business-process-flow.2-create-a-business-flow-app
-  - learn-bizapps.powerapps-business-process-flow.3-enhance-a-business-process-flow-with-branching
-  - learn-bizapps.powerapps-business-process-flow.4-knowledge-check
-  - learn-bizapps.powerapps-business-process-flow.5-summary
+- learn-bizapps.powerapps-business-process-flow.1-introduction
+- learn-bizapps.powerapps-business-process-flow.2-create-a-business-flow-app
+- learn-bizapps.powerapps-business-process-flow.3-enhance-a-business-process-flow-with-branching
+- learn-bizapps.powerapps-business-process-flow.4-knowledge-check
+- learn-bizapps.powerapps-business-process-flow.5-summary
 achievement: learn.powerapps-business-process-flow.badge

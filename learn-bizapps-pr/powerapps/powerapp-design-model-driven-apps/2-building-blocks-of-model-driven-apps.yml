@@ -1,9 +1,14 @@
-### YamlMime:ModuleUnit 
+### YamlMime:ModuleUnit
 uid: learn-bizapps.powerapps-design-model-driven-apps.2-building-blocks-of-model-driven-apps
 title: Bausteine modellgesteuerter Apps
 metadata:
   title: Bausteine modellgesteuerter Apps
   description: Bausteine modellgesteuerter Apps
+  ms.openlocfilehash: 3234be5c0f7a0473dfa81bd55c3dfbc85a8b15d9
+  ms.sourcegitcommit: 667c046355c7ad9495755fcee65e73d5fa279d50
+  ms.translationtype: HT
+  ms.contentlocale: de-DE
+  ms.lasthandoff: 08/31/2018
+  ms.locfileid: "43378336"
 durationInMinutes: 10
-content: |
-  [!include[](includes/2-building-blocks-of-model-driven-apps.md)]
+content: '[!include[](includes/2-building-blocks-of-model-driven-apps.md)]'

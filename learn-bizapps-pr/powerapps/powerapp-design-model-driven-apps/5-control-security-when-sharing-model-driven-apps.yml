@@ -1,9 +1,14 @@
-### YamlMime:ModuleUnit 
+### YamlMime:ModuleUnit
 uid: learn-bizapps.powerapps-design-model-driven-apps.5-control-security-when-sharing-model-driven-apps
 title: Steuern der Sicherheit bei der Freigabe modellgesteuerter Apps
 metadata:
   title: Steuern der Sicherheit bei der Freigabe modellgesteuerter Apps
   description: Steuern der Sicherheit bei der Freigabe modellgesteuerter Apps
+  ms.openlocfilehash: 4498de652a88afe13155d1f91a4970123c14057b
+  ms.sourcegitcommit: 667c046355c7ad9495755fcee65e73d5fa279d50
+  ms.translationtype: HT
+  ms.contentlocale: de-DE
+  ms.lasthandoff: 08/31/2018
+  ms.locfileid: "43378313"
 durationInMinutes: 10
-content: |
-  [!include[](includes/5-control-security-when-sharing-model-driven-apps.md)]
+content: '[!include[](includes/5-control-security-when-sharing-model-driven-apps.md)]'
