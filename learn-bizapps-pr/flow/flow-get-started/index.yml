@@ -1,24 +1,30 @@
-### YamlMime:Module 
+### YamlMime:Module
 uid: learn-bizapps.flow-get-started
 metadata:
   title: Erste Schritte mit Microsoft Flow
   description: Informationen zum Erstellen eines Genehmigungsflows für eine SharePoint-Liste.
   ms.date: 09/24/2018
+  ms.openlocfilehash: f80335f36f7d30f87fca69f13787297d13aa2fd6
+  ms.sourcegitcommit: d2e8b297a840d5958013d9a61963ce41c6b4ed22
+  ms.translationtype: HT
+  ms.contentlocale: de-DE
+  ms.lasthandoff: 09/06/2018
+  ms.locfileid: "43848267"
 title: Erste Schritte mit Microsoft Flow
 summary: In diesem Modul erfahren Sie grundlegendes zum Erstellen eines Genehmigungsflows.
-abstract: 'In diesem Modul erfahren Sie, wie Sie einen Genehmigungsflow erstellen, der eine SharePoint-Liste verwendet. Sie erfahren, wie Sie eine SharePoint-Liste erstellen, für die Benutzer Twitter-Tweets vorschlagen können, die später genehmigt und veröffentlicht werden können.'
+abstract: In diesem Modul erfahren Sie, wie Sie einen Genehmigungsflow erstellen, der eine SharePoint-Liste verwendet. Sie erfahren, wie Sie eine SharePoint-Liste erstellen, für die Benutzer Twitter-Tweets vorschlagen können, die später genehmigt und veröffentlicht werden können.
 cardDescription: Erste Schritte mit Microsoft Flow
-iconUrl: 'http://via.placeholder.com/120x120'
+iconUrl: http://via.placeholder.com/120x120
 levels:
-  - beginner
+- beginner
 roles:
-  - business-user
+- business-user
 products:
-  - bizapps-d365
-  - bizapps-flow
+- bizapps-d365
+- bizapps-flow
 units:
-  - learn-bizapps.flow-get-started.1-flow-introduction
-  - learn-bizapps.flow-get-started.2-flow-create-first
-  - learn-bizapps.flow-get-started.3-flow-mobile-app
-  - learn-bizapps.flow-get-started.4-quiz-flow-get-started
+- learn-bizapps.flow-get-started.1-flow-introduction
+- learn-bizapps.flow-get-started.2-flow-create-first
+- learn-bizapps.flow-get-started.3-flow-mobile-app
+- learn-bizapps.flow-get-started.4-quiz-flow-get-started
 achievement: learn.flow-get-started.badge
