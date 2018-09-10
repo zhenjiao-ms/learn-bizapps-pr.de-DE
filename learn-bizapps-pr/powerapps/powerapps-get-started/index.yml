@@ -2,39 +2,29 @@
 uid: learn-bizapps.powerapps-get-started
 metadata:
   title: Erste Schritte mit PowerApps
-  description: Lernen Sie die Grundlagen von PowerApps kennen, und erfahren Sie, wie Sie das Tool in Ihrer Organisation einsetzen können.
-  ms.openlocfilehash: 7a95f55113290284d6f700b75d153aad5c16d71c
-  ms.sourcegitcommit: 11f38bf857b2bb8bb6adb06a6ba0154e98bf24b3
-  ms.translationtype: HT
-  ms.contentlocale: de-DE
-  ms.lasthandoff: 08/29/2018
-  ms.locfileid: "43239709"
+  description: 'Lernen Sie die Grundlagen von PowerApps kennen, und erfahren Sie, wie Sie das Tool in Ihrer Organisation einsetzen können.'
 title: Erste Schritte mit PowerApps
-summary: Lernen Sie die Grundlagen von PowerApps kennen, und erfahren Sie, wie Sie das Tool in Ihrer Organisation einsetzen können.
-abstract: >
+summary: 'Lernen Sie die Grundlagen von PowerApps kennen, und erfahren Sie, wie Sie das Tool in Ihrer Organisation einsetzen können.'
+abstract: |
   Aufgaben in diesem Modul:
-
   - Finden Sie heraus, wie PowerApps zur Effizienz Ihres Unternehmens beitragen kann.
-
   - Erfahren Sie, wie Sie verschiedene Technologien verwenden, um verschiedene Aufgaben in PowerApps zu erledigen.
-
   - Lernen Sie die verschiedenen Möglichkeiten zum Erstellen einer App in PowerApps kennen.
-
   - Erstellen Sie Ihre erste App aus Daten in einer Excel-Arbeitsmappe.
-cardDescription: Lernen Sie die Grundlagen von PowerApps kennen, und erfahren Sie, wie Sie das Tool in Ihrer Organisation einsetzen können.
-iconUrl: http://via.placeholder.com/120x120
+cardDescription: 'Lernen Sie die Grundlagen von PowerApps kennen, und erfahren Sie, wie Sie das Tool in Ihrer Organisation einsetzen können.'
+iconUrl: 'http://via.placeholder.com/120x120'
 levels:
-- beginner
+  - beginner
 roles:
-- business-user
+  - business-user
 products:
-- powerApps
-- d365
+  - bizapps-d365
+  - bizapps-power-apps
 units:
-- learn-bizapps.powerapps-get-started.1-powerapps-introduction
-- learn-bizapps.powerapps-get-started.2-powerapps-building-blocks
-- learn-bizapps.powerapps-get-started.3-powerapps-related-technologies
-- learn-bizapps.powerapps-get-started.4-powerapps-ways-to-build
-- learn-bizapps.powerapps-get-started.5-powerapps-create-first
-- learn-bizapps.powerapps-get-started.6-powerapps-quiz-get-started
+  - learn-bizapps.powerapps-get-started.1-powerapps-introduction
+  - learn-bizapps.powerapps-get-started.2-powerapps-building-blocks
+  - learn-bizapps.powerapps-get-started.3-powerapps-related-technologies
+  - learn-bizapps.powerapps-get-started.4-powerapps-ways-to-build
+  - learn-bizapps.powerapps-get-started.5-powerapps-create-first
+  - learn-bizapps.powerapps-get-started.6-powerapps-quiz-get-started
 achievement: learn.powerapps-get-started.badge

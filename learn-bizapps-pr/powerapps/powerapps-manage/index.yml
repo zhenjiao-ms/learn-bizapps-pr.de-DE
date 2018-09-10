@@ -1,32 +1,31 @@
 ### YamlMime:Module
 uid: learn-bizapps.powerapps-manage
 title: Verwalten von Apps in PowerApps
-summary: Verwalten Sie App-Versionen, App-Freigaben und Umgebungen in PowerApps.
-cardDescription: Verwalten Sie App-Versionen, App-Freigaben und Umgebungen in PowerApps.
-iconUrl: http://via.placeholder.com/120x120
+summary: 'Verwalten Sie App-Versionen, App-Freigaben und Umgebungen in PowerApps.'
+cardDescription: 'Verwalten Sie App-Versionen, App-Freigaben und Umgebungen in PowerApps.'
+iconUrl: 'http://via.placeholder.com/120x120'
 levels:
-- beginner
+  - beginner
 roles:
-- business-user
+  - business-user
 products:
-- PowerApps
-- d365
+  - bizapps-d365
+  - bizapps-power-apps
 metadata:
   title: Verwalten von Apps in PowerApps
-  description: Verwalten Sie App-Versionen, App-Freigaben und Umgebungen in PowerApps.
+  description: 'Verwalten Sie App-Versionen, App-Freigaben und Umgebungen in PowerApps.'
   ms.date: 09/24/2018
-  ms.openlocfilehash: 0b441e66c37333c15815a696a8e5e9e460b77658
-  ms.sourcegitcommit: 609626c2526eb275d1789eb2a081ff543d89e967
-  ms.translationtype: HT
-  ms.contentlocale: de-DE
-  ms.lasthandoff: 08/29/2018
-  ms.locfileid: "43192376"
-abstract: "Aufgaben in diesem Modul: \n- Lernen Sie, wie Sie App-Versionen überprüfen und wiederherstellen.\n- Finden Sie heraus, wie Sie eine App freigeben, einschließlich Berechtigungen und Benachrichtigungen.\n- Erfahren Sie, was Umgebungen sind, wie sie erstellt werden und wie die Sicherheitsverwaltung funktioniert.\n- Erhalten Sie weitere Informationen zu PowerApps.\n"
+abstract: |
+  Aufgaben in diesem Modul: 
+  - Lernen Sie, wie Sie App-Versionen überprüfen und wiederherstellen.
+  - Finden Sie heraus, wie Sie eine App freigeben, einschließlich Berechtigungen und Benachrichtigungen.
+  - Erfahren Sie, was Umgebungen sind, wie sie erstellt werden und wie die Sicherheitsverwaltung funktioniert.
+  - Erhalten Sie weitere Informationen zu PowerApps.
 prerequisites: Keine
 units:
-- learn-bizapps.powerapps-manage.1-powerapps-versions
-- learn-bizapps.powerapps-manage.2-powerapps-share
-- learn-bizapps.powerapps-manage.3-powerapps-environments
-- learn-bizapps.powerapps-manage.4-review-powerapps
-- learn-bizapps.powerapps-manage.5-quiz-manage-apps
+  - learn-bizapps.powerapps-manage.1-powerapps-versions
+  - learn-bizapps.powerapps-manage.2-powerapps-share
+  - learn-bizapps.powerapps-manage.3-powerapps-environments
+  - learn-bizapps.powerapps-manage.4-review-powerapps
+  - learn-bizapps.powerapps-manage.5-quiz-manage-apps
 achievement: learn.powerapps-manage.badge

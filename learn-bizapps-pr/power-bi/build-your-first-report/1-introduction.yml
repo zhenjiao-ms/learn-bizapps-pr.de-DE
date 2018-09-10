@@ -4,12 +4,7 @@ metadata:
   title: Einführung
   description: Einführung
   displayType: one-column
-  ms.openlocfilehash: 9970cc4b206b1352d578b2a70a3899cc7c31ee1d
-  ms.sourcegitcommit: 61a4271dd1790759efa6eabe4c08c5d075effd85
-  ms.translationtype: HT
-  ms.contentlocale: de-DE
-  ms.lasthandoff: 09/06/2018
-  ms.locfileid: "43887100"
 title: Einführung
 durationInMinutes: 3
-content: '[!include[](includes/1-introduction.md)]'
+content: |
+  [!include[](includes/1-introduction.md)]

@@ -1,30 +1,24 @@
-### YamlMime:Module
+### YamlMime:Module 
 uid: learn-bizapps.flow-create-approval
 metadata:
   title: Erstellen eines Genehmigungsflows
   description: Informationen zum Erstellen eines Genehmigungsflows für eine SharePoint-Liste.
   ms.date: 09/24/2018
-  ms.openlocfilehash: 865ebbc3b6ad5aeeff4dcb22893c8d910376a202
-  ms.sourcegitcommit: cadea6dad88b4c50bdb88ffe0472c9c60e2abc73
-  ms.translationtype: HT
-  ms.contentlocale: de-DE
-  ms.lasthandoff: 08/29/2018
-  ms.locfileid: "43153428"
 title: Erstellen eines Genehmigungsflows
 summary: In diesem Modul erfahren Sie grundlegendes zum Erstellen eines Genehmigungsflows.
-abstract: In diesem Modul erfahren Sie, wie Sie einen Genehmigungsflow erstellen, der eine SharePoint-Liste verwendet. Sie erfahren, wie Sie eine SharePoint-Liste erstellen, für die Benutzer Twitter-Tweets vorschlagen können, die später genehmigt und veröffentlicht werden können.
-cardDescription: Sie erfahren in diesem Kurs, wie Sie eine Genehmigungsliste für SharePoint erstellen können, die Twitter-Tweets enthält.
-iconUrl: http://via.placeholder.com/120x120
+abstract: 'In diesem Modul erfahren Sie, wie Sie einen Genehmigungsflow erstellen, der eine SharePoint-Liste verwendet. Sie erfahren, wie Sie eine SharePoint-Liste erstellen, für die Benutzer Twitter-Tweets vorschlagen können, die später genehmigt und veröffentlicht werden können.'
+cardDescription: 'Sie erfahren in diesem Kurs, wie Sie eine Genehmigungsliste für SharePoint erstellen können, die Twitter-Tweets enthält.'
+iconUrl: 'http://via.placeholder.com/120x120'
 levels:
-- beginner
+  - beginner
 roles:
-- business-user
+  - business-user
 products:
-- bizapps-flow
-- bizapps-d365
+  - bizapps-d365
+  - bizapps-flow
 units:
-- learn-bizapps.flow-create-approval.1-create-approval-request
-- learn-bizapps.flow-create-approval.2-process-approval-request
-- learn-bizapps.flow-create-approval.3-flow-review
-- learn-bizapps.flow-create-approval.4-quiz-flow-approval
+  - learn-bizapps.flow-create-approval.1-create-approval-request
+  - learn-bizapps.flow-create-approval.2-process-approval-request
+  - learn-bizapps.flow-create-approval.3-flow-review
+  - learn-bizapps.flow-create-approval.4-quiz-flow-approval
 achievement: learn.flow-create-approval.badge

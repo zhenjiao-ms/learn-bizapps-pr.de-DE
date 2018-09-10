@@ -1,0 +1,19 @@
+### YamlMime:LearningPath
+uid: learn-bizapps.sample-path
+title: Beispiellernpfad
+summary: Dies ist die Zusammenfassung des Beispiellernpfads
+cardDescription: Dies ist die Kartenbeschreibung des Beispiellernpfads
+iconUrl: 'http://via.placeholder.com/120x120'
+levels:
+  - intermediate
+roles:
+  - developer
+products:
+  - azure
+prerequisites: Dies ist der Text mit den Voraussetzungen für den Beispiellernpfad
+metadata:
+  title: 'Beispiellernpfad, Seitentitel'
+  description: 'Beispiellernpfad, Seitenbeschreibung'
+modules:
+  - learn.sample-module-power-bi
+achievement: learn-bizapps.sample-path.trophy

@@ -1,27 +1,21 @@
 ### YamlMime:LearningPath
 uid: learn-bizapps.create-powerapps
 title: Erstellen einer App in PowerApps
-summary: In diesem Lernpfad erhalten Sie eine Einführung in PowerApps und Unterstützung beim Erstellen und Anpassen einer App und erfahren, wie Sie erstellte Apps verwalten und verteilen können.
-cardDescription: Erstellen, Anpassen und Freigeben einer App
-iconUrl: http://via.placeholder.com/120x120
+summary: 'In diesem Lernpfad erhalten Sie eine Einführung in PowerApps und Unterstützung beim Erstellen und Anpassen einer App und erfahren, wie Sie erstellte Apps verwalten und verteilen können.'
+cardDescription: 'Erstellen, Anpassen und Freigeben einer App'
+iconUrl: 'http://via.placeholder.com/120x120'
 levels:
-- beginner
+  - beginner
 roles:
-- business-user
+  - business-user
 products:
-- bizapps-power-apps
-prerequisites: In diesem Lernpfad wird vorausgesetzt, dass Sie sich mit OneDrive, SharePoint und Excel auskennen.
+  - bizapps-power-apps
+prerequisites: 'In diesem Lernpfad wird vorausgesetzt, dass Sie sich mit OneDrive, SharePoint und Excel auskennen.'
 metadata:
   title: Erstellen einer App in PowerApps
-  description: In diesem Lernpfad erhalten Sie eine Einführung in PowerApps und Unterstützung beim Erstellen und Anpassen einer App und erfahren, wie Sie erstellte Apps verwalten und verteilen können.
-  ms.openlocfilehash: e810d3f3e316dbc056336822fc9657e066d1958d
-  ms.sourcegitcommit: d2e8b297a840d5958013d9a61963ce41c6b4ed22
-  ms.translationtype: HT
-  ms.contentlocale: de-DE
-  ms.lasthandoff: 09/06/2018
-  ms.locfileid: "43848221"
+  description: 'In diesem Lernpfad erhalten Sie eine Einführung in PowerApps und Unterstützung beim Erstellen und Anpassen einer App und erfahren, wie Sie erstellte Apps verwalten und verteilen können.'
 modules:
-- learn-bizapps.powerapps-get-started
-- learn-bizapps.powerapps-customize
-- learn-bizapps.powerapps-manage
+  - learn-bizapps.powerapps-get-started
+  - learn-bizapps.powerapps-customize
+  - learn-bizapps.powerapps-manage
 achievement: learn.create-powerapps.trophy
