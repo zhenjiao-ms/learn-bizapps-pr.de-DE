@@ -1,23 +1,32 @@
 ### YamlMime:Module
 uid: learn.get-started-with-power-bi
 metadata:
-  title: Erste Schritte mit Power BI
-  description: 'Power BI ist eine Sammlung aus Softwarediensten und Anwendungen, mit denen Sie eine Verbindung zu den unterschiedlichsten Datenquellen herstellen und überzeugende Visuals und Berichte erstellen können. Sie können durch das Abrufen dieser Berichte oder das Freigeben mit anderen Personen in oder außerhalb Ihrer Organisation profitieren. Lernen Sie die Grundlagen von Power BI, erfahren Sie, welche Power BI-Dienste und -Anwendungen zusammenarbeiten und wie diese zum Erstellen oder Nutzen überzeugender Visuals und Analysen basierend auf Ihren Daten verwendet werden können.'
-title: Erste Schritte mit Power BI
-summary: 'Erfahren Sie, was Power BI ist, einschließlich der dazugehörigen Bausteine und wie diese zusammen funktionieren.'
-abstract: 'Power BI ist eine Sammlung aus Softwarediensten und Anwendungen, mit denen Sie eine Verbindung zu den unterschiedlichsten Datenquellen herstellen und überzeugende Visuals und Berichte erstellen können. Sie können durch das Abrufen dieser Berichte oder das Freigeben mit anderen Personen in oder außerhalb Ihrer Organisation profitieren. Lernen Sie die Grundlagen von Power BI, erfahren Sie, welche Power BI-Dienste und -Anwendungen zusammenarbeiten und wie diese zum Erstellen oder Nutzen überzeugender Visuals und Analysen basierend auf Ihren Daten verwendet werden können.'
-cardDescription: 'Erfahren Sie, was Power BI ist, einschließlich der dazugehörigen Bausteine und wie diese zusammen funktionieren.'
-iconUrl: 'http://via.placeholder.com/120x120'
+  title: Get started with Power BI
+  description: Power BI is a collection of software services and applications that let you connect to all sorts of different data sources, and create compelling visuals and reports. You can benefit from receiving those reports or share with others in or outside your organization. Learn the basics about Power BI, how its services and applications work together, and how they can be used to create or experience compelling visuals and analytics based on your data.
+  ms.date: 09/24/2018
+  #TODO: Update with real author name.
+  author: margoc
+  ms.author: margoc
+  ms.topic: interactive-tutorial
+  ms.prod: learning-powerbi
+title: Get started with Power BI
+summary: Learn what Power BI is, including its building blocks and how they work together.
+#TODO: Update abstract to be in the format 'In this module, you will: X, Y, Z...' right now the summary and the abstract are duplicating information and they're shown right next to each other on the module landing page.
+abstract: Power BI is a collection of software services and applications that let you connect to all sorts of different data sources, and create compelling visuals and reports. You can benefit from receiving those reports or share with others in or outside your organization. Learn the basics about Power BI, how its services and applications work together, and how they can be used to create or experience compelling visuals and analytics based on your data.
+prerequisites: None
+#TODO: Update with real image.
+iconUrl: http://via.placeholder.com/120x120
 levels:
-  - intermediate
+- intermediate
 roles:
-  - business-analyst
+- business-analyst
 products:
-  - bizapps
+- bizapps
+- bizapps-power-bi
 units:
-  - learn.get-started-with-power-bi.1-introduction
-  - learn.get-started-with-power-bi.2-using-power-bi
-  - learn.get-started-with-power-bi.3-building-blocks-of-power-bi
-  - learn.get-started-with-power-bi.4-exercise-touring-and-using-power-bi
-  - learn.get-started-with-power-bi.5-summary-cleanup
+- learn.get-started-with-power-bi.1-introduction
+- learn.get-started-with-power-bi.2-using-power-bi
+- learn.get-started-with-power-bi.3-building-blocks-of-power-bi
+- learn.get-started-with-power-bi.4-exercise-touring-and-using-power-bi
+- learn.get-started-with-power-bi.5-summary-cleanup
 achievement: learn.get-started-with-power-bi.badge

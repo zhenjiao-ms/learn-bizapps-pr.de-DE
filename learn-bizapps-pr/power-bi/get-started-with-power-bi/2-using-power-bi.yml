@@ -1,15 +1,15 @@
 ### YamlMime:ModuleUnit
 uid: learn.get-started-with-power-bi.2-using-power-bi
 metadata:
-  title: Verwenden von Power BI
-  description: Verwenden von Power BI
-  displayType: one-column
-  ms.openlocfilehash: 1b97a19ff8a3e6c7d44ce0c4b7c09295df7808a2
-  ms.sourcegitcommit: 25c2f12d3df91ded28ea90b44f84e205cb0da8a1
-  ms.translationtype: HT
-  ms.contentlocale: de-DE
-  ms.lasthandoff: 08/23/2018
-  ms.locfileid: "42706999"
-title: Verwenden von Power BI
+  title: Using Power BI
+  description: Using Power BI
+  ms.date: 09/24/2018
+  #TODO: Update with real author name.
+  author: margoc
+  ms.author: margoc
+  ms.topic: interactive-tutorial
+  ms.prod: learning-powerbi
+title: Using Power BI
 durationInMinutes: 10
-content: '[!include[](includes/2-using-power-bi.md)]'
+content: |
+ [!include[](includes/2-using-power-bi.md)]

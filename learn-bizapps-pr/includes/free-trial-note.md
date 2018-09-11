@@ -1,1 +1,1 @@
-Wenn Sie kein Azure-Abonnement besitzen, können Sie ein [kostenloses Konto](https://azure.microsoft.com/free/) erstellen, bevor Sie beginnen.
+If you don't have an Azure subscription, create a [free account](https://azure.microsoft.com/free/) before you begin.
