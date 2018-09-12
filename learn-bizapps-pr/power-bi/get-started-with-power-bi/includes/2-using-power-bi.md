@@ -1,15 +1,15 @@
-Now that you know the basics of Power BI, let’s jump into some hands-on experiences and a guided tour. Your video tour guide is **Will Thompson**, a Program Manager on the Power BI team at Microsoft. There are a few guest guides too, a little later on in the course.
+Nachdem Sie sich über die Grundlagen von Power BI informiert haben, können wir mit einigen praktischen Übungen und einer geführten Tour fortfahren. Die Leitung der Videotour hat **Will Thompson** inne, ein Program Manager des Power BI-Teams von Microsoft. Später im Kurs kommen dann noch einige Gastpersonen dazu.
 
-As Will explains the many things you can do with Power BI, keep in mind that all of these activities, and all the analysis you can do with Power BI, generally follow a common flow. The **common flow** of activity in Power BI is the following:
+Während Will die vielen Dinge erläutert, die mit Power BI möglich sind, sollten Sie Folgendes beachten: Alle Aktivitäten und Analysen, die Sie mit Power BI durchführen können, unterliegen normalerweise einem allgemeinen Ablauf. Der **allgemeine Ablauf** der Aktivitäten in Power BI lautet wie folgt:
 
-* Bring data into Power BI Desktop, and create a report.
-* Publish to the Power BI service, where you create new visualizations or build dashboards
-* Share your dashboards with others, especially people who are on the go
-* View and interact with shared dashboards and reports in Power BI Mobile apps
+* Einbinden von Daten in Power BI Desktop und Erstellen eines Berichts
+* Durchführen von Veröffentlichungen für den Power BI-Dienst, mit dem Sie neue Visualisierungen oder Dashboards erstellen
+* Freigeben Ihrer Dashboards mit anderen Benutzern, vor allem für Personen im Außendienst
+* Anzeigen und Interagieren mit freigegebenen Dashboards und Berichten in Power BI Mobile-Apps
 
-![Power BI cycle of use](../media/pbi-using_01.png)
+![Power BI-Verwendungszyklus](../media/pbi-using_01.png)
 
-As mentioned earlier, you might spend all your time in the **Power BI service**, getting data and creating dashboards – that’s just fine. Someone else on your team might spend all of her time in **Power BI Desktop**, which is fine too. In order to help you understand the full continuum of Power BI and what it can do, we’ll show you all of it… then you can decide how to use it to your best advantage.
+Wie bereits erwähnt, kann es sein, dass Sie Ihre gesamte Zeit nur mit dem **Power BI-Dienst** verbringen und Daten abrufen und Dashboards erstellen. Das ist absolut in Ordnung. Eine Kollegin in Ihrem Team nutzt unter Umständen nur **Power BI Desktop**, und auch das ist natürlich kein Problem. Aber damit Sie den gesamten Ablauf von Power BI und die Möglichkeiten der Anwendung kennenlernen, zeigen wir Ihnen alle Komponenten. Sie können dann selbst entscheiden, wie Sie den größten Nutzen daraus ziehen.
 
-So let’s jump in, and let Will guide us through the experience. The first order of business is to understand the basic building blocks of Power BI, which will provide a solid basis for learning how Power BI turns data into cool reports and visuals.
+Nun beginnen wir und überlassen Will die Leitung. Als Erstes sollen Sie sich mit den grundlegenden Komponenten von Power BI vertraut machen. Dies ist eine gute Grundlage, um anschließend zu lernen, wie mit Power BI Daten in interessante Berichte und visuelle Elemente verwandelt werden können.
 

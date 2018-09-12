@@ -1,33 +1,33 @@
-**Power BI** is a collection of software services, apps, and connectors that work together to turn your unrelated sources of data into coherent, visually immersive, and interactive insights. Whether your data is a simple Excel spreadsheet, or a collection of cloud-based and on-premises hybrid data warehouses, **Power BI** lets you easily connect to your data sources, visualize (or discover) what’s important, and share that with anyone or everyone you want.
+**Power BI** ist eine Sammlung mit Softwarediensten, Apps und Connectors, die zusammenarbeiten, um Ihre separaten Datenquellen in kohärente, visuell ansprechende und interaktive Erkenntnisse zu verwandeln. Es spielt keine Rolle, ob es sich bei Ihren Daten um eine einfache Excel-Tabelle oder eine Sammlung mit cloudbasierten und lokalen Hybrid-Data Warehouses handelt: Mit **Power BI** ist es einfach, eine Verbindung mit Ihren Datenquellen herzustellen, die wichtigen Punkte zu visualisieren (bzw. zu ermitteln) und diese Informationen für beliebige Personen freizugeben.
 
-![How Power BI works with other data](../media/pbi-intro_01.png)
+![Verwenden von Power BI mit anderen Daten](../media/pbi-intro_01.png)
 
-**Power BI** can be simple and fast – capable of creating quick insights from an Excel spreadsheet or a local database. But **Power BI** is also robust and enterprise-grade, ready for extensive modeling and real-time analytics, as well as custom development. So it can be your personal report and visualization tool, and can also serve as the analytics and decision engine behind group projects, divisions, or entire corporations.
+**Power BI** kann einfach und schnell sein – und zum Gewinnen von Erkenntnissen aus einer Excel-Tabelle oder einer lokalen Datenbank in kurzer Zeit dienen. **Power BI** ist aber auch robust und unternehmenstauglich und für umfassende Modellierungen und Echtzeitanalysen sowie die benutzerdefinierte Entwicklung geeignet. Sie können die Anwendung also als Ihr persönliches Berichts- und Visualisierungstool nutzen und auch als Analyse- und Entscheidungsmodul im Hintergrund von Gruppenprojekten, Unternehmensbereichen oder gesamten Konzernen einsetzen.
 
-If you're a **beginner** with Power BI this course will get you going, and if you're a Power BI **veteran** this course will tie concepts together, and fill in the gaps.
+Falls Sie Power BI-**Anfänger** sind, ist dieser Kurs ein guter Einstieg. Für Power BI-**Veteranen** dient dieser Kurs zum Verknüpfen von Konzepten und Füllen von Lücken.
 
-## The parts of Power BI
-Power BI consists of a Windows desktop application called **Power BI Desktop**, an online SaaS (*Software as a Service*) service called the **Power BI service**, and mobile Power BI **apps** available on Windows phones and tablets, as well as for iOS and Android devices.
+## <a name="the-parts-of-power-bi"></a>Teile von Power BI
+Power BI besteht aus einer Windows-Desktopanwendung mit dem Namen **Power BI Desktop**, einem SaaS-Onlinedienst (*Software-as-a-Service*), der als **Power BI-Dienst** bezeichnet wird, und mobilen Power BI-**Apps**, die auf Windows-Telefonen und -Tablets sowie für iOS- und Android-Geräte verfügbar sind.
 
-![The parts of Power BI](../media/pbi-intro_02.png)
+![Teile von Power BI](../media/pbi-intro_02.png)
 
-These three elements – the **Desktop**, the **service**, and **Mobile** – are designed to let people create, share, and consume business insights in the way that serves them, or their role, most effectively.
+Diese drei Elemente – **Desktop**, **Dienst** und **Mobile** – sind dafür konzipiert, dass die Benutzer geschäftliche Erkenntnisse so erstellen, teilen und nutzen können, dass sich für sie bzw. ihre Rolle die größte Effektivität ergibt.
 
-## How Power BI matches your role
-How you use Power BI may depend on your role in a project or on a team. And other people, in other roles, might use Power BI differently, which is just fine.
+## <a name="how-power-bi-matches-your-role"></a>Power BI in Bezug auf Ihre Rolle
+Es kann von Ihrer Rolle in einem Projekt oder Team abhängen, wie Sie Power BI verwenden. Personen in anderen Rollen können Power BI für noch andere Zwecke nutzen, und dies ist absolut in Ordnung.
 
-For example, you might primarily use the **Power BI service**, but your number-crunching, business-report-creating coworker might make extensive use of **Power BI Desktop** (and publish Desktop reports to the Power BI service, which you then view). And another coworker, in sales, might mainly use her Power BI phone app to monitor progress on her sales quotas, and to drill into new sales lead details.
+Es kann beispielsweise sein, dass Sie hauptsächlich den **Power BI-Dienst** nutzen, während Ihr Kollege, der viel mit Zahlen und Berichten zu tun hat, ggf. sehr häufig **Power BI Desktop** nutzt (und Desktop-Berichte für den Power BI-Dienst veröffentlicht, die Sie dann anzeigen). Eine weitere Kollegin aus dem Vertrieb verwendet vielleicht hauptsächlich ihre Power BI-Telefon-App, um den Status in Bezug auf ihre Vertriebskontingente zu überwachen und Details zu neuen Leads anzuzeigen.
 
-You also might use each element of **Power BI** at different times, depending on what you’re trying to achieve or what your role is for a given project or effort.
+Unter Umständen nutzen Sie die einzelnen Elemente von **Power BI** auch zu unterschiedlichen Zeiten, je nach dem zu erreichenden Ziel oder Ihrer Rolle für ein Projekt oder eine Aktion.
 
-Perhaps you view inventory and manufacturing progress in a real-time dashboard in the service, and also use **Power BI Desktop** to create reports for your own team about customer engagement statistics. How you use Power BI can be based on which feature or service of Power BI is the best tool for your situation – but each part of Power BI is available to you, which is why it’s so flexible and compelling.
+Es kann sein, dass Sie den Bestand und Fertigungsstatus in einem Echtzeitdashboard des Diensts anzeigen und **Power BI Desktop** verwenden, um für Ihr eigenes Team Berichte zu Kundenbindungsstatistiken zu erstellen. Die Verwendung von Power BI kann sich danach richten, welches Features oder welcher Dienst von Power BI das am besten geeignete Tool für die jeweilige Situation darstellt. Ihnen stehen aber jederzeit alle Teile von Power BI zur Verfügung, sodass Sie flexibel vorgehen und in den Genuss der jeweiligen Vorteile kommen können.
 
-We discuss these three elements – the **Desktop**, **service**, and **Mobile** apps – with more detail a little later in thiscourse. We’ll also create reports in Power BI Desktop, share them in the service, and eventually drill into them on our Mobile device in upcoming units and modules, too.
+Etwas später in diesem Kurs werden diese drei Elemente – **Desktop**, **Dienst** und **Mobile** – ausführlicher beschrieben. Außerdem erstellen wir Berichte in Power BI Desktop, teilen sie im Dienst und führen in den nächsten Einheiten und Modulen dafür dann auch einen Drilldown über unser Mobilgerät durch.
 
-## The flow of work in Power BI
-A common flow of work in Power BI begins in **Power BI Desktop**, where a report is created. That report is then published to the Power BI **service**, and then shared so users of **Power BI Mobile** apps can consume the information.
+## <a name="the-flow-of-work-in-power-bi"></a>Arbeitsablauf in Power BI
+Ein typischer Arbeitsablauf in Power BI beginnt in **Power BI Desktop**, wo ein Bericht erstellt wird. Dieser Bericht wird dann für den Power BI-**Dienst** veröffentlicht und freigegeben, damit Benutzer von **Power BI Mobile**-Apps die Informationen nutzen können.
 
-It doesn’t always happen that way, and that’s okay, but we’ll use that flow to help you learn the various parts of Power BI, and how they complement one another.
+Es läuft nicht immer genau wie hier beschrieben ab, und dies ist auch kein Problem. Wir verwenden diesen Ablauf aber, damit Sie die unterschiedlichen Teile von Power BI kennenlernen und erfahren, wie sie sich gegenseitig ergänzen.
 
-Okay, now that we have an overview of this course, what Power BI is, and its three main elements, let's take a look at what using **Power BI** is like.
+Da Sie sich jetzt einen Überblick über diesen Kurs verschaffen konnten und Informationen zu Power BI und den drei Hauptelementen erhalten haben, können wir uns ansehen, wie **Power BI** verwendet wird.
 

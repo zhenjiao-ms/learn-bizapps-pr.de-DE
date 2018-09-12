@@ -1,77 +1,77 @@
-Everything you do in Power BI can be broken down into a few basic **building blocks**. Once you understand these building blocks, you can expand on each of them and begin creating elaborate and complex reports. After all, even seemingly complex things are built from basic building blocks – buildings are created with wood, steel, concrete and glass. Cars are made from metal, fabric, and rubber. Of course, buildings and cars can be basic or elaborate as well – depending on how those basic building blocks are arranged.
+Alle Arbeiten, die Sie in Power BI ausführen, können in einige grundlegende **Komponenten** zerlegt werden. Wenn Sie sich mit diesen Komponenten vertraut gemacht haben, können Sie sie jeweils erweitern und mit dem Erstellen von ausgeklügelten und komplexen Berichten beginnen. Schließlich bestehen auch scheinbar komplexe Gebilde aus grundlegenden Komponenten. Gebäude werden beispielsweise aus Holz, Stahl, Beton und Glas gebaut. Autos bestehen aus Metall, Stoff und Gummi. Natürlich können auch Gebäude und Autos – je nach Anordnung dieser grundlegenden Komponenten – einfacher oder komplexer Art sein.
 
-Let’s take a look at these basic building blocks, discuss some simple things that can be built with them, then provide a glimpse into how complex things can be created as well.
+Wir werfen nun einen Blick auf diese grundlegenden Komponenten und beschreiben einige einfache Dinge, die damit erstellt werden können. Anschließend geht es darum, wie daraus auch komplexere Dinge erstellt werden können.
 
-The basic building blocks in Power BI are the following:
+Die grundlegenden Komponenten in Power BI sind:
 
-* Visualizations
+* Visualisierungen
 * Datasets
-* Reports
+* Berichte
 * Dashboards
-* Tiles
+* Kacheln
 
-## Visualizations
-A **visualization** (sometimes also referred to as a **visual**) is a visual representation of data, such as a chart, a graph, a color-coded map, or other interesting things you can create to represent your data visually. Power BI has all sorts of different visualization types, and more coming all the time. The following image shows a collection of different visualizations that were created in the Power BI service.
+## <a name="visualizations"></a>Visualisierungen
+Eine **Visualisierung** (auch als **visuelles Element** bezeichnet) ist eine visuelle Darstellung von Daten, z.B. ein Diagramm, ein Graph, eine Karte mit Farbcodierung oder andere interessante Dinge, die Sie erstellen können, um Ihre Daten visuell darzustellen. Power BI enthält viele verschiedene Visualisierungstypen, und es werden ständig weitere hinzugefügt. In der folgenden Abbildung ist eine Sammlung mit unterschiedlichen Visualisierungen dargestellt, die im Power BI-Dienst erstellt wurden.
 
-![Power BI visualizations](../media/pbi-bblocks_01.png)
+![Power BI-Visualisierungen](../media/pbi-bblocks_01.png)
 
-Visualizations can be simple – like a single number that represents something significant – or they can be visually complex – like a gradient-colored map that shows voter sentiment toward a certain social issue or concern. The goal of a visual is to present data in a way that provides context and insights, either of which would likely be difficult to discern from a raw table of numbers or text.
+Visualisierungen können einfacher Art – z.B. eine einzelne Zahl mit einer signifikanten Bedeutung – oder visuell komplex sein, z.B. eine Karte mit Farbverläufen, mit der die Stimmung von Wählern in Bezug auf ein bestimmtes soziales Thema oder Problem angezeigt wird. Ziel eines visuellen Elements ist die Darstellung von Daten auf eine Weise, bei der Kontext und Erkenntnisse geliefert werden. Beides ist in einer unformatierten Tabelle mit Zahlen oder Text nur schwer zu erkennen.
 
-## Datasets
-A **dataset** is a collection of data that Power BI uses to create its visualizations.
+## <a name="datasets"></a>Datasets
+Ein **Dataset** ist eine Sammlung mit Daten, die von Power BI zum Erstellen von Visualisierungen verwendet werden.
 
-You can have a simple dataset based on a single table from Excel workbook, similar to what’s shown in the following image.
+Sie können ein einfaches Dataset verwenden, das auf einer einzelnen Tabelle einer Excel-Arbeitsmappe basiert, beispielsweise wie in der folgenden Abbildung.
 
-![Power BI datasets](../media/pbi-bblocks_02.png)
+![Power BI-Datasets](../media/pbi-bblocks_02.png)
 
-**Datasets** can also be a combination of many different sources, which you can filter and combine to provide a unique collection data (a dataset) for use in Power BI.
+**Datasets** können auch eine Kombination aus vielen unterschiedlichen Quellen sein, die Sie filtern und kombinieren können, um eindeutige Sammlungsdaten (ein Dataset) für die Verwendung in Power BI bereitzustellen.
 
-For example, you could create a dataset from three different database fields, one website table, an Excel table, and online results of an email marketing campaign. That unique combination is still considered a single **dataset**, even though it was pulled together from many different sources.
+Beispielsweise können Sie ein Dataset aus drei unterschiedlichen Datenbankfeldern, einer Websitetabelle, einer Excel-Tabelle und Onlineergebnissen einer E-Mail-Marketingkampagne erstellen. Diese eindeutige Kombination wird weiterhin als einzelnes **Dataset** angesehen, obwohl die Daten aus vielen verschiedenen Quellen zusammengestellt wurden.
 
-Filtering data before bringing it into Power BI lets you focus on the data that matters to you. For example, you could filter your contact database so only customers who received emails from the marketing campaign were included in the dataset. Then you could create visuals based on that subset (that filtered collection) of customers who were included in the campaign. Filtering helps you focus your data, and your efforts.
+Indem Sie die Daten filtern, bevor Sie sie in Power BI einbinden, können Sie sich auf die für Sie wichtigen Daten konzentrieren. Sie können beispielsweise Ihre Kontaktdatenbank filtern, damit nur Kunden, die die E-Mails der Marketingkampagne erhalten haben, in das Dataset einbezogen werden. Anschließend können Sie basierend auf dieser Teilmenge von Kunden (gefilterte Sammlung), die in die Kampagne einbezogen wurden, visuelle Elemente erstellen. Durch das Filtern können Sie sich besser auf Ihre Daten und Arbeit konzentrieren.
 
-An important and enabling part of Power BI is the multitude of data **connectors** that are included. Whether the data you want is in Excel or an SQL database, in Azure or Oracle, or in a service like Facebook, Salesforce, or MailChimp, Power BI has built-in data connectors that let you easily connect to that data, filter it if necessary, and bring it into your dataset.
+Ein wichtiger und sehr hilfreicher Teil von Power BI sind die vielen vorhandenen **Connectors** für Daten. Es spielt keine Rolle, ob sich die gewünschten Daten in Excel oder einer SQL-Datenbank, in Azure oder Oracle oder in einem Dienst wie Facebook, Salesforce oder MailChimp befinden: Power BI verfügt über integrierte Connectors für Daten, mit denen Sie auf einfache Weise eine Verbindung mit diesen Daten herstellen, sie bei Bedarf filtern und in Ihr Dataset einbinden können.
 
-Once you have a dataset, you can begin creating visualizations that display different portions of that dataset in different ways, and with what you see, gain insights. That’s where reports come in.
+Wenn Sie über ein Dataset verfügen, können Sie mit dem Erstellen von Visualisierungen beginnen, mit denen unterschiedliche Teile dieses Datasets auf unterschiedliche Arten angezeigt werden. Aus den angezeigten Daten können Sie dann Erkenntnisse gewinnen. An dieser Stelle kommen die Berichte ins Spiel.
 
-## Reports
-In Power BI, a **report** is a collection of visualizations that appear together on one or more pages. Just like any other report you might create for a sales presentation, or a report you would write for a school assignment, in Power BI a **report** is a collection of items that are related to one another. The following image shows a **report** in Power BI Desktop – in this case, it’s the fifth page in a six-page report. You can also create reports in the Power BI service.
+## <a name="reports"></a>Berichte
+In Power BI ist ein **Bericht** eine Sammlung mit Visualisierungen, die zusammen auf einer oder mehreren Seiten angezeigt werden. Wie bei anderen Berichten, die Sie ggf. für eine Verkaufspräsentation erstellen oder im Rahmen einer Schulaufgabe schreiben: In Power BI ist ein **Bericht** eine Sammlung mit Elementen, die miteinander in Beziehung stehen. In der folgenden Abbildung ist ein **Bericht** in Power BI Desktop dargestellt. In diesem Fall ist es die fünfte Seite eines sechsseitigen Berichts. Sie können Berichte auch im Power BI-Dienst erstellen.
 
-![Power BI reports](../media/pbi-bblocks_03.png)
+![Power BI-Berichte](../media/pbi-bblocks_03.png)
 
-Reports let you create many visualizations, on multiple different pages if necessary, and lets you arrange them in whatever way best tells your story.
+Mit Berichten können Sie viele Visualisierungen erstellen – ggf. auch auf mehreren Seiten – und diese so anordnen, wie es für Ihre Zwecke am besten ist.
 
-You might have a report about quarterly sales, a report about product growth in a particular segment, or you might create a report about migration patterns of polar bears. Whatever your subject may be, reports let you gather and organize your visualizations onto one (or more) pages.
+Es kann beispielsweise sein, dass Sie über einen Bericht zum Quartalsumsatz oder zum Produktwachstum in einem bestimmten Segment verfügen oder dass Sie einen Bericht zu den Migrationsmustern von Eisbären erstellen. Unabhängig davon, in welchem Themenbereich Sie sich bewegen, können Sie Ihre Visualisierungen zusammenstellen und auf einer oder mehreren Seiten anordnen.
 
-## Dashboards
-When you’re ready to share a single page from a report, or share a collection of visualizations, you create a **dashboard**. Much like the dashboard in a car, a Power BI **dashboard** is a collection of visuals from a single page that you can share with others. Often, it’s a selected group of visuals that provide quick insight into the data or story you’re trying to present.
+## <a name="dashboards"></a>Dashboards
+Wenn Sie eine Seite eines Berichts oder eine Sammlung mit Visualisierungen teilen möchten, erstellen Sie ein **Dashboard**. Ein Power BI-**Dashboard** ähnelt dem Armaturenbrett eines Autos und umfasst eine Sammlung visueller Elemente auf einer Seite, die Sie für andere Personen freigeben können. Häufig handelt es sich um eine Gruppe mit visuellen Elementen, die Ihnen einen schnellen Überblick über die Daten bzw. Ihre gewünschte „Story“ verschaffen.
 
-A dashboard has to fit on a single page, often called a canvas (the canvas is the blank backdrop in Power BI Desktop, or the service, where you place visualizations). Think of it like the canvas that an artist or painter uses – a workspace where you create, combine, and rework interesting and compelling visuals.
-You can share dashboards with other users or groups, who can then interact with your dashboard when they’re in Power BI service, or on their mobile device.
+Ein Dashboard muss auf eine einzelne Seite passen, die häufig als „Canvas“ bezeichnet wird (leere Hintergrundfläche in Power BI Desktop oder im Dienst, auf der Sie die Visualisierungen anordnen). Sie können sich dies wie die Zeichenfläche vorstellen, die von einem Künstler bzw. Maler verwendet wird. Eine Arbeitsfläche, auf der Sie interessante und ansprechende visuelle Elemente erstellen, kombinieren und überarbeiten.
+Sie können Dashboards für andere Benutzer oder Gruppen freigeben, die dann mit Ihrem Dashboard interagieren können, wenn sie den Power BI-Dienst oder ihr mobiles Gerät verwenden.
 
-## Tiles
-In Power BI, a **tile** is a single visualization found in a report or on a dashboard. It’s the rectangular box that contains each individual visual. In the following image, you see one tile (highlighted by a bright box) which is also surrounded by other tiles.
+## <a name="tiles"></a>Kacheln
+In Power BI ist eine **Kachel** eine einzelne Visualisierung in einem Bericht oder einem Dashboard. Es ist ein rechteckiges Feld mit jeweils einer Visualisierung. In der folgenden Abbildung ist eine Kachel dargestellt (heller Kasten), die von anderen Kacheln umgeben ist.
 
-![Power BI tiles](../media/pbi-bblocks_04.png)
+![Power BI-Kacheln](../media/pbi-bblocks_04.png)
 
-When you’re *creating* a report or a dashboard in Power BI, you can move or arrange tiles however you want to present your information. You can make them bigger, change their height or width, and snuggle them up to other tiles however you want.
+Wenn Sie in Power BI einen Bericht oder ein Dashboard *erstellen*, können Sie die Kacheln so verschieben oder anordnen, wie dies für die Darstellung Ihrer Informationen am besten geeignet ist. Sie können sie wie gewünscht vergrößern, die Höhe oder Breite ändern und sie in der Nähe von anderen Kacheln anordnen.
 
-When you’re *viewing*, or *consuming* a dashboard or report – which means you’re not the creator or owner, but it’s been shared with you – you can interact with it, but not change the size of the tiles or change how they’re arranged.
+Beim *Anzeigen* oder *Nutzen* eines Dashboards oder Berichts – wenn Sie also nicht der Ersteller oder Besitzer sind, aber die Freigabe für Sie erteilt wurde – können Sie damit interagieren, aber nicht die Größe der Kacheln oder ihre Anordnung ändern.
 
-## All together now
-Those are the basics of Power BI, and its building blocks. Let’s take a moment to review.
+## <a name="all-together-now"></a>Zusammenfassung
+Dies sind die Grundlagen von Power BI und der einzelnen Komponenten. Wir fassen diese noch einmal kurz zusammen.
 
-Power BI is a collection of services, apps, and connectors that enables you to connect to your data – wherever it happens to reside – filter it if necessary, then bring it into Power BI where you can create compelling visualizations you can share with others.  
+Power BI ist eine Sammlung mit Diensten, Apps und Connectors, mit der Sie unabhängig vom Speicherort eine Verbindung mit Ihren Daten herstellen und diese bei Bedarf filtern und dann in Power BI einbinden können, um ansprechende Visualisierungen zu erstellen und dann für andere Benutzer freizugeben.  
 
-Now that you understand the handful of basic building blocks of Power BI, it becomes clear that you can create datasets that make sense *to you*, and create visually compelling reports that tell your story. Stories told with Power BI don’t have to be complex, or complicated, to be compelling.
+Nachdem Sie sich nun mit den grundlegenden Komponenten von Power BI vertraut gemacht haben, wird deutlich, dass Sie Datasets erstellen können, die *für Sie* sinnvoll sind. Außerdem können Sie visuell ansprechende Berichte erstellen, um Ihre Informationen zu vermitteln. Mit Power BI vermittelte Informationen müssen nicht unbedingt komplex oder kompliziert sein, um für Benutzer interessant zu sein.
 
-For some people, using a single Excel table in a dataset, then sharing a dashboard with their team, will be an incredibly valuable way to use Power BI.
+Für einige Benutzer kann die Verwendung einer einzelnen Excel-Tabelle in einem Dataset und die anschließende Freigabe eines Dashboards für das Team eine unglaublich wertvolle Nutzung von Power BI bedeuten.
 
-For others, using real-time Azure SQL Data Warehouse tables that combine with other databases and real-time source, which then get filtered in real-time to build a dataset that monitors moment-by-moment manufacturing progress will be the value in Power BI that they seek.
+Für andere Benutzer besteht der gewünschte Nutzen von Power BI beispielsweise in der folgenden Vorgehensweise: Verwendung von Azure SQL Data Warehouse-Echtzeittabellen, die mit anderen Datenbanken und einer Echtzeitquelle kombiniert und dann in Echtzeit gefiltert werden, um ein Dataset zu erstellen, mit dem der Fertigungsstatus lückenlos überwacht wird.
 
-For both, the process is the same: create datasets, build compelling visuals, and share them with others. And similarly, the result of both (for each) is the same: harness your ever-expanding world of data, and turn it into actionable insights.
+Der Prozess ist hierbei jeweils gleich: Erstellen von Datasets, Erstellen von ansprechenden visuellen Elementen und Freigeben für andere Benutzer. Und auch das Ergebnis ist praktisch identisch: Bändigen Ihrer ständig zunehmenden Datenmengen und Produzieren von verwertbaren Erkenntnissen.
 
-Whether your data insights require straightforward or complex datasets, Power BI helps you get started quickly, and can expand with your needs to be as complex as your world of data requires. And since Power BI is a Microsoft product, you can count on it being robust, extensible, Office-friendly, and enterprise-ready.
+Unabhängig davon, ob für Ihre Datenerkenntnisse einfache oder komplexe Datasets erforderlich sind, können Sie schnell in Power BI einsteigen und die Nutzung gemäß Ihren jeweiligen Datenanforderungen dann steigern. Und weil Power BI ein Microsoft-Produkt ist, können Sie sicher sein, dass es stabil, erweiterbar, Office-kompatibel und unternehmenstauglich ist.
 
-Now, let's see how this works. We'll start by taking a quick look at the Power BI service.
+Als Nächstes wird die Funktionsweise beschrieben. Hierzu sehen wir uns kurz den Power BI-Dienst an.
 

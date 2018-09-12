@@ -1,41 +1,41 @@
-Let’s do a quick review of what we covered in this first section.
+Es wird kurz wiederholt, was im ersten Abschnitt beschrieben wurde.
 
-**Power BI** is a collection of software services, apps, and connectors that work together to turn your data into interactive insights. You can use data from single basic sources, such as an Excel workbook, or pull data in from multiple databases and cloud sources to create complex datasets and reports. Power BI can be as straightforward as you want, or as enterprise-ready as your complex global business requires.
+**Power BI** ist eine Sammlung mit Softwarediensten, Apps und Connectors, die zusammen genutzt werden, um für Ihre Daten interaktive Erkenntnisse zu gewinnen. Sie können Daten aus einzelnen einfachen Quellen verwenden, z.B. einer Excel-Arbeitsmappe, oder Daten per Pullvorgang aus mehreren Datenbanken und Cloudquellen übertragen, um komplexe Datasets und Berichte zu erstellen. Power BI kann – je nach Ihren globalen Geschäftsanforderungen – so einfach oder so komplex sein, wie Sie möchten.
 
-Power BI consists of three main elements – the **Power BI Desktop**, the **Power BI service**, and **Power BI Mobile** – which all work collectively to let you create, interact with, share, and consume your data how you want it.
+Power BI besteht aus drei Hauptelementen: **Power BI Desktop**, **Power BI-Dienst** und **Power BI Mobile**. Diese Elemente arbeiten zusammen, damit Sie Ihre Daten wie gewünscht erstellen, freigeben und nutzen und damit interagieren können.
 
-![Power BI cycle of use](../media/pbi-intro_02.png)
+![Power BI-Verwendungszyklus](../media/pbi-intro_02.png)
 
-We discussed the basic building blocks in Power BI too, which are:
+Es wurden auch die grundlegenden Komponenten von Power BI beschrieben:
 
-* **Visualizations** – a visual representation of data, sometimes just called visuals
-* **Datasets** – a collection of data that Power BI uses to create visualizations
-* **Reports** – a collection of visuals from a dataset, spanning one or more pages
-* **Dashboards** – a single page collection of visuals, built from a report
-* **Tiles** – a single visualization found in a report or dashboard
+* **Visualisierungen**: Visuelle Darstellung von Daten, auch als „visuelle Elemente“ bezeichnet
+* **Datasets**: Sammlungen mit Daten, die von Power BI zum Erstellen von Visualisierungen verwendet werden
+* **Berichte**: Sammlungen mit visuellen Elementen aus einem Dataset über eine oder mehrere Seiten
+* **Dashboards**: Einzelne Seite mit Sammlungen visueller Elemente, aus einem Bericht erstellt
+* **Kacheln**: Einzelne Visualisierung in einem Bericht oder Dashboard
 
-From there, we took a look at Power BI in a video tour with our Tour Guide, **Will Thompson**. Will gave us a quick overview of how you can analyze and visualize data with Power BI.
+Anschließend haben wir unter Leitung von **Will Thompson** eine Power BI-Videotour erlebt. Will hat einen kurzen Überblick darüber gegeben, wie Sie Daten mit Power BI analysieren und visualisieren können.
 
 <!---
 In **Power BI Desktop**, we connected to a basic Excel file, created visualizations, then published those visualizations to the service. Even if you use Power BI only with your Excel workbooks, you can gain amazing visual insights with those Excel workbooks, and both interact and share it in ways never before possible.
 -->
-In the **Power BI service**, we created a dashboard with just a few clicks. We continued with our glimpse into the Power BI service and used an **app** – a ready-made collection of visuals and reports – and connected to a **software service** to populate the app and bring that data to life.
+Im **Power BI-Dienst** haben wir mit wenigen Klicks ein Dashboard erstellt. Anschließend sind wir mit der Vorstellung des Power BI-Diensts fortgefahren und haben eine **App** – eine fertige Sammlung mit visuellen Elementen und Berichten – verwendet und eine Verbindung mit einem **Softwaredienst** hergestellt, um die App mit Daten zu füllen und diese zum Leben zu erwecken.
 
-We also used natural language queries, called **Q & A**, to ask questions of our answers, and let Power BI create visuals based on those questions. Lastly, we set up a **refresh schedule** for our data, so we know when we go back to the Power BI service, that data will be fresh.
+Außerdem haben wir Abfragen in natürlicher Sprache verwendet (als **Q&A** (Fragen und Antworten) bezeichnet),um Fragen zu unseren Antworten zu stellen, und haben Power BI basierend auf diesen Fragen visuelle Elemente erstellen lassen. Zuletzt haben wir einen **Aktualisierungszeitplan** für unsere Daten eingerichtet, damit wir sichergehen können, dass diese Daten aktuell sind, wenn wir zum Power BI-Dienst zurückkehren.
 
-## Next steps
-**Congratulations!** You've completed the first section of the **Guided Learning** course for Power BI. You now have a firm foundation of knowledge to move on to the next section, **Getting Data**, which is the next step in the logical flow of work for Power BI.
+## <a name="next-steps"></a>Nächste Schritte
+**Glückwunsch!** Sie haben den ersten Abschnitt des Kurses vom Typ **Angeleitetes Lernen** für Power BI abgeschlossen. Sie verfügen nun über eine gute Wissensbasis und können mit dem nächsten Abschnitt **Abrufen von Daten** fortfahren. Dies ist der nächste Schritt des logischen Arbeitsablaufs für Power BI.
 
-We mentioned this before, but it's worth restating: this course builds your knowledge by following the common flow of work in Power BI:
+Es wurde schon erwähnt, aber hier soll noch einmal darauf hingewiesen werden: In diesem Kurs bauen Sie Wissen auf, indem Sie den gängigen Arbeitsablauf in Power BI befolgen:
 
-* Bring data into **Power BI Desktop**, and create a report.
-* **Publish** to the Power BI service, where you create new visualizations or build dashboards
-* **Share** your dashboards with others, especially people who are on the go
-* View and interact with shared dashboards and reports in **Power BI Mobile** apps
+* Einbinden von Daten in **Power BI Desktop** und Erstellen eines Berichts
+* Durchführen von **Veröffentlichungen** für den Power BI-Dienst, mit dem Sie neue Visualisierungen oder Dashboards erstellen
+* **Freigeben** Ihrer Dashboards für andere Benutzer, vor allem für Personen im Außendienst
+* Anzeigen und Interagieren mit freigegebenen Dashboards und Berichten in **Power BI Mobile**-Apps
 
-![Power BI cycle of use](../media/pbi-using_01.png)
+![Power BI-Verwendungszyklus](../media/pbi-using_01.png)
 
-You might not do all that work yourself - some people will only view dashboards in the service that were created by someone else. That's fine, but because *you'll* go through all the sections in this course, you'll *understand* how those dashboards were created, and how they connected to the data... and you might even decide to create one of your own.
+Unter Umständen führen Sie diese Arbeiten nicht alle selbst aus. Einige Benutzer zeigen vielleicht nur die Dashboards im Dienst an, die von anderen Benutzern erstellt wurden. Das ist in Ordnung. Aber da Sie alle Abschnitte dieses Kurses *selbst* durcharbeiten, *verstehen* Sie, wie diese Dashboards erstellt wurden und wie dafür die Verbindung mit Daten hergestellt wurde. Vielleicht treffen Sie dann ja sogar die Entscheidung, auch ein eigenes Dashboard zu erstellen.
 
-See you in the next section!
+Wir sehen uns im nächsten Abschnitt!
 
