@@ -1,15 +1,19 @@
 ### YamlMime:ModuleUnit
-uid: learn.build-your-first-report.4-exercise-create-visuals-in-power-bi
+uid: learn-bizapps.build-your-first-report.4-exercise-create-visuals-in-power-bi
 metadata:
-  title: Exercise - Create visuals in Power BI
-  description: Exercise - Create visuals in Power BI
+  title: 'Übung: Erstellen von visuellen Elementen in Power BI'
+  description: 'Übung: Erstellen von visuellen Elementen in Power BI'
   ms.date: 09/24/2018
-  #TODO: Update with real author name.
   author: margoc
   ms.author: margoc
   ms.topic: interactive-tutorial
   ms.prod: learning-powerbi
-title: Exercise - Create visuals in Power BI
+  ms.openlocfilehash: 7c30c57083f22d9c75f8f9ef51564ade0b06d0b0
+  ms.sourcegitcommit: 6d796874539f76b734a7bb8ff95bef6b87bb9b00
+  ms.translationtype: HT
+  ms.contentlocale: de-DE
+  ms.lasthandoff: 09/11/2018
+  ms.locfileid: "44375212"
+title: 'Übung: Erstellen von visuellen Elementen in Power BI'
 durationInMinutes: 10
-content: |
- [!include[](includes/4-exercise-create-visuals-in-power-bi.md)]
+content: '[!include[](includes/4-exercise-create-visuals-in-power-bi.md)]'

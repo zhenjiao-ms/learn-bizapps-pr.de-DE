@@ -1,15 +1,19 @@
-### YamlMime:ModuleUnit 
+### YamlMime:ModuleUnit
 uid: learn-bizapps.powerapps-common-data-service.1-introduction
-title: Introducing Common Data Service  
-metadata: 
-  title: Introducing Common Data Service 
-  description: Introducing Common Data Service
+title: Einführung in den Common Data Service
+metadata:
+  title: Einführung in den Common Data Service
+  description: Einführung in den Common Data Service
   ms.date: 09/24/2018
-  #TODO: Update with real author name.
   author: margoc
   ms.author: margoc
   ms.topic: interactive-tutorial
   ms.prod: learning-powerapps
-durationInMinutes: 5 
-content: | 
-  [!include[](includes/1-introduction.md)]  
+  ms.openlocfilehash: 118fa4279e3f64e4f96913c6af504cedf3f36403
+  ms.sourcegitcommit: a6cdd11ea6d5cffdd264c005b6e2f15c00854553
+  ms.translationtype: HT
+  ms.contentlocale: de-DE
+  ms.lasthandoff: 09/10/2018
+  ms.locfileid: "44330192"
+durationInMinutes: 5
+content: '[!include[](includes/1-introduction.md)]'

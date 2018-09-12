@@ -1,40 +1,40 @@
-In the previous unit, you learned how to build an approval process for tweets that are stored in a Microsoft SharePoint list. In this unit, you'll see what the experience looks like when an approver receives a new approval request. 
+In der vorherigen Einheit haben Sie erfahren, wie Sie einen Genehmigungsprozess für Tweets erstellen, die in einer Microsoft SharePoint-Liste gespeichert werden. In dieser Einheit wird beschrieben, was geschieht, wenn eine genehmigende Person eine neue Genehmigungsanforderung empfängt. 
 
-## Step one: Change the SharePoint list
-First, we need to add an item to our SharePoint list. We can then process an approval request for that item.
+## <a name="step-one-change-the-sharepoint-list"></a>Schritt 1: Anpassen der SharePoint-Liste
+Zunächst fügen Sie Ihrer SharePoint-Liste ein Element hinzu. Anschließend kann eine Genehmigungsanforderung für dieses Element verarbeitet werden.
 
-1. In SharePoint, open the **ContosoTweets** list you configured in the previous unit, and then select **New** to create a new list item (tweet). 
+1. Öffnen Sie in SharePoint die **Contoso-Tweets**-Liste, die Sie in der vorherigen Einheit konfiguriert haben, und klicken Sie anschließend zum Erstellen eines neuen Listenelements (Tweet) auf **Neu**. 
 
-    ![Create a new tweet in the SharePoint list](../media/sharepoint-list-home.png)
+    ![Erstellen eines neuen Tweets in der SharePoint-Liste](../media/sharepoint-list-home.png)
 
-2. Enter the following values, and then select **Save**.
+2. Geben Sie die unten stehenden Werte ein, und klicken Sie dann auf **Speichern**.
 
-    - For **Title**, enter "Promotions".
-    - For **TweetContent**, enter "Check out the new line of Contoso Flooring #ohsocontoso". Notice that the tweet contains a hashtag.
-    - For **TweetDate**, enter today's date.
+    - Geben Sie bei **Titel** „Promotions“ ein.
+    - Geben Sie bei **Tweetinhalt** „Entdecken Sie die neuesten Contoso-Fußböden #contosoentdecken“ ein. Beachten Sie, dass der Tweet einen Hashtag enthält.
+    - Geben Sie bei **Tweetdatum** das heutige Datum ein.
 
-    ![New SharePoint item](../media/sharepoint-new-tweet.png)
+    ![Neues SharePoint-Element](../media/sharepoint-new-tweet.png)
 
-## Step two: Change the flow
-1. In Microsoft Flow, select **My flows**. 
-2. Select the **Post list items to Twitter after approval** flow you configured in the previous unit, and then, under **Run history**, select the running flow.
+## <a name="step-two-change-the-flow"></a>Schritt 2: Ändern des Flows
+1. Klicken Sie in Microsoft Flow auf **Meine Flows**. 
+2. Wählen Sie den Flow **Listenelemente nach Genehmigung in Twitter posten** aus, den Sie in der vorherigen Einheit konfiguriert haben, und wählen Sie dann unter **Ausführungsverlauf** den ausgeführten Flow aus.
 
-    ![Run history](../media/run-history.png)
+    ![Ausführungsverlauf](../media/run-history.png)
 
-3. Select the **When a new item is created** trigger. Make sure that the information for the list item you just created is shown.
+3. Wählen Sie den Trigger **Wenn ein neues Element erstellt wird** aus. Stellen Sie sicher, dass die Informationen für das erstellte Listenelement angezeigt werden.
 
-    ![Flow trigger](../media/approval-flow.png)
+    ![Flowtrigger](../media/approval-flow.png)
 
-4. In Microsoft Outlook, open the automated approval mail in the inbox, and then select **Approve**. 
+4. Öffnen Sie im Posteingang von Microsoft Outlook die automatisch gesendete E-Mail mit der Genehmigungsanforderung, und klicken Sie auf **Genehmigen**. 
 
-    ![Outlook request](../media/outlook-mail.png)
+    ![Outlook-Anforderung](../media/outlook-mail.png)
 
-5. In the Approval Center, view the details of the request, add a comment, and then select **Confirm**. 
+5. Sehen Sie sich die Details der Anforderung im Genehmigungscenter an, fügen Sie einen Kommentar hinzu, und klicken Sie anschließend auf **Bestätigen**. 
 
-    ![Approval Center](../media/approval-center.png)
+    ![Genehmigungscenter](../media/approval-center.png)
 
-6. In SharePoint, refresh the **ContosoTweets** list. Make sure that **ApprovalStatus** is set to **Yes**, and that the comment you just entered is shown. 
+6. Aktualisieren Sie in SharePoint die **Contoso-Tweets**-Liste. Stellen Sie sicher, dass **Ja** als **Genehmigungsstatus** festgelegt ist und der eingegebene Kommentar angezeigt wird. 
 
-    ![SharePoint refresh list](../media/sharepoint-list-approved.png)
+    ![Aktualisieren der SharePoint-Liste](../media/sharepoint-list-approved.png)
 
-In this unit, you saw the experience from the approver's point of view, from receiving an approval request email to processing the request in the Approval Center.
+In dieser Einheit wurde beschrieben, wie der Vorgang aus der Perspektive der genehmigenden Person abläuft. Dabei wurden die Schritte vom Empfang der E-Mail mit der Genehmigungsanforderung bis zur Verarbeitung der Anforderung im Genehmigungscenter erläutert.

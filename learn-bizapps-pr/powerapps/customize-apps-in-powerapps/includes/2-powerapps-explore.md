@@ -1,49 +1,49 @@
-We're now going to look more closely at the screens and other controls that define the behavior of apps that Microsoft PowerApps generates. We won't go through all the details, but knowing more about how these apps work will help you build your own apps.
+In dieser Einheit sehen wir uns die Bildschirme und Steuerelemente an, die das Verhalten der von Microsoft PowerApps generierten Apps bestimmen. Wir werden nicht auf jedes einzelne Details eingehen, die Einblicke in die Funktionsweise dieser Apps werden Ihnen aber beim Erstellen Ihrer eigenen Apps nützlich sein.
 
-## Understand controls in PowerApps
-A control is just a UI element that produces an action or shows information. Many of the controls in PowerApps are just like controls that you've used in other apps: labels, text-input boxes, drop-down lists, navigation elements, and so on.
+## <a name="understand-controls-in-powerapps"></a>Grundlegendes zu Steuerelementen in PowerApps
+Ein Steuerelement ist nur ein Element der Benutzeroberfläche, das eine Aktion auslöst oder Informationen anzeigt. Viele der Steuerelemente in PowerApps funktionieren genauso wie die Steuerelemente, die Sie aus anderen Apps kennen: Bezeichnungen, Texteingabefelder, Dropdownlisten, Navigationselemente usw.
 
-In addition to these typical controls, PowerApps has more specialized controls, which you can find on the **Insert** tab.
+Zusätzlich zu diesen üblichen Steuerelementen bietet PowerApps spezifischere Steuerelemente, die Sie auf der Registerkarte **Einfügen** finden.
 
-![Insert ribbon for PowerApps Studio](../media/powerapps-ribbon-controls.png)
+![Menüband „Einfügen“ für PowerApps Studio](../media/powerapps-ribbon-controls.png)
 
-Here are just a few of the controls that can add interest and impact to your apps:
+Im Folgenden werden einige der Steuerelemente aufgeführt, die Ihre Apps interessanter und nützlicher gestalten können:
 
-- **Galleries**: These controls are layout containers that hold a set of controls that show data from a data source.
-- **Forms**: These controls show details about your data and let you create and edit items.
-- **Media**: These controls let you add background images and include a camera button (so that users can take pictures from the app) and a barcode reader for quickly capturing identification information.
-- **Charts**: These controls let you add charts so that users can do instant analysis while they're on the road.
+- **Kataloge**: Bei diesen Steuerelementen handelt es sich um Layoutcontainer mit Steuerelementen, die Daten aus einer Datenquelle zeigen.
+- **Formulare**: Diese Steuerelemente zeigen Details zu Ihren Daten an und ermöglichen Ihnen das Erstellen und Bearbeiten von Elementen.
+- **Medien**: Mit diesen Steuerelementen können Sie Hintergrundbilder, eine Kameraschaltfläche (damit Benutzer über die App Bilder aufnehmen können) und einen Barcodeleser (für die schnelle Erfassung und Identifizierung von Informationen) hinzufügen.
+- **Diagramme**: Mit diesen Steuerelementen können Sie Diagramme hinzufügen, sodass Benutzer unterwegs sofort Analysen durchführen können.
 
-To see what's available, select the **Insert** tab, and then select each option in turn.
+Verschaffen Sie sich einen Überblick über die verfügbaren Optionen, indem Sie die Registerkarte **Einfügen** auswählen und sich die einzelnen Optionen ansehen.
 
-## Explore the browse screen
+## <a name="explore-the-browse-screen"></a>Elemente des Bildschirms zum Durchsuchen
 
-Each screen in the app has multiple controls, but one control takes up most of the screen space. The first screen in the app is the browse screen, which is named **BrowseScreen1** by default.
+Jeder Bildschirm in der App weist mehrere Steuerelemente auf, eins nimmt jedoch den größten Teil des Bildschirms ein. Der erste Bildschirm in der App ist der Bildschirm zum Durchsuchen, dem standardmäßig der Name **BrowseScreen1** zugewiesen ist.
 
-Here are some of the controls that you'll want to become familiar with for the browse screen:
+Hier finden Sie einige der Steuerelemente für den Bildschirm zum Durchsuchen, mit denen Sie sich vertraut machen sollten:
 
-- **BrowseGallery1**: This control takes up most of the screen and shows data from your data source.
-- **NextArrow1**: When this control is selected, it opens the details screen.
-- **IconNewItem1**: When this control is selected, it opens the edit/create screen.
+- **BrowseGallery1**: Dieses Steuerelement nimmt den größten Teil des Bildschirms ein und zeigt Daten aus Ihrer Datenquelle an.
+- **NextArrow1**: Beim Klicken auf dieses Steuerelement wird der Detailbildschirm geöffnet.
+- **IconNewItem1**: Beim Klicken auf dieses Steuerelement wird der Bildschirm zum Bearbeiten/Erstellen geöffnet.
 
-![Browse screen with controls](../media/powerapps-browse-screen.png)
+![Bildschirm zum Durchsuchen mit Steuerelementen](../media/powerapps-browse-screen.png)
 
-## Explore the details screen
-Next is the details screen, which is named **DetailScreen1** by default. Here are some of its controls:
+## <a name="explore-the-details-screen"></a>Elemente des Detailbildschirms
+Der nächste Bildschirm ist der Detailbildschirm, der standardmäßig **DetailScreen1** benannt ist. Hier finden Sie einige der Steuerelemente dieses Bildschirms:
 
-- **DetailForm1**: This control contains other controls.
-- **DataCard1**: This is a card control. In this case, it shows a flooring category from the Flooring Estimates table, as seen in the previous unit.
-- **IconEdit1**: When this control is selected, it opens the edit/create screen so that the user can edit the current item.
+- **DetailForm1**: Dieses Steuerelement enthält andere Steuerelemente.
+- **DataCard1**: Dies ist ein Kartensteuerelement. In diesem Fall wird eine Kategorie für Bodenbeläge aus der Tabelle „Flooring Estimates“ angezeigt – diese wurde in der vorherigen Einheit behandelt.
+- **IconEdit1**: Beim Klicken auf dieses Steuerelement wird der Bildschirm zum Bearbeiten/Erstellen geöffnet, damit der Benutzer das aktuelle Element bearbeiten kann.
 
-![Details screen with controls](../media/powerapps-details-screen.png)
+![Detailbildschirm mit Steuerelementen](../media/powerapps-details-screen.png)
 
-## Explore the edit/create screen
-The third screen in the app is **EditScreen1**. Here are some of its controls:
+## <a name="explore-the-editcreate-screen"></a>Elemente des Bildschirms zum Bearbeiten/Erstellen
+Der dritte Bildschirm in der App heißt **EditScreen1**. Hier finden Sie einige der Steuerelemente dieses Bildschirms:
 
-- **EditForm1**: This control contains other controls.
-- **DataCard8**: This is another card control that shows a flooring category from the Flooring Estimates table, as seen in the previous unit.
-- **IconAccept1**: When this control is selected, it saves the user's changes.
+- **EditForm1**: Dieses Steuerelement enthält andere Steuerelemente.
+- **DataCard8**: Dies ist ein weiteres Kartensteuerelement, das eine Kategorie für Bodenbeläge aus der Tabelle „Flooring Estimates“ anzeigt – diese wurde in der vorherigen Einheit behandelt.
+- **IconAccept1**: Wenn dieses Steuerelement ausgewählt wird, werden die Änderungen des Benutzers gespeichert.
 
-![Edit/create screen with controls](../media/powerapps-edit-screen.png)
+![Bildschirm zum Bearbeiten/Erstellen mit Steuerelementen](../media/powerapps-edit-screen.png)
 
-Hopefully, this unit gives you a good idea of what controls are on each screen of this app.
+In diesem Modul haben Sie einen Überblick über die verschiedenen Steuerelemente auf den einzelnen Bildschirmen dieser App erhalten.

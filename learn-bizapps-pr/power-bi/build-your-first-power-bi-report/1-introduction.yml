@@ -1,15 +1,19 @@
 ### YamlMime:ModuleUnit
-uid: learn.build-your-first-report.1-introduction
+uid: learn-bizapps.build-your-first-report.1-introduction
 metadata:
-  title: Introduction
-  description: Introduction
+  title: Einführung
+  description: Einführung
   ms.date: 09/24/2018
-  #TODO: Update with real author name.
   author: margoc
   ms.author: margoc
   ms.topic: interactive-tutorial
   ms.prod: learning-powerbi
-title: Introduction
+  ms.openlocfilehash: 0204c47994df3c2b299ae2a3444f60d3c08dbe97
+  ms.sourcegitcommit: 6d796874539f76b734a7bb8ff95bef6b87bb9b00
+  ms.translationtype: HT
+  ms.contentlocale: de-DE
+  ms.lasthandoff: 09/11/2018
+  ms.locfileid: "44375143"
+title: Einführung
 durationInMinutes: 3
-content: |
- [!include[](includes/1-introduction.md)]
+content: '[!include[](includes/1-introduction.md)]'

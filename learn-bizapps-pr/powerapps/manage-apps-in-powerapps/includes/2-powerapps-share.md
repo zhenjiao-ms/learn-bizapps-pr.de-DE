@@ -1,41 +1,41 @@
-Now that you know how to build an app, you'll learn how to share it. You can share an app with specific users, groups, or your whole organization. When you share an app with other people, they can run it from the Microsoft Dynamics 365 home page in a browser or in Microsoft PowerApps Mobile for Microsoft Windows, Apple iOS, or Google Android.
+Da Sie gelernt haben, wie Sie eine App erstellen, erfahren Sie nun, wie Sie sie freigeben. Sie können eine App für bestimmte Benutzer, Gruppen oder Ihre gesamte Organisation freigeben. Wenn Sie eine App für andere Personen freigeben, können diese sie von der Homepage von Microsoft Dynamics 365 in einem Webbrowser oder in Microsoft PowerApps Mobile für Microsoft Windows, Apple iOS oder Google Android ausführen.
 
-Even better, you can give someone permission to update the app.
+Sie können sogar einer anderen Person die Berechtigung erteilen, die App zu aktualisieren.
 
-## Prepare to share an app
+## <a name="prepare-to-share-an-app"></a>Vorbereiten der Freigabe einer App
 
-1. In PowerApps Studio, select **App settings** on the **File** menu.
+1. Klicken Sie in PowerApps Studio im Menü **Datei** auf **App-Einstellungen**.
 
-1. Give the app a meaningful name and description so that your team knows what your app does and can easily find it in a list.
+1. Geben Sie einen aussagekräftigen Namen und eine Beschreibung für Ihre App ein, damit Ihr Team weiß, was Ihre App bewirkt, und sie leicht in einer Liste finden kann.
 
-1. On the **File** menu, select **Save as**, and then select **The cloud**.
+1. Wählen Sie im Menü **Datei** nacheinander **Speichern unter** und dann **Cloud** aus.
 
-    You must save an app to the cloud before you can share it.
+    Sie müssen eine App in der Cloud speichern, bevor Sie sie freigeben können.
 
-1. Select **Save**, and then elect **Share this app**.
+1. Klicken Sie auf **Speichern** und dann auf **Diese App freigeben**.
 
-1. On the **Share** tab, specify the users or groups with whom you want to share the app. To add everyone in your organization, select the **Add everyone in my org** button.
+1. Geben Sie auf der Registerkarte **Freigabe** an, für welche Benutzer oder Gruppen die App freigegeben werden soll. Klicken Sie auf die Schaltfläche **Alle Personen in meiner Organisation hinzufügen**, um alle Benutzer in Ihrer Organisation hinzuzufügen.
 
-1. To notify users by email, select the **Send an email invitation** check box.
+1. Aktivieren Sie das Kontrollkästchen **E-Mail-Einladung senden**, um Benutzer per E-Mail zu benachrichtigen.
 
-    If you select that check box, everyone you shared the app with will get an email message that has a link to Dynamics 365. People whom you granted edit permission for the app will also get a link to web.powerapps.com.
+    Wenn Sie dieses Kontrollkästchen aktivieren, erhält jede Person, für die Sie die App freigegeben haben, eine E-Mail-Nachricht mit einem Link zu Dynamics 365. Personen, denen Sie die Berechtigung zur Bearbeitung der App gewährt haben, erhalten auch einen Link zu „web.powerapps.com“.
 
-    Only people who follow the link to Dynamics 365 will see the app there. The app will also be in Microsoft AppSource. Anyone who didn't follow the link will have to add the app from AppSource to Dynamics 365 themselves.
+    Die App wird nur den Personen angezeigt, die auf den Link zu Dynamics 365 klicken. Die App wird auch in Microsoft AppSource angezeigt. Jeder Benutzer, der nicht auf den Link geklickt hat, muss die App manuell aus AppSource in Dynamics 365 hinzufügen.
 
-1. In the **Shared with** list, in the **Permission** list on the right, specify how each user or group can interact with the app:
+1. Geben Sie in der Liste **Freigegeben für** rechts in der Liste **Berechtigungen** an, wie die einzelnen Benutzer oder Gruppen mit der App interagieren können:
 
-    - **Can edit**: Users can change the app by using PowerApps Studio.
-    - **Can use**: Users can view and use the app, but they can't change it.
+    - **Kann bearbeiten**: Benutzer können mit PowerApps Studio Änderungen an der App vornehmen.
+    - **Kann verwenden**: Benutzer können die App anzeigen und verwenden, sie aber nicht ändern.
 
-1. Select **Save**.
+1. Klicken Sie auf **Speichern**.
 
-If you make and save changes to a shared app, the people you shared it with will see your changes as soon as you publish them. This immediacy can be great if you improve the app, but it can also negatively affect other users if you remove or significantly change features.
+Wenn Sie eine freigegebene App ändern und die Änderungen speichern, sind die Änderungen für die Personen, für die Sie die App freigegeben haben, nach dem Veröffentlichen der App sofort sichtbar. Diese direkte Verfügbarkeit kann zwar von Vorteil sein, wenn Sie die App verbessern, für andere Benutzer aber auch einen Nachteil bedeuten, wenn Sie Features entfernen oder erheblich ändern.
 
-## Permissions and licensing
+## <a name="permissions-and-licensing"></a>Berechtigungen und Lizenzierung
 
-Here are some basics about permissions and licensing that you should be aware of:
+Im Folgenden finden Sie einige grundlegende Informationen zu Berechtigungen und Lizenzierung, die Sie kennen sollten:
 
-- Users and contributors need permissions to any data connections and gateways that a shared app uses. Some permissions come implicitly with the app, but you must explicitly grant others.
-- People who have **Can edit** permission also need a PowerApps "P2" license to work directly with entities.
+- Benutzer und Mitwirkende benötigen Berechtigungen für alle Datenverbindungen und Gateways, die von einer freigegebenen App verwendet werden. Einige Berechtigungen werden implizit in der App gewährt, andere müssen von Ihnen jedoch explizit zugewiesen werden.
+- Personen mit der Berechtigung **Kann bearbeiten** benötigen auch eine P2-Lizenz für PowerApps, um direkt mit Entitäten arbeiten zu können.
 
-Sharing apps is easy, and it's a great way to take an app that you find useful and make it available to people across your organization.
+Das Freigeben von Apps ist ganz einfach und eine hervorragende Möglichkeit, eine App, die Sie hilfreich finden, für andere in Ihrer Organisation verfügbar zu machen.

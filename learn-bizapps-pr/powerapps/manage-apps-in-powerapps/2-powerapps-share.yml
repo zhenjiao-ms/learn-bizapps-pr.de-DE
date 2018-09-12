@@ -1,15 +1,19 @@
 ### YamlMime:ModuleUnit
 uid: learn-bizapps.powerapps-manage.2-powerapps-share
-title: Share apps in PowerApps
+title: Freigeben von Apps in PowerApps
 metadata:
-  title: Share apps in PowerApps
-  description: Learn how to share apps hat you built in PowerApps with others in your organization.
+  title: Freigeben von Apps in PowerApps
+  description: Erfahren Sie, wie Sie Apps, die Sie in PowerApps erstellt haben, für andere Personen in Ihrer Organisation freigeben.
   ms.date: 09/24/2018
-  #TODO: Update with real author name.
   author: margoc
   ms.author: margoc
   ms.topic: interactive-tutorial
   ms.prod: learning-powerapps
+  ms.openlocfilehash: e698a72851d94080da386195f0b32d5da8157cd7
+  ms.sourcegitcommit: a6cdd11ea6d5cffdd264c005b6e2f15c00854553
+  ms.translationtype: HT
+  ms.contentlocale: de-DE
+  ms.lasthandoff: 09/10/2018
+  ms.locfileid: "44330281"
 durationInMinutes: 10
-content: |
-  [!include[](includes/2-powerapps-share.md)]
+content: '[!include[](includes/2-powerapps-share.md)]'

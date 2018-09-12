@@ -1,79 +1,79 @@
-Of course we have an app! The Microsoft Flow mobile app. From this app, you can access these features:
+Natürlich gibt es eine App! Die mobile Microsoft Flow-App. Über die App können Sie auf folgende Features zugreifen:
 
-- Activity Feed
-- Browsing
-- Buttons
-- Managing Flows
+- Aktivitätsfeed
+- Durchsuchen
+- Schaltflächen
+- Verwalten von Flows
 
-First, you'll need to download and install the Microsoft Flow mobile app from your app store.
+Zunächst müssen Sie die mobile Microsoft Flow-App über Ihren App Store herunterladen und installieren.
 
-![Mobile app](../media/open-mobile-app.png)
+![Mobile App](../media/open-mobile-app.png)
 
-After it's installed, start it and sign in.
+Starten Sie die App nach der Installation, und melden Sie sich an.
 
-When you first start the app, you'll see the Activity Feed. The Activity Feed is the place to see what's happening with your flows. It won't be the full experience you'd expect from your PC, but it will show you useful details.
+Beim ersten Start der App wird der Aktivitätsfeed angezeigt. Im Aktivitätsfeed sehen Sie, was in Ihren Flows geschieht. Die Umgebung auf dem PC ist umfangreicher, die mobile App zeigt jedoch ebenfalls nützliche Details an.
 
-For example, you'll see the flow's last activity, as shown here. You can see whether the flow succeeded or failed to run. if it failed, you'll see which step it failed on.
+Wie Sie hier sehen, wird beispielsweise die letzte Aktivität des Flows angezeigt. Sie können sehen, ob der Flow erfolgreich ausgeführt wurde oder nicht. Wenn der Flow nicht erfolgreich ausgeführt wurde, wird angezeigt, in welchem Schritt der Fehler aufgetreten ist.
 
-![Activity Feed](../media/see-all-activity.png)
+![Aktivitätsfeed](../media/see-all-activity.png)
 
-If you select this flow, you'll see that it succeeded in both steps. 
+Wenn Sie diesen Flow auswählen, sehen Sie, dass beide Schritte erfolgreich waren. 
 
-## How flows are started
-Buttons are flows that are started through a manual action. For example, you can create a button to send a "Working from home today" email to your manager. If you live far from your workplace, you can then use this button on days when the traffic is a mess!
+## <a name="how-flows-are-started"></a>Starten von Flows
+Schaltflächen sind Flows, die über eine manuelle Aktion gestartet werden. Sie können beispielsweise eine Schaltfläche erstellen, die eine E-Mail mit der Nachricht „Ich arbeite heute im Homeoffice“ an Ihren Vorgesetzten sendet. Wenn Sie weit von Ihrem Arbeitsplatz entfernt leben, können Sie diese Schaltfläche beispielsweise verwenden, wenn Verkehrschaos auf dem Arbeitsweg zu erwarten ist.
 
-- Select **Buttons** to use some of these flows.
+- Tippen Sie auf **Schaltflächen**, um einige dieser Flows zu verwenden.
 
-    ![Use buttons](../media/activity-details.png)
+    ![Verwenden von Schaltflächen](../media/activity-details.png)
 
-- Select **Browse** to check out templates for more button flows that you can add to your collection.
+- Tippen Sie auf **Durchsuchen**, um Vorlagen für weitere Schaltflächenflows zu suchen, die Sie zu Ihrer Sammlung hinzufügen können.
 
-    ![Browse buttons](../media/click-browse-button.png)
+    ![Schaltflächen für das Durchsuchen](../media/click-browse-button.png)
 
-To show you how you can use buttons, we'll use the **Send myself a reminder in 10 minutes button** flow.
+Wir verwenden den Flow **Send myself a reminder in 10 minutes button** (Schaltfläche „In 10 Minuten Erinnerung an mich selbst senden“), um die Verwendung von Schaltflächen zu veranschaulichen.
 
-1. Select **Buttons**, and then **Browse**.
-2. Select the **Send myself a reminder in 10 minutes button** flow.
-3. Select **Use this template**.
+1. Tippen Sie auf **Schaltflächen** und dann auf **Durchsuchen**.
+2. Wählen Sie den Flow **Send myself a reminder in 10 minutes button** (Schaltfläche „In 10 Minuten Erinnerung an mich selbst senden“) aus.
+3. Tippen Sie auf **Diese Vorlage verwenden**.
 
-    ![Use this template](../media/use-this-template.png)
+    ![Diese Vorlage verwenden](../media/use-this-template.png)
 
-4. Select **Create**, and then select **Done**.
+4. Tippen Sie auf **Erstellen** und dann auf **Fertig**.
 
-    ![Creation completed](../media/create-complete.png)
+    ![Erstellung abgeschlossen](../media/create-complete.png)
 
-    The flow is saved.
+    Der Flow wird gespeichert.
 
-    ![Completed reminder](../media/complete-reminder.png)
+    ![Vollständige Erinnerung](../media/complete-reminder.png)
 
-5. On the Activity Feed screen, select **Buttons** to see the new flow. 
+5. Tippen Sie auf dem Bildschirm des Aktivitätsfeeds auf **Schaltflächen**, um den nächsten Flow anzuzeigen. 
 
-    ![New button flow in your buttons](../media/button-send-reminder.png)
+    ![Neuer Schaltflächenflow in Ihren Schaltflächen](../media/button-send-reminder.png)
 
-6. Select the flow. In 10 minutes, you'll get a reminder.
+6. Wählen Sie den Flow aus. In 10 Minuten erhalten Sie eine Erinnerung.
 
-    ![In your buttons](../media/in-your-collection.png)
+    ![In Ihren Schaltflächen](../media/in-your-collection.png)
 
-It's simple to add additional buttons to your collection.
+Es ist einfach, Ihrer Sammlung weitere Schaltflächen hinzuzufügen.
 
-## Modify or delete a flow
-If you want to change or delete one of your flows, it's easy.
+## <a name="modify-or-delete-a-flow"></a>Ändern oder Löschen eines Flows
+Es ist einfach, einen Ihrer Flows zu ändern oder zu löschen.
 
-1. Select **Flows**.
+1. Tippen Sie auf **Flows**.
 
-    ![Flows button](../media/click-flows-button.png)
+    ![Schaltfläche „Flows“](../media/click-flows-button.png)
 
-2. Select one of your flows.
+2. Wählen Sie einen Ihrer Flows aus.
 
-    ![Flow to change or delete](../media/send-a-reminder.png)
+    ![Ablauf für das Ändern oder Löschen](../media/send-a-reminder.png)
 
-3. Select one of the options:
+3. Wählen Sie eine der folgenden Optionen aus:
 
-    * To enable or disable the flow, turn the **Enable flow toggle** option on or off.
-    * To change the flow, select **Edit flow**. 
-    * To get an idea of the successful and unsuccessful runs of the flow, select **Run history** to view the history of the flow.
-    * To delete a flow, select **Delete flow**.
+    * Wenn Sie den Flow aktivieren oder deaktivieren möchten, schalten Sie die Option **Flow aktivieren** entsprechend um.
+    * Tippen Sie auf **Flow bearbeiten**, um den Flow zu ändern. 
+    * Wenn Sie einen Überblick darüber erhalten möchten, ob Flows erfolgreich ausgeführt wurden oder nicht, tippen Sie auf **Ausführungsverlauf**, um den Verlauf des Flows anzuzeigen.
+    * Tippen Sie auf **Flow löschen**, um einen Flow zu löschen.
 
-    ![Delete a flow](../media/disable-delete.png)
+    ![Löschen eines Flows](../media/disable-delete.png)
 
-The next unit shows how to create a button flow for a team.
+In der nächsten Einheit wird erläutert, wie ein Schaltflächenflow für ein Team erstellt werden kann.

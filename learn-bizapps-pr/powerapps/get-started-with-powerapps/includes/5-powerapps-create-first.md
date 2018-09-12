@@ -1,59 +1,59 @@
-OK, let's get started.
+Kommen wir jetzt zu den ersten Schritten.
 
-Now that you're familiar with all the parts of Microsoft PowerApps and the options for creating apps, it's time to actually build an app. In this unit, you'll generate a phone app where the data source is a Microsoft Excel workbook that's stored in Microsoft OneDrive for Business. This Excel workbook lists a company's inventory of flooring samples, together with pictures and prices.
+Da Sie nun die Komponenten von Microsoft PowerApps und die Optionen zum Erstellen von Apps kennen, wird es Zeit, eine eigene App zu erstellen. In dieser Einheit erstellen Sie eine Smartphone-App, deren Datenquelle eine in Microsoft OneDrive for Business gespeicherte Microsoft Excel-Arbeitsmappe ist. In dieser Excel-Arbeitsmappe werden die Muster von Bodenbelägen eines Unternehmens einschließlich der zugehörigen Bilder und Preise aufgeführt.
 
-keep in mind that you can use data from lots of other sources, including Microsoft SharePoint, cloud services like Salesforce, and on-premises sources like Microsoft SQL Server.
+Denken Sie daran, dass Sie auch Daten aus verschiedenen anderen Quellen verwenden können, z.B. aus Microsoft SharePoint, Clouddiensten wie Salesforce und lokalen Quellen wie Microsoft SQL Server.
 
-## Connect to a data source
+## <a name="connect-to-a-data-source"></a>Herstellen einer Verbindung mit einer Datenquelle
 
-1. Download the [Flooring Estimates workbook](https://az787822.vo.msecnd.net/documentation/get-started-from-data/FlooringEstimates.xlsx), and save it to OneDrive for Business.
+1. Laden Sie die Arbeitsmappe [Flooring Estimates](https://az787822.vo.msecnd.net/documentation/get-started-from-data/FlooringEstimates.xlsx) herunter, und speichern Sie sie in OneDrive for Business.
 
-1. Go to [web.powerapps.com](https://web.powerapps.com), and sign in with your organizational account.
+1. Navigieren Sie zu [web.powerapps.com](https://web.powerapps.com), und melden Sie sich mit Ihrem Organisationskonto an.
 
-1. In the left pane, select **Apps**.
+1. Klicken Sie im linken Bereich auf die Option **Apps**.
 
-1. Select **Create an app**.
+1. Klicken Sie auf **Create an app** (App erstellen).
 
-1. For the **OneDrive for Business** data source, select **Phone layout**.
+1. Klicken Sie für die Datenquelle **OneDrive for Business** auf **Telefonlayout**.
 
-    ![Phone app from SharePoint list](../media/powerapps-start-excel.png)
+    ![Smartphone-App aus SharePoint-Liste](../media/powerapps-start-excel.png)
 
-    Generated apps are always based on a single list or table, but you can add more data to the app later. The next three steps explain how to connect to the Excel workbook.
+    Generierte Apps basieren immer auf einer einzelnen Liste oder Tabelle, aber Sie können der App später weitere Daten hinzufügen. Die nächsten drei Schritte erläutern, wie Sie eine Verbindung mit der Excel-Arbeitsmappe herstellen.
 
-1. Under **Connections**, select **OneDrive for Business**.
-1. Under **Choose an Excel file**, select the Excel workbook.
-1. Select **Connect**.
+1. Wählen Sie unter **Verbindungen** die Option **OneDrive for Business** aus.
+1. Wählen Sie unter **Choose an Excel file** (Excel-Datei auswählen) die Excel-Arbeitsmappe aus.
+1. Klicken Sie auf **Verbinden**.
 
-PowerApps generates the app by inspecting your data and matching it with PowerApps capabilities so that you get a working app as a starting point.
+Zum Generieren der App untersucht PowerApps Ihre Daten und gleicht sie mit den PowerApps-Funktionen ab, sodass Sie eine funktionierende App als Ausgangspunkt erhalten.
 
-## Explore the generated app
-Success! Your new three-screen app opens in PowerApps Studio.
+## <a name="explore-the-generated-app"></a>Komponenten der generierten App
+Vorgang erfolgreich! Ihre neue App mit drei Bildschirmen öffnet sich in PowerApps Studio.
 
-On the left, you'll see the **Screens** pane. In the upper-right corner of the screens pane, select the thumbnail view.
+Auf der linken Seite wird der Bereich **Bildschirme** angezeigt. Wählen Sie in der oberen rechten Ecke des Bereichs „Bildschirme“ die Miniaturansicht aus.
 
-![Toggle the view](../media/Powerapps-app-nav.png)
+![Umschalten zwischen den Ansichten](../media/Powerapps-app-nav.png)
 
-Select the thumbnail for each screen to view the controls on that screen. 
+Wählen Sie für jeden Bildschirm die Miniaturansicht aus, um die Steuerelemente des jeweiligen Bildschirms anzuzeigen. 
 
-Here is the main development window for PowerApps Studio, which you'll learn more about in later units.
+Hier sehen Sie das Hauptentwicklungsfenster in PowerApps Studio, zu dem Sie in späteren Einheiten weitere Informationen erhalten.
 
-![The generated app](../media/powerapps-full-screen2.png)
+![Die generierte App](../media/powerapps-full-screen2.png)
 
-Select **Play** ![Start app preview arrow](../media/powerapps-arrow.png) in the upper-right corner to try out the app. You'll see that it includes all the data from the list and provides a good default experience.
+Klicken Sie in der oberen rechten Ecke auf **Wiedergeben** ![Pfeil zum Starten der App-Vorschau](../media/powerapps-arrow.png), um die App auszuprobieren. Dann sollten Sie sehen, dass diese alle Daten aus der Liste enthält und in der Standardversion bereits gut zu bedienen ist.
 
-All apps generated from data have the same set of screens:
+Alle Apps, die aus Daten generiert wurden, verfügen über die gleichen Bildschirme:
 
-* **Browse screen**: This screen appears by default. In it, you can browse, sort, filter, and refresh the data from the data source. In the browse screen, you add items to the data source by selecting the plus sign (**+**).
-* **Details screen**: Select an item in the browse screen to open the details screen, which shows all details about an item. In this screen, you can open an item for editing or delete it.
-* **Edit/create screen**: In this screen, you edit an existing item, or you create one.
+* **Bildschirm zum Durchsuchen**: Dieser Bildschirm wird standardmäßig angezeigt. Hier können Sie die Daten aus Ihrer Datenquelle durchsuchen, sortieren, filtern und aktualisieren. In diesem Bildschirm können Sie Elemente zur Datenquelle hinzufügen, indem Sie auf das Pluszeichen klicken (**+**).
+* **Bildschirm mit Details**: Wählen Sie im Bildschirm zum Durchsuchen ein Element aus, um den Detailbildschirm zu öffnen, in dem alle Details zu einem Element angezeigt werden. In diesem Bildschirm können Sie ein Element zum Bearbeiten öffnen oder ein Element löschen.
+* **Bildschirm zum Bearbeiten/Erstellen**: in diesem Bildschirm bearbeiten Sie ein vorhandenes Element oder erstellen ein neues Element.
 
-## Install the app on your device
-You'll want to install your app on your phone to see how it looks there.
+## <a name="install-the-app-on-your-device"></a>Installieren der App auf Ihrem Gerät
+Sie sollten die App auf Ihrem Smartphone installieren, um sie zu testen.
 
-1. Download PowerApps Mobile from the app store for the platform that you want to use.
+1. Laden Sie PowerApps Mobile aus dem App-Store für die Plattform herunter, die Sie verwenden möchten.
 
-2. Sign in by using your user name and password.
+2. Melden Sie sich mit Ihrem Benutzernamen und dem zugehörigen Kennwort an.
 
-3. On your phone or tablet, run the flooring-estimates app in PowerApps Mobile. Otherwise, run the app in a browser.
+3. Wenn Sie auf dem Smartphone oder Tablet arbeiten, führen Sie die App zur Berechnung von Kostenvoranschlägen für Bodenbeläge (Flooring Estimates) in PowerApps Mobile aus. Andernfalls führen Sie die App in einem Browser aus.
 
-In just a few minutes, you learned how to connect to a data source and generate an app. You also got acquainted with PowerApps Studio and the three screens in a generated app. In later modules, you'll learn how to customize generated apps.
+Sie haben innerhalb weniger Minuten gelernt, wie Sie eine Verbindung mit einer Datenquelle herstellen und eine App generieren. Sie haben sich auch mit PowerApps Studio und den drei Bildschirmen in einer generierten App vertraut gemacht. In späteren Modulen erfahren Sie, wie Sie generierte Apps anpassen können.

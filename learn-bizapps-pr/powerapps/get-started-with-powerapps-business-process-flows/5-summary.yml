@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit
-uid: learn-bizapps.powerapps-design-model-driven-apps.7-summary
+uid: learn-bizapps.powerapps-business-process-flow.5-summary
 title: Zusammenfassung
 metadata:
   title: Zusammenfassung
@@ -9,11 +9,11 @@ metadata:
   ms.author: margoc
   ms.topic: interactive-tutorial
   ms.prod: learning-powerapps
-  ms.openlocfilehash: 28c57ad081387065c9e73679e9700c4d628df0ee
+  ms.openlocfilehash: aea0a782e83e5f158917327deee8b51c0da0d4b0
   ms.sourcegitcommit: a6cdd11ea6d5cffdd264c005b6e2f15c00854553
   ms.translationtype: HT
   ms.contentlocale: de-DE
   ms.lasthandoff: 09/10/2018
-  ms.locfileid: "44330509"
+  ms.locfileid: "44331280"
 durationInMinutes: 2
-content: '[!include[](includes/7-summary.md)]'
+content: '[!include[](includes/5-summary.md)]'

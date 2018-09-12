@@ -1,40 +1,52 @@
-### YamlMime:Module 
-uid: learn-bizapps.powerapps-customize 
-metadata: 
-  title: Customize an app
-  description: Learn how to customize an app by adding controls, images, and logic.
+### YamlMime:Module
+uid: learn-bizapps.powerapps-customize
+metadata:
+  title: Anpassen einer App
+  description: Finden Sie heraus, wie Sie eine App anpassen, indem Sie Steuerelemente, Bilder und Logik hinzufügen.
   ms.date: 09/24/2018
-  #TODO: Update with real author name.
   author: margoc
   ms.author: margoc
   ms.topic: interactive-tutorial
   ms.prod: learning-powerapps
-title: Customize an app 
-summary: Learn how to customize an app by adding controls, images, and logic.
-abstract: |
-  In this module, you will:
-  - Change the layout of a gallery.
-  - Change the data that a control shows.
-  - Change the order in which fields appear.
-  - Change the control with which a user provides information.
-  - Explore controls on each screen of an app.
-  - Format a number as a price.
-  - Color prices based on their values.
-  - Explore formulas in a generated app.
-prerequisites: None
-#TODO:  update with real image.
-iconUrl: http://via.placeholder.com/120x120 
-levels:  
-- beginner 
-roles:  
-- business-user 
-products:  
+  ms.openlocfilehash: 855ecc9ef68f29e33a6f68295700db0e2149a4cf
+  ms.sourcegitcommit: a6cdd11ea6d5cffdd264c005b6e2f15c00854553
+  ms.translationtype: HT
+  ms.contentlocale: de-DE
+  ms.lasthandoff: 09/10/2018
+  ms.locfileid: "44331285"
+title: Anpassen einer App
+summary: Finden Sie heraus, wie Sie eine App anpassen, indem Sie Steuerelemente, Bilder und Logik hinzufügen.
+abstract: >
+  Aufgaben in diesem Modul:
+
+  - Ändern Sie das Layout eines Katalogs.
+
+  - Ändern Sie die Daten, die von einem Steuerelement angezeigt werden.
+
+  - Ändern Sie die Reihenfolge, in der Felder angezeigt werden.
+
+  - Ändern Sie das Steuerelement, mit dem ein Benutzer Informationen bereitstellt.
+
+  - Erkunden Sie die Steuerelemente jedes Bildschirms einer App.
+
+  - Formatieren Sie eine Zahl als Preis.
+
+  - Weisen Sie Preisen basierend auf ihren Werten unterschiedliche Farben zu.
+
+  - Erkunden Sie Formeln in einer generierten App.
+prerequisites: Keine
+iconUrl: http://via.placeholder.com/120x120
+levels:
+- beginner
+roles:
+- business-user
+products:
 - bizapps
 - bizapps-d365
 - bizapps-power-apps
-units: 
+units:
 - learn-bizapps.powerapps-customize.1-powerapps-customize
 - learn-bizapps.powerapps-customize.2-powerapps-explore
 - learn-bizapps.powerapps-customize.3-powerapps-functions
 - learn-bizapps.powerapps-customize.4-quiz-customize-an-app
-achievement: learn.powerapps-customize.badge  
+achievement: learn.powerapps-customize.badge

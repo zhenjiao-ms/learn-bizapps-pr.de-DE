@@ -1,15 +1,19 @@
-### YamlMime:ModuleUnit 
+### YamlMime:ModuleUnit
 uid: learn-bizapps.flow-create-approval.3-flow-review
-title: Review what you've learned about approval flows 
-metadata: 
-  title: Review what you've learned about approval flows 
-  description: Review what you've learned about approval flows.
+title: Folgendes haben Sie über Genehmigungsflows erfahren
+metadata:
+  title: Folgendes haben Sie über Genehmigungsflows erfahren
+  description: Folgendes haben Sie über Genehmigungsflows erfahren.
   ms.date: 09/24/2018
-  #TODO: Update with real author name.
   author: margoc
   ms.author: margoc
   ms.topic: interactive-tutorial
   ms.prod: learning-flow
-durationInMinutes: 5 
-content: | 
-  [!include[](includes/3-flow-review.md)]  
+  ms.openlocfilehash: e224a363827852d50880efb320745813c0e2189b
+  ms.sourcegitcommit: a6cdd11ea6d5cffdd264c005b6e2f15c00854553
+  ms.translationtype: HT
+  ms.contentlocale: de-DE
+  ms.lasthandoff: 09/10/2018
+  ms.locfileid: "44330089"
+durationInMinutes: 5
+content: '[!include[](includes/3-flow-review.md)]'

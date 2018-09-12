@@ -1,27 +1,27 @@
-Congratulations on building your first app! Let's do a quick review of what you've learned so far:
+Sie haben nun Ihre erste App erfolgreich erstellt. Sie haben bisher Folgendes gelernt:
 
-- You built an app based on data in a Microsoft Excel workbook that's stored in Microsoft OneDrive for Business. You learned that Microsoft PowerApps can connect almost as easily to data sources you're already using in the cloud (such as Microsoft SharePoint, Microsoft Azure, Google Drive, and Salesforce) or on-premises.
-- You customized the app to make it your own by modifying the look and feel and adding Excel-like functions.
-- You learned that you can share apps instantly with your co-workers across the web, tablets, and mobile devices.
-- You set up environments so that you can separate a working environment from the one you want to share with your team.
+- Sie haben eine App erstellt, die auf Daten in einer Microsoft Excel-Arbeitsmappe basiert. Diese Arbeitsmappe ist in Microsoft OneDrive for Business gespeichert. Sie haben erfahren, dass Sie mit Microsoft PowerApps fast genauso einfach wie sonst auch auf Datenquellen zugreifen können, die Sie bereits lokal oder in der Cloud verwenden. Zu Letzteren gehören beispielsweise Microsoft SharePoint, Microsoft Azure, Google Drive und Salesforce.
+- Sie haben die App an Ihre eigenen Anforderungen angepasst, indem Sie das Aussehen und Verhalten verändert und ihr Funktionen hinzugefügt haben, die mit denen in Excel vergleichbar sind.
+- Sie haben erfahren, dass Sie Apps in kürzester Zeit für Kollegen freigeben können, die diese Apps im Web, auf Tablets und auf mobilen Geräten nutzen können.
+- Sie haben mehrere Umgebungen eingerichtet, damit Sie eine Arbeitsumgebung von der Umgebung trennen können, die Sie für Ihr Team freigeben möchten.
 
-You probably did all this before lunch. Outstanding!
+All diese Aufgaben haben Sie vermutlich locker vor der Mittagspause erledigt. Ausgezeichnet!
 
-The easiest way to advance your skills is to run the samples, play around with the templates, and generate more apps from your own data.
+Die einfachste Möglichkeit, noch mehr über PowerApps zu erfahren, besteht darin, die Beispiel-Apps auszuführen, die Vorlagen auszuprobieren und weitere Apps mithilfe Ihrer eigenen Daten zu erstellen.
 
-### What's next?
+### <a name="whats-next"></a>Wie geht es weiter?
 
-Regardless of how much experience you began with, we hope you now have a clearer picture of what PowerApps is and how you can start to create apps. We've included some useful resources and downloads.
+Wir hoffen, dass Sie jetzt – unabhängig von Ihren Vorkenntnissen – ein genaueres Bild davon haben, was PowerApps ist und wie Sie damit Apps erstellen. Im Folgenden finden Sie einige nützliche Ressourcen und Downloadlinks.
 
-### PowerApps resources
+### <a name="powerapps-resources"></a>Ressourcen zu PowerApps
 
-- Dig deeper with the [PowerApps documentation](https://docs.microsoft.com/powerapps/).
-- Stay current with the [PowerApps blog](https://powerapps.microsoft.com/blog/).
-- Join the [PowerApps community](https://powerusers.microsoft.com/t5/PowerApps-Community/ct-p/PowerApps1).
-- Improve PowerApps by submitting an [idea](https://powerusers.microsoft.com/t5/PowerApps-Ideas/idb-p/PowerAppsIdeas).
+- Ausführliche Informationen finden Sie in der [PowerApps-Dokumentation](https://docs.microsoft.com/powerapps/).
+- Mit dem [PowerApps-Blog](https://powerapps.microsoft.com/blog/) bleiben Sie immer auf dem aktuellen Stand.
+- Treten Sie der [PowerApps-Community](https://powerusers.microsoft.com/t5/PowerApps-Community/ct-p/PowerApps1) bei.
+- Helfen Sie mit, PowerApps zu verbessern, indem Sie uns [Vorschläge](https://powerusers.microsoft.com/t5/PowerApps-Ideas/idb-p/PowerAppsIdeas) senden.
 
-### PowerApps downloads
+### <a name="powerapps-downloads"></a>Downloads für PowerApps
 
-- [PowerApps Mobile for Windows](https://aka.ms/powerappswin)
-- [PowerApps Mobile for iOS](https://aka.ms/powerappsios)
-- [PowerApps Mobile for Android](https://aka.ms/powerappsandroid)
+- [PowerApps Mobile für Windows](https://aka.ms/powerappswin)
+- [PowerApps Mobile für iOS](https://aka.ms/powerappsios)
+- [PowerApps Mobile für Android](https://aka.ms/powerappsandroid)

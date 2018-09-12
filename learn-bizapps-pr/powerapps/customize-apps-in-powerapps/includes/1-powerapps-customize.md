@@ -1,62 +1,62 @@
-In a previous unit, you generated the Flooring Estimates app and started to explore its default design. Apps that Microsoft PowerApps generates are useful out of the box, but you'll often want to customize a generated app to suit your needs.
+In einer vorherigen Einheit haben Sie die Flooring Estimates-App erstellt und sich mit ihrem Standarddesign vertraut gemacht. Von PowerApps generierte Standard-Apps sind nützlich. Häufig müssen Sie diese jedoch an Ihre eigenen Anforderungen anpassen.
 
-In this unit, we'll walk you through some basic changes for each screen in the app. You can do a lot more to customize an app, but the best way to start learning is to take any generated app and make common customizations.
+In dieser Einheit erläutern wir einige einfache Änderungen, die für die einzelnen App-Bildschirme vorgenommen werden können. Es gibt zwar noch deutlich mehr Möglichkeiten zum Anpassen der App, doch für die ersten Schritte empfiehlt es sich, Anpassungen an einer generierten App vorzunehmen.
 
-## Browse screen
-We'll start on the browse screen. The app already shows an image and some text for each product, but the layout could be better. Let's work on that.
+## <a name="browse-screen"></a>Bildschirm zum Durchsuchen
+Wir beginnen mit dem Bildschirm zum Durchsuchen. In der App ist jedem Produkt bereits ein Bild und ein Text zugeordnet, doch das Layout könnte ansprechender gestaltet werden. Daran möchten wir jetzt arbeiten.
 
-1. In the **Screens** pane on the left, select **BrowseGallery1**.
+1. Klicken Sie im linken Bereich **Screens** (Bildschirme) auf **BrowseGallery1**.
 
-    The selection box around the gallery confirms your choice.
+    Der Katalog wird daraufhin durch einen Rahmen hervorgehoben.
 
-    ![Select gallery](../media/select-gallery.png)
+    ![Auswählen des Katalogs](../media/select-gallery.png)
 
-1. In the right pane, open the **Data** pane by selecting the link next to **Layout**.
+1. Öffnen Sie im rechten Bereich den Bereich **Data** (Daten), indem Sie auf den Link neben **Layout** klicken.
 
-    ![Show layout options](../media/powerapps-layout.png)
+    ![Anzeigen der Layoutoptionen](../media/powerapps-layout.png)
 
-1. Select a different layout, such as the one that shows the image, the title, and the subtitle but not the body.
+1. Wählen Sie ein anderes Layout aus, durch das z.B. das Bild, der Titel und der Untertitel werden, jedoch nicht der Text.
 
-    ![Change layout](../media/change-layout.png)
+    ![Ändern des Layouts](../media/change-layout.png)
 
-1. Select the category of the item at the top of the gallery.
+1. Wählen Sie im oberen Katalogbereich die Elementkategorie aus.
 
-    ![Select category label](../media/select-category.png)
+    ![Auswählen der Kategoriebeschriftung](../media/select-category.png)
 
-1. Change **ThisItem.Category** to **ThisItem.Name** in the formula bar.
+1. Ändern Sie in der Formularleiste **ThisItem.Category** in **ThisItem.Name**.
 
-1. Repeat the previous two steps, but change the other **Label** control to show the price of each item.
+1. Wiederholen Sie die vorherigen beiden Schritte, und passen Sie dabei das andere **Beschriftungssteuerelement** so an, dass für alle Elemente Preise angezeigt werden.
 
-    ![Add price](../media/add-price.png)
+    ![Hinzufügen des Preises](../media/add-price.png)
 
-It's that easy to change the layout of a gallery and the types of data that it shows. And you might find that it's fun too!
+Wie Sie sehen, können das Layout des Katalogs und die jeweiligen Datenkategorien ganz einfach angepasst werden. Vielleicht haben Sie sogar Spaß dabei.
 
-## Details screen
+## <a name="details-screen"></a>Detailbildschirm
 
-On the details screen, we want to change the order of the fields. The controls on this screen differ from the controls on the browse screen, so the process for changing them is also a little different.
+Wir möchten die Reihenfolge der Felder auf dem Detailbildschirm ändern. Die Steuerelemente auf diesem Bildschirm unterscheiden sich von den Steuerelementen auf dem Bildschirm zum Durchsuchen. Daher gibt es auch leichte Abweichungen im Änderungsprozess.
 
-1. On the **Screens** pane on the left, select **DetailForm1**.
+1. Klicken Sie im linken Bereich **Screens** (Bildschirme) auf **DetailForm1**.
 
-1. In the right pane, select the text that shows the number of selected fields.
+1. Wählen Sie im rechten Bereich den Text aus, mit dem die Anzahl der ausgewählten Felder angezeigt wird.
 
-    ![Select the text that shows the number of selected fields](../media/powerapps-edit-fields.png)
+    ![Auswählen des Texts, mit dem die Anzahl der ausgewählten Felder angezeigt wird](../media/powerapps-edit-fields.png)
 
-1. Drag the **Name** field to the top of the list of fields, and drag the **Image** field to the bottom.
+1. Ziehen Sie das Feld **Name** in den oberen Bereich der Felderliste, und ziehen Sie das Feld **Image** (Bild) nach unten.
 
-    ![Move fields on the details screen](../media/powerapps-move-fields.png)
+    ![Bewegen von Feldern auf dem Detailbildschirm](../media/powerapps-move-fields.png)
 
-## Edit/create screen
+## <a name="editcreate-screen"></a>Bildschirm zum Bearbeiten/Erstellen
 
-Finally, on the screen where your user edits and creates entries, we want to make it easier to enter information in a text box.
+Abschließend soll nun auf dem Bildschirm, auf dem Benutzer Einträge erstellen und bearbeiten, die Eingabe von Informationen im Textfeld erleichtert werden.
 
-1. On the **Screens** pane on the left, select **EditForm1**.
+1. Klicken Sie im linken Bereich **Screens** (Bildschirme) auf **EditForm1**.
 
-1. In the right pane, select the text that shows the number of selected fields.
+1. Wählen Sie im rechten Bereich den Text aus, mit dem die Anzahl der ausgewählten Felder angezeigt wird.
 
-1. Select the drop-down arrow for the **Overview** list, and then select **Edit multi-line text**.
+1. Klicken Sie zuerst auf den Dropdownpfeil der Liste **Overview** (Übersicht) und anschließend auf **Mehrzeiligen Text bearbeiten**.
 
-    A multi-line edit control will make it easier to add more than a few words in this field.
+    Mit dem Bearbeitungssteuerelement für mehrzeiligen Text wird die Eingabe längerer Texte vereinfacht.
 
-    ![Change the edit/create screen fields](../media/powerapps-change-editscreen.png)
+    ![Ändern von Feldern für den Bildschirm zum Erstellen/Bearbeiten](../media/powerapps-change-editscreen.png)
 
-You've seen how a few basic steps can do a lot to improve the appearance and experience of using an app. In this unit, we focused on PowerApps Studio, which provides lots of options for customizing apps. In the next unit, we'll explore the controls in the app in greater detail.
+Nun wissen Sie, wie die Darstellung und Benutzerfreundlichkeit einer erstellten App mit einigen grundlegenden Schritten erheblich verbessert werden kann. In dieser Einheit haben Sie sich auf die Anwendung PowerApps Studio konzentriert, die viele Optionen zum Anpassen von Apps bereitstellt. In der nächsten Einheit werden die Steuerelemente der App ausführlicher dargestellt.

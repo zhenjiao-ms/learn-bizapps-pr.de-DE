@@ -1,15 +1,19 @@
-### YamlMime:ModuleUnit 
+### YamlMime:ModuleUnit
 uid: learn-bizapps.powerapps-design-model-driven-apps.5-control-security-when-sharing-model-driven-apps
-title: Control security when sharing model-driven apps  
-metadata: 
-  title: Control security when sharing model-driven apps 
-  description: Control security when sharing model-driven apps
+title: Steuern der Sicherheit bei der Freigabe modellgesteuerter Apps
+metadata:
+  title: Steuern der Sicherheit bei der Freigabe modellgesteuerter Apps
+  description: Steuern der Sicherheit bei der Freigabe modellgesteuerter Apps
   ms.date: 09/24/2018
-  #TODO: Update with real author name.
   author: margoc
   ms.author: margoc
   ms.topic: interactive-tutorial
   ms.prod: learning-powerapps
-durationInMinutes: 10 
-content: | 
-  [!include[](includes/5-control-security-when-sharing-model-driven-apps.md)]  
+  ms.openlocfilehash: 30af8207469db6fc0fca1fc0046dc47f85e0e5cd
+  ms.sourcegitcommit: a6cdd11ea6d5cffdd264c005b6e2f15c00854553
+  ms.translationtype: HT
+  ms.contentlocale: de-DE
+  ms.lasthandoff: 09/10/2018
+  ms.locfileid: "44331682"
+durationInMinutes: 10
+content: '[!include[](includes/5-control-security-when-sharing-model-driven-apps.md)]'

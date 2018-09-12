@@ -1,27 +1,27 @@
-Microsoft PowerApps can help you out if you saved changes to an app that you shouldn't have or something else goes wrong. For apps that you save in the cloud, PowerApps keeps a history of the changes that you make. You can view each version that you've saved and restore your app to a previous version if necessary. If you shared the app, the people you shared it with will also receive the restored version if you publish the app again.
+Microsoft PowerApps kann Ihnen helfen, wenn Sie versehentlich Änderungen an einer App gespeichert haben oder ein anderes Problem auftritt. Bei Apps, die Sie in der Cloud speichern, protokolliert PowerApps den Verlauf der Änderungen, die Sie vornehmen. Sie können jede gespeicherte Version anzeigen und bei Bedarf eine frühere Version der App wiederherstellen. Bei freigegebenen Apps erhalten auch die Personen, für die Sie die App freigegeben haben, die wiederhergestellte Version.
 
-## View versions of your app
+## <a name="view-versions-of-your-app"></a>Anzeigen von verschiedenen Versionen Ihrer App
 
-1. On [web.powerapps.com](http://web.powerapps.com), select **Apps** near the left edge.
+1. Wählen Sie auf [web.powerapps.com](http://web.powerapps.com) am linken Rand die Option **Apps** aus.
 
-1. In the list of apps, elect an ellipsis (**...**), and then select **Details**.
+1. Klicken Sie in der Liste der Apps auf eine der Schaltflächen mit Auslassungspunkten (**...**), und wählen Sie dann **Details** aus.
 
-    ![View app versions](../media/powerapps-versions-details2.png)
+    ![Anzeigen von App-Versionen](../media/powerapps-versions-details2.png)
 
-1. Select the **Versions** tab.
+1. Klicken Sie auf die Registerkarte **Versionen**.
 
-    The tab shows all versions of your app that you saved as you developed the app.
+    Die Registerkarte zeigt alle Versionen Ihrer App an, die Sie beim Entwickeln der App gespeichert haben.
 
-## Restore a previous version
+## <a name="restore-a-previous-version"></a>Wiederherstellen einer vorherigen Version
 
-1. Select an ellipsis (**...**), and then select **Restore**.
+1. Klicken Sie auf eine der Schaltflächen mit Auslassungspunkten (**...**), und wählen Sie dann **Wiederherstellen** aus.
 
-    ![Restore version](../media/restore-version.png)
+    ![Version wiederherstellen](../media/restore-version.png)
 
-1. Select **Restore** again to confirm the action.
+1. Klicken Sie erneut auf **Wiederherstellen**, um den Vorgang zu bestätigen.
 
-    A new version is added to your list.
+    Der Liste wird eine neue Version hinzugefügt.
 
-When you restore a version of an app, the newly restored version gets a new, incremented version number and appears at the top of the list. A new version never overwrites a previous version.
+Wenn Sie eine App-Version wiederherstellen, erhält die zuletzt wiederhergestellte Version eine neue, inkrementierte Versionsnummer und wird oben in der Liste angezeigt. Eine neue Version überschreibt nie eine frühere Version.
 
-Now that you know how to view versions of your apps and restore them if necessary, let's move on to the next unit, where you'll learn how to share your apps.
+Jetzt wissen Sie, wie Sie App-Versionen abrufen und bei Bedarf wiederherstellen können. In der nächsten Einheit erfahren Sie, wie Sie Ihre Apps freigeben können.

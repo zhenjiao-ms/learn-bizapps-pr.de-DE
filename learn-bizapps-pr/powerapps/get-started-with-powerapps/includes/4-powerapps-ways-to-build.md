@@ -1,47 +1,47 @@
-Now that you know the basics, let's get to building an app in Microsoft PowerApps.
+Da Sie nun mit den Grundlagen vertraut sind, erstellen wir jetzt eine App in Microsoft PowerApps.
 
-## Ways to build PowerApps
-In this unit, we'll look at how to create an app from a sample app, a template, a shared app, or a data source. In the next unit, we'll get more hands-on with app creation.
+## <a name="ways-to-build-powerapps"></a>Erstellen von PowerApps-Apps
+In dieser Einheit wird erläutert, wie Sie eine App aus einer Beispiel-App, einer Vorlage, einer freigegebenen App oder einer Datenquelle erstellen. In der nächsten Einheit geht es dann um das Erstellen von Apps in der Praxis.
 
-### Check out some sample apps
-On [https://web.powerapps.com], you'll be greeted with several sample apps that you can use in your web browser. Explore these apps to quickly get a sense of what's possible and how PowerApps can help your business.
+### <a name="check-out-some-sample-apps"></a>Übersicht über Beispiel-Apps
+Unter [https://web.powerapps.com] werden Sie mit einer Reihe von Beispiel-Apps begrüßt, die Sie in Ihrem Webbrowser verwenden können. Sehen Sie sich diese Apps genauer an, um einen Eindruck von den Möglichkeiten zu erhalten, über die Ihr Unternehmen von PowerApps profitieren kann.
 
-![PowerApps sample apps](../media/powerapps-samples.png)
+![Beispiel-Apps für PowerApps](../media/powerapps-samples.png)
 
-Each sample app is designed for a specific purpose, such as:
+Jede Beispiel-App wurde für einen bestimmten Zweck entwickelt, z.B. für Folgendes:
 
-- Managing a budget.
-- Inspecting a site.
-- Tracking service tickets.
+- Verwalten eines Budgets
+- Überprüfen eines Standorts
+- Nachverfolgen eines Servicetickets
 
-These samples also contain sample data to inspire your thinking. For example, this app can help service representatives for a flooring company give accurate and immediate cost estimates when they visit customer locations.
+Diese Beispiele enthalten auch Beispieldaten – nutzen Sie diese als Inspiration! Diese App kann Servicevertreter eines Unternehmens für Bodenbeläge dabei unterstützen, beim Besuch an einem Kundenstandort sofort einen genauen Kostenvoranschlag auszustellen.
 
-![PowerApps flooring sample app](../media/powerapps-flooring-sample.png)
+![PowerApps-Beispiel-App für Bodenbeläge](../media/powerapps-flooring-sample.png)
 
-### Create an app from a template
-Another good way to create an app is to start from a template. Templates use sample data to help you get a sense of what's possible. By opening them in PowerApps Studio, you can learn hands-on how an app is built.
+### <a name="create-an-app-from-a-template"></a>Erstellen einer App aus einer Vorlage
+Eine weitere gute Möglichkeit zum Erstellen einer App ist das Verwenden einer Vorlage. Vorlagen verwenden Beispieldaten, damit Sie eine Vorstellung von den vorhandenen Möglichkeiten bekommen. Indem Sie eine Vorlage in PowerApps Studio öffnen, lernen Sie durch praktische Anwendung, wie eine App erstellt wird.
 
-![PowerApps app template](../media/powerapps-templates.png)
+![App-Vorlage in PowerApps](../media/powerapps-templates.png)
 
-For example, you can use the Budget Tracker template to create an app that helps you track the budget for projects and events, with custom categories, easy data entry, and visuals that highlight expenditures for easy inspection.
+Mit der Vorlage „Budget Tracker“ können Sie z.B. eine App erstellen, mit der Sie den Überblick über das Budget für Projekte und Veranstaltungen behalten. Dabei können Sie benutzerdefinierte Kategorien, eine einfache Dateneingabe und Visuals nutzen, die die Ausgaben zur einfachen Überprüfung hervorheben.
 
-![Budget Tracker template](../media/powerapps-budget-tracker.png)
+![Budget Tracker-Vorlage](../media/powerapps-budget-tracker.png)
 
-### Use shared apps
-If your team has started to use PowerApps, others might have shared apps with you already. If the app maker gave you permission to edit the app, it appears on web.powerapps.com, where you can open, customize, and share the app.
+### <a name="use-shared-apps"></a>Verwenden von freigegebenen Apps
+Falls Ihr Team mit dem Einsatz von PowerApps begonnen hat, wurden vielleicht schon Apps für Sie freigegeben. Wenn der Ersteller einer App Ihnen die Berechtigung erteilt hat, die App zu bearbeiten, wird diese in „web.powerapps.com“ angezeigt. Dort können Sie die App öffnen, anpassen und freigeben.
 
-### Create an app from a data source
-A great way to get started is to generate an app from your own data. Just point PowerApps at the data source of your choice (for example, a list in Microsoft SharePoint), and watch as PowerApps automatically builds a three-screen app.
+### <a name="create-an-app-from-a-data-source"></a>Erstellen einer App aus einer Datenquelle
+Eine hervorragende Möglichkeit für den Einstieg ist das Generieren einer App aus Ihren eigenen Daten. Geben Sie in PowerApps einfach die gewünschte Datenquelle an (z.B. eine Liste in Microsoft SharePoint), und sehen Sie zu, wie PowerApps automatisch eine App mit drei Bildschirmen erstellt.
 
-![PowerApps app from a data source](../media/powerapps-app-from-data.png)
+![PowerApps-App aus einer Datenquelle](../media/powerapps-app-from-data.png)
 
-This app was created from a SharePoint list and lets you browse items in the list, view item details, and create and edit items. After PowerApps generates an app, you can customize it to make it look and behave exactly the way you want.
+Diese App wurde aus einer SharePoint-Liste erstellt und ermöglicht Ihnen das Durchsuchen von Elementen in der Liste, das Anzeigen von Elementdetails und das Erstellen und Bearbeiten von Elementen. Nachdem PowerApps eine App generiert hat, können Sie damit beginnen, diese anzupassen, damit ihr Aussehen und Verhalten Ihren Anforderungen entspricht.
 
-![PowerApps three-screen app](../media/powerapps-three-screen-app.png)
+![PowerApps-App mit drei Bildschirmen](../media/powerapps-three-screen-app.png)
 
-### Build from the ground up
-You can also build an app from scratch and add all the pieces as you go. You can then branch out and let your imagination run wild. There will be plenty of that later in this module!
+### <a name="build-from-the-ground-up"></a>Neuerstellen von Apps
+Sie können eine App auch von Grund auf neu erstellen und nach und nach alle erforderlichen Elemente hinzufügen. Anschließend können Sie Ihrer Fantasie freien Lauf lassen. Im Verlauf dieses Moduls haben Sie dazu ausreichend Gelegenheit!
 
-The easiest way to learn about PowerApps is to start with a sample app, open a template, or connect to your data source and have PowerApps generate the app for you.
+Die einfachste Möglichkeit zum Kennenlernen von PowerApps besteht allerdings darin, mit einer Beispiel-App zu beginnen, eine Vorlage zu öffnen oder eine Verbindung mit Ihrer Datenquelle herzustellen und PowerApps das Generieren der App zu überlassen.
 
-In the next unit, you'll learn how to generate an app from data.
+In der nächsten Einheit erfahren Sie, wie Sie eine App aus Daten generieren.
