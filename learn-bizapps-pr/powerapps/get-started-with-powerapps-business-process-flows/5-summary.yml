@@ -1,0 +1,19 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.powerapps-business-process-flow.5-summary
+title: <span data-ttu-id="b1e87-101">Zusammenfassung</span><span class="sxs-lookup"><span data-stu-id="b1e87-101">Summary</span></span>
+metadata:
+  title: <span data-ttu-id="b1e87-102">Zusammenfassung</span><span class="sxs-lookup"><span data-stu-id="b1e87-102">Summary</span></span>
+  description: <span data-ttu-id="b1e87-103">Zusammenfassung</span><span class="sxs-lookup"><span data-stu-id="b1e87-103">Summary</span></span>
+  ms.date: 09/24/2018
+  author: margoc
+  ms.author: margoc
+  ms.topic: interactive-tutorial
+  ms.prod: learning-powerapps
+  ms.openlocfilehash: aea0a782e83e5f158917327deee8b51c0da0d4b0
+  ms.sourcegitcommit: a6cdd11ea6d5cffdd264c005b6e2f15c00854553
+  ms.translationtype: HT
+  ms.contentlocale: de-DE
+  ms.lasthandoff: 09/10/2018
+  ms.locfileid: "44331280"
+durationInMinutes: 2
+content: '[!include[](includes/5-summary.md)]'

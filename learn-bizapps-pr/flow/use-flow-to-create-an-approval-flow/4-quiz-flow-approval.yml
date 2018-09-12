@@ -1,0 +1,57 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.flow-create-approval.4-quiz-flow-approval
+title: <span data-ttu-id="ce642-101">Überprüfen Sie Ihre Kenntnisse</span><span class="sxs-lookup"><span data-stu-id="ce642-101">Check your knowledge</span></span>
+metadata:
+  title: '<span data-ttu-id="ce642-102">Wissenstest: Erstellen eines Genehmigungsflows</span><span class="sxs-lookup"><span data-stu-id="ce642-102">Knowledge check: Create an approval flow</span></span>'
+  description: <span data-ttu-id="ce642-103">Mit diesem Quiz testen Sie Ihr Wissen zum Erstellen eines Genehmigungsflows.</span><span class="sxs-lookup"><span data-stu-id="ce642-103">This quiz tests your knowledge of how to create an approval flow.</span></span>
+  ms.date: 09/24/2018
+  author: margoc
+  ms.author: margoc
+  ms.topic: interactive-tutorial
+  ms.prod: learning-flow
+  ms.openlocfilehash: 5b2a69640769d71984d60d14ed7de0f0ed2fa4cb
+  ms.sourcegitcommit: a6cdd11ea6d5cffdd264c005b6e2f15c00854553
+  ms.translationtype: HT
+  ms.contentlocale: de-DE
+  ms.lasthandoff: 09/10/2018
+  ms.locfileid: "44331405"
+durationInMinutes: 12
+quiz:
+  title: '<span data-ttu-id="ce642-104">Wissenstest: Erstellen eines Genehmigungsflows</span><span class="sxs-lookup"><span data-stu-id="ce642-104">Knowledge check: Create an approval flow</span></span>'
+  questions:
+  - content: <span data-ttu-id="ce642-105">Wo können Sie mit einem Genehmigungsflow beginnen?</span><span class="sxs-lookup"><span data-stu-id="ce642-105">Where can you start an approval flow?</span></span>
+    choices:
+    - content: <span data-ttu-id="ce642-106">Auf der Microsoft Flow-Website.</span><span class="sxs-lookup"><span data-stu-id="ce642-106">On the Microsoft Flow website.</span></span>
+      correctExplanation: <span data-ttu-id="ce642-107">Genehmigungsflows beginnen immer auf der Microsoft Flow-Website.</span><span class="sxs-lookup"><span data-stu-id="ce642-107">Approval flows always start on the Microsoft Flow website.</span></span>
+      isCorrect: true
+    - content: <span data-ttu-id="ce642-108">Über Twitter</span><span class="sxs-lookup"><span data-stu-id="ce642-108">From Twitter.</span></span>
+      incorrectExplanation: <span data-ttu-id="ce642-109">Flows können nicht über Social Media-Websites wie Twitter beginnen.</span><span class="sxs-lookup"><span data-stu-id="ce642-109">Flows can't be started from social media sites like Twitter.</span></span> <span data-ttu-id="ce642-110">In der Regel werden sie entweder über die Microsoft Flow-Website oder über die Mobile App für Microsoft Flow gestartet.</span><span class="sxs-lookup"><span data-stu-id="ce642-110">They're typically started from either the Microsoft Flow website or the Microsoft Flow mobile app.</span></span>
+      isCorrect: false
+    - content: <span data-ttu-id="ce642-111">In Microsoft SharePoint</span><span class="sxs-lookup"><span data-stu-id="ce642-111">In Microsoft SharePoint.</span></span>
+      incorrectExplanation: <span data-ttu-id="ce642-112">SharePoint kann in den Prozess eines Flows miteinbezogen werden, sie werden jedoch nicht in SharePoint erstellt.</span><span class="sxs-lookup"><span data-stu-id="ce642-112">SharePoint can be involved in a flow process, but it isn't where flows are created.</span></span>
+      isCorrect: false
+    - content: <span data-ttu-id="ce642-113">In Microsoft PowerApps Studio</span><span class="sxs-lookup"><span data-stu-id="ce642-113">In Microsoft PowerApps Studio.</span></span>
+      incorrectExplanation: <span data-ttu-id="ce642-114">In PowerApps Studio entwerfen Sie PowerApps-Apps.</span><span class="sxs-lookup"><span data-stu-id="ce642-114">PowerApps Studio is where you design PowerApps apps.</span></span> <span data-ttu-id="ce642-115">Damit erstellen Sie keine Flows.</span><span class="sxs-lookup"><span data-stu-id="ce642-115">It isn't where you create flows.</span></span>
+      isCorrect: false
+  - content: <span data-ttu-id="ce642-116">Welche der folgenden Aussagen über die in Flows verwendeten Connectors treffen zu?</span><span class="sxs-lookup"><span data-stu-id="ce642-116">Which of the following statements about the connectors used in flows is true?</span></span>
+    choices:
+    - content: <span data-ttu-id="ce642-117">Mit Connectors können Sie einen Flow starten.</span><span class="sxs-lookup"><span data-stu-id="ce642-117">Connectors let you start a flow.</span></span>
+      incorrectExplanation: <span data-ttu-id="ce642-118">Flows werden auf der Microsoft Flow-Website gestartet.</span><span class="sxs-lookup"><span data-stu-id="ce642-118">Flows are started on the Microsoft Flow website.</span></span> <span data-ttu-id="ce642-119">Connectors werden in der Regel verwendet, nachdem ein Flow erstellt wurde.</span><span class="sxs-lookup"><span data-stu-id="ce642-119">Typically, connectors are used after a flow is created.</span></span>
+      isCorrect: false
+    - content: <span data-ttu-id="ce642-120">Twitter ist ein Connector.</span><span class="sxs-lookup"><span data-stu-id="ce642-120">Twitter is a type of connector.</span></span>
+      correctExplanation: <span data-ttu-id="ce642-121">Twitter ist einer von vielen Connectors, die in Flows verwendet werden können.</span><span class="sxs-lookup"><span data-stu-id="ce642-121">Twitter is one of many connectors that can be used in flows.</span></span>
+      isCorrect: true
+    - content: <span data-ttu-id="ce642-122">Connectors verfügen über Aktionen und Prozeduren.</span><span class="sxs-lookup"><span data-stu-id="ce642-122">Connectors have actions and procedures.</span></span>
+      incorrectExplanation: <span data-ttu-id="ce642-123">Connectors verfügen über Aktionen und Auslöser.</span><span class="sxs-lookup"><span data-stu-id="ce642-123">Connectors have actions and triggers.</span></span>
+      isCorrect: false
+  - content: <span data-ttu-id="ce642-124">Wer kann Flows erstellen?</span><span class="sxs-lookup"><span data-stu-id="ce642-124">Who can create flows?</span></span>
+    choices:
+    - content: <span data-ttu-id="ce642-125">Nur ein Administrator kann einen Flow starten.</span><span class="sxs-lookup"><span data-stu-id="ce642-125">Only an admin can start a flow.</span></span>
+      incorrectExplanation: <span data-ttu-id="ce642-126">Jeder kann Flows erstellen.</span><span class="sxs-lookup"><span data-stu-id="ce642-126">Anyone can create flows.</span></span> <span data-ttu-id="ce642-127">Jedoch muss manchmal ein Administrator Flows verwalten.</span><span class="sxs-lookup"><span data-stu-id="ce642-127">But sometimes an admin must manage flows.</span></span>
+      isCorrect: false
+    - content: <span data-ttu-id="ce642-128">Nur jemand mit der mobilen App für Microsoft Flow kann einen Flow erstellen.</span><span class="sxs-lookup"><span data-stu-id="ce642-128">Only someone with the Microsoft Flow mobile app can create a flow.</span></span>
+      isCorrect: false
+      incorrectExplanation: <span data-ttu-id="ce642-129">Flows können sowohl über die Microsoft Flow-Website als auch über die mobile App erstellt werden.</span><span class="sxs-lookup"><span data-stu-id="ce642-129">Flows can be created from both the Microsoft Flow website and the mobile app.</span></span>
+    - content: <span data-ttu-id="ce642-130">Jeder kann einen Flow erstellen.</span><span class="sxs-lookup"><span data-stu-id="ce642-130">Anyone can create a flow.</span></span>
+      correctExplanation: <span data-ttu-id="ce642-131">Jeder, der über die richtigen Anmeldeinformationen verfügt, kann Flows erstellen.</span><span class="sxs-lookup"><span data-stu-id="ce642-131">Anyone with the correct credentials can create flows.</span></span>
+      isCorrect: true

@@ -1,0 +1,46 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.powerapps-design-model-driven-apps.6-knowledge-check
+metadata:
+  title: '<span data-ttu-id="97ed1-101">Wissenstest: Erste Schritte mit modellgesteuerten Apps</span><span class="sxs-lookup"><span data-stu-id="97ed1-101">Knowledge check: Get started in model-driven apps</span></span>'
+  description: <span data-ttu-id="97ed1-102">In diesem Quiz wird Ihr Wissen zu den ersten Schritten zum Erstellen modellgesteuerter Apps getestet.</span><span class="sxs-lookup"><span data-stu-id="97ed1-102">This quiz tests your knowledge of how to get started building model-driven apps.</span></span>
+  ms.date: 09/24/2018
+  author: margoc
+  ms.author: margoc
+  ms.topic: interactive-tutorial
+  ms.prod: learning-powerapps
+  ms.openlocfilehash: ca2393566430aa7d62e640280f762face9438c59
+  ms.sourcegitcommit: a6cdd11ea6d5cffdd264c005b6e2f15c00854553
+  ms.translationtype: HT
+  ms.contentlocale: de-DE
+  ms.lasthandoff: 09/10/2018
+  ms.locfileid: "44331711"
+title: <span data-ttu-id="97ed1-103">Überprüfen Sie Ihre Kenntnisse</span><span class="sxs-lookup"><span data-stu-id="97ed1-103">Check your knowledge</span></span>
+durationInMinutes: 5
+quiz:
+  title: '<span data-ttu-id="97ed1-104">Wissenstest: Erste Schritte mit modellgesteuerten Apps</span><span class="sxs-lookup"><span data-stu-id="97ed1-104">Knowledge check: Get started in model-driven apps</span></span>'
+  questions:
+  - content: <span data-ttu-id="97ed1-105">Welche der folgenden Aussagen über Entitäten trifft zu?</span><span class="sxs-lookup"><span data-stu-id="97ed1-105">Which of the following statements about entities is true?</span></span>
+    choices:
+    - content: <span data-ttu-id="97ed1-106">Entitäten sind Eigenschaften, die zur Definition eines Felds beitragen.</span><span class="sxs-lookup"><span data-stu-id="97ed1-106">Entities are properties that help define a field.</span></span>
+      incorrectExplanation: <span data-ttu-id="97ed1-107">Entitäten sind keine Eigenschaften.</span><span class="sxs-lookup"><span data-stu-id="97ed1-107">Entities aren't properties.</span></span> <span data-ttu-id="97ed1-108">Aber sie verfügen über Eigenschaften.</span><span class="sxs-lookup"><span data-stu-id="97ed1-108">But they have properties.</span></span>
+      isCorrect: false
+    - content: <span data-ttu-id="97ed1-109">Entitäten verfügen über Felder.</span><span class="sxs-lookup"><span data-stu-id="97ed1-109">Entities have fields.</span></span>
+      incorrectExplanation: <span data-ttu-id="97ed1-110">Entitäten verfügen nicht über Felder.</span><span class="sxs-lookup"><span data-stu-id="97ed1-110">Entities don't have fields.</span></span> <span data-ttu-id="97ed1-111">Eigenschaften verfügen über Felder.</span><span class="sxs-lookup"><span data-stu-id="97ed1-111">Properties have fields.</span></span>
+      isCorrect: false
+    - content: <span data-ttu-id="97ed1-112">Kontonamen sind ein Entitätstyp.</span><span class="sxs-lookup"><span data-stu-id="97ed1-112">Account names are a type of entity.</span></span>
+      correctExplanation: <span data-ttu-id="97ed1-113">Konten sind eine allgemeine Entität, die verwendet wird, um Kunden zu beschreiben.</span><span class="sxs-lookup"><span data-stu-id="97ed1-113">Accounts are a common entity that's used to describe customers.</span></span>
+      isCorrect: true
+    - content: <span data-ttu-id="97ed1-114">Mit Beziehungen wird ein Feld einer Eigenschaft zugeordnet.</span><span class="sxs-lookup"><span data-stu-id="97ed1-114">Relationships associate a field with a property.</span></span>
+      incorrectExplanation: <span data-ttu-id="97ed1-115">Beziehungen definieren, wie Entitäten miteinander verknüpft werden können.</span><span class="sxs-lookup"><span data-stu-id="97ed1-115">Relationships define how entities can be related to each other.</span></span> <span data-ttu-id="97ed1-116">Sie stellen keine Zusammenhänge zwischen Entitäten oder Feldern her.</span><span class="sxs-lookup"><span data-stu-id="97ed1-116">They don't relate entities or fields.</span></span>
+      isCorrect: false
+  - content: <span data-ttu-id="97ed1-117">Welche der folgenden Aussagen über die Sicherheit für modellgesteuerte Apps ist zutreffend?</span><span class="sxs-lookup"><span data-stu-id="97ed1-117">Which of the following statements about security for model-driven apps is true?</span></span>
+    choices:
+    - content: <span data-ttu-id="97ed1-118">Sicherheit basiert auf Microsoft SharePoint-Berechtigungen.</span><span class="sxs-lookup"><span data-stu-id="97ed1-118">Security is based on Microsoft SharePoint permissions.</span></span>
+      incorrectExplanation: <span data-ttu-id="97ed1-119">Sicherheit für modellgesteuerte Apps basiert auf Rollen, die eine Gruppe von Berechtigungen enthalten.</span><span class="sxs-lookup"><span data-stu-id="97ed1-119">Security for model-driven apps is built on roles that contain a set of privileges.</span></span>
+      isCorrect: false
+    - content: <span data-ttu-id="97ed1-120">Sicherheitsrollen können Teams zugewiesen werden.</span><span class="sxs-lookup"><span data-stu-id="97ed1-120">Security roles can be assigned to teams.</span></span>
+      correctExplanation: <span data-ttu-id="97ed1-121">Sicherheitsrollen können Teams und Einzelpersonen zugewiesen werden.</span><span class="sxs-lookup"><span data-stu-id="97ed1-121">Security roles can be assigned to teams and individuals.</span></span>
+      isCorrect: true
+    - content: <span data-ttu-id="97ed1-122">Sicherheitsrollen werden von Microsoft Windows definiert und können nicht geändert werden.</span><span class="sxs-lookup"><span data-stu-id="97ed1-122">Security roles are defined by Microsoft Windows and can't be changed.</span></span>
+      incorrectExplanation: <span data-ttu-id="97ed1-123">Sicherheitsrollen können angepasst werden.</span><span class="sxs-lookup"><span data-stu-id="97ed1-123">Security roles can be customized.</span></span>
+      isCorrect: false

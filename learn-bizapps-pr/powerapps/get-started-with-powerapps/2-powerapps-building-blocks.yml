@@ -1,0 +1,19 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.powerapps-get-started.2-powerapps-building-blocks
+title: <span data-ttu-id="9b19e-101">PowerApps-Bausteine</span><span class="sxs-lookup"><span data-stu-id="9b19e-101">PowerApps building blocks</span></span>
+metadata:
+  title: <span data-ttu-id="9b19e-102">PowerApps-Bausteine</span><span class="sxs-lookup"><span data-stu-id="9b19e-102">PowerApps building blocks</span></span>
+  description: <span data-ttu-id="9b19e-103">Informationen zu den Hauptkomponenten von PowerApps</span><span class="sxs-lookup"><span data-stu-id="9b19e-103">Learn about the main parts of PowerApps.</span></span>
+  ms.date: 09/24/2018
+  author: margoc
+  ms.author: margoc
+  ms.topic: interactive-tutorial
+  ms.prod: learning-powerapps
+  ms.openlocfilehash: f7486334c0880f6c91a7c3ce2d73227c60f4d1a9
+  ms.sourcegitcommit: a6cdd11ea6d5cffdd264c005b6e2f15c00854553
+  ms.translationtype: HT
+  ms.contentlocale: de-DE
+  ms.lasthandoff: 09/10/2018
+  ms.locfileid: "44331245"
+durationInMinutes: 5
+content: '[!include[](includes/2-powerapps-building-blocks.md)]'

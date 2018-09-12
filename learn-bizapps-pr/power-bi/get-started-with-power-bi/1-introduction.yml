@@ -1,0 +1,19 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.get-started-with-power-bi.1-introduction
+metadata:
+  title: <span data-ttu-id="c0a5a-101">Einführung</span><span class="sxs-lookup"><span data-stu-id="c0a5a-101">Introduction</span></span>
+  description: <span data-ttu-id="c0a5a-102">Einführung</span><span class="sxs-lookup"><span data-stu-id="c0a5a-102">Introduction</span></span>
+  ms.date: 09/24/2018
+  author: margoc
+  ms.author: margoc
+  ms.topic: interactive-tutorial
+  ms.prod: learning-powerbi
+  ms.openlocfilehash: 1f8479ccad2228795f59d2cdb9e32660f9fb7b32
+  ms.sourcegitcommit: 88398f21cabb7c194b4292d6f3a4a10049eab76d
+  ms.translationtype: HT
+  ms.contentlocale: de-DE
+  ms.lasthandoff: 09/12/2018
+  ms.locfileid: "44500444"
+title: <span data-ttu-id="c0a5a-103">Einführung</span><span class="sxs-lookup"><span data-stu-id="c0a5a-103">Introduction</span></span>
+durationInMinutes: 6
+content: '[!include[](includes/1-introduction.md)]'

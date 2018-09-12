@@ -1,0 +1,19 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.build-your-first-report.5-exercise-share-a-power-bi-report
+metadata:
+  title: '<span data-ttu-id="216aa-101">Übung: Freigeben eines Power BI-Berichts</span><span class="sxs-lookup"><span data-stu-id="216aa-101">Exercise - Share a Power BI report</span></span>'
+  description: '<span data-ttu-id="216aa-102">Übung: Freigeben eines Power BI-Berichts</span><span class="sxs-lookup"><span data-stu-id="216aa-102">Exercise - Share a Power BI report</span></span>'
+  ms.date: 09/24/2018
+  author: margoc
+  ms.author: margoc
+  ms.topic: interactive-tutorial
+  ms.prod: learning-powerbi
+  ms.openlocfilehash: c4028f7dcca8702a3557103023a02de224380da6
+  ms.sourcegitcommit: 88398f21cabb7c194b4292d6f3a4a10049eab76d
+  ms.translationtype: HT
+  ms.contentlocale: de-DE
+  ms.lasthandoff: 09/12/2018
+  ms.locfileid: "44500470"
+title: '<span data-ttu-id="216aa-103">Übung: Freigeben eines Power BI-Berichts</span><span class="sxs-lookup"><span data-stu-id="216aa-103">Exercise - Share a Power BI report</span></span>'
+durationInMinutes: 5
+content: '[!include[](includes/5-exercise-share-a-power-bi-report.md)]'

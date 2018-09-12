@@ -1,0 +1,36 @@
+### YamlMime:Module
+uid: learn-bizapps.business-process-flow
+metadata:
+  title: Erste Schritte mit Geschäftsprozessflows
+  description: Geschäftsprozessflows stellen sicher, dass Benutzer Daten konsistent eingeben und immer dann, wenn sie mit einem Kunden arbeiten, die gleichen Schritte ausführen. Geschäftsprozessflows verwenden die gleiche zugrunde liegende Technologie wie andere Prozesse, aber sie bieten Funktionen, die sich sehr von anderen Funktionen unterscheiden, die Prozesse verwenden.
+  ms.date: 09/24/2018
+  author: margoc
+  ms.author: margoc
+  ms.topic: interactive-tutorial
+  ms.prod: learning-powerapps
+  ms.openlocfilehash: 2b66392096c87599d46b63d69da73471983b1fe2
+  ms.sourcegitcommit: a6cdd11ea6d5cffdd264c005b6e2f15c00854553
+  ms.translationtype: HT
+  ms.contentlocale: de-DE
+  ms.lasthandoff: 09/10/2018
+  ms.locfileid: "44331295"
+title: Erste Schritte mit Geschäftsprozessflows
+summary: Geschäftsprozessflows stellen sicher, dass Daten konsistent eingegeben werden.
+abstract: Geschäftsprozessflows stellen sicher, dass Benutzer Daten konsistent eingeben und immer dann, wenn sie mit einem Kunden arbeiten, die gleichen Schritte ausführen. Geschäftsprozessflows verwenden die gleiche zugrunde liegende Technologie wie andere Prozesse, aber sie bieten Funktionen, die sich sehr von anderen Funktionen unterscheiden, die Prozesse verwenden.
+prerequisites: Keine
+iconUrl: http://via.placeholder.com/120x120
+levels:
+- beginner
+roles:
+- business-user
+products:
+- bizapps-d365
+- bizapps-flow
+- bizapps-power-apps
+units:
+- learn-bizapps.powerapps-business-process-flow.1-introduction
+- learn-bizapps.powerapps-business-process-flow.2-create-a-business-flow-app
+- learn-bizapps.powerapps-business-process-flow.3-enhance-a-business-process-flow-with-branching
+- learn-bizapps.powerapps-business-process-flow.4-knowledge-check
+- learn-bizapps.powerapps-business-process-flow.5-summary
+achievement: learn.powerapps-business-process-flow.badge

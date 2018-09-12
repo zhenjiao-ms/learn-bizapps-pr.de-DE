@@ -1,0 +1,19 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.flow-create-approval.2-process-approval-request
+title: <span data-ttu-id="cedc2-101">Verarbeiten einer Genehmigungsanforderung</span><span class="sxs-lookup"><span data-stu-id="cedc2-101">Process an approval request</span></span>
+metadata:
+  title: <span data-ttu-id="cedc2-102">Verarbeiten einer Genehmigungsanforderung</span><span class="sxs-lookup"><span data-stu-id="cedc2-102">Process an approval request</span></span>
+  description: <span data-ttu-id="cedc2-103">Erfahren Sie, wie Sie eine Genehmigungsanforderung verarbeiten.</span><span class="sxs-lookup"><span data-stu-id="cedc2-103">Learn how to process an approval request.</span></span>
+  ms.date: 09/24/2018
+  author: margoc
+  ms.author: margoc
+  ms.topic: interactive-tutorial
+  ms.prod: learning-flow
+  ms.openlocfilehash: 32e0c444d7102ad1c92ad592bf82b292f95851e2
+  ms.sourcegitcommit: a6cdd11ea6d5cffdd264c005b6e2f15c00854553
+  ms.translationtype: HT
+  ms.contentlocale: de-DE
+  ms.lasthandoff: 09/10/2018
+  ms.locfileid: "44330168"
+durationInMinutes: 15
+content: '[!include[](includes/2-process-approval-request.md)]'

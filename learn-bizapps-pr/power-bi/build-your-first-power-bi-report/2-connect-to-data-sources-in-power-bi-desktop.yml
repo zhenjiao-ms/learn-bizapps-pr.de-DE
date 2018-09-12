@@ -1,0 +1,19 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.build-your-first-report.2-connect-to-data-sources-in-power-bi-desktop
+metadata:
+  title: <span data-ttu-id="06b1f-101">Herstellen einer Verbindung mit einer Datenquelle in Power BI Desktop</span><span class="sxs-lookup"><span data-stu-id="06b1f-101">Connect to data source in Power BI desktop</span></span>
+  description: <span data-ttu-id="06b1f-102">Herstellen einer Verbindung mit einer Datenquelle in Power BI Desktop</span><span class="sxs-lookup"><span data-stu-id="06b1f-102">Connect to data source in Power BI desktop</span></span>
+  ms.date: 09/24/2018
+  author: margoc
+  ms.author: margoc
+  ms.topic: interactive-tutorial
+  ms.prod: learning-powerbi
+  ms.openlocfilehash: b223eb69ff729a949a7c490fcec437b5b1069405
+  ms.sourcegitcommit: 88398f21cabb7c194b4292d6f3a4a10049eab76d
+  ms.translationtype: HT
+  ms.contentlocale: de-DE
+  ms.lasthandoff: 09/12/2018
+  ms.locfileid: "44500570"
+title: <span data-ttu-id="06b1f-103">Herstellen einer Verbindung mit einer Datenquelle in Power BI Desktop</span><span class="sxs-lookup"><span data-stu-id="06b1f-103">Connect to data source in Power BI desktop</span></span>
+durationInMinutes: 5
+content: '[!include[](includes/2-connect-to-data-sources-in-power-bi-desktop.md)]'
