@@ -1,27 +1,25 @@
 ### YamlMime:LearningPath
 uid: learn-bizapps.automate-process-using-flow
-metadata:
-  title: Automate a business process using Flow
-  description: This learning path introduces you to Microsoft Flow, and teaches you how to build two types of business workflows. 
-  ms.date: 09/24/2018
-  #TODO: Update with real author name.
-  author: margoc
-  ms.author: margoc
-  ms.topic: interactive-tutorial
-  ms.prod: learning-flow
-title: Automate a business process using Flow
-summary: This learning path introduces you to Microsoft Flow, and teaches you how to build two types of business workflows. 
-prerequisites: |
-  - Familiarity with SharePoint, OneDrive, and Excel. 
-#TODO: Update with real image.
+title: Automatisieren eines Unternehmensprozesses mithilfe von Flow
+summary: In diesem Lernpfad erhalten Sie Informationen zu Microsoft Flow und zum Erstellen von zwei Arten von Unternehmensworkflows.
+cardDescription: Erstellen von Flows mit SharePoint und Excel
 iconUrl: http://via.placeholder.com/120x120
 levels:
 - beginner
 roles:
 - business-user
 products:
-- bizapps
 - bizapps-flow
+prerequisites: In diesem Lernpfad wird vorausgesetzt, dass Sie sich mit OneDrive, SharePoint und Excel auskennen.
+metadata:
+  title: Automatisieren eines Unternehmensprozesses mithilfe von Flow
+  description: In diesem Lernpfad erhalten Sie Informationen zu Microsoft Flow und zum Erstellen von zwei Arten von Unternehmensworkflows.
+  ms.openlocfilehash: 993fdaee3813c408d0bdb8dd18130a958b29f092
+  ms.sourcegitcommit: d2e8b297a840d5958013d9a61963ce41c6b4ed22
+  ms.translationtype: HT
+  ms.contentlocale: de-DE
+  ms.lasthandoff: 09/06/2018
+  ms.locfileid: "43848566"
 modules:
 - learn-bizapps.flow-create-approval
 - learn-bizapps.flow-get-started
