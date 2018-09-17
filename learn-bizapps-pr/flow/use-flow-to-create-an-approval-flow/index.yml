@@ -8,17 +8,22 @@ metadata:
   ms.author: margoc
   ms.topic: interactive-tutorial
   ms.prod: learning-flow
-  ms.openlocfilehash: fbfb68fde96d7e393f24ca6746e7365a2667dc0b
-  ms.sourcegitcommit: a6cdd11ea6d5cffdd264c005b6e2f15c00854553
+  ms.openlocfilehash: 2235971a0907a9c22fb58b29a54844c5f3a867dd
+  ms.sourcegitcommit: 19236e5c58c29cfa95f8c68b280c7234cdfaf7e2
   ms.translationtype: HT
   ms.contentlocale: de-DE
-  ms.lasthandoff: 09/10/2018
-  ms.locfileid: "44330972"
+  ms.lasthandoff: 09/14/2018
+  ms.locfileid: "45600688"
 title: Erstellen eines Genehmigungsflows
-summary: In diesem Modul erfahren Sie grundlegendes zum Erstellen eines Genehmigungsflows.
-abstract: In diesem Modul erfahren Sie, wie Sie einen Genehmigungsflow erstellen, der eine SharePoint-Liste verwendet. Sie erfahren, wie Sie eine SharePoint-Liste erstellen, für die Benutzer Twitter-Tweets vorschlagen können, die später genehmigt und veröffentlicht werden können.
+summary: Lernen Sie die Grundlagen für das Erstellen eines Genehmigungsflows für eine SharePoint-Liste kennen.
+abstract: >
+  In diesem Modul erfahren Sie,
+
+  - Wie Sie einen einfachen Flow erstellen, der E-Mail-Anlagen in Ihrem Microsoft OneDrive for Business-Konto speichert
+
+  - Wie Sie einen komplizierteren Flow erstellen, der eine Microsoft SharePoint-Liste verwendet, in der Mitarbeiter Tweets vorschlagen können, die nach ihrer Genehmigung automatisch im Twitter-Konto des Unternehmens gepostet werden
 prerequisites: Keine
-iconUrl: http://via.placeholder.com/120x120
+iconUrl: /learn/achievements/use-flow-to-create-an-approval-flow.svg
 levels:
 - beginner
 roles:

@@ -7,20 +7,25 @@ metadata:
   author: margoc
   ms.author: margoc
   ms.topic: interactive-tutorial
-  ms.prod: learning-powerbi
-  ms.openlocfilehash: 7d2f9df7d86bb81bc298395115a0df1a4bb1d7b5
-  ms.sourcegitcommit: 88398f21cabb7c194b4292d6f3a4a10049eab76d
+  ms.prod: learning-power-bi
+  ms.openlocfilehash: 433b4027cbbc72d89e7956386b95ef204eeacce6
+  ms.sourcegitcommit: 19236e5c58c29cfa95f8c68b280c7234cdfaf7e2
   ms.translationtype: HT
   ms.contentlocale: de-DE
-  ms.lasthandoff: 09/12/2018
-  ms.locfileid: "44500625"
+  ms.lasthandoff: 09/14/2018
+  ms.locfileid: "45600780"
 title: Erstellen und Freigeben Ihres ersten Power BI-Berichts
-summary: Es wird beschrieben, wie Sie in Power BI einen Bericht erstellen und den Bericht für andere Personen freigeben.
-abstract: Mit Power BI können Sie ansprechende visuelle Elemente und Berichte erstellen. In diesem Modul wird beschrieben, wie Sie Power BI Desktop zum Herstellen einer Verbindung mit Daten, Erstellen von visuellen Elementen und Erstellen eines Berichts verwenden, den Sie für andere Personen in Ihrer Organisation freigeben können. Anschließend erfahren Sie, wie Sie den Bericht für den Power BI-Dienst veröffentlichen und Ihre Erkenntnisse und die sich ergebenden Vorteile aus Ihrer Arbeit anderen Personen zugänglich machen können.
+summary: Mit Power BI können Sie ansprechende visuelle Elemente und Berichte erstellen. In diesem Modul wird beschrieben, wie Sie Power BI Desktop zum Herstellen einer Verbindung mit Daten, Erstellen von visuellen Elementen und Erstellen eines Berichts verwenden, den Sie für andere Personen in Ihrer Organisation freigeben können. Anschließend erfahren Sie, wie Sie den Bericht für den Power BI-Dienst veröffentlichen und Ihre Erkenntnisse und die sich ergebenden Vorteile aus Ihrer Arbeit anderen Personen zugänglich machen können.
+abstract: >
+  In diesem Modul erfahren Sie,
+
+  - Wie Sie einen Bericht in Power BI erstellen
+
+  - Wie Sie Power BI-Berichte freigeben
 prerequisites: Keine
-iconUrl: http://via.placeholder.com/120x120
+iconUrl: /learn/achievements/build-your-first-power-bi-report.svg
 levels:
-- intermediate
+- beginner
 roles:
 - business-analyst
 products:

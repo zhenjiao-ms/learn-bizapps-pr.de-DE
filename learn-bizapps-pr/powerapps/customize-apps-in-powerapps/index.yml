@@ -8,34 +8,34 @@ metadata:
   ms.author: margoc
   ms.topic: interactive-tutorial
   ms.prod: learning-powerapps
-  ms.openlocfilehash: 855ecc9ef68f29e33a6f68295700db0e2149a4cf
-  ms.sourcegitcommit: a6cdd11ea6d5cffdd264c005b6e2f15c00854553
+  ms.openlocfilehash: ed28032ad20e58e8ab9af1b1d19e1a9227ba0f1c
+  ms.sourcegitcommit: 19236e5c58c29cfa95f8c68b280c7234cdfaf7e2
   ms.translationtype: HT
   ms.contentlocale: de-DE
-  ms.lasthandoff: 09/10/2018
-  ms.locfileid: "44331285"
+  ms.lasthandoff: 09/14/2018
+  ms.locfileid: "45600596"
 title: Anpassen einer App
 summary: Finden Sie heraus, wie Sie eine App anpassen, indem Sie Steuerelemente, Bilder und Logik hinzufügen.
 abstract: >
-  Aufgaben in diesem Modul:
+  In diesem Modul erfahren Sie,
 
-  - Ändern Sie das Layout eines Katalogs.
+  - Wie Sie das Layout eines Katalogs ändern
 
-  - Ändern Sie die Daten, die von einem Steuerelement angezeigt werden.
+  - Wie Sie die Daten ändern, die von einem Steuerelement angezeigt werden
 
-  - Ändern Sie die Reihenfolge, in der Felder angezeigt werden.
+  - Wie Sie die Reihenfolge ändern, in der Felder angezeigt werden
 
-  - Ändern Sie das Steuerelement, mit dem ein Benutzer Informationen bereitstellt.
+  - Wie Sie das Steuerelement ändern, mit dem ein Benutzer Informationen bereitstellt
 
-  - Erkunden Sie die Steuerelemente jedes Bildschirms einer App.
+  - Welche Steuerelemente auf den einzelnen Bildschirmen einer App angezeigt werden
 
-  - Formatieren Sie eine Zahl als Preis.
+  - Wie Sie eine Zahl als Preis formatieren
 
-  - Weisen Sie Preisen basierend auf ihren Werten unterschiedliche Farben zu.
+  - Wie Sie Preisen auf Grundlage ihrer Werte unterschiedliche Farben zuweisen
 
-  - Erkunden Sie Formeln in einer generierten App.
+  - Welche Formeln generierte Apps umfassen
 prerequisites: Keine
-iconUrl: http://via.placeholder.com/120x120
+iconUrl: /learn/achievements/customize-apps-in-powerapps.svg
 levels:
 - beginner
 roles:
