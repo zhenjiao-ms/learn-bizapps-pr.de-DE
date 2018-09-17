@@ -35,6 +35,6 @@ products:
 units:
 - learn-bizapps.flow-create-approval.1-create-approval-request
 - learn-bizapps.flow-create-approval.2-process-approval-request
-- learn-bizapps.flow-create-approval.3-flow-review
-- learn-bizapps.flow-create-approval.4-quiz-flow-approval
+- learn-bizapps.flow-create-approval.3-quiz-flow-approval
+- learn-bizapps.flow-create-approval.4-summary-cleanup
 achievement: learn.flow-create-approval.badge
