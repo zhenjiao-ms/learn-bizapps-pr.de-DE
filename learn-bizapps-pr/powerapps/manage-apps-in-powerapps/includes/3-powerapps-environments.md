@@ -2,7 +2,7 @@ Eine Umgebung ist ein Container für Apps und andere Ressourcen wie Datenverbind
 
 ![Umgebungsauswahl](../media/powerapps-environments2.png)
 
-Wenn Sie dieses Modul bis hierhin gelesen haben, haben Sie bereits einige Zeit auf „web.powerapps.com“ gearbeitet. Bewusst oder unbewusst haben Sie dabei die ganze Zeit in einer Umgebung gearbeitet.
+Wenn Sie dieses Modul bis hierhin gelesen haben, haben Sie bereits einige Zeit auf https://web.powerapps.com gearbeitet. Bewusst oder unbewusst haben Sie dabei die ganze Zeit in einer Umgebung gearbeitet.
 
 In der oberen rechten Ecke der Homepage von „web.powerapps.com“ können Sie sehen, in welcher Umgebung Sie sich aktuell befinden.
 
@@ -16,8 +16,8 @@ Wenn Sie noch nicht viel mit Microsoft PowerApps gearbeitet haben, wird hier ver
 Es gibt verschiedene Gründe dafür, neben der Standardumgebung weitere Umgebungen zu erstellen:
 
 - **Trennen der App-Entwicklung nach Abteilungen**: In einem großen Unternehmen kann jede Abteilung in einer anderen Umgebung arbeiten. Auf diese Weise werden den Mitarbeitern in einer Abteilung nur die Apps und Unternehmensdaten angezeigt, die deren Anforderungen entsprechen.
-- **Unterstützen von Application Lifecycle Management (ALM)**: Mit separaten Umgebungen können Sie Apps, die sich in den Entwicklungsphasen befinden, von denen trennen, die bereits freigegeben wurden. Alternativ kann eine Testumgebung von Vorteil sein, damit Sie Feedback von Mitarbeitern erhalten können, bevor Sie die endgültige App bereitstellen. Für einige Unternehmen kann das Anzeigen von Apps, bevor diese vollständig entwickelt und veröffentlicht wurden, zu Sicherheitsproblemen führen.
-- **Verwalten des Zugriffs auf Daten**: Jede Umgebung kann über eine eigene Quelle von Unternehmensdaten verfügen, die als Common Data Service-Datenbank für Apps bezeichnet wird. Andere Datenverbindungen sind spezifisch für eine Umgebung und können nicht umgebungsübergreifend freigegeben werden.
+- **Unterstützen von Application Lifecycle Management (ALM):** Mit separaten Umgebungen können Sie Apps, die sich in den Entwicklungsphasen befinden, von denen trennen, die bereits freigegeben wurden. Alternativ kann eine Testumgebung von Vorteil sein, damit Sie Feedback von Mitarbeitern erhalten können, bevor Sie die endgültige App bereitstellen. Für einige Unternehmen kann das Anzeigen von Apps, bevor diese vollständig entwickelt und veröffentlicht wurden, zu Sicherheitsproblemen führen.
+- **Verwalten des Zugriffs auf Daten:** Jede Umgebung kann über eine eigene Quelle von Unternehmensdaten verfügen, die als Common Data Service-Datenbank für Apps bezeichnet wird. Andere Datenverbindungen sind spezifisch für eine Umgebung und können nicht umgebungsübergreifend freigegeben werden.
 
 > [!NOTE]
 > Beachten Sie, dass Umgebungen nur für App-Ersteller und PowerApps-Administratoren relevant sind. Wenn Sie eine App für Benutzer freigeben, können diese Benutzer die App einfach ausführen, vorausgesetzt, sie verfügen über die erforderlichen Berechtigungen. Sie müssen sich keine Gedanken darüber machen, aus welcher Umgebung die App stammt.

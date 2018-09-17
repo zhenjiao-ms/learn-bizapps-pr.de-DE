@@ -6,12 +6,12 @@ In der ersten Einheit haben Sie die wichtigsten Komponenten von Microsoft PowerA
 * **PowerApps Admin Center**: Verwalten Sie PowerApps-Umgebungen und anderen Komponenten.
 
 ## <a name="webpowerappscom"></a>web.powerapps.com
-Hier ist Ihr Startpunkt zum Erstellen von Apps. Sie können Apps aus Beispiel-Apps, Vorlagen oder einem leeren Bereich erstellen. Alle von Ihnen erstellten Apps sowie alle Apps, die von anderen Personen erstellt und für Sie freigegeben wurden, werden hier angezeigt.
+Beim Erstellen einer App beginnen Sie hier. Sie können Apps aus Beispiel-Apps, Vorlagen oder einem leeren Bereich erstellen. Alle von Ihnen erstellten Apps sowie alle Apps, die von anderen Personen erstellt und für Sie freigegeben wurden, werden hier angezeigt.
 
 ![Die Website „web.powerapps.com“](../media/powerapps-homepage5.png)
 
 ## <a name="powerapps-studio"></a>PowerApps Studio
-In PowerApps Studio füllen Sie Ihre Apps mit Inhalten, um sie zu effektiven und attraktiven Geschäftstools zu entwickeln. PowerApps Studio enthält drei Bereiche, durch die das Erstellen von Apps mit dem Erstellen einer Foliengruppe in Microsoft PowerPoint vergleichbar ist:
+In PowerApps Studio gestalten Sie Ihre Apps, um aus diesen effektive und attraktive Geschäftstools zu entwickeln. PowerApps Studio enthält drei Bereiche, durch die das Erstellen von Apps mit dem Erstellen einer Foliengruppe in Microsoft PowerPoint vergleichbar ist:
 
 - Im linken Bereich wird eine hierarchische Ansicht aller Steuerelemente auf jedem Bildschirm bzw. eine Miniaturansicht für jeden Bildschirm in Ihrer App angezeigt.
 - Im mittleren Bereich wird die App angezeigt, an der Sie gerade arbeiten.
@@ -25,7 +25,7 @@ PowerApps Mobile für Windows-, iOS- und Android-Geräte bietet eine Umgebung, i
 ![PowerApps Mobile](../media/powerapps-mobile.png)
 
 ## <a name="admin-center"></a>Admin Center
-Das PowerApps Admin Center ist der zentrale Ort zum Verwalten von PowerApps für ein Unternehmen. Hier definieren Sie verschiedene Umgebungen, die die Apps enthalten und in denen Sie Datenverbindungen und andere Elemente definieren. Im Admin Center werden ebenfalls Berechtigungen und Datenrichtlinien verwaltet.
+Das PowerApps Admin Center ist der zentrale Ort zum Verwalten von PowerApps für ein Unternehmen. Auf dieser Seite können Sie unterschiedliche Umgebungen definieren, die die Apps enthalten. Sie können ebenfalls Datenverbindungen und andere Elemente definieren. Im Admin Center werden ebenfalls Berechtigungen und Datenrichtlinien verwaltet.
 
 ![PowerApps Admin Center](../media//powerapps-admin.png)
 

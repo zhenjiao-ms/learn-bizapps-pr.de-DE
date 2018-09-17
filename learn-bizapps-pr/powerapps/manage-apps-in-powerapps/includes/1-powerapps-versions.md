@@ -4,9 +4,13 @@ Microsoft PowerApps kann Ihnen helfen, wenn Sie versehentlich Änderungen an ein
 
 1. Wählen Sie auf [web.powerapps.com](http://web.powerapps.com) am linken Rand die Option **Apps** aus.
 
-1. Klicken Sie in der Liste der Apps auf eine der Schaltflächen mit Auslassungspunkten (**...**), und wählen Sie dann **Details** aus.
+<<<<<<< KOPFTEIL
+1. Klicken Sie in der Liste der Apps auf die Auslassungspunkte (**...**) und dann auf **Details**.
+=======
+1. Klicken Sie in der Liste der Apps auf die Auslassungspunkte (**...**) und dann auf **Details**.
+>>>>>>> master
 
-    ![Anzeigen von App-Versionen](../media/powerapps-versions-details2.png)
+    ![View app versions](../media/powerapps-versions-details2.png)
 
 1. Klicken Sie auf die Registerkarte **Versionen**.
 

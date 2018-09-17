@@ -24,7 +24,7 @@ Im Folgenden erstellen Sie zunächst die SharePoint-Liste.
 ## <a name="step-two-create-an-approval-request-flow"></a>Schritt 2: Erstellen eines Flows für die Genehmigungsanforderung
 1. Klicken Sie auf der Microsoft Flow-Startseite auf **Genehmigungen**.
 
-1. Klicken Sie auf **Genehmigungsflow erstellen**, scrollen Sie nach unten, und klicken Sie auf die Vorlage **Listenelemente nach Genehmigung in Twitter posten**. 
+1. Klicken Sie auf ****Genehmigungsflow erstellen**, scrollen Sie nach unten, und klicken Sie auf die Vorlage **Listenelemente nach Genehmigung in Twitter posten**. 
 
     ![Auswählen der Vorlage](../media/create-approval.png)
 
@@ -34,8 +34,8 @@ Im Folgenden erstellen Sie zunächst die SharePoint-Liste.
 
 1. Geben Sie in Microsoft Flow in der Aktion **Wenn ein neues Element erstellt wird** die folgenden Werte ein:
 
-    * **Websiteadresse**: Geben Sie die SharePoint-Website-URL Ihres Teams ein.
-    * **Listenname**: Geben Sie „Contoso-Tweets“ ein.
+    * **Websiteadresse:** Geben Sie die SharePoint-Website-URL Ihres Teams ein.
+    * **Listenname:** Geben Sie *Contoso-Tweets* ein.
 
     ![Websiteadresse und Listenname](../media/site-address.png)
 
@@ -43,7 +43,7 @@ Im Folgenden erstellen Sie zunächst die SharePoint-Liste.
 
     ![Bearbeiten von Feldern](../media/edit-all-fields.png)
 
-1. Geben Sie bei **Titel** „Neuer Tweet für“ ein, und wählen Sie dann **Titel** in der Liste für dynamische Inhalte aus. 
+1. Geben Sie *Neuer Tweet für* als **Titel** ein, und wählen Sie dann **Titel** in der Liste für dynamische Inhalte aus. 
 
     ![Titel](../media/tweet-title.png)
 
@@ -51,11 +51,11 @@ Im Folgenden erstellen Sie zunächst die SharePoint-Liste.
 
     ![Zugewiesen an](../media/tweet-assigned-to.png)
 
-1. Entfernen Sie bei **Details** die Standardelemente, und fügen Sie **Tweetinhalt**, **Tweetdatum** und **Erstellt von Anzeigename** aus der Liste für dynamische Inhalte hinzu. Achten Sie bei der Eingabe darauf, Bezüge durch Wörter wie „von“ deutlich zu machen, damit der Inhalt leichter verständlich ist. 
+1. Entfernen Sie bei **Details** die Standardelemente, und fügen Sie **Tweetinhalt**, **Tweetdatum** und **Erstellt von Anzeigename** aus der Liste für dynamische Inhalte hinzu. Achten Sie bei der Eingabe darauf, Bezüge durch Wörter wie *von* deutlich zu machen, damit der Inhalt leichter verständlich ist. 
 
     ![Details](../media/tweet-details.png)
 
-1. Fügen Sie bei **Elementlink** die URL der SharePoint-Liste ein, die Sie in Schritt 1 kopiert haben. Geben Sie bei **Beschreibung des Elementlinks** „Contoso-Tweetliste“ ein. 
+1. Fügen Sie bei **Elementlink** die URL der SharePoint-Liste ein, die Sie in **Schritt 1** kopiert haben. Geben Sie *Contoso-Tweetliste* als **Beschreibung des Elementlinks** ein. 
 
     ![Elementlink](../media/tweet-item-link.png)
 
@@ -63,15 +63,15 @@ Im Folgenden erstellen Sie zunächst die SharePoint-Liste.
 
     ![Hinzufügen einer Aktion](../media/add-an-action.png)
 
-1. Suchen Sie nach „Element aktualisieren“, und klicken Sie anschließend zuerst auf den **SharePoint**-Connector dann auf die Aktion **SharePoint – Element aktualisieren**.
+1. Suchen Sie nach *Element aktualisieren*, und klicken Sie anschließend zuerst auf den **SharePoint-Connector** und dann auf die Aktion **SharePoint – Element aktualisieren**.
 
     ![SharePoint – Element aktualisieren](../media/update-item.png)
 
-1. Geben Sie bei **Websiteadresse** und **Listenname** erneut die SharePoint-Website-URL des Teams und „Contoso-Tweets“ ein. Fügen Sie bei **ID** die **ID** aus der Liste für dynamische Inhalte hinzu. Mit dem **ID**-Feld wird versucht, für die Anforderung für den eigentlichen Tweet in der SharePoint-Liste eine Übereinstimmung zu ermitteln.
+1. Geben Sie bei **Websiteadresse** und **Listenname** erneut die SharePoint-Website-URL des Teams und *Contoso-Tweets* ein. Fügen Sie bei **ID** die **ID** aus der Liste für dynamische Inhalte hinzu. Mit dem **ID**-Feld wird versucht, für die Anforderung für den eigentlichen Tweet in der SharePoint-Liste eine Übereinstimmung zu ermitteln.
 
     ![Website, Liste und ID](../media/address-list-id.png)
 
-1. Klicken Sie auf das Feld **Titel**, und suchen Sie in der Liste für dynamische Inhalte nach „Titel“. Fügen Sie das **Titel**-Element über die Aktion **Wenn ein neues Element erstellt wird** hinzu. 
+1. Klicken Sie auf das Feld **Titel**, und suchen Sie in der Liste für dynamische Inhalte nach *Titel*. Fügen Sie das **Titel**-Element über die Aktion **Wenn ein neues Element erstellt wird** hinzu. 
 
     ![Neuer Titel](../media/add-title.png)
 

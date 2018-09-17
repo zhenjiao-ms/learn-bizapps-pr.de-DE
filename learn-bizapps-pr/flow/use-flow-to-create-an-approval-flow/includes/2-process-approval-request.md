@@ -9,8 +9,8 @@ Zunächst fügen Sie Ihrer SharePoint-Liste ein Element hinzu. Anschließend kan
 
 2. Geben Sie die unten stehenden Werte ein, und klicken Sie dann auf **Speichern**.
 
-    - Geben Sie bei **Titel** „Promotions“ ein.
-    - Geben Sie bei **Tweetinhalt** „Entdecken Sie die neuesten Contoso-Fußböden #contosoentdecken“ ein. Beachten Sie, dass der Tweet einen Hashtag enthält.
+    - Geben Sie **Promotions** als *Titel* ein.
+    - Geben Sie *Check out the new line of Contoso Flooring #ohsocontoso* (Entdecken Sie die neuesten Contoso-Fußböden #ohsocontoso) als **Tweetinhalt** ein. Beachten Sie, dass der Tweet ein Hashtag enthält.
     - Geben Sie bei **Tweetdatum** das heutige Datum ein.
 
     ![Neues SharePoint-Element](../media/sharepoint-new-tweet.png)

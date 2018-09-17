@@ -1,4 +1,4 @@
-Natürlich gibt es eine App! Die mobile Microsoft Flow-App. Über die App können Sie auf folgende Features zugreifen:
+Natürlich gibt es eine App – die mobile Microsoft Flow-App! Über die App können Sie auf folgende Features zugreifen:
 
 - Aktivitätsfeed
 - Durchsuchen
@@ -20,7 +20,7 @@ Wie Sie hier sehen, wird beispielsweise die letzte Aktivität des Flows angezeig
 Wenn Sie diesen Flow auswählen, sehen Sie, dass beide Schritte erfolgreich waren. 
 
 ## <a name="how-flows-are-started"></a>Starten von Flows
-Schaltflächen sind Flows, die über eine manuelle Aktion gestartet werden. Sie können beispielsweise eine Schaltfläche erstellen, die eine E-Mail mit der Nachricht „Ich arbeite heute im Homeoffice“ an Ihren Vorgesetzten sendet. Wenn Sie weit von Ihrem Arbeitsplatz entfernt leben, können Sie diese Schaltfläche beispielsweise verwenden, wenn Verkehrschaos auf dem Arbeitsweg zu erwarten ist.
+Schaltflächen sind Flows, die über eine manuelle Aktion gestartet werden. Sie können beispielsweise eine Schaltfläche erstellen, die eine E-Mail mit der Nachricht *Ich arbeite heute im Homeoffice* an Ihren Vorgesetzten sendet. Wenn Sie weit von Ihrem Arbeitsplatz entfernt leben, können Sie diese Schaltfläche beispielsweise verwenden, wenn Verkehrschaos auf dem Arbeitsweg zu erwarten ist.
 
 - Tippen Sie auf **Schaltflächen**, um einige dieser Flows zu verwenden.
 

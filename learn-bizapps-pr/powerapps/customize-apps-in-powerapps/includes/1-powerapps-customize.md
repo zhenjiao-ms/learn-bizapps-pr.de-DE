@@ -35,7 +35,7 @@ Wie Sie sehen, können das Layout des Katalogs und die jeweiligen Datenkategorie
 
 Wir möchten die Reihenfolge der Felder auf dem Detailbildschirm ändern. Die Steuerelemente auf diesem Bildschirm unterscheiden sich von den Steuerelementen auf dem Bildschirm zum Durchsuchen. Daher gibt es auch leichte Abweichungen im Änderungsprozess.
 
-1. Klicken Sie im linken Bereich **Screens** (Bildschirme) auf **DetailForm1**.
+1. Klicken Sie im linken Bereich **Screens** (Bildschirme) auf **DetailScreen1** > **DetailForm1**.
 
 1. Wählen Sie im rechten Bereich den Text aus, mit dem die Anzahl der ausgewählten Felder angezeigt wird.
 
@@ -49,7 +49,7 @@ Wir möchten die Reihenfolge der Felder auf dem Detailbildschirm ändern. Die St
 
 Abschließend soll nun auf dem Bildschirm, auf dem Benutzer Einträge erstellen und bearbeiten, die Eingabe von Informationen im Textfeld erleichtert werden.
 
-1. Klicken Sie im linken Bereich **Screens** (Bildschirme) auf **EditForm1**.
+1. Klicken Sie im linken Bereich **Screens** (Bildschirme) auf **EditScreen1** > **EditForm1**.
 
 1. Wählen Sie im rechten Bereich den Text aus, mit dem die Anzahl der ausgewählten Felder angezeigt wird.
 

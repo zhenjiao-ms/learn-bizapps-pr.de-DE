@@ -12,7 +12,7 @@ Wählen Sie die Vorlage **Office 365-E-Mail-Anlagen in OneDrive for Business spe
 ![Office 365-E-Mail](../media/office-365-email.png)
 
 ## <a name="create-the-flow"></a>Erstellen des Flows
-**Office 365-E-Mail-Anlagen in OneDrive for Business speichern** ist eine One-Click-Vorlage, für die Sie nur Fragen beantworten, die zum Erstellen des Flows erforderlich sind, ohne auch nur eine Codezeile schreiben zu müssen.
+**Office 365-E-Mail-Anlagen in OneDrive for Business speichern** ist eine One-Click-Vorlage, in der Sie Fragen beantworten können, die zum Erstellen des Flows erforderlich sind, ohne Code schreiben zu müssen.
 
 Auf der Vorlagengrafik finden Sie eine Beschreibung der Funktionsweise der Vorlage und was erforderlich ist, damit sie erfolgreich ausgeführt wird.
 
@@ -34,7 +34,7 @@ Sie werden dazu aufgefordert, Anmeldeinformationen für die Microsoft Office 365
 
     ![Auswählen des Flows](../media/click-the-flow.png)
 
-4. Ihnen wird ein grünes Häkchen angezeigt, das angibt, dass der Flow erfolgreich war. 
+4. Ihnen sollte ein grünes Häkchen angezeigt werden, das angibt, dass der Flow erfolgreich war. 
 5. Klicken Sie auf **Bearbeiten**, um zu sehen, wie der Flow definiert wird.
 
     ![Aktionen bei neuen E-Mails](../media/trigger-or-action.png) 

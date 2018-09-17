@@ -83,8 +83,8 @@ Auf der Startseite finden Sie diese Menüs:
 
 Im Folgenden wird das Menü **Info** erläutert, das folgende Optionen enthält:
 
-* Mit der Option **Lernen mit Anleitung** können Sie die Verwendung von Microsoft Flow von Methoden für Einsteiger bis hin zu erweiterten Szenarios durchlaufen.
 * Unter **Artikel** finden Sie Artikel zu weiterführenden Themen. Wenn Sie sich genauer mit einem Feature oder einer Funktion auseinandersetzen möchten, können Sie Ihre Kenntnisse hier vertiefen.
+* Unter **Lernen** finden Sie Lernpfade, mit denen Sie die Verwendung von Microsoft Flow von Methoden für Einsteiger bis hin zu erweiterten Szenarios durchlaufen können.
 * Unter **Support anfordern** finden Sie zuverlässig Hilfe.
 * Treten Sie der **Community** bei, um zu erfahren, wie andere Benutzer Microsoft Flow verwenden.
 * Über **Give Feedback** (Feedback geben) gelangen Sie in eine Community aus erfahrenen Benutzern und Entwicklern. Dort können Sie Kommentare schreiben und Fragen stellen.

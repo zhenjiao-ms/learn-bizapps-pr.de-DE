@@ -4,9 +4,7 @@ Sie können sogar einer anderen Person die Berechtigung erteilen, die App zu akt
 
 ## <a name="prepare-to-share-an-app"></a>Vorbereiten der Freigabe einer App
 
-1. Klicken Sie in PowerApps Studio im Menü **Datei** auf **App-Einstellungen**.
-
-1. Geben Sie einen aussagekräftigen Namen und eine Beschreibung für Ihre App ein, damit Ihr Team weiß, was Ihre App bewirkt, und sie leicht in einer Liste finden kann.
+1. Klicken Sie in PowerApps Studio im Menü **Datei** auf **App-Einstellungen**. Geben Sie einen aussagekräftigen Namen und eine Beschreibung für Ihre App ein, damit Ihr Team weiß, was Ihre App bewirkt, und sie leicht in einer Liste finden kann.
 
 1. Wählen Sie im Menü **Datei** nacheinander **Speichern unter** und dann **Cloud** aus.
 

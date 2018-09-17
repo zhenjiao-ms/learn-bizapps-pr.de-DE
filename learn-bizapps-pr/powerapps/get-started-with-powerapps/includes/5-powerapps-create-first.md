@@ -8,7 +8,7 @@ Denken Sie daran, dass Sie auch Daten aus verschiedenen anderen Quellen verwende
 
 1. Laden Sie die Arbeitsmappe [Flooring Estimates](https://az787822.vo.msecnd.net/documentation/get-started-from-data/FlooringEstimates.xlsx) herunter, und speichern Sie sie in OneDrive for Business.
 
-1. Navigieren Sie zu [web.powerapps.com](https://web.powerapps.com), und melden Sie sich mit Ihrem Organisationskonto an.
+1. Navigieren Sie zu [https://web.powerapps.com](https://web.powerapps.com), und melden Sie sich mit Ihrem Organisationskonto an.
 
 1. Klicken Sie im linken Bereich auf die Option **Apps**.
 
