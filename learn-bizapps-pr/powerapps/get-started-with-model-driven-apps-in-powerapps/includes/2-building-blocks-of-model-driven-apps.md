@@ -1,52 +1,52 @@
-A model-driven app consists of several components that you select by using the App Designer. The components and component properties become the metadata. Let's look more closely at these components.
+Eine modellgesteuerte App besteht aus mehreren Komponenten, die Sie mithilfe des App-Designers auswählen. Die Komponenten und Komponenteneigenschaften werden die Metadaten. Diese Komponenten betrachten wir genauer.
 
-## Data
-The data components determine what data the app will be based upon.
+## <a name="data"></a>Daten
+Die Datenkomponenten bestimmen, auf welchen Daten die App basieren wird.
 
-| Component        | Description | Designer |
+| Komponente        | Beschreibung | Designer |
 |------------------|-------------|----------|
-| Entity           | Entities are items with properties that you track. Examples include contacts and accounts. Many standard entities are available. You can customize a non-system standard entity (or production entity). You can also create a custom entity from scratch. | Entity designer |
-| Field            | Fields are properties that are associated with an entity and help define that entity. A field is defined by a data type, which determines the type of data that can be entered or selected. Examples of data types include text, number, date and time, currency, and lookup (which creates a relationship with another entity). Fields are typically used with forms, views, and searches. | Entity designer |
-| Relationship     | Relationships define how entities can be related to each other. There are 1:N (one-to-many), N:1 (many-to-one), and N:N (many-to-many) relationships. For example, adding a lookup field to an entity creates a new 1:N relationship between the two entities and lets you add that lookup field to a form. | Entity designer |
-| Option set field | This type of field shows a control that lets the user select among predefined options. Each option has a number value and a label. Option set fields can require either a single value or multiple values. | Entity designer|
+| Entität           | Entitäten sind Elemente mit Eigenschaften, die Sie nachverfolgen. Kontakte und Konten sind Beispiele hierfür. Es stehen viele Standardentitäten zur Verfügung. Sie können eine nicht zum System gehörige Standardentität (oder Produktionsentität) anpassen. Sie können auch eine benutzerdefinierte Entität von Grund auf neu erstellen. | Entity Designer |
+| Feld            | Felder sind Eigenschaften, die einer Entität zugeordnet sind und zu ihrer Definition beitragen. Ein Feld wird durch einen Datentyp definiert, der den Typ der Daten bestimmt, die eingegeben oder ausgewählt werden können. Beispiele für Datentypen sind Text, Zahl, Datum und Uhrzeit, Währung und Nachschlagen (Erstellen einer Beziehung mit einer anderen Entität). Felder werden in der Regel mit Formularen, Ansichten und Suchvorgängen verwendet. | Entity Designer |
+| Beziehung     | Beziehungen definieren, wie Entitäten miteinander verknüpft werden können. Es gibt 1:N (eins-zu-viele), N:1 (viele-zu-eins) und N:N (viele-zu-viele) Beziehungen. So erstellt z.B. das Hinzufügen eines Nachschlagefelds zu einer Entität eine neue 1:N-Beziehung zwischen den beiden Entitäten und ermöglicht Ihnen, dieses Nachschlagefeld einem Formular hinzuzufügen. | Entity Designer |
+| Optionssatzfeld | Diese Art von Feld zeigt ein Steuerelement an, das dem Benutzer ermöglicht, unter vordefinierten Optionen auszuwählen. Jede Option verfügt über einen Zahlenwert und eine Bezeichnung. Optionssatzfelder können entweder einen einzelnen Wert oder mehrere Werte erfordern. | Entity Designer |
 
-## User interface
-The user interface components determine how users interact with the app. 
+## <a name="user-interface"></a>Benutzeroberfläche
+Die Komponenten der Benutzeroberfläche bestimmen, wie Benutzer mit der App interagieren. 
 
-| Component | Description | Designer |
+| Komponente | Beschreibung | Designer |
 |-----------|-------------|----------|
-| App       | Apps determine the app fundamentals, like components, properties, the client type, and the URL. | App designer |
-| Site map  | A site map specifies the navigation for your app. | Site map designer |
-| Form      | Forms include a set of data entry fields for a given entity. This set of data entry fields matches the items that your organization tracks for the entity. One example is a set of data entry fields where users enter relevant information to track a customer's previous orders together with specific requested reorder dates. | Form designer |
-| View      | Views define how a list of records for a specific entity appears in your app. A view defines the columns to show, the width of each column, the sort behavior, and the default filters. | View designer |
+| App       | Apps bestimmen die App-Grundlagen wie Komponenten, Eigenschaften, Clienttyp und URL. | App-Designer |
+| Siteübersicht  | Eine Siteübersicht legt die Navigation für Ihre App fest. | Designer für die Siteübersicht |
+| Form      | Formulare enthalten eine Reihe von Dateneingabefeldern für eine bestimmte Entität. Dieser Satz von Dateneingabefeldern entspricht den Elementen, die Ihre Organisation für die Entität nachverfolgt. Ein Beispiel ist eine Reihe von Dateneingabefeldern, in die Benutzer relevante Informationen zur Nachverfolgung von vorherigen Bestellungen eines Kunden zusammen mit Datumsangaben bestimmter angeforderter Nachbestellungen eingeben. | Formulardesigner |
+| Sicht      | Ansichten definieren, wie eine Liste mit Datensätzen für eine bestimmte Entität in Ihrer App angezeigt wird. Eine Ansicht definiert die anzuzeigenden Spalten, die Breite jeder Spalte, das Sortierverhalten und die Standardfilter. | Ansicht-Designer |
 
-![App designer and form designer](../media/app-and-form-designers.png)
+![App-Designer und Formulardesigner](../media/app-and-form-designers.png)
 
-## Logic
-The logic components determine what business processes, rules, and automation the app will have. Microsoft PowerApps makers use a designer that's specific to the type of process or rule.
+## <a name="logic"></a>Logik
+Die Logikkomponenten bestimmen, welche Geschäftsprozesse, Regeln und Automatisierung die App hat. Microsoft PowerApps-Entwickler verwenden einen spezifischen Designer für den Prozess- oder Regeltyp.
 
-| Type of logic         | Description | Designer |
+| Logiktyp         | Beschreibung | Designer |
 |-----------------------|-------------|----------|
-| Business process flow | Business process flows walk users through a standard business process. Use a business process flow if you want everyone to handle customer service requests the same way. Or you can use a business process flow to require staff to gain approval for an invoice before submitting an order. | Business process flow designer |
-| Workflow              | Workflows automate business processes without a user interface. Designers use workflows to initiate automation that doesn't require any user interaction. | Workflow designer |
-| Actions               | Actions are a type of process that lets you manually invoke actions, including custom actions, directly from a workflow. | Process designer |
-| Business rule         | Business rules apply rules or recommendation logic to a form to set field requirements, hide fields, validate data, and more. App designers use a simple interface to implement and maintain fast-changing and commonly used rules. | Business rule designer |
-| Flow                  | Microsoft Flow is a cloud-based service that lets you create automated workflows between apps and services to get notifications, synchronize files, collect data, and more. | Microsoft Flow |
+| Geschäftsprozessflow | Geschäftsprozessflows führen Benutzer durch einen Standardgeschäftsprozess. Verwenden Sie einen Geschäftsprozessflow, wenn alle Mitarbeiter Kundendienstanforderungen in gleicher Weise behandeln sollen. Sie können auch mittels eines Geschäftsprozessflows regeln, dass Mitarbeiter vor dem Absenden einer Bestellung die Genehmigung für eine Rechnung einholen müssen. | Geschäftsprozessflow-Designer |
+| Workflow              | Workflows automatisieren Geschäftsprozesse ohne Benutzeroberfläche. Designer verwenden Workflows, um die Automatisierung zu initiieren, die keine Benutzerinteraktion erfordert. | Workflow-Designer |
+| Aktionen               | Aktionen sind Prozesstypen, mit denen Sie Aktivitäten, einschließlich benutzerdefinierter Aktivitäten, direkt aus einem Workflow manuell aufrufen können. | Prozessdesigner |
+| Geschäftsregel         | Mit Geschäftsregeln werden Regeln oder Empfehlungslogik auf ein Formular angewandt, um Feldanforderungen, Ausblenden von Feldern, Überprüfen von Daten und Sonstiges festzulegen. App-Designer verwenden eine einfache Schnittstelle zum Implementieren und Verwalten sich schnell ändernder und häufig verwendeter Regeln. | Geschäftsregeldesigner |
+| Flow                  | Microsoft Flow ist ein cloudbasierter Dienst, mit dem Sie automatisierte Workflows zwischen Apps und Diensten erstellen können, um Benachrichtigungen zu erhalten, Dateien zu synchronisieren, Daten zu sammeln und Sonstiges auszuführen. | Microsoft Flow |
 
-![Workflow, action, and business process flow designers](../media/designer-mash.png)
+![Workflow-, Aktions- und Geschäftsprozessflow-Designer](../media/designer-mash.png)
 
-## Visualization
-The visualization components determine what type of data and reporting the app will show.
+## <a name="visualization"></a>Visualisierung
+Die Visualisierungskomponenten bestimmen, welche Art von Daten und Berichterstattung die App anzeigt.
 
-| Component                   | Description | Designer |
+| Komponente                   | Beschreibung | Designer |
 |-----------------------------|-------------|----------|
-|Chart                        | Charts are individual graphical visualizations that can appear in a view or a form, or that can be added to a dashboard. | Chart designer |
-|Dashboard                    | Dashboards show one or more graphical visualizations that provide an overview of actionable business data. | Dashboard designer |
-| Embedded Microsoft Power BI | Power BI adds embedded Power BI tiles and dashboards to your app. Power BI is a cloud-based service that provides business intelligence (BI) insight. | A combination of chart designer, dashboard designer, and Power BI |
+| Diagramm                       | Diagramme sind einzelne grafische Visualisierungen, die in einer Ansicht oder einem Formular angezeigt oder einem Dashboard hinzugefügt werden können. | Diagramm-Designer |
+| Dashboard                   | Dashboards zeigen eine oder mehrere grafische Visualisierungen an, die eine Übersicht über handlungsrelevante Geschäftsdaten bieten. | Dashboard-Designer |
+| Microsoft Power BI Embedded | Power BI fügt Ihrer App eingebettete Power BI-Kacheln und Dashboards hinzu. Power BI ist ein cloudbasierter Dienst, der Einblicke in Business Intelligence (BI) bereitstellt. | Eine Kombination aus Diagramm-Designer, Dashboard-Designer und Power BI |
 
-![Sample dashboard](../media/dashboard-designer.png)
+![Beispieldashboard](../media/dashboard-designer.png)
 
-## Advanced model-driven apps
-Solution Explorer is used for making advanced model-driven apps. By using the navigation pane on the left side of the tool, you can navigate a hierarchy that consists of all app components.
+## <a name="advanced-model-driven-apps"></a>Erweiterte modellgesteuerte Apps
+Der Projektmappen-Explorer wird zum Erstellen erweiterter modellgesteuerter Apps verwendet. Im Navigationsbereich auf der linken Seite des Tools können Sie in einer aus allen App-Komponenten bestehenden Hierarchie navigieren.
 
-![Solution Explorer](../media/solutionexplorer-entitiescollapsed.png)
+![Projektmappen-Explorer](../media/solutionexplorer-entitiescollapsed.png)

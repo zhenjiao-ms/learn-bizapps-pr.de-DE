@@ -1,4 +1,4 @@
-Es wird kurz wiederholt, was im ersten Abschnitt beschrieben wurde.
+Lassen Sie uns kurz wiederholen, was wir in diesem ersten Modul behandelt haben.
 
 **Power BI** ist eine Sammlung mit Softwarediensten, Apps und Connectors, die zusammen genutzt werden, um für Ihre Daten interaktive Erkenntnisse zu gewinnen. Sie können Daten aus einzelnen einfachen Quellen verwenden, z.B. einer Excel-Arbeitsmappe, oder Daten per Pullvorgang aus mehreren Datenbanken und Cloudquellen übertragen, um komplexe Datasets und Berichte zu erstellen. Power BI kann – je nach Ihren globalen Geschäftsanforderungen – so einfach oder so komplex sein, wie Sie möchten.
 
@@ -14,19 +14,14 @@ Es wurden auch die grundlegenden Komponenten von Power BI beschrieben:
 * **Dashboards**: Einzelne Seite mit Sammlungen visueller Elemente, aus einem Bericht erstellt
 * **Kacheln**: Einzelne Visualisierung in einem Bericht oder Dashboard
 
-Anschließend haben wir unter Leitung von **Will Thompson** eine Power BI-Videotour erlebt. Will hat einen kurzen Überblick darüber gegeben, wie Sie Daten mit Power BI analysieren und visualisieren können.
+Im **Power BI-Dienst** haben wir mit wenigen Klicks eine **App** installiert. Die **App** (eine fertige Sammlung mit visuellen Elementen und Berichten) ermöglicht uns das mühelose Herstellen einer Verbindung mit einem **Softwaredienst**, um die App mit Daten zu füllen und diese zum Leben zu erwecken.
 
-<!---
-In **Power BI Desktop**, we connected to a basic Excel file, created visualizations, then published those visualizations to the service. Even if you use Power BI only with your Excel workbooks, you can gain amazing visual insights with those Excel workbooks, and both interact and share it in ways never before possible.
--->
-Im **Power BI-Dienst** haben wir mit wenigen Klicks ein Dashboard erstellt. Anschließend sind wir mit der Vorstellung des Power BI-Diensts fortgefahren und haben eine **App** – eine fertige Sammlung mit visuellen Elementen und Berichten – verwendet und eine Verbindung mit einem **Softwaredienst** hergestellt, um die App mit Daten zu füllen und diese zum Leben zu erwecken.
-
-Außerdem haben wir Abfragen in natürlicher Sprache verwendet (als **Q&A** (Fragen und Antworten) bezeichnet),um Fragen zu unseren Antworten zu stellen, und haben Power BI basierend auf diesen Fragen visuelle Elemente erstellen lassen. Zuletzt haben wir einen **Aktualisierungszeitplan** für unsere Daten eingerichtet, damit wir sichergehen können, dass diese Daten aktuell sind, wenn wir zum Power BI-Dienst zurückkehren.
+Zuletzt haben wir einen **Aktualisierungszeitplan** für unsere Daten eingerichtet, damit wir sichergehen können, dass diese Daten aktuell sind, wenn wir zum Power BI-Dienst zurückkehren.
 
 ## <a name="next-steps"></a>Nächste Schritte
-**Glückwunsch!** Sie haben den ersten Abschnitt des Kurses vom Typ **Angeleitetes Lernen** für Power BI abgeschlossen. Sie verfügen nun über eine gute Wissensbasis und können mit dem nächsten Abschnitt **Abrufen von Daten** fortfahren. Dies ist der nächste Schritt des logischen Arbeitsablaufs für Power BI.
+**Glückwunsch!** Sie haben das erste Modul des **Lernpfads** für Power BI abgeschlossen. Fahren Sie mit Ihrem gewonnenen Wissen mit dem nächsten Abschnitt fort, der die Schritte zur Erstellung Ihres ersten Berichts aufzeigt. 
 
-Es wurde schon erwähnt, aber hier soll noch einmal darauf hingewiesen werden: In diesem Kurs bauen Sie Wissen auf, indem Sie den gängigen Arbeitsablauf in Power BI befolgen:
+Es wurde schon erwähnt, aber hier soll noch einmal darauf hingewiesen werden: In diesem Lernpfad bauen Sie Wissen auf, indem Sie den gängigen Arbeitsablauf in Power BI befolgen:
 
 * Einbinden von Daten in **Power BI Desktop** und Erstellen eines Berichts
 * Durchführen von **Veröffentlichungen** für den Power BI-Dienst, mit dem Sie neue Visualisierungen oder Dashboards erstellen
@@ -35,7 +30,9 @@ Es wurde schon erwähnt, aber hier soll noch einmal darauf hingewiesen werden: I
 
 ![Power BI-Verwendungszyklus](../media/pbi-using_01.png)
 
-Unter Umständen führen Sie diese Arbeiten nicht alle selbst aus. Einige Benutzer zeigen vielleicht nur die Dashboards im Dienst an, die von anderen Benutzern erstellt wurden. Das ist in Ordnung. Aber da Sie alle Abschnitte dieses Kurses *selbst* durcharbeiten, *verstehen* Sie, wie diese Dashboards erstellt wurden und wie dafür die Verbindung mit Daten hergestellt wurde. Vielleicht treffen Sie dann ja sogar die Entscheidung, auch ein eigenes Dashboard zu erstellen.
+Unter Umständen führen Sie diese Arbeiten nicht alle selbst aus. Einige Benutzer zeigen vielleicht nur die Dashboards im Dienst an, die von anderen Benutzern erstellt wurden. Das ist in Ordnung, und schon bald wird es ein Modul geben, das Ihnen zeigt, wie Sie einfach durch den **Power BI-Dienst** navigieren und ihn nutzen können, um Berichte und Anwendungen problemlos anzuzeigen und mit ihnen zu interagieren.
 
-Wir sehen uns im nächsten Abschnitt!
+Bei der Befolgung des Arbeitsablaufs in Power BI zeigt Ihnen das nächste Modul jedoch, wie Sie einen Bericht erstellen und im Power BI-Dienst veröffentlichen können. Im nächsten Modul erfahren Sie, wie diese Berichte und Dashboards erstellt werden und mit den Daten verbunden sind.... und Sie können sich sogar entscheiden, ob Sie einen eigenen erstellen möchten.
+
+Wir sehen uns im nächsten Modul!
 

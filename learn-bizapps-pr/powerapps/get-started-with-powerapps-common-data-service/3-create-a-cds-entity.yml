@@ -1,9 +1,14 @@
-### YamlMime:ModuleUnit 
+### YamlMime:ModuleUnit
 uid: learn-bizapps.powerapps-common-data-service.3-create-a-cds-entity
-title: Create a CDS entity  
-metadata: 
-  title: Create a CDS entity
-  description: Create a CDS entity
-durationInMinutes: 12 
-content: | 
-  [!include[](includes/3-create-a-cds-entity.md)]  
+title: Erstellen einer CDS-Entität
+metadata:
+  title: Erstellen einer CDS-Entität
+  description: Erstellen einer CDS-Entität
+  ms.openlocfilehash: 03099beb8ec93af3db0d1ac97957dd1313e22bc3
+  ms.sourcegitcommit: 6d796874539f76b734a7bb8ff95bef6b87bb9b00
+  ms.translationtype: HT
+  ms.contentlocale: de-DE
+  ms.lasthandoff: 09/11/2018
+  ms.locfileid: "44375878"
+durationInMinutes: 12
+content: '[!include[](includes/3-create-a-cds-entity.md)]'

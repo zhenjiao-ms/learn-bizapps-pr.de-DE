@@ -15,6 +15,16 @@ achievements:
   title: Arbeiten mit Fällen und SLAs in Dynamics 365 for Customer Service
   summary: Trophäe für den Lernpfad „Arbeiten mit Fällen und SLAs in Dynamics 365 for Customer Service“
   iconUrl: http://via.placeholder.com/120x120
+- uid: learn.create-app-models-business-processes.trophy
+  type: trophy
+  title: Erstellen einer modellgesteuerten Anwendung
+  summary: Trophäe für den Lernpfad „Erstellen einer modellgesteuerten Anwendung“.
+  iconUrl: http://via.placeholder.com/120x120
+- uid: learn.create-use-analytics-reports-power-bi.trophy
+  type: trophy
+  title: Erstellen und Verwenden von Analytics-Berichten mit Power BI
+  summary: Trophäe für den Lernpfad „Erstellen und Verwenden von Analytics-Berichten mit Power BI“.
+  iconUrl: http://via.placeholder.com/120x120
 - uid: learn.sample-module-bizapps.badge
   type: badge
   title: Beispielmodul mit CloudShell-Abzeichen
@@ -96,9 +106,9 @@ achievements:
   summary: Abzeichen für das Modul „Erste Schritte mit dem Common Data Service“
   iconUrl: http://via.placeholder.com/120x120
 metadata:
-  ms.openlocfilehash: baccc55e7f103cafa3b01b1b1d639ec53c253153
-  ms.sourcegitcommit: 61a4271dd1790759efa6eabe4c08c5d075effd85
+  ms.openlocfilehash: 9284f50bee6684a1346932ddf462a4687adefced
+  ms.sourcegitcommit: 6d796874539f76b734a7bb8ff95bef6b87bb9b00
   ms.translationtype: HT
   ms.contentlocale: de-DE
-  ms.lasthandoff: 09/06/2018
-  ms.locfileid: "43886785"
+  ms.lasthandoff: 09/11/2018
+  ms.locfileid: "44375511"

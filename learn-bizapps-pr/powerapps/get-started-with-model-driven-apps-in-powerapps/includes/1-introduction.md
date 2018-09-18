@@ -1,31 +1,31 @@
-Model-driven app design is an approach that focuses on adding dashboards, forms, views, and charts to your apps. With no code, or very little, you can build apps that are simple or very complex. 
+Der Entwurf einer modellgesteuerten App ist ein Ansatz, der sich auf das Hinzufügen von Dashboards, Formularen, Ansichten und Diagrammen für Ihre Apps konzentriert. Mit keinem bzw. sehr wenig Code können Sie Apps erstellen, die einfach oder sehr komplex sind.
 
-In canvas apps, the designer has total control over app layout. In model-driven apps, on the other hand, much of the layout is determined by the components you add. The emphasis is more on quickly viewing your business data and making decisions than on intricate app design.
+In Canvas-Apps hat der Designer vollständige Kontrolle über das App-Layout. In modellgesteuerten Apps wird das Layout andererseits weitgehend durch die Komponenten bestimmt, die Sie hinzufügen. Der Schwerpunkt liegt mehr auf dem schnellen Anzeigen Ihrer Geschäftsdaten und der Entscheidungsfindung als auf anspruchsvollem App-Design.
 
-![Sample model-driven app](../media/model-app-sample.png)
+![Beispiel einer modellgesteuerten App](../media/model-app-sample.png)
 
-Here are some of the benefits of model-driven apps:
+Einige Vorteile modellgesteuerter Apps sind:
 
-- Create rich, component-focused environments.
-- No code (or very little) is needed. 
-- Create complex responsive apps that look great on a variety of devices, while developing them in one environment.
-- Design capabilities are similar to what's available in the Microsoft Dynamics 365 Customer Engagement platform.
-- Your app can be distributed as a solution.
+- Erstellen gehaltvoller, komponentenbezogener Umgebungen.
+- Kein (oder nur sehr wenig) Code ist erforderlich. 
+- Erstellen komplexer, reaktionsfreudiger Apps, die auf einer Vielzahl von Geräten hervorragend aussehen, während sie in einer einzigen Umgebung entwickelt werden.
+- Die Entwurfsfunktionen ähneln den Funktionen, die auf der Microsoft Dynamics 365 for Customer Engagement-Plattform verfügbar sind.
+- Ihre App kann als Lösung verteilt werden.
  
-## The approach to making model-driven apps
-Model-driven apps have three design phases:
+## <a name="the-approach-to-making-model-driven-apps"></a>Der Ansatz zum Erstellen modellgesteuerter Apps
+Modellgesteuerte Apps verfügen über drei Entwurfsphasen:
 
-1. Model your business data.
-1. Define your business processes.
-1. Build the app.
+1. Modellieren Ihrer Geschäftsdaten.
+1. Definieren Ihrer Geschäftsprozesse.
+1. Erstellen der App.
 
-### Model your business data
-Model-driven design uses a metadata-driven architecture so that designers can customize the app without writing code. To model business data, you determine what data the app will need and how that data will relate to other data. Metadata means "data about data," and it defines the structure of the data stored in Common Data Service for Apps.
+### <a name="model-your-business-data"></a>Modellieren Ihrer Geschäftsdaten
+Der modellgesteuerte Entwurf verwendet eine durch Metadaten gesteuerte Architektur, damit Designer die App anpassen können, ohne Code zu schreiben. Um Geschäftsdaten zu modellieren, bestimmen Sie, welche Daten die App benötigt, und in welcher Beziehung diese Daten zu anderen Daten stehen. Metadaten sind „Daten über Daten“ und definieren die Struktur der in Common Data Service für Apps gespeicherten Daten.
 
-### Define your business processes
-Defining and enforcing consistent business processes is a key aspect of model-driven app design. Consistent processes help ensure that your app users can focus on their work, not on remembering to perform a set of manual steps. Processes can be simple or complex, and they often change over time.
+### <a name="define-your-business-processes"></a>Definieren Ihrer Geschäftsprozesse
+Definieren und Erzwingen konsistenter Geschäftsprozesse ist ein wichtiger Aspekt des Entwurfs einer modellgesteuerten App. Konsistente Prozesse stellen sicher, dass die Benutzer Ihrer App sich auf ihre Arbeit konzentrieren können und nicht daran denken müssen, eine Reihe von manuellen Schritten auszuführen. Prozesse können einfach oder komplex sein und ändern sich häufig im Laufe der Zeit.
 
-### Build the app
-After modeling data and defining processes, you build your app by selecting and setting up the components you need in the App Designer.
+### <a name="build-the-app"></a>Erstellen der App
+Nach dem Modellieren von Daten und Definieren von Prozessen erstellen Sie Ihre App durch Auswahl und Einrichtung der benötigten Komponenten im App-Designer.
 
-![App Designer](../media/app-designer.png)
+![App-Designer](../media/app-designer.png)

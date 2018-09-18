@@ -1,47 +1,47 @@
-In this unit, you'll create a model-driven app by using one of the standard entities that's available in your Microsoft PowerApps environment.
+In dieser Einheit erstellen Sie eine modellgesteuerte App mithilfe einer der Standardentitäten, die in Ihrer Microsoft PowerApps-Umgebung verfügbar sind.
 
-## Create your model-driven app
+## <a name="create-a-model-driven-app"></a>Erstellen einer modellgesteuerten App
 
-1. Sign in to [PowerApps](https://web.powerapps.com/) by using your organizational account.
-1. Select the environment you want, or go to the [PowerApps admin center](https://admin.powerapps.com/) to create a new one.
-1. At the bottom of the left pane, select **Model-driven** as the design mode. 
+1. Melden Sie sich mit Ihrem Unternehmenskonto bei [PowerApps](https://web.powerapps.com/) an.
+1. Wählen Sie die gewünschte Umgebung aus, oder wechseln Sie zum [PowerApps Admin Center](https://admin.powerapps.com/), um eine neue zu erstellen.
+1. Wählen Sie unten im linken Bereich **Modellgesteuert** als Entwurfsmodus aus. 
 
-    ![Model-driven](../media/choose-design-mode.png)
+    ![Modellgesteuert](../media/choose-design-mode.png)
 
     > [!IMPORTANT]
-    > If the **Model-driven** design mode isn't available, you might need to [create an environment](https://docs.microsoft.com/powerapps/administrator/create-environment).
+    > Wenn der Entwurfsmodus **Modellgesteuert** nicht verfügbar ist, müssen Sie möglicherweise [eine Umgebung erstellen](https://docs.microsoft.com/powerapps/administrator/create-environment).
 
-1. In the left pane, select **Apps**, and then select **Create an app**.
-1. On the **Create a New App** page, enter a name and description for the app.
-1. Select **Done**. Your new app appears in the App Designer, and you can now add components to it.
+1. Wählen Sie im linken Bereich **Apps** und dann **App erstellen** aus.
+1. Geben Sie auf der Seite **Neue App erstellen** einen Namen und eine Beschreibung für die App ein.
+1. Wählen Sie **Fertig**aus. Ihre neue App wird im App-Designer angezeigt, und Sie können ihr nun Komponenten hinzufügen.
 
-## Add components to your app
-You add components to your app by using the App Designer.
+## <a name="add-components-to-your-app"></a>Hinzufügen von Komponenten zu Ihrer App
+Sie fügen Ihrer App mit dem App-Designer Komponenten hinzu.
 
-1. Select the **Open the Site Map Designer** arrow to open the site map designer. 
+1. Wählen Sie den Pfeil **Designer für die Siteübersicht öffnen** aus, um den Designer für die Siteübersicht zu öffnen.
 
-    ![Create a new site map](../media/new-sitemap.png)
+    ![Erstellen einer neuen Siteübersicht](../media/new-sitemap.png)
 
-2. In the site map designer, select **New Subarea**, and then, in the right pane, on the **Properties** tab, select the following properties:
+2. Wählen Sie im Designer für die Siteübersicht **Neuer Unterbereich** und dann im rechten Bereich auf der Registerkarte **Eigenschaften** die folgenden Eigenschaften aus:
 
-    - **Type**: Entity
-    - **Entity**: Account
+    - **Typ**: *Entität*
+    - **Entität**: *Konto*
 
-    ![Add components to the site map](../media/sitemap.png)
+    ![Hinzufügen von Komponenten zur Siteübersicht](../media/sitemap.png)
 
-3. Select **Save And Close**.
-4. In the App Designer, select **Forms**, and then, in the right pane, under **Main Forms**, select the **Account** form.
+3. Wählen Sie **Speichern und Schließen** aus.
+4. Wählen Sie im App-Designer **Formulare** und dann im rechten Bereich unter **Hauptformulare** das Formular **Konto** aus.
 
-    ![Account main form](../media/main-form.png)
+    ![Kontohauptformular](../media/main-form.png)
 
-5. In the App Designer, select **Views**, and then select the following properties:
+5. Wählen Sie im App-Designer **Ansichten** und dann die folgenden Eigenschaften aus:
 
-    - Active Accounts
-    - All Accounts
-    - My Active Accounts
+    - Aktive Konten
+    - Alle Konten
+    - Meine aktiven Konten
 
-6. In the App Designer, select **Charts**, and then select the **Accounts by Industry** chart.
-7. On the App Designer toolbar, select **Save**.
+6. Wählen Sie im App-Designer **Diagramme** und dann das Diagramm **Firmen nach Branche** aus.
+7. Wählen Sie auf der App-Designer-Symbolleiste **Speichern** aus.
 
 <!-- ##  Validate your app
 This step checks for component dependencies that are required for the app to work, but haven't yet been added to the app. 
@@ -53,9 +53,9 @@ This step checks for component dependencies that are required for the app to wor
 2. Select **Add Dependencies**.
 3. On the app designer toolbar, select **Save**.  -->
 
-## Publish your app
-On the App Designer toolbar, select **Publish**.
+## <a name="publish-your-app"></a>Veröffentlichen der App
+Wählen Sie auf der App-Designer-Symbolleiste **Veröffentlichen** aus.
 
-After you publish the app, it's ready for you to run or share with others.
+Nachdem Sie die App veröffentlicht haben, können Sie sie ausführen oder für andere Benutzer freigeben.
 
-![Simple account entity app](../media/accounts-quickstart-app.png)
+![Einfache Kontoentitäts-App](../media/accounts-quickstart-app.png)

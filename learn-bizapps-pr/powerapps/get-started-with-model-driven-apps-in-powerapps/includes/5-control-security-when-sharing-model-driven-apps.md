@@ -1,106 +1,106 @@
-Microsoft PowerApps uses role-based security for sharing. A security role includes privileges that define a set of actions that can be performed in the app. All app users must be assigned to one or more predefined or custom security roles. 
+Microsoft PowerApps verwendet rollenbasierte Sicherheit für die Freigabe. Eine Sicherheitsrolle enthält Berechtigungen, die eine Reihe von Aktionen definieren, die in der App ausgeführt werden können. Alle App-Benutzer müssen einer oder mehreren vordefinierten oder benutzerdefinierten Sicherheitsrollen zugewiesen werden.
 
-Roles can be assigned to individual users or to teams. When a user or a team is assigned to a role, that user or all members of that team are granted the set of privileges associated with the role. 
+Rollen können einzelnen Benutzern oder Teams zugewiesen werden. Wenn ein Benutzer oder Team einer Rolle zugewiesen wird, wird dem Benutzer oder allen Mitgliedern dieses Teams der Satz von Berechtigungen gewährt, die der Rolle zugeordnet sind.
 
-In this unit, you'll learn how to share a model-driven app so that others can use it. 
+In dieser Einheit erfahren Sie, wie Sie eine modellgesteuerte App freigeben, damit andere sie verwenden können.
 
-Specifically, you'll learn how to:
+Insbesondere erfahren Sie, wie Sie:
 
-- Create a custom security role.
-- Assign users to the custom security role.
-- Assign the security role to an app.
+- Eine benutzerdefinierte Sicherheitsrolle erstellen.
+- Benutzer der benutzerdefinierten Sicherheitsrolle zuweisen.
+- Die Sicherheitsrolle einer App zuweisen.
 
-To share an app, you must have the Environment Admin or System Admin role. 
+Eine App können Sie nur in der Rolle des Umgebungsadministrators oder Systemadministrators freigeben.
 
-## Scenario
-This unit uses the example of a company named Contoso, which has a pet grooming business that services dogs and cats. An app that has a custom entity for tracking the pet grooming business has already been created and published. 
+## <a name="scenario"></a>Szenario
+In dieser Einheit wird das Beispiel eines Unternehmens namens Contoso verwendet, das einen Geschäftsbereich Fellpflege für Hunde und Katzen betreibt. Eine App, die über eine benutzerdefinierte Entität zum Nachverfolgen des Geschäftsbereichs Fellpflege verfügt, wurde bereits erstellt und veröffentlicht.
 
-The app must be shared so that the pet grooming staff can use it. To share the app, an admin or app maker assigns one or more security roles to users and to the app.
+Die App muss freigegeben werden, sodass das Fellpflegepersonal sie verwenden kann. Zum Freigeben der App weist ein Administrator oder App-Ersteller Benutzern und der App eine oder mehrere Sicherheitsrollen zu.
 
-## Create or set up a security role
-The PowerApps environment includes predefined security roles. These roles reflect common user tasks, and the access levels that are defined follow the security best practice of providing access to the minimum amount of business data that's required to use the app. 
+## <a name="create-or-set-up-a-security-role"></a>Erstellen oder Einrichten einer Sicherheitsrolle
+Die PowerApps-Umgebung enthält vordefinierte Sicherheitsrollen. Diese Rollen entsprechen häufig verwendeten Benutzeraufgaben, und die Zugriffsebenen sind gemäß der bewährten Sicherheitsmethode zur Gewährung des Zugriffs auf die zur Verwendung der App erforderlichen Mindestmenge an Geschäftsdaten definiert.
 
-Remember that the Contoso pet grooming app is based on a custom entity. Because the entity is custom, privileges must be explicitly specified before users can work in it. To do this, you can use either of the following approaches:
+Denken Sie daran, dass die Contoso-Fellpflege-App auf einer benutzerdefinierten Entität basiert. Da die Entität benutzerdefiniert ist, müssen Berechtigungen explizit angegeben werden, bevor Benutzer darin arbeiten können. Sie können hierzu einen der folgenden Ansätze verwenden:
 
-- Expand an existing predefined security role so that it includes privileges on records that are based on the custom entity. 
-- Create a custom security role to manage privileges for users of the app. 
+- Erweitern Sie eine bereits vorhandene vordefinierte Sicherheitsrolle, sodass sie Berechtigungen für Datensätze enthält, die auf der benutzerdefinierten Entität basieren.
+- Erstellen Sie eine benutzerdefinierte Sicherheitsrolle zum Verwalten von Berechtigungen für Benutzer der App.
 
-Because the environment that will maintain the pet grooming records is also used for other apps that the Contoso company runs, a custom security role that's specific to the pet grooming app will be created. Additionally, two different sets of access privileges are required:
+Da die Umgebung, die die Fellpflegedatensätze verwaltet, auch für andere Apps verwendet wird, die das Unternehmen Contoso ausführt, wird eine spezifische benutzerdefinierte Sicherheitsrolle für die Fellpflege-App erstellt. Darüber hinaus sind zwei verschiedene Sätze von Zugriffsberechtigungen erforderlich:
 
-- Pet grooming technicians just need to read, update, and attach other records. Therefore, their security role will have read, write, and append privileges. 
-- Pet grooming schedulers need all the privileges that pet grooming technicians have. In addition, they must be able to create, append to, delete, and share records. Therefore, their security role will have create, read, write, append, delete, assign, append to, and share privileges.
+- Haustierfriseure müssen nur Datensätze lesen, aktualisieren und andere Datensätze anfügen. Daher verfügt ihre Sicherheitsrolle über die Berechtigungen Lesen, Schreiben und Anfügen.
+- Haustierpflegemanager benötigen alle Berechtigungen, über die Haustierfriseure verfügen. Darüber hinaus müssen sie Datensätze erstellen, anfügen an, löschen und freigeben. Darum verfügt ihre Sicherheitsrolle über Berechtigungen zum Erstellen, Lesen, Schreiben, Anfügen, Löschen, Zuweisen, Anfügen an und Freigeben.
 
-To learn more about access and the scope of the different privileges, see [Security roles](https://docs.microsoft.com/dynamics365/customer-engagement/admin/security-roles-privileges#security-roles).
+Weitere Informationen zu Zugriff und Bereich der verschiedenen Berechtigungen finden Sie unter [Sicherheitsrollen](https://docs.microsoft.com/dynamics365/customer-engagement/admin/security-roles-privileges#security-roles).
 
-## Create a custom security role
-1. Sign in to [PowerApps](https://powerapps.microsoft.com/) by using your organizational account. If you don't already have an account, select **Get started free**.
-1. On the PowerApps home page, select **Model-driven**.
-1. For the app you want to share, select the **More Commands** button (**...**), and then select **Share link**.
-1. In the **Share this app** dialog box, under **Create a security role**, select **Security Setting**.
-1. On the **Settings** page, select **New**.
-1. In the Security Role designer, select actions, like read, write, or delete.
-1. Select the scope for performing those actions. Scope determines how deep or high in the environments hierarchy a user can perform a particular action. In the **Role Name** box, enter *Pet Grooming Technicians*.
-1. On the **Custom Entities** tab, find the custom entity you want. For this example, the custom entity named **Pet** is used. 
-1. On the **Pet** row, select each of the following privileges four times, until the global organization scope ![Global organization scope](../media/organizational-scope-privilege.png) is selected: **Read**, **Write**, and **Append**.
+## <a name="create-a-custom-security-role"></a>Erstellen einer benutzerdefinierten Sicherheitsrolle
+1. Melden Sie sich mit Ihrem Unternehmenskonto bei [PowerApps](https://powerapps.microsoft.com/) an. Wenn Sie noch nicht über ein Konto verfügen, wählen Sie **Kostenlos beginnen** aus.
+1. Wählen Sie auf der PowerApps-Startseite **Modellgesteuert** aus.
+1. Wählen Sie für die App, die Sie freigeben möchten, die Schaltfläche **Weitere Befehle** aus (**...** ) und dann **Link freigeben** aus.
+1. Wählen Sie im Dialogfeld **Diese App freigeben** unter **Sicherheitsrolle erstellen** die Option **Sicherheitseinstellung** aus.
+1. Wählen Sie auf der Seite **Einstellungen** die Option **Neu** aus.
+1. Wählen Sie im Sicherheitsrollen-Designer Aktionen wie Lesen, Schreiben oder Löschen aus.
+1. Wählen Sie den Bereich für die Durchführung dieser Aktionen aus. Der Bereich bestimmt, auf welchen Ebenen der Umgebungshierarchie ein Benutzer eine bestimmte Aktion ausführen kann. Geben Sie im Feld **Rollenname** die Bezeichnung *Pet Grooming Technicians* (Haustierfriseure) ein.
+1. Suchen Sie auf der Registerkarte **Benutzerdefinierte Entitäten** nach der gewünschten benutzerdefinierten Entität. In diesem Beispiel wird die benutzerdefinierte Entität mit dem Namen **Pet** (Haustier) verwendet.
+1. Wählen Sie in der Zeile **Pet** jede der folgenden Berechtigungen viermal aus, bis der globale Organisationsbereich ![Globaler Organisationsbereich](../media/organizational-scope-privilege.png) ausgewählt ist: **Lesen**, **Schreiben** und **Anfügen**.
 
-    ![New security role](../media/custom-security-role.png)
+    ![Neue Sicherheitsrolle](../media/custom-security-role.png)
 
-1. The pet grooming app also has a relationship with the account entity. Therefore, on the **Core Records** tab, on the **Account** row, select the **Read** privilege four times, until the global organization scope ![Global organization scope](../media/organizational-scope-privilege.png) is selected. 
-1. Select **Save and Close**. 
-1. In the Security Role designer, in the **Role Name** box, enter *Pet Grooming Schedulers*. 
-1. On the **Custom Entities** tab, find the **Pet** entity. 
-1. On the **Pet** row, select each of the following privileges four times, until the global organization scope ![Global organization scope](../media/organizational-scope-privilege.png) is selected: **Create**, **Read**, **Write**, **Delete**, **Append**, **Append To**, **Assign**, and **Share**.
-1. The pet grooming app also has a relationship with the account entity, and schedulers must be able to create and change account records. Therefore, on the **Core Records** tab, on the **Account** row, select each of the following privileges four times, until the global organization scope ![Global organization scope](../media/organizational-scope-privilege.png) is selected: **Create**, **Read**, **Write**, **Delete**, **Append**, **Append To**, **Assign**, and **Share**.
-1. Select **Save and Close**.
+1. Die Haustierpflege-App hat auch eine Beziehung zur Kontoentität. Wählen Sie darum auf der Registerkarte **Kerndatensätze** in der Zeile **Konto** die Berechtigung **Lesen** viermal aus, bis der globale Organisationsbereich ![Globaler Organisationsbereich](../media/organizational-scope-privilege.png) ausgewählt ist.
+1. Wählen Sie **Speichern und Schließen** aus.
+1. Geben Sie im Sicherheitsrollen-Designer im Feld **Rollenname** die Bezeichnung *Pet Grooming Schedulers* ein.
+1. Suchen Sie auf der Registerkarte **Benutzerdefinierte Entitäten** nach der Entität **Pet**.
+1. Wählen Sie in der Zeile **Pet** jede der folgenden Berechtigungen viermal aus, bis der globale Organisationsbereich ![Globaler Organisationsbereich](../media/organizational-scope-privilege.png) ausgewählt ist: **Erstellen**, **Lesen**, **Schreiben**, **Löschen**, **Anfügen**, **Anfügen an**, **Zuweisen** und **Freigeben**.
+1. Die Haustierpflege-App hat auch eine Beziehung zur Kontoentität, und Manager müssen Kontodatensätze erstellen und ändern können. Wählen Sie darum auf der Registerkarte **Kerndatensätze** in der Zeile **Konto** jede der folgenden Berechtigungen viermal aus, bis der globale Organisationsbereich ![Globaler Organisationsbereich](../media/organizational-scope-privilege.png) ausgewählt ist: **Erstellen**, **Lesen**, **Schreiben**, **Löschen**, **Anfügen**, **Anfügen an**, **Zuweisen** und **Freigeben**.
+1. Wählen Sie **Speichern und Schließen** aus.
 
-## Assign security roles to users
-Security roles control a user's access to data through a set of access levels and permissions. The combination of access levels and permissions that are included in a specific security role sets limits on the user's view of data and interactions with that data.
+## <a name="assign-security-roles-to-users"></a>Zuweisen von Sicherheitsrollen an Benutzer
+Sicherheitsrollen steuern den Benutzerzugriff auf Daten über einen Satz von Zugriffsebenen und Berechtigungen. Die Kombination von Zugriffsebenen und Berechtigungen, die in einer bestimmten Sicherheitsrolle enthalten sind, begrenzt die Datenansicht des Benutzers und seine Interaktionen mit den Daten.
 
-### Assign a security role to the pet grooming technicians
-1. In the **Share this app** dialog box, under **Assign users to the security role**, select **Security Users**.
-2. In the list that appears, select the pet groomers.
-3. Select **Manage Roles**.
+### <a name="assign-a-security-role-to-the-pet-grooming-technicians"></a>Zuweisen einer Sicherheitsrolle für die Haustierfriseure
+1. Wählen Sie im Dialogfeld **Diese App freigeben** unter **Der Sicherheitsrolle Benutzer zuweisen** die Option **Sicherheitsbenutzer** aus.
+2. Wählen Sie in der angezeigten Liste die Haustierfriseure aus.
+3. Wählen Sie **Rollen verwalten** aus.
 
-    ![Manage roles](../media/select-users-for-security-roles.png)
+    ![Verwalten von Rollen](../media/select-users-for-security-roles.png)
 
-4. In the **Manage User Roles** dialog box, select the **Pet Grooming Technicians** security role you created earlier, and then select **OK**.
+4. Wählen Sie im Dialogfeld **Benutzerrollen verwalten** die Sicherheitsrolle **Pet Grooming Technicians**, die Sie zuvor erstellt haben, und dann **OK** aus.
 
-### Assign a security role to the pet grooming schedulers
-1. In the **Share this app** dialog box, under **Assign users to a security role**, select **Security Users**.
-2. In the list that appears, select the pet grooming schedulers.
-3. Select **Manage Roles**.
-4. In the **Manage User Roles** dialog box, select the **Pet Grooming Schedulers** security role you created earlier, and then select **OK**.
+### <a name="assign-a-security-role-to-the-pet-grooming-schedulers"></a>Zuweisen einer Sicherheitsrolle für die Haustierpflegemanager
+1. Wählen Sie im Dialogfeld **Diese App freigeben** unter **Der Sicherheitsrolle Benutzer zuweisen** die Option **Sicherheitsbenutzer** aus.
+2. Wählen Sie in der angezeigten Liste die Haustierpflegemanager aus.
+3. Wählen Sie **Rollen verwalten** aus.
+4. Wählen Sie im Dialogfeld **Benutzerrollen verwalten** die Sicherheitsrolle **Pet Grooming Schedulers**, die Sie zuvor erstellt haben, und dann **OK** aus.
 
-## Add security roles to the app
-Next, one or more security roles must be assigned to the app. The apps that users can use will depend on the security roles they're assigned to.
+## <a name="add-security-roles-to-the-app"></a>Zuweisen von Sicherheitsrollen an die App
+Als Nächstes müssen Sie der App eine oder mehrere Sicherheitsrollen zuweisen. Welche Apps Benutzer verwenden können, hängt von den Sicherheitsrollen ab, denen sie zugeordnet sind.
 
-1. In the **Share this app** dialog box, under **Add the security role to your app**, select **My Apps**.
-2. On the tile for the Contoso Pet Grooming app, select the **More options** button (**...**), and then select **Manage Roles**.
+1. Wählen Sie im Dialogfeld **Diese App freigeben** unter **Ihrer App die Sicherheitsrolle hinzufügen** die Option **Meine Apps** aus.
+2. Wählen Sie auf der Kachel für die Contoso Pet Grooming-App die Schaltfläche **Weitere Optionen** (**...** ) und dann **Rollen verwalten** aus.
 
-    ![Manage roles for the app](../media/manage-roles.png)
+    ![Verwalten von Rollen für die App](../media/manage-roles.png)
 
-3. In the **Roles** section, you can choose whether to give app access to all security roles or just selected roles. Select the **Pet Grooming Schedulers** and **Pet Grooming Technicians** roles you created earlier.
+3. Im Abschnitt **Rollen** können Sie auswählen, ob Sie den Zugriff auf die App allen Sicherheitsrollen oder nur ausgewählten Rollen gewähren möchten. Wählen Sie die Rollen **Pet Grooming Schedulers** und **Pet Grooming Technicians** aus, die Sie zuvor erstellt haben.
 
-    ![Select security roles for the app](../media/app-security-roles.png)
+    ![Auswählen der Sicherheitsrollen für die App](../media/app-security-roles.png)
 
-4. Select **Save**.
- 
-## Share the link to your app
-1. In the **Share this app** dialog box, under **Share the link to your app directly with users**, copy the URL that's shown.
-1. Select **Close**.
-1. Paste the URL in a location where your users can access it. For example, you can post the URL on a Microsoft SharePoint site or send it in an email.
+4. Klicken Sie auf **Speichern**.
 
-You can also find the app URL on the **Properties** tab in the App Designer.
+## <a name="share-the-link-to-your-app"></a>Freigeben des Links zu Ihrer App
+1. Kopieren Sie im Dialogfeld **Diese App freigeben** unter **Den Link zu Ihrer App direkt mit Benutzern teilen** die angezeigte URL.
+1. Klicken Sie auf **Schließen**.
+1. Fügen Sie die URL in einen Speicherort ein, wo Ihre Benutzer darauf zugreifen können. Beispielsweise können Sie die URL auf einer Microsoft SharePoint-Website veröffentlichen oder per E-Mail senden.
 
-![Copy app URL](../media/app-designer-copy-web-url.png)
+Sie finden die URL der App auch im App-Designer auf der Registerkarte **Eigenschaften**.
 
-## About predefined security roles
-The following predefined roles are available with a PowerApps environment. Unless otherwise noted, all the privileges have global scope.
+![Kopieren der App-URL](../media/app-designer-copy-web-url.png)
 
-| Security role            | Privileges | Description |
+## <a name="about-predefined-security-roles"></a>Informationen zu vordefinierten Sicherheitsrollen
+Die folgenden vordefinierten Rollen sind mit einer PowerApps-Umgebung verfügbar. Sofern nicht anders angegeben, haben alle Berechtigungen globalen Gültigkeitsbereich.
+
+| Sicherheitsrolle            | Rechte | Beschreibung |
 |--------------------------|------------|-------------|
-| Environment Maker        | None | Users who have this role can create new resources that are associated with an environment, including apps, connections, custom application programming interfaces (APIs), gateways, and flows that use Microsoft Flow. However, they can't access the data in an environment. To learn more about environments, see [Announcing PowerApps environments](https://powerapps.microsoft.com/blog/powerapps-environments/). |
-| System Administrator     | Create, Read, Write, Delete, Customize | This role has full permission to customize or administer the environment, including creating, changing, and assigning security roles. User who have this role can view all data in the environment. To learn more, see [Privileges required for customization](https://docs.microsoft.com/dynamics365/customer-engagement/customize/privileges-required-customization). |
-| System Customizer        | Create (self), Read (self), Write (self), Delete (self), Customizations | This role has full permission to customize the environment. But users who have this role can view records only for environment entities that they create. To learn more, see [Privileges required for customization](https://docs.microsoft.com/dynamics365/customer-engagement/customize/privileges-required-customization). |
-| Common Data Service User | Read, Create (self), write (self), delete (self) | Users who have this role can run an app in the environment and perform common tasks for the records they own. |
-| Delegate                 | Act on behalf of another user | This role lets code run as or impersonate another user. This role is typically used with another security role to provide access to records. To learn more, see [Impersonate another user](https://docs.microsoft.com/dynamics365/customer-engagement/developer/org-service/impersonate-another-user). |
+| Umgebungsersteller        | Keine | Benutzer mit dieser Rolle können neue Ressourcen erstellen, die einer Umgebung zugeordnet sind, einschließlich Apps, Verbindungen, benutzerdefinierter Anwendungsprogrammierschnittstellen (APIs), Gateways und Flows, die Microsoft Flow verwenden. Diese Benutzer können jedoch nicht auf die Daten in einer Umgebung zugreifen. Weitere Informationen zu Umgebungen finden Sie unter [Announcing PowerApps environments (Bekanntmachen von PowerApps-Umgebungen)](https://powerapps.microsoft.com/blog/powerapps-environments/). |
+| Systemadministrator     | Erstellen, Lesen, Schreiben, Löschen, Anpassen | Diese Rolle verfügt über umfassende Berechtigungen zum Anpassen oder Verwalten der Umgebung, einschließlich Erstellen, Ändern und Zuweisen von Sicherheitsrollen. Benutzer mit dieser Rolle können alle Daten in der Umgebung anzeigen. Weitere Informationen finden Sie unter [Erforderliche Berechtigungen für Anpassungen](https://docs.microsoft.com/dynamics365/customer-engagement/customize/privileges-required-customization). |
+| Systemanpasser        | Erstellen (selbst), Lesen (selbst), Schreiben (selbst), Löschen (selbst), Anpassungen | Diese Rolle verfügt über die volle Berechtigung zum Anpassen der Umgebung. Aber Benutzer mit dieser Rolle können Datensätze nur für Umgebungsentitäten anzeigen, die sie erstellen. Weitere Informationen finden Sie unter [Erforderliche Berechtigungen für Anpassungen](https://docs.microsoft.com/dynamics365/customer-engagement/customize/privileges-required-customization). |
+| Common Data Service-Benutzer | Lesen, Erstellen (selbst), Schreiben (selbst), Löschen (selbst) | Benutzer mit dieser Rolle können eine App in der Umgebung und allgemeine Aufgaben für die Datensätze, die sie besitzen, ausführen. |
+| Delegieren                 | Agieren im Auftrag eines anderen Benutzers | Diese Rolle kann Code als anderer Benutzer ausführen oder die Identität eines anderen Benutzers annehmen. Diese Rolle wird in der Regel mit einer anderen Sicherheitsrolle verwendet, um den Zugriff auf Datensätze bereitzustellen. Weitere Informationen finden Sie unter [Annehmen der Identität eines anderen Benutzers](https://docs.microsoft.com/dynamics365/customer-engagement/developer/org-service/impersonate-another-user). |

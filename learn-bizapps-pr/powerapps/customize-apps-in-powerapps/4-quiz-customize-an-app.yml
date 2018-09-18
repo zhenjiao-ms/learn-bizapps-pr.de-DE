@@ -1,52 +1,57 @@
 ### YamlMime:ModuleUnit
 uid: learn-bizapps.powerapps-customize.4-quiz-customize-an-app
-title: Check your knowledge
+title: Überprüfen Sie Ihre Kenntnisse
 metadata:
-  title: "Knowledge check: Customize an app"
-  description: This knowledge check tests your knowledge of how to customize an app.
+  title: 'Wissenstest: Anpassen einer App'
+  description: In dieser Wissensbeurteilung wird Ihr Wissen über das Anpassen einer App getestet.
   ms.date: 09/24/2018
-  #TODO: Update with real author name.
   author: margoc
   ms.author: margoc
   ms.topic: interactive-tutorial
   ms.prod: learning-powerapps
+  ms.openlocfilehash: f8ac10d29bcbf2b3085efc00cb99a58b227908f6
+  ms.sourcegitcommit: a6cdd11ea6d5cffdd264c005b6e2f15c00854553
+  ms.translationtype: HT
+  ms.contentlocale: de-DE
+  ms.lasthandoff: 09/10/2018
+  ms.locfileid: "44331867"
 durationInMinutes: 10
 quiz:
-  title: "Knowledge check: Customize an app"
+  title: 'Wissenstest: Anpassen einer App'
   questions:
-  - content: In PowerApps, where do you customize an app?
-    choices: 
-    - content: web.powerapps.com 
+  - content: Wo passen Sie in PowerApps eine App an?
+    choices:
+    - content: web.powerapps.com
       isCorrect: false
-      incorrectExplanation: Web.powerapps.com is where you can view all your apps. It isn't where you customize them.
+      incorrectExplanation: Unter web.powerapps.com können Sie alle Ihre Apps anzeigen. Sie können sie dort aber nicht anpassen.
     - content: PowerApps Studio
-      correctExplanation: PowerApps Studio is where you customize your apps.
+      correctExplanation: Die Anpassung von Apps erfolgt in PowerApps Studio.
       isCorrect: true
     - content: Microsoft SharePoint
-      incorrectExplanation: SharePoint can be a data source for apps, but you don't customize apps there.
+      incorrectExplanation: SharePoint kann die Datenquelle für Apps sein, aber Sie können Apps dort nicht anpassen.
       isCorrect: false
     - content: Microsoft AppSource
-      incorrectExplanation: You install apps from Microsoft AppSource, but you customize them in PowerApps Studio.
+      incorrectExplanation: Sie installieren Apps über Microsoft AppSource, aber die Anpassung erfolgt in PowerApps Studio.
       isCorrect: false
-  - content: Which of the following isn't a screen in apps that PowerApps generates?
+  - content: Welche der folgenden Antwortmöglichkeiten ist kein App-Bildschirm, der von PowerApps generiert wird?
     choices:
-    - content: Browse screen
-      incorrectExplanation: The browse screen opens by default in apps that PowerApps generates.
+    - content: Bildschirm zum Durchsuchen
+      incorrectExplanation: Der Bildschirm zum Durchsuchen wird in Apps, die von PowerApps generiert werden, standardmäßig geöffnet.
       isCorrect: false
-    - content: Edit/create screen
-      correctExplanation: When PowerApps generates an app, it contains browse, details, and edit/create screens.
+    - content: Bildschirm zum Bearbeiten/Erstellen
+      correctExplanation: Wenn PowerApps eine App generiert, enthält diese einen Bildschirm zum Durchsuchen, einen Bildschirm mit Details und einen Bildschirm zum Bearbeiten/Erstellen.
       isCorrect: false
-    - content: Preview pane
-      incorrectExplanation: Although the Run button does start your app so that you can preview it, the Preview pane isn't a main screen.
+    - content: Vorschaubereich
+      incorrectExplanation: Obwohl die Schaltfläche „Ausführen“ Ihre App so startet, dass Sie eine Vorschau anzeigen können, ist der Vorschaubereich kein Hauptbildschirm.
       isCorrect: true
-  - content: Which screen opens by default in apps that PowerApps generates?
+  - content: Welcher Bildschirm wird in Apps, die von PowerApps generiert werden, standardmäßig geöffnet?
     choices:
-    - content: Preview pane
-      incorrectExplanation: The Run button does start your app so that you can preview it, but the Preview pane isn't a main screen.
+    - content: Vorschaubereich
+      incorrectExplanation: Die Schaltfläche „Ausführen“ startet Ihre App so, dass Sie eine Vorschau anzeigen können, aber der Vorschaubereich ist kein Hauptbildschirm.
       isCorrect: false
-    - content: Details screen
-      incorrectExplanation: The browse screen is the first screen. A details screen typically opens when a specific item is selected on the browse screen.
+    - content: Detailbildschirm
+      incorrectExplanation: Der Bildschirm zum Durchsuchen ist der erste Bildschirm. In der Regel wird ein Detailbildschirm geöffnet, wenn ein bestimmtes Element im Bildschirm zum Durchsuchen ausgewählt wird.
       isCorrect: false
-    - content: Browse screen
-      correctExplanation: When PowerApps apps start, the browse screen is always the first screen.
+    - content: Bildschirm zum Durchsuchen
+      correctExplanation: Wenn PowerApps-Apps gestartet werden, ist der Bildschirm zum Durchsuchen immer der erste Bildschirm.
       isCorrect: true

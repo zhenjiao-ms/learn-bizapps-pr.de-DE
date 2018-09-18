@@ -1,52 +1,57 @@
 ### YamlMime:ModuleUnit
 uid: learn-bizapps.powerapps-get-started.6-powerapps-quiz-get-started
 metadata:
-  title: "Knowledge check: Get started in PowerApps"
-  description: This knowledge check tests your knowledge of how to get started in PowerApps.
+  title: 'Wissenstest: Erste Schritte mit PowerApps'
+  description: In dieser Wissensbeurteilung wird Ihr Wissen über die ersten Schritte in PowerApps getestet.
   ms.date: 09/24/2018
-  #TODO: Update with real author name.
   author: margoc
   ms.author: margoc
   ms.topic: interactive-tutorial
   ms.prod: learning-powerapps
-title: Check your knowledge
+  ms.openlocfilehash: a2904c5419770a2d3f3fec1ececb40fb961bff7c
+  ms.sourcegitcommit: a6cdd11ea6d5cffdd264c005b6e2f15c00854553
+  ms.translationtype: HT
+  ms.contentlocale: de-DE
+  ms.lasthandoff: 09/10/2018
+  ms.locfileid: "44330941"
+title: Überprüfen Sie Ihre Kenntnisse
 durationInMinutes: 10
 quiz:
-  title: "Knowledge check: Get started in PowerApps"
+  title: 'Wissenstest: Erste Schritte mit PowerApps'
   questions:
-  - content: Where do you share an app with others?
-    choices: 
-    - content: In web.powerapps.com.
-      correctExplanation: In web.powerapps.com, you can share an app with others, allowing them to just run it or to both run and edit it.
+  - content: Wo geben Sie eine App für andere Benutzer frei?
+    choices:
+    - content: In „web.powerapps.com“.
+      correctExplanation: In „web.powerapps.com“ können Sie eine App für andere Benutzer freigeben und diesen ermöglichen, sie entweder nur auszuführen oder sie sowohl zu bearbeiten als auch auszuführen.
       isCorrect: true
-    - content: In the PowerApps admin center.
-      incorrectExplanation: You can manage environments and create databases in the PowerApps admin center, but you can't share apps from that location.
+    - content: Im PowerApps Admin Center.
+      incorrectExplanation: Im PowerApps Admin Center können Sie Umgebungen verwalten und Datenbanken erstellen, aber keine Apps freigeben.
       isCorrect: false
     - content: In Microsoft Dynamics 365.
-      incorrectExplanation: You can run apps in Dynamics 365, but you can't share them from that location.
+      incorrectExplanation: In Dynamics 365 können Sie Apps ausführen, aber nicht freigeben.
       isCorrect: false
     - content: In PowerApps Studio.
-      incorrectExplanation: You can design apps in PowerApps Studio, but you can't share them from that location.
+      incorrectExplanation: In PowerApps Studio können Sie Apps entwerfen, aber nicht freigeben.
       isCorrect: false
-  - content: Which of these statements about data sources is true?
+  - content: Welche dieser Aussagen über Datenquellen ist richtig?
     choices:
-    - content: In PowerApps, app data comes primarily from your local device.
-      incorrectExplanation: Data can come from many sources, including Microsoft SharePoint, Google Drive, and Salesforce.
+    - content: In PowerApps stammen App-Daten primär aus Ihrem lokalen Gerät.
+      incorrectExplanation: Daten stammen aus vielen Quellen, einschließlich Microsoft SharePoint, Google Drive und Salesforce.
       isCorrect: false
-    - content: Twitter can be a data source.
-      correctExplanation: You can use many data sources, including Twitter, Facebook, Microsoft SQL Server, and Salesforce.
+    - content: Twitter kann eine Datenquelle sein.
+      correctExplanation: Sie können viele Datenquellen verwenden, einschließlich Twitter, Facebook, Microsoft SQL Server und Salesforce.
       isCorrect: true
-    - content: Dropbox can't be a data source.
-      incorrectExplanation: Dropbox is one of many data sources that you can use when you build an app in PowerApps.
+    - content: Dropbox kann keine Datenquelle sein.
+      incorrectExplanation: Dropbox ist eine von vielen Datenquellen, die Sie beim Erstellen einer App in PowerApps verwenden können.
       isCorrect: false
-  - content: Which of these statements *doesn't* describe a way to build apps?
+  - content: Welche dieser Aussagen beschreibt *keine* Möglichkeit zum Erstellen von Apps?
     choices:
-    - content: You can build an app from a template or a sample.
-      incorrectExplanation: PowerApps ships with many templates and samples from which you can build apps.
+    - content: Sie können eine App aus einer Vorlage oder einem Beispiel erstellen.
+      incorrectExplanation: PowerApps enthält eine Vielzahl von Vorlagen und Beispielen, aus denen Sie Apps erstellen können.
       isCorrect: false
-    - content: You can build an app from a blank screen.
-      incorrectExplanation: You can build an app from the ground up by adding UI elements that determine how the app looks and creating formulas that determine how the app behaves.
+    - content: Sie können eine App aus einem leeren Bildschirm erstellen.
+      incorrectExplanation: Sie können eine App von Grund auf neu erstellen, indem Sie Benutzeroberflächenelemente hinzufügen, die das Aussehen der App bestimmen, und Formeln erstellen, die das Verhalten der App bestimmen.
       isCorrect: false
-    - content: You can build an app in PowerApps Mobile.
-      correctExplanation: You can run but not build apps in PowerApps Mobile.
+    - content: Sie können eine App in PowerApps Mobile erstellen.
+      correctExplanation: Sie können eine App in PowerApps Mobile ausführen, aber nicht erstellen.
       isCorrect: true

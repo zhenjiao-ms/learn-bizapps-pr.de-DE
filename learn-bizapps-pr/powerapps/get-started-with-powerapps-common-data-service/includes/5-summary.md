@@ -1,9 +1,10 @@
-Congratulations on creating using CDS for Apps, and creating your first entity! 
+Glückwunsch, dass Sie gelernt haben, wie Sie mit Common Data Service (CDS) für Apps arbeiten und Ihre erste Entität erstellt wird!
 
-CDS for Apps lets you securely store and manage data that's used by business applications. Standard and custom entities within CDS for Apps provide a secure and cloud-based storage option for your data.
+Mit CDS für Apps können Sie Daten, die von Geschäftsanwendungen verwendet werden, sicher speichern und verwalten. Standard- und benutzerdefinierte Entitäten in CDS für Apps bieten eine sichere und cloudbasierte Speicheroption für Ihre Daten.
 
-Let's review what you've learned:
-- CDS for Apps stores data in entities. 
-- If you can, it's preferable to use as many default entities as possible, so that your system is easy to maintain.
-- Creating new entities is easy.
-- The best way to get data into an entity is to create a template and upload it. 
+Überprüfen Sie, was Sie bisher gelernt haben:
+
+- In CDS für Apps werden Daten in Entitäten gespeichert.
+- Es wird empfohlen, so viele Standardentitäten wie möglich zu verwenden, damit Ihr System einfacher zu verwalten ist.
+- Es ist einfach, neue Entitäten zu erstellen.
+- Die beste Möglichkeit zum Abrufen von Daten in eine Entität ist das Erstellen einer Vorlage, die Sie dann hochladen.

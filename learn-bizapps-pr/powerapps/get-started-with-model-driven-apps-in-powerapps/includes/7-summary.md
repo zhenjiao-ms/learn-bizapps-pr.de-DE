@@ -1,10 +1,10 @@
-Congratulations on creating your first model-driven app! 
+Herzlichen Glückwunsch zum Erstellen Ihrer ersten modellgesteuerten App! 
 
-Defining and enforcing consistent business processes is a key aspect of model-driven app design. Consistent processes help ensure that your app users can focus on their work, not on remembering to perform a set of manual steps.
+Definieren und Erzwingen konsistenter Geschäftsprozesse sind wichtige Aspekte des Entwurfs einer modellgesteuerten App. Konsistente Prozesse stellen sicher, dass die Benutzer Ihrer App sich auf ihre Arbeit konzentrieren können und nicht daran denken müssen, eine Reihe von manuellen Schritten auszuführen.
 
-Let's review what you've learned:
+Überprüfen Sie, was Sie bisher gelernt haben:
 
-- Model-driven app design is an approach that focuses on quickly adding components to apps. These components include dashboards, forms, views, and charts. 
-- No code is required to build model-driven apps.
-- Model-driven design uses a metadata-driven architecture so that designers can customize the app.
-- The best way to get started building model-driven apps is to use sample apps and data, and then customize the apps.
+- Der Entwurf einer modellgesteuerten App ist ein Ansatz, der sich auf das schnelle Hinzufügen von Komponenten konzentriert. Zu diesen Komponenten gehören Dashboards, Formulare, Ansichten und Diagramme. 
+- Kein Code ist erforderlich, um modellgesteuerte Apps zu erstellen.
+- Der modellgesteuerte Entwurf verwendet eine durch Metadaten gesteuerte Architektur, damit Designer die App anpassen können.
+- Die beste Möglichkeit für den Einstieg in das Erstellen von modellgesteuerten Apps ist die Verwendung von Beispiel-Apps und -Daten und anschließendes Anpassen der Apps.
