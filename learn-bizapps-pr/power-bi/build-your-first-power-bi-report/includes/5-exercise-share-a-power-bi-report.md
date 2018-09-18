@@ -1,62 +1,72 @@
-Now that we have a Power BI Desktop report that’s reasonably complete, we can share it with others using the **Power BI** service. There are a few ways to share your work in Power BI Desktop. You can publish to the **Power BI** service, you can upload the .pbix file directly from the Power BI service, or you can save the .pbix file and send it like any other file.
+Jetzt, da wir einen Power BI Desktop-Bericht haben, der einigermaßen vollständig ist (oder zumindest ein Fortfahren ermöglicht), können wir ihn über den **Power BI**-Dienst für andere freigeben. Es gibt in Power BI Desktop mehrere Möglichkeiten zum Freigeben des Berichts. Sie können ihn im **Power BI**-Dienst veröffentlichen, die PBIX-Datei direkt aus dem Power BI-Dienst hochladen oder die PBIX-Datei speichern und wie jede andere Datei senden. Sie können einen Bericht auch in eine PowerPoint-Datei exportieren und sogar eine PDF-Datei des Berichts erstellen.
 
-First, let's look at publishing to the **Power BI** service directly from Power BI Desktop. On the **Home** ribbon, select **Publish**.
+## <a name="publish-to-the-power-bi-service"></a>Veröffentlichen des Berichts im Power BI-Dienst
+Sehen wir uns zunächst die Veröffentlichung im **Power BI**-Dienst direkt aus Power BI Desktop an. Wählen Sie auf der Registerkarte **Start** im Menüband **Veröffentlichen** aus.
 
-![Publish button](../media/pbid-share_01.png)
+![Schaltfläche „Veröffentlichen“](../media/pbid-share_01.png)
 
-You may be prompted to sign in to Power BI.
+Sie werden möglicherweise aufgefordert, sich bei Power BI anzumelden.
 
-![Sign in to Power BI](../media/pbid-share_02.png)
+![Anmelden bei Power BI](../media/pbid-share_02.png)
 
+Im nächsten eingeblendeten Fenster werden Sie nach einem Ziel für Ihren veröffentlichten Bericht gefragt. Sie können einen Bericht in einem Arbeitsbereich veröffentlichen, auf den Ihre gesamte Organisation Zugriff hat (und so Ihren Bericht für alle in Ihrer Organisation freigeben), oder Sie können ihn für andere verfügbare Arbeitsbereiche freigeben. Die Arbeitsbereiche, die Sie sehen, basieren auf der Verfügbarkeit für Sie und Ihre Organisation.
 
-When you've signed in and the publish process is complete, you see the following dialog.
+Sie können den Bericht auch einfach in Ihrem eigenen Arbeitsbereich (genannt *Mein Arbeitsbereich*) freigeben und dann im Power BI-Dienst weitere Schritte damit unternehmen (einschließlich einer umfassenderen Freigabe). In diesem Fall entscheiden wir uns für *Mein Arbeitsbereich*.
 
-![Publishing succeeds](../media/pbid-share_03.png)
+![Auswählen eines Freigabeziels](../media/pbid-share_02b.png)
 
-When you sign in to Power BI, you'll see Power BI Desktop file you just loaded in the **Dashboards**, **Reports**, and **Datasets** sections of the service.
+Wenn Sie angemeldet sind und der Veröffentlichungsprozess abgeschlossen ist, sehen Sie das folgende Dialogfeld.
 
-Another way to share your work is to load it from within the **Power BI** service. The following link brings up the **Power BI** service in a browser:
+![Veröffentlichung erfolgreich](../media/pbid-share_03.png)
+
+Wenn Sie sich bei Power BI anmelden, sehen Sie die Power BI Desktop-Datei, die Sie gerade geladen haben, in den Abschnitten **Dashboards**, **Berichte** und **Datasets** des Diensts.
+
+Eine weitere Möglichkeit zum Freigeben Ihres Berichts ist das Laden im **Power BI**-Dienst. Über den folgenden Link wird der **Power BI**-Dienst in einem Browser eingeblendet:
 
 `https://app.powerbi.com`
 
-Select **Get Data** to start the process of loading your Power BI Desktop report.
+Wählen Sie **Daten abrufen** aus, um das Laden Ihres Power BI Desktop-Berichts zu starten.
 
-![Get data in the Power BI service](../media/pbid-share_04.png)
+![Abrufen von Daten im Power BI-Dienst](../media/pbid-share_04.png)
 
-The **Get Data** page appears, from which you can select where to get your data from. In this case, we select **Get** from the **Files** box.
+Die Seite **Daten abrufen** wird angezeigt, auf der Sie auswählen können, wo Ihre Daten abgerufen werden sollen. In diesem Fall wählen wir **Abrufen** im Feld **Dateien** aus.
 
-![Get data main screen](../media/pbid-share_05.png)
+![Hauptbildschirm zum Abrufen von Daten](../media/pbid-share_05.png)
 
-The **Files** view appears. In this case, we select **Local File**.
+Die Ansicht **Dateien** wird angezeigt. In diesem Fall wählen wir **Lokale Datei**.
 
-![Local file as a data source](../media/pbid-share_06.png)
+![Lokale Datei als Datenquelle](../media/pbid-share_06.png)
 
-When you select the file, Power BI uploads the file.
+Wenn Sie die Datei auswählen, lädt Power BI die Datei hoch.
 
-![Uploading file](../media/pbid-share_07.png)
+![Hochladen der Datei](../media/pbid-share_07.png)
 
-Once the file is uploaded, you can select the file from the **Reports** in the left pane of the Power BI service.
+Sobald die Datei hochgeladen wurde, können Sie sie im linken Bereich des Power BI-Diensts in **Mein Arbeitsbereich** auswählen und dann im Zeichenbereich **Berichte** auswählen, um alle Ihre Berichte anzuzeigen.
 
-![Ready to share](../media/pbid-share_08.png)
+![Bereit zum Freigeben](../media/pbid-share_08.png)
 
-The **Power BI** service displays the first page of the report. Along the bottom of the page, you can select any tab to display that page of the report.
+Wenn Sie den Bericht auswählen (durch Klicken auf dessen Namen), zeigt der **Power BI**-Dienst die erste Seite des Berichts an. Unten auf der Seite können Sie eine beliebige Registerkarte zum Anzeigen dieser Seite des Berichts auswählen.
 
-![First page of the report is displayed](../media/pbid-share_09.png)
+![Erste Seite des Berichts wird angezeigt](../media/pbid-share_09.png)
 
-You can make changes to a report in the **Power BI** service by selecting **Edit Report** from the top of the report canvas.
+Sie können im **Power BI**-Dienst Änderungen an einem Bericht vornehmen, indem Sie oben im Berichtszeichenbereich auf **Bericht bearbeiten** klicken.
 
-To save your report, select **File > Save As** from the service. There are all sorts of interesting visuals you can create in the **Power BI** service from your report, which you can pin to a *dashboard*. To learn about dashboards in the **Power BI** service<strong>[, see Tips for designing a great dashboard](service-dashboards-design-tips.md)</strong>.
+Wählen Sie zum Speichern Ihres Berichts im Dienst **Datei > Speichern unter** aus. 
 
-![Save a copy of the report](../media/pbid-share_10.png)
+![Speichern einer Kopie des Berichts](../media/pbid-share_10.png)
 
-Once saved, select the **Share** icon on the main page.
+## <a name="save-as-powerpoint-file"></a>Speichern als PowerPoint-Datei
 
-![The Share icon](../media/pbid-share_11.png)
+Sie können Ihren Power BI Desktop-Bericht auch als PowerPoint-Präsentation exportieren, um ihn während einer PowerPoint-Präsentation mit anderen zu teilen. 
 
-From here, you can send an email to colleagues with whom you’d like to share the dashboard.
+Klicken Sie im Power BI-Dienst bei geladenem Bericht auf **Datei > Nach PowerPoint exportieren (Vorschau)**.
 
-![Email your published report](../media/pbid-share_12.png)
+![Nach PowerPoint exportieren](../media/pbid-share_11.png)
 
-For more information about creating, sharing, and modifying dashboards, see [Share a dashboard](service-share-dashboards.md).
+Sobald Power BI den Exportvorgang abgeschlossen hat, erfahren Sie, wo die PowerPoint-Datei gespeichert wurde, die zur Freigabe für andere bereit ist.
 
-There are all sorts of compelling data-related mash-ups and visualizations you can do with Power BI Desktop, and with the Power BI service. Check out the next section for more information.
+![Nach PowerPoint exportieren](../media/pbid-share_12.png)
+
+Nachdem Sie erfahren haben, wie Berichte erstellt und freigegeben werden, können Sie mit Ihrer Vorstellungskraft Geschichten mit Daten erzählen und diese für Ihre gesamte Organisation freigeben.
+
+Lassen Sie uns zur nächsten Einheit übergehen, in der wir dieses Modul abschließen.
