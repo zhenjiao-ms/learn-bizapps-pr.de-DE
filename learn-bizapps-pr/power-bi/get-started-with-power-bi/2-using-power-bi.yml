@@ -1,19 +1,19 @@
 ### YamlMime:ModuleUnit
 uid: learn-bizapps.get-started-with-power-bi.2-using-power-bi
 metadata:
-  title: <span data-ttu-id="40fdd-101">Verwenden von Power BI</span><span class="sxs-lookup"><span data-stu-id="40fdd-101">Use Power BI</span></span>
-  description: <span data-ttu-id="40fdd-102">Verwenden von Power BI</span><span class="sxs-lookup"><span data-stu-id="40fdd-102">Use Power BI</span></span>
+  title: <span data-ttu-id="9cc50-101">Verwenden von Power BI</span><span class="sxs-lookup"><span data-stu-id="9cc50-101">Use Power BI</span></span>
+  description: <span data-ttu-id="9cc50-102">Verwenden von Power BI</span><span class="sxs-lookup"><span data-stu-id="9cc50-102">Use Power BI</span></span>
   ms.date: 09/24/2018
   author: margoc
   ms.author: margoc
   ms.topic: interactive-tutorial
   ms.prod: learning-powerbi
-  ms.openlocfilehash: c13501938e5fe214164d062e3011e477e95ca140
-  ms.sourcegitcommit: 0d11bb189c04e6a809981a561a7cbbb59fd8e5ae
+  ms.openlocfilehash: 7cbc66aece325d899ed0990900888c824ca2261a
+  ms.sourcegitcommit: f2a26cb340c456689f7cc8eddee64bb8a48c11d8
   ms.translationtype: HT
   ms.contentlocale: de-DE
-  ms.lasthandoff: 09/15/2018
-  ms.locfileid: "45650977"
-title: <span data-ttu-id="40fdd-103">Verwenden von Power BI</span><span class="sxs-lookup"><span data-stu-id="40fdd-103">Use Power BI</span></span>
-durationInMinutes: 4
+  ms.lasthandoff: 09/18/2018
+  ms.locfileid: "45977156"
+title: <span data-ttu-id="9cc50-103">Verwenden von Power BI</span><span class="sxs-lookup"><span data-stu-id="9cc50-103">Use Power BI</span></span>
+durationInMinutes: 2
 content: '[!include[](includes/2-using-power-bi.md)]'
