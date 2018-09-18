@@ -1,19 +1,19 @@
 ### YamlMime:ModuleUnit
 uid: learn-bizapps.build-your-first-report.6-summary-cleanup
 metadata:
-  title: Zusammenfassung und Cleanup
-  description: Zusammenfassung und Cleanup
+  title: Zusammenfassung
+  description: Zusammenfassung
   ms.date: 09/24/2018
   author: margoc
   ms.author: margoc
   ms.topic: interactive-tutorial
   ms.prod: learning-powerbi
-  ms.openlocfilehash: 8cea4cea91d40415f03302e015be188f10f4ec34
-  ms.sourcegitcommit: 88398f21cabb7c194b4292d6f3a4a10049eab76d
+  ms.openlocfilehash: ad788a15584878f83ef42079e7e75595f192bb54
+  ms.sourcegitcommit: b24c74f0ef4b2d10d02d5fa831bb19166182e81f
   ms.translationtype: HT
   ms.contentlocale: de-DE
-  ms.lasthandoff: 09/12/2018
-  ms.locfileid: "44500418"
-title: Zusammenfassung und Cleanup
+  ms.lasthandoff: 09/18/2018
+  ms.locfileid: "46012250"
+title: Zusammenfassung
 durationInMinutes: 2
 content: '[!include[](includes/6-summary-cleanup.md)]'
