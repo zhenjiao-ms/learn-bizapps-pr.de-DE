@@ -1,0 +1,19 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.powerapps-customize.1-powerapps-customize
+title: Verbessern von Apps durch grundlegende Anpassungen in PowerApps
+metadata:
+  title: Verbessern von Apps durch grundlegende Anpassungen in PowerApps
+  description: Nehmen Sie grundlegende Anpassungen in Ihren Apps vor, indem Sie z.B. ein Layout auswählen und Felder neu anordnen.
+  ms.date: 09/24/2018
+  author: margoc
+  ms.author: margoc
+  ms.topic: interactive-tutorial
+  ms.prod: learning-powerapps
+  ms.openlocfilehash: b9e2c00d295fbfb9d313c1e991dd5eade936f4e5
+  ms.sourcegitcommit: 255768424a95e14dc5767f1710feb755467861ee
+  ms.translationtype: HT
+  ms.contentlocale: de-DE
+  ms.lasthandoff: 09/18/2018
+  ms.locfileid: "46120228"
+durationInMinutes: 10
+content: '[!include[](includes/1-powerapps-customize.md)]'

@@ -1,0 +1,19 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.flow-get-started.1-flow-introduction
+title: Einführung in Microsoft Flow
+metadata:
+  title: Einführung in Microsoft Flow
+  description: Lernen Sie die Grundlagen von Microsoft Flow.
+  ms.date: 09/24/2018
+  author: margoc
+  ms.author: margoc
+  ms.topic: interactive-tutorial
+  ms.prod: learning-flow
+  ms.openlocfilehash: d7a58a93c7d39f7b1fb1e9e0973ac7ca4b046cdf
+  ms.sourcegitcommit: 255768424a95e14dc5767f1710feb755467861ee
+  ms.translationtype: HT
+  ms.contentlocale: de-DE
+  ms.lasthandoff: 09/18/2018
+  ms.locfileid: "46120389"
+durationInMinutes: 5
+content: '[!include[](includes/1-flow-introduction.md)]'

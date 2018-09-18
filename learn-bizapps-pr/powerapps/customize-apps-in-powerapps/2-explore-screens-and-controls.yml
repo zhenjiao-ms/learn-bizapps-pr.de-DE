@@ -1,0 +1,19 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.powerapps-customize.2-powerapps-explore
+title: Erkunden von Bildschirmen und Steuerelementen in PowerApps
+metadata:
+  title: Erkunden von Bildschirmen und Steuerelementen in PowerApps
+  description: Hier erfahren Sie mehr über die standardmäßigen Bildschirme und Steuerelemente in einer App, die von PowerApps generiert wird.
+  ms.date: 09/24/2018
+  author: margoc
+  ms.author: margoc
+  ms.topic: interactive-tutorial
+  ms.prod: learning-powerapps
+  ms.openlocfilehash: 1f148433da4653aa6aecc5afeef916ff1d315150
+  ms.sourcegitcommit: 255768424a95e14dc5767f1710feb755467861ee
+  ms.translationtype: HT
+  ms.contentlocale: de-DE
+  ms.lasthandoff: 09/18/2018
+  ms.locfileid: "46120251"
+durationInMinutes: 5
+content: '[!include[](includes/2-powerapps-explore.md)]'

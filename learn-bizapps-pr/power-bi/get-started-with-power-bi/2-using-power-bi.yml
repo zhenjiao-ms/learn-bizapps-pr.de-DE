@@ -8,12 +8,12 @@ metadata:
   ms.author: margoc
   ms.topic: interactive-tutorial
   ms.prod: learning-powerbi
-  ms.openlocfilehash: c13501938e5fe214164d062e3011e477e95ca140
-  ms.sourcegitcommit: 0d11bb189c04e6a809981a561a7cbbb59fd8e5ae
+  ms.openlocfilehash: 7cbc66aece325d899ed0990900888c824ca2261a
+  ms.sourcegitcommit: f2a26cb340c456689f7cc8eddee64bb8a48c11d8
   ms.translationtype: HT
   ms.contentlocale: de-DE
-  ms.lasthandoff: 09/15/2018
-  ms.locfileid: "45650977"
+  ms.lasthandoff: 09/18/2018
+  ms.locfileid: "45977156"
 title: Verwenden von Power BI
-durationInMinutes: 4
+durationInMinutes: 2
 content: '[!include[](includes/2-using-power-bi.md)]'
