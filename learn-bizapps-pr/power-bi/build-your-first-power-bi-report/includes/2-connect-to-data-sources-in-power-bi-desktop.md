@@ -1,29 +1,29 @@
-With Power BI Desktop installed, you’re ready to connect to the ever expanding world of data. There are *all sorts* of data sources available in the Power Query window. The following image shows how to connect to data, by selecting the **Home** ribbon, then **Get Data \> More**.
+Mit Power BI Desktop sind Sie bereit, sich mit der ständig wachsenden Welt der Daten zu verbinden. Es gibt *alle möglichen Arten* von Datenquellen, die im Power Query-Fenster zur Verfügung stehen. Die folgende Abbildung zeigt, wie eine Verbindung mit Daten hergestellt wird, indem auf dem Menüband auf **Start** und dann auf **Daten abrufen > Mehr** geklickt wird.
 
-![Get data](../media/TC-DesktopIntro.gif)
+![Abrufen von Daten](../media/TC-DesktopIntro.gif)
 
-For this unit, we'll connect to a couple different **Web** data sources.
+Für diese Einheit verbinden wir uns mit einer Reihe von Datenquellen im **Web**.
 
-Imagine you’re retiring – you want to live where there’s lots of sunshine, preferable taxes, and good health care – or perhaps you’re a data analyst, and you want that information to help your customers. For example, perhaps you want to help your sunglasses retailer target sales where the sun shines most frequently.
+Stellen Sie sich vor, Sie gehen in den Ruhestand. Sie wollen dort leben, wo es viele Sonnentage, günstige Steuern und eine gute Gesundheitsversorgung gibt. Oder Sie sind vielleicht ein Datenanalyst und wünschen sich diese Informationen, um Ihren Kunden zu helfen. Möglicherweise möchten Sie Ihrem Sonnenbrillenhändler helfen, den Umsatz dort zu steigern, wo die Sonne am häufigsten scheint.
 
-Either way, the following Web resource has interesting data about those topics, and more:
+In beiden Fällen bietet die folgende Webressource interessante Daten zu diesen Themen und vielem mehr:
 
 [*http://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx*](http://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx)
 
-Select **Get Data > Web** and paste the address.
+Klicken Sie auf **Daten abrufen > Web**, und fügen Sie die Adresse ein.
 
-![Connect to Web data](../media/pbid-getdata_01.jpg)
+![Herstellen einer Verbindung mit Webdaten](../media/pbid-getdata_01.jpg)
 
-When you select **OK**, the **Query** functionality of Power BI Desktop goes to work. Query contacts the Web resource, and the **Navigator** window returns what it found on that Web page. In this case, it found a table (*Table 0*) and the overall Web Document. We’re interested in the table, so we select it from the list. The **Navigator** window displays a preview.
+Wenn Sie auf **OK** klicken, nimmt die **Abfragefunktion** von Power BI Desktop ihre Arbeit auf. Die Abfragefunktion kontaktiert die Webressource, und im Fenster **Navigator** werden die auf dieser Webseite gefundenen Ergebnisse zurückgegeben. In diesem Fall findet sie eine Tabelle (*Table 0*) und das allgemeine Webdokument. Da wir an der Tabelle interessiert sind, wählen wir diese in der Liste aus. Im Fenster **Navigator** wird eine Vorschau angezeigt.
 
-![The Navigator window](../media/pbid-getdata_02.jpg)
+![Das Fenster „Navigator“](../media/pbid-getdata_02.jpg)
 
-At this point we can edit the query before loading the table, by selecting **Edit** from the bottom of the window, or we can load the table.
+An dieser Stelle können wir die Abfrage vor dem Laden der Tabelle bearbeiten (durch Auswahl von **Bearbeiten** unten im Fenster) oder die Tabelle direkt laden.
 
-When we select **Edit**, Power Query Editor launches and a representative view of the table is presented. The **Query Settings** pane is displayed (if it’s not, you can select **View** from the ribbon, then **Show > Query Settings** to display the **Query Settings** pane). Here’s what that looks like.
+Bei Klicken auf **Bearbeiten** wird im Power Query-Editor eine repräsentative Ansicht der Tabelle angezeigt. Der Bereich **Abfrageeinstellungen** wird angezeigt (falls nicht, wählen Sie auf dem Menüband **Ansicht** und dann **Anzeigen > Abfrageeinstellungen** aus, um den Bereich **Abfrageeinstellungen** anzuzeigen). So sieht die Ansicht aus.
 
-![Power Query Editor window](../media/pbid-getdata_03.jpg)
+![Fenster des Power Query-Editors](../media/pbid-getdata_03.jpg)
 
-In Power BI Desktop, you can connect to multiple data sources and combine them to do interesting things. 
+In Power BI Desktop können Sie sich mit mehreren Datenquellen verbinden und diese für interessante Aufgaben kombinieren. 
 
-In the next section, we adjust the data so it meets our needs. The process of adjusting connected data is called *shaping* data.
+Im nächsten Abschnitt passen wir die Daten so an, dass sie unseren Anforderungen entsprechen. Der Prozess der Anpassung verbundener Daten wird als *Strukturieren* von Daten bezeichnet.

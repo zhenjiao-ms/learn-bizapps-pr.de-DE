@@ -1,107 +1,122 @@
-In this unit you create an entity and then customize key components such as fields, relationships, views, and forms. You learn how to:
+In dieser Lektion erstellen Sie eine Entität und passen anschließend wichtige Komponenten wie Felder, Beziehungen, Ansichten und Formulare an. Sie lernen Folgendes:
 
-- Create a custom entity
-- Add custom fields to your entity
-- Add an entity relationship
-- Customize a view 
-- Customize a form
+- Erstellen einer benutzerdefinierten Entität
+- Hinzufügen benutzerdefinierter Felder zur Entität
+- Hinzufügen einer Entitätsbeziehung
+- Anpassen einer Ansicht
+- Anpassen eines Formulars
 
-The tutorial will follow the company, Contoso, which is a pet grooming business that grooms dogs and cats. Contoso needs an app for client and pet tracking that can be used by employees across a variety of devices.
+Dieses Tutorial orientiert sich am Unternehmen Contoso, das einen Haustierpflegedienst für Hunde und Katzen betreibt. Contoso benötigt eine App zum Nachverfolgen von Kunden und Haustieren, die von den Mitarbeitern auf einer Vielzahl von Geräten genutzt werden kann.
 
-## Prerequisites
+## <a name="prerequisites"></a>Voraussetzungen
 
-Sign in to [PowerApps](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc). If you don’t already have a PowerApps account, select the **Get started free** link from [powerapps.com](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc).
+Melden Sie sich bei [Microsoft PowerApps](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) an. Wenn Sie nicht bereits über ein PowerApps-Konto verfügen, klicken Sie auf [powerapps.com](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) auf den Link **Steigen Sie kostenlos ein**.
 
-## Create a custom entity
+## <a name="create-a-custom-entity"></a>Erstellen einer benutzerdefinierten Entität
 
-1. On the left navigation pane expand **Data**, click **Entities**, and then click **New entity**.
-    > [!div class="mx-imgBorder"] 
-    > ![New entity](../media/create-new-entity.png)
-2. Enter the following values:
-  - **Display name**: *Pet* 
-  - **Description**: *Custom entity to track pet services*
-3. Click **Next**, and then after the default fields are displayed click **Save Entity**.
+1. Erweitern Sie im linken Navigationsbereich **Daten**. Wählen Sie **Entitäten** und dann **Neue Entität** erstellen aus.
 
-## Add and customize fields
- 
-1. In the list of entities, select the **Pet** entity that was created in the previous section.
-2. On the **Fields** tab, select the **Pet** field.
-3. In the right pane make the following changes to the **Display name** field: 
-  - Change the **Display name** from **Pet** to *Pet Name*
-  -	Select **Searchable**  
-  
-    > [!div class="mx-imgBorder"] 
-    > ![Change primary field](../media/primary-field.png)
-3. Select **Done**.
-4. On the **Fields** tab on the entity designer toolbar select **Add field**. On the **Field properties** pane, enter or select the following values and options.
-  - **Display name**. *Species*
-  - **Data type**. *Option Set*
-  - **Option set**. *New option set*
-5. Create the option set
+    > [!div class="mx-imgBorder"]
+    > ![Neue Entität](../media/create-new-entity.png)
 
-  a. Select **Add new item**. 
-  
-  b. Replace **New option** with *Dog*. 
-   
-  c. Select **Add new item**. 
-    
-  d.  Replace **New option** with *Cat*. 
-    
-  e. Select **Save**. 
+2. Geben Sie die folgenden Werte ein:
 
-  > [!div class="mx-imgBorder"] 
-  > ![New option set](../media/optionset-add-items.png)
+    - **Anzeigename**: *Haustier*
+    - **Beschreibung**: *Benutzerdefinierte Entität zum Nachverfolgen von Dienstleistungen für Haustiere*
 
-6. Select **Searchable**, and then select **Done**.
+3. Klicken Sie auf **Weiter**, und wählen Sie dann, nachdem die Standardfelder eingeblendet wurden, **Entität speichern** aus.
 
-7. On the entity designer toolbar select **Add field**. On the **Field properties** pane, enter or select the following values, and then select **Done**.
-  - **Display name**. *Breed*
-  - **Data type**. *Text*
-  - **Searchable**. *Yes*
+## <a name="add-and-customize-fields"></a>Hinzufügen und Anpassen von Feldern
 
-8. On the entity designer toolbar select **Add field**. 
+1. Wählen Sie in der Liste der Entitäten die Entität **Haustier** aus, die Sie im vorherigen Abschnitt erstellt haben.
+2. Wählen Sie auf der Registerkarte **Felder** das Feld **Haustier** aus.
+3. Nehmen Sie im rechten Bereich folgende Änderungen am Feld **Anzeigename** vor:
 
-9. On the **Field properties** pane, enter or select the following values, and then select **Done**. 
-  -	**Display name**. *Appointment date*
-  - **Data type**. *Date and time*
+    - Ändern Sie den Wert **Anzeigename** von *Haustier* in *Name des Haustiers*.
+    - Aktivieren Sie das Kontrollkästchen **Durchsuchbar**.
 
-10. Select **Save Entity**.
+    > [!div class="mx-imgBorder"]
+    > ![Primäres Feld ändern](../media/primary-field.png)
 
-## Add a relationship
+3. Klicken Sie auf **Fertig**.
+4. Klicken Sie auf der Registerkarte **Felder** auf der Entity Designer-Symbolleiste auf **Feld hinzufügen**.
+5. Geben Sie im Bereich **Feldeigenschaften** die folgenden Werte ein:
 
-1. Select the **Relationships** tab, on the entity designer toolbar select **Add relationship**, and then select **Many-to-one**. 
-2. On the right pane, in the **Related** list select **Account**.
-3. Select **Done**.
-4. Select **Save Entity**.
+    - **Anzeigename**: *Art*
+    - **Datentyp**: *Optionssatz*
+    - **Optionssatz**: *Neuer Optionssatz*
 
-  Notice that when you add a many-to-one relationship, an **Account** field with the data type **Lookup** is automatically added to your list of fields on the **Fields** tab.
-  > [!div class="mx-imgBorder"]
-  > ![Account lookup field](../media/account-lookup-field.png)
+6. Erstellen Sie den Optionssatz:
 
-## Customize a view
+    1. Klicken Sie auf **Neues Element hinzufügen**.
+    2. Ersetzen Sie *Neue Option* durch *Hund*.
+    3. Klicken Sie auf **Neues Element hinzufügen**.
+    4. Ersetzen Sie *Neue Option* durch *Katze*.
+    5. Klicken Sie auf **Speichern**.
 
-1. Select the **Views** tab, and then select the **Active Pets** view. If you don't see the **Active Pets** view, select **Remove filter**.
-2. On the view designer select **Add Columns**, select the following columns, and then select **OK**.
-  - Account
-  - Appointment date 
-  - Breed 
-  - Species
-3. Select the **Created On** column, select **Remove**, and then select **OK** to confirm the column removal.
-4. To arrange the columns, select the column you want to move and then use the <- and -> arrow buttons until your view looks like this.
-    > [!div class="mx-imgBorder"] 
-    > ![Active pets view](../media/active-pets-view.png)
-5. On the view designer toolbar, select **Save and Close**.  
+    > [!div class="mx-imgBorder"]
+    > ![Neuer Optionssatz](../media/optionset-add-items.png)
 
-## Customize the main form
+7. Aktivieren Sie **Durchsuchbar**, und klicken Sie dann auf **Fertig**.
+8. Klicken auf der Entity Designer-Symbolleiste auf **Feld hinzufügen**.
+9. Geben Sie im Bereich **Feldeigenschaften** die folgenden Werte ein, und klicken Sie dann auf **Fertig**:
 
-1. On the PowerApps left navigation pane, select **Model-driven**.
-2. On the left navigation pane, expand **Data**, select **Entities**, and then select **Pet**.
-3. Select the **Forms** tab, and then select **Information** next to the **Main** form type to open the form editor.
-    > [!div class="mx-imgBorder"] 
-    > ![Edit main form](../media/main-form-edit.png)
-4. On the form editor, drag and drop the **Species**, **Breed**, **Appointment date**, and **Account** fields located on the Field Explorer pane on to the General section of the form canvas until the form looks like this.
-    > [!div class="mx-imgBorder"] 
-    > ![Select fields for main form](../media/main-form-edit2.png) 
-5. Select **Save**.
-6. Select **Publish**.
-7. Select **Save and close** to close the form designer.
+    - **Anzeigename**: *Rasse*
+    - **Datentyp**: *Text*
+    - **Durchsuchbar**: *Ja*
+
+10. Klicken auf der Entity Designer-Symbolleiste auf **Feld hinzufügen**.
+11. Geben Sie im Bereich **Feldeigenschaften** die folgenden Werte ein, und klicken Sie dann auf **Fertig**:
+
+    - **Anzeigename**: *Datum des Termins*
+    - **Datentyp**: *Datum und Uhrzeit*
+
+12. Klicken Sie auf **Entität speichern**.
+
+## <a name="add-a-relationship"></a>Hinzufügen einer Beziehung
+
+1. Klicken Sie auf der Registerkarte **Beziehungen** auf der Entity Designer-Symbolleiste auf **Beziehung hinzufügen**, und wählen Sie dann **n:1** aus.
+2. Wählen Sie im rechten Bereich in der Liste **Verknüpft** den Eintrag **Konto** aus.
+3. Klicken Sie auf **Fertig**.
+4. Klicken Sie auf **Entität speichern**.
+
+    Beachten Sie, dass beim Hinzufügen einer n-:1-Beziehung ein Feld des Typs **Konto** mit dem Datentyp **Suche** automatisch zu Ihrer Liste der Felder auf der Registerkarte **Felder** hinzugefügt wird.
+
+    > [!div class="mx-imgBorder"]
+    > ![Feld zum Suchen eines Kontos](../media/account-lookup-field.png)
+
+## <a name="customize-a-view"></a>Anpassen einer Ansicht
+
+1. Wählen Sie auf der Registerkarte **Ansichten** die Ansicht **Aktive Haustiere** aus. Wenn die Ansicht **Aktive Haustiere** nicht angezeigt wird, wählen **Filter entfernen** aus.
+2. Wählen Sie im Ansicht-Designer **Spalten hinzufügen** und dann die folgenden Spalten aus. Klicken Sie anschließend auf **OK**:
+
+    - Konto
+    - Datum des Termins
+    - Rasse
+    - Art
+
+3. Klicken Sie auf die Spalte **Erstellt am**, dann auf **Entfernen** und anschließend auf **OK**, um das Entfernen der Spalte zu bestätigen.
+4. Um die Spalten anzuordnen, wählen Sie die zu verschiebende Spalte aus, und klicken Sie dann auf die Pfeiltasten (**\<-** und **-\>**), bis Ihre Ansicht so aussieht.
+
+    > [!div class="mx-imgBorder"]
+    > ![Ansicht „Aktive Haustiere“](../media/active-pets-view.png)
+
+5. Klicken Sie auf der Symbolleiste des Ansicht-Designers auf **Speichern und schließen**.
+
+## <a name="customize-the-main-form"></a>Anpassen des Hauptformulars
+
+1. Wählen Sie in PowerApps im linken Navigationsbereich **Modellgesteuert** aus.
+2. Erweitern Sie im linken Navigationsbereich **Daten**. Wählen Sie **Entitäten** und dann **Haustier** aus.
+3. Wählen Sie auf der Registerkarte **Formulare** den Eintrag **Informationen** neben dem Typ **Hauptformular** aus, um den Formular-Editor zu öffnen.
+
+    > [!div class="mx-imgBorder"]
+    > ![Bearbeiten des Hauptformulars](../media/main-form-edit.png)
+
+4. Ziehen Sie im Formular-Editor die Felder **Art**, **Rasse**, **Datum des Termins** und **Konto** aus dem Bereich **Feld-Explorer** in den Abschnitt **Allgemein** des Formularzeichenbereichs, bis das Formular so aussieht.
+
+    > [!div class="mx-imgBorder"]
+    > ![Auswählen von Feldern für das Hauptformular](../media/main-form-edit2.png)
+
+5. Klicken Sie auf **Speichern**.
+6. Klicken Sie auf **Veröffentlichen**.
+7. Klicken Sie auf **Speichern und schließen**, um den Formulardesigner zu schließen.

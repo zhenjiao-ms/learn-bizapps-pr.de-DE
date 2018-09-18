@@ -1,39 +1,41 @@
-Power BI Desktop lets you create a collection of queries, data connections, and reports that can easily be shared with others. Power BI Desktop integrates proven Microsoft technologies – the powerful Query engine, data modeling, and visualizations – and works seamlessly with the online [**Power BI service**](https://app.powerbi.com/).
+Willkommen beim Lernmodul, das Sie bei Ihrem Einstieg in das Arbeiten mit **Power BI Desktop** unterstützen soll. In diesem Modul lernen Sie, wie Sie durch Power BI Desktop navigieren, sich mit Daten verbinden, Visuals und Berichte erstellen und diese Berichte im **Power BI-Dienst** veröffentlichen.
 
-With the combination of **Power BI Desktop** (where analysts and others can create powerful data connections, models and reports) and the [**Power BI service**](https://preview.powerbi.com/) (where Power BI Desktop reports can be shared so users can view and interact with them), new insights from the world of data are easier to model, build, share, and extend.
+Mit Power BI Desktop können Sie eine Sammlung von Abfragen, Datenverbindungen und Berichten erstellen, die problemlos für andere Benutzer freigegeben werden können. Power BI Desktop integriert bewährte Microsoft-Technologien (die leistungsstarke Power Query-Engine, Datenmodellierung und Visualisierungen) und arbeitet nahtlos mit dem online verfügbaren [**Power BI-Dienst**](https://app.powerbi.com/) zusammen.
 
-Data analysts will find Power BI Desktop a powerful, flexible, and a highly accessible tool to connect with and shape the world of data, build robust models, and craft well-structured reports.
+Mit der Kombination aus **Power BI Desktop** (hier können Analysten und andere leistungsstarke Datenverbindungen, Modelle und Berichte erstellen) und dem [**Power BI-Dienst**](https://app.powerbi.com/) (über den Power BI Desktop-Berichte freigegeben werden können, damit Benutzer sie einsehen und mit ihnen interagieren können), lassen sich neue Erkenntnisse aus Daten leichter modellieren, erstellen, freigeben und ausbauen.
 
-## How Power BI Desktop works
-With Power BI Desktop, you *connect to data* (usually multiple data sources), *shape that data* (with queries that build insightful, compelling data models), and use that model to *create reports* (which others can leverage, build upon, and share).
+Datenanalysten kommen mit Power BI Desktop in den Genuss eines leistungsstarken, flexiblen und benutzerfreundlichen Tools, mit dem sie sich mit Daten verbinden und diese strukturieren, aussagekräftige Modelle erstellen und fundiert strukturierte Berichte anfertigen können.
 
-When the steps are completed to your satisfaction – connect, shape, and report – you can save that work in Power BI Desktop file format, which is the .pbix extension. Power BI Desktop files can be shared like any other file, but the most compelling way to share Power BI Desktop files is to upload them (share them) on the [**Power BI service**](https://preview.powerbi.com/). 
+## <a name="how-power-bi-desktop-works"></a>Funktionsweise von Power BI Desktop
+Mit Power BI Desktop können Sie eine *Verbindung mit Daten* herstellen (normalerweise mit mehreren Datenquellen). Sie können diese Daten *strukturieren* (mit Abfragen, die aufschlussreiche, überzeugende Datenmodelle erstellen). Und Sie können mit diesem Modell *Berichte erstellen* (die andere nutzen, erweitern und freigeben können).
 
-Power BI Desktop centralizes, simplifies, and streamlines what can otherwise be a scattered, disconnected, and arduous process of designing and creating business intelligence repositories and reports.
+Wenn Sie die Schritte zu Ihrer Zufriedenheit erledigt haben (Verbinden, Strukturieren und Berichte erstellen) können Sie das Ergebnis im Power BI Desktop-Dateiformat mit der Erweiterung PBIX speichern. Power BI Desktop-Dateien können wie jede andere Datei freigegeben werden. Es wird jedoch empfohlen, sie in den [**Power BI-Dienst**](https://preview.powerbi.com/) hochzuladen (um sie dann freizugeben). 
 
-Ready to give it a try? Let’s get started.
+Power BI Desktop zentralisiert, vereinfacht und optimiert den ansonsten unübersichtlichen, nicht vernetzten und mühsamen Prozess des Entwurfs und der Erstellung von Business Intelligence-Repositorys und -Berichten.
 
-## Install and run Power BI Desktop
-You can download Power BI Desktop from the **Power BI** service by selecting the **gear** icon, then select **Power BI Desktop**.
+Sind Sie bereit, es zu versuchen? Fangen wir an.
 
-![Install Power BI Desktop from the Power BI service](../media/pbid-intro_01.jpg)
+## <a name="install-and-run-power-bi-desktop"></a>Installieren und Ausführen von Power BI Desktop
+Sie können Power BI Desktop aus dem **Power BI**-Dienst herunterladen, indem Sie auf das **Zahnradsymbol** klicken und dann **Power BI Desktop** auswählen.
 
-You can also install **Power BI Desktop** as an app from the **Microsoft Store**.
+![Installieren von Power BI Desktop aus dem Power BI-Dienst](../media/pbid-intro_01.jpg)
 
-![Install Power BI Desktop from the Microsoft Store](../media/pbid-intro_02.jpg)
+Sie können **Power BI Desktop** auch als App aus dem **Microsoft Store** herunterladen und installieren.
 
-Power BI Desktop is installed as an application, and runs on your desktop. When you run Power BI Desktop, a *Welcome* screen is displayed.
+![Installieren von Power BI Desktop aus dem Microsoft Store](../media/pbid-intro_02.jpg)
 
-![Power BI Desktop runs as an application](../media/pbid-intro_03.jpg)
+Power BI Desktop wird als Anwendung installiert und auf dem Desktop ausgeführt. Wenn Sie Power BI Desktop ausführen, wird ein Bildschirm mit einer *Begrüßung* angezeigt.
 
-You can **Get Data**, see **Recent Sources**, or **Open other reports** directly from the **Welcome** screen (from the links in the left pane). If you close the screen (select the **x** in the top right corner), the **Report** view of Power BI Desktop is displayed.
+![Power BI Desktop wird als Anwendung ausgeführt](../media/pbid-intro_03.jpg)
 
-![Power BI Desktop empty canvas](../media/pbid-intro_04.jpg)
+Sie können auf dem Bildschirm **Willkommen** direkt **Daten abrufen**, die **zuletzt verwendeten Quellen** anzeigen und **andere Berichte öffnen**, und zwar über die Links im linken Bereich. Wenn Sie den Bildschirm schließen (indem Sie rechts oben auf das **x** klicken), wird die Ansicht **Bericht** von Power BI Desktop angezeigt.
 
-There are three views in Power BI Desktop: **Report** view, **Data** view, and **Relationships** view. Power BI Desktop also includes **Query Editor**, which opens in a separate window. In **Query Editor**, you can build queries and transform data, then load that refined data model into Power BI Desktop, and create reports.
+![Leerer Power BI Desktop-Zeichenbereich](../media/pbid-intro_04.jpg)
 
-The following screen shows the three view icons along the left of Power BI Desktop: **Report**, **Data**, and **Relationships**, from top to bottom. The currently displayed view is indicated by the yellow bar along the left. In this case, **Report** view is currently displayed. You can change views by selecting any of those three icons.
+Power BI Desktop bietet drei Ansichten: **Bericht**, **Daten** und **Beziehungen**. Zu Power BI Desktop gehört auch der **Abfrage-Editor**, der in einem eigenen Fenster geöffnet wird. Im **Abfrage-Editor** können Sie Abfragen erstellen und Daten transformieren, das optimierte Datenmodell anschließend in Power BI Desktop laden und Berichte erstellen.
 
-![Three different views in Power BI Desktop](../media/pbid-intro_05.jpg)
+Auf dem folgenden Bildschirm sind die drei Ansichtssymbole auf der linken Seite von Power BI Desktop zu sehen: **Bericht**, **Daten** und **Beziehungen** (von oben nach unten). Die aktuell angezeigte Ansicht wird mit auf der linken Seite einer gelben Leiste angezeigt. In diesem Fall wird derzeit **Bericht** angezeigt. Sie können die Ansicht wechseln, indem Sie auf eines dieser drei Symbole klicken.
 
-With Power BI Desktop installed you’re ready to connect to data, shape data, and build reports (usually in that order). In the following units, we take a tour through each of those activities in turn.
+![Drei verschiedene Ansichten in Power BI Desktop](../media/pbid-intro_05.jpg)
+
+Wenn Sie Power BI Desktop installiert haben, können Sie sich mit Daten verbinden, Daten strukturieren und Berichte erstellen (normalerweise in dieser Reihenfolge). In den folgenden Einheiten erhalten Sie einen Überblick über jede dieser Aktivitäten.

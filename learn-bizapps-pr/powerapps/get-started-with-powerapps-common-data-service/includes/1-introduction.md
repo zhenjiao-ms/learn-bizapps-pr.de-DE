@@ -1,28 +1,28 @@
-Common Data Service (CDS) for Apps lets you securely store and manage data used by business applications. 
+Mit dem Common Data Service (CDS) für Apps können Sie Daten, die von Geschäftsanwendungen verwendet werden, sicher speichern und verwalten. 
 
-## Entities
-Data within CDS for Apps is stored within a set of records called entities. An **entity** is a set of records used to store data, similar to how a table stores data within a database.
+## <a name="entities"></a>Entitäten
+In CDS für Apps werden Daten in einer Gruppe von Datensätzen gespeichert, die als Entitäten bezeichnet werden. Eine *Entität* ist eine Gruppe von Datensätzen zum Speichern von Daten vergleichbar mit der Speicherung von Daten einer Tabelle in einer Datenbank.
 
-CDS for Apps includes a base set of standard entities that support common business scenarios that connect to Dynamics 365 application data. You can also create custom entities specific to your organization and populate them with data that you import from lists in SharePoint, from Excel, or from PowerQuery. App makers can then use PowerApps to build rich applications using this data.
+CDS für Apps enthält eine Basisgruppe von Standardentitäten, die gängige Geschäftsszenarien unterstützen, die sich mit Microsoft Dynamics 365 Anwendungsdaten verbinden. Sie können auch benutzerdefinierte Entitäten erstellen, die spezifisch für Ihre Organisation sind, und diese mit Daten füllen, die Sie aus Microsoft SharePoint-Listen, Microsoft Excel oder Microsoft Power Query für Excel importieren. App-Ersteller können dann PowerApps nutzen, um mit diesen Daten anspruchsvolle Anwendungen zu entwickeln.
 
-![Screenshot showing overview of the Business Application Platform.](../media/platform.png)
+![Abbildung mit einer Übersicht über die Geschäftsanwendungsplattform](../media/platform.png)
 
-Dynamics 365 applications, including Dynamics 365 for Sales, Service, and Talent, use CDS for Apps to store and secure data used by the applications. This means you can build apps using PowerApps and CDS for Apps directly against your core business data already used within Dynamics 365 without the need for manual integration.
+Dynamics 365-Anwendungen, einschließlich Dynamics 365 for Sales, Dynamics 365 for Service und Dynamics 365 for Talent, verwenden CDS für Apps zum Speichern und Schützen der von ihnen verwendeten Daten. Das bedeutet, dass Sie mit PowerApps und CDS für Apps Anwendungen direkt anhand wichtiger Geschäftsdaten erstellen können, die bereits in Dynamics 365 verwendet werden, ohne dass eine manuelle Integration erforderlich ist.
 
-    > [!NOTE]
-    > Dynamics 365 for Finance and Operations and Dynamics 365 for Retail currently require the configuration of the Data Integrator to make your business data available within CDS for Apps.
+> [!NOTE]
+> Dynamics 365 for Finance and Operations und Dynamics 365 for Retail erfordern derzeit die Einrichtung des Datenintegrators, um Ihre Geschäftsdaten in CDS für Apps verfügbar zu machen.
 
-![Screenshot showing a list of entities.](../media/entitylist.png "Entity list")
+![Screenshot einer Liste mit Entitäten](../media/entitylist.png "Liste mit Entitäten")
 
-For most organizations it is to your advantage to use the standard entities and attributes for the purposes they were provided. To meet your business needs, you can extend the functionality of standard entities by creating one or more custom entities to store information that's unique to your organization. 
+Für die meisten Organisationen ist es sinnvoll, die Standardentitäten und -attribute so wie vorgesehen zu verwenden. Sie können aber zum Erfüllen Ihrer Geschäftsanforderungen die Funktionalität von Standardentitäten erweitern, indem Sie eine oder mehrere benutzerdefinierte Entitäten zum Speichern von Informationen erstellen, die für Ihre Organisation besonders sind. 
 
-## Logic and validation
-Entities within CDS for Apps can leverage rich server-side logic and validation to ensure data quality. You can also reduce repetitive code in each app that creates and uses data within an entity.
+## <a name="logic-and-validation"></a>Logik und Überprüfung
+Entitäten in CDS für Apps können die umfassenden serverseitigen Logik- und Überprüfungsfunktionen nutzen, um Datenqualität sicherzustellen. Sie können auch den sich wiederholenden Code in den einzelnen Apps verringern, mit dem Daten in einer Entität erstellt und verwendet werden.
 
-* **Business rules**: Business rules validate data across multiple fields and entities and provide warning and error messages, regardless of the app used to create the data. 
-* **Business process flows**: Business process flows guide users to ensure they enter data consistently and follow the same steps every time. Business process flows are currently only supported for model-driven apps.
-* **Workflows**: Workflows automate business processes without user interaction. 
-* **Business logic with code**: Business logic supports advanced developer scenarios that extend the application directly through code. 
+* **Geschäftsregeln**: Geschäftsregeln überprüfen Daten in mehreren Feldern und Entitäten und stellen Warn- und Fehlermeldungen bereit – unabhängig von der App, die zum Erstellen der Daten verwendet wird. 
+* **Geschäftsprozessflows**: Diese Flows dienen als Anleitung für Benutzer, um sicherzustellen, dass sie Daten einheitlich eingeben und jedes Mal die gleichen Schritte ausführen. Geschäftsprozessflows werden derzeit nur für modellgesteuerte Apps unterstützt.
+* **Workflows**: Workflows automatisieren Geschäftsprozesse ohne Benutzerinteraktion. 
+* **Geschäftslogik mit Code**: Die Geschäftslogik unterstützt erweiterte Entwicklerszenarien, mit denen die Anwendung direkt per Code erweitert wird. 
 
-## Security
-Data in CDS for Apps is securely stored so that users can see it only if you grant them access. Role-based security, based on the Dynamics 365 system allows you to control access to entities for different users within your organization.
+## <a name="security"></a>Sicherheit
+Daten in CDS für Apps werden sicher gespeichert, sodass Benutzer sie nur anzeigen können, wenn Sie ihnen Zugriff gewähren. Bei der auf dem Dynamics 365-System basierenden rollenbasierten Sicherheit können Sie den Zugriff auf Entitäten für unterschiedliche Benutzer in Ihrer Organisation steuern.
