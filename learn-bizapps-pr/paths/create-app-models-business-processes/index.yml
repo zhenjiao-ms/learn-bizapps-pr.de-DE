@@ -1,0 +1,27 @@
+### YamlMime:LearningPath
+uid: learn-bizapps.create-app-models-business-processes
+title: Erstellen einer modellgesteuerten Anwendung
+summary: Dieser Lernpfad bietet eine Einführung in das Erstellen einer modellgesteuerten PowerApp, die den Common Data Service für Apps verwendet.
+cardDescription: Erstellen einer modellgesteuerten Anwendung, die Geschäftsprozesse modelliert
+iconUrl: http://via.placeholder.com/120x120
+levels:
+- advanced
+roles:
+- business-user
+products:
+- bizapps-power-apps
+prerequisites: In diesem Lernpfad wird vorausgesetzt, dass Sie sich mit PowerApps, Excel und Microsoft Flow auskennen.
+metadata:
+  title: Dieser Lernpfad bietet eine Einführung in das Erstellen einer modellgesteuerten PowerApp, die den Common Data Service für Apps verwendet.
+  description: Dieser Lernpfad bietet eine Einführung in das Erstellen einer modellgesteuerten PowerApp, die den Common Data Service für Apps verwendet.
+  ms.openlocfilehash: d6cc61b18d01cc4fabff330cf6d4aaf1af33d9b3
+  ms.sourcegitcommit: 6d796874539f76b734a7bb8ff95bef6b87bb9b00
+  ms.translationtype: HT
+  ms.contentlocale: de-DE
+  ms.lasthandoff: 09/11/2018
+  ms.locfileid: "44375900"
+modules:
+- learn-bizapps.powerapps-design-model-driven-apps
+- learn-bizapps.powerapps-common-data-service
+- learn-bizapps.flow-create-approval
+achievement: learn.create-app-models-business-processes.trophy

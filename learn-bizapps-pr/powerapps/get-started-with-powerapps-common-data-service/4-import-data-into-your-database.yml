@@ -1,0 +1,19 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.powerapps-common-data-service.4-import-data-into-your-database
+title: <span data-ttu-id="51d7a-101">Erstellen einer Entität und Importieren von Daten in Ihre CDS für Apps-Datenbank</span><span class="sxs-lookup"><span data-stu-id="51d7a-101">Create an entity and import data into your CDS for Apps database</span></span>
+metadata:
+  title: <span data-ttu-id="51d7a-102">Importieren von Daten in Ihre Datenbank</span><span class="sxs-lookup"><span data-stu-id="51d7a-102">Import data into your database</span></span>
+  description: <span data-ttu-id="51d7a-103">Importieren von Daten in Ihre Datenbank</span><span class="sxs-lookup"><span data-stu-id="51d7a-103">Import data into your database</span></span>
+  ms.date: 09/24/2018
+  author: margoc
+  ms.author: margoc
+  ms.topic: interactive-tutorial
+  ms.prod: learning-powerapps
+  ms.openlocfilehash: bc4e6fd8f05a309cf66ff7b3d6d9782d2779a656
+  ms.sourcegitcommit: 6d796874539f76b734a7bb8ff95bef6b87bb9b00
+  ms.translationtype: HT
+  ms.contentlocale: de-DE
+  ms.lasthandoff: 09/11/2018
+  ms.locfileid: "44375097"
+durationInMinutes: 12
+content: '[!include[](includes/4-import-data-into-your-database.md)]'

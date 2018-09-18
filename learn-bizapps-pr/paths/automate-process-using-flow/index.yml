@@ -1,26 +1,31 @@
 ### YamlMime:LearningPath
 uid: learn-bizapps.automate-process-using-flow
+metadata:
+  title: Automatisieren eines Unternehmensprozesses mithilfe von Flow
+  description: In diesem Lernpfad erhalten Sie Informationen zu Microsoft Flow und zum Erstellen von zwei Arten von Unternehmensworkflows.
+  ms.date: 09/24/2018
+  author: margoc
+  ms.author: margoc
+  ms.topic: interactive-tutorial
+  ms.prod: learning-flow
+  ms.openlocfilehash: 3327a92f6658d81e0cec6402a2b8715e04a2785e
+  ms.sourcegitcommit: 6d796874539f76b734a7bb8ff95bef6b87bb9b00
+  ms.translationtype: HT
+  ms.contentlocale: de-DE
+  ms.lasthandoff: 09/11/2018
+  ms.locfileid: "44374936"
 title: Automatisieren eines Unternehmensprozesses mithilfe von Flow
 summary: In diesem Lernpfad erhalten Sie Informationen zu Microsoft Flow und zum Erstellen von zwei Arten von Unternehmensworkflows.
-cardDescription: Erstellen von Flows mit SharePoint und Excel
+prerequisites: "- Vertrautheit mit SharePoint, OneDrive und Excel. \n"
 iconUrl: http://via.placeholder.com/120x120
 levels:
 - beginner
 roles:
 - business-user
 products:
+- bizapps
 - bizapps-flow
-prerequisites: In diesem Lernpfad wird vorausgesetzt, dass Sie sich mit OneDrive, SharePoint und Excel auskennen.
-metadata:
-  title: Automatisieren eines Unternehmensprozesses mithilfe von Flow
-  description: In diesem Lernpfad erhalten Sie Informationen zu Microsoft Flow und zum Erstellen von zwei Arten von Unternehmensworkflows.
-  ms.openlocfilehash: 993fdaee3813c408d0bdb8dd18130a958b29f092
-  ms.sourcegitcommit: d2e8b297a840d5958013d9a61963ce41c6b4ed22
-  ms.translationtype: HT
-  ms.contentlocale: de-DE
-  ms.lasthandoff: 09/06/2018
-  ms.locfileid: "43848566"
 modules:
-- learn-bizapps.flow-create-approval
 - learn-bizapps.flow-get-started
+- learn-bizapps.flow-create-approval
 achievement: learn.automate-process-using-flow.trophy

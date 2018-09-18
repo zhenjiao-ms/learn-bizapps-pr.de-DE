@@ -2,103 +2,113 @@
 achievements:
 - uid: learn.automate-process-using-flow.trophy
   type: trophy
-  title: <span data-ttu-id="2dd55-101">Trophäe für das Automatisieren eines Unternehmensprozesses mithilfe von Flow</span><span class="sxs-lookup"><span data-stu-id="2dd55-101">Automate a business process using Flow Trophy</span></span>
-  summary: <span data-ttu-id="2dd55-102">Trophäe für den Lernpfad „Automatisieren eines Unternehmensprozesses mithilfe von Flow“</span><span class="sxs-lookup"><span data-stu-id="2dd55-102">Trophy for the 'Automate a business process using Flow' learning path.</span></span>
+  title: <span data-ttu-id="c11ba-101">Trophäe für das Automatisieren eines Unternehmensprozesses mithilfe von Flow</span><span class="sxs-lookup"><span data-stu-id="c11ba-101">Automate a business process using Flow Trophy</span></span>
+  summary: <span data-ttu-id="c11ba-102">Trophäe für den Lernpfad „Automatisieren eines Unternehmensprozesses mithilfe von Flow“</span><span class="sxs-lookup"><span data-stu-id="c11ba-102">Trophy for the 'Automate a business process using Flow' learning path.</span></span>
   iconUrl: http://via.placeholder.com/120x120
 - uid: learn.create-powerapps.trophy
   type: trophy
-  title: <span data-ttu-id="2dd55-103">Trophäe für das Erstellen einer App in PowerApps</span><span class="sxs-lookup"><span data-stu-id="2dd55-103">Create an app in PowerApps Trophy</span></span>
-  summary: <span data-ttu-id="2dd55-104">Trophäe für den Lernpfad „Erstellen einer App in PowerApps“</span><span class="sxs-lookup"><span data-stu-id="2dd55-104">Trophy for the 'Create an app in PowerApps' learning path.</span></span>
+  title: <span data-ttu-id="c11ba-103">Trophäe für das Erstellen einer App in PowerApps</span><span class="sxs-lookup"><span data-stu-id="c11ba-103">Create an app in PowerApps Trophy</span></span>
+  summary: <span data-ttu-id="c11ba-104">Trophäe für den Lernpfad „Erstellen einer App in PowerApps“</span><span class="sxs-lookup"><span data-stu-id="c11ba-104">Trophy for the 'Create an app in PowerApps' learning path.</span></span>
   iconUrl: http://via.placeholder.com/120x120
 - uid: learn.customer-service-hub-cases-slas.trophy
   type: trophy
-  title: <span data-ttu-id="2dd55-105">Arbeiten mit Fällen und SLAs in Dynamics 365 for Customer Service</span><span class="sxs-lookup"><span data-stu-id="2dd55-105">Work with cases and SLAs in Dynamics 365 for Customer Service</span></span>
-  summary: <span data-ttu-id="2dd55-106">Trophäe für den Lernpfad „Arbeiten mit Fällen und SLAs in Dynamics 365 for Customer Service“</span><span class="sxs-lookup"><span data-stu-id="2dd55-106">Trophy for the 'Work with cases and SLAs in Dynamics 365 for Customer Service' learning path.</span></span>
+  title: <span data-ttu-id="c11ba-105">Arbeiten mit Fällen und SLAs in Dynamics 365 for Customer Service</span><span class="sxs-lookup"><span data-stu-id="c11ba-105">Work with cases and SLAs in Dynamics 365 for Customer Service</span></span>
+  summary: <span data-ttu-id="c11ba-106">Trophäe für den Lernpfad „Arbeiten mit Fällen und SLAs in Dynamics 365 for Customer Service“</span><span class="sxs-lookup"><span data-stu-id="c11ba-106">Trophy for the 'Work with cases and SLAs in Dynamics 365 for Customer Service' learning path.</span></span>
+  iconUrl: http://via.placeholder.com/120x120
+- uid: learn.create-app-models-business-processes.trophy
+  type: trophy
+  title: <span data-ttu-id="c11ba-107">Erstellen einer modellgesteuerten Anwendung</span><span class="sxs-lookup"><span data-stu-id="c11ba-107">Create a model-driven application</span></span>
+  summary: <span data-ttu-id="c11ba-108">Trophäe für den Lernpfad „Erstellen einer modellgesteuerten Anwendung“.</span><span class="sxs-lookup"><span data-stu-id="c11ba-108">Trophy for the 'Create a model-driven application' learning path.</span></span>
+  iconUrl: http://via.placeholder.com/120x120
+- uid: learn.create-use-analytics-reports-power-bi.trophy
+  type: trophy
+  title: <span data-ttu-id="c11ba-109">Erstellen und Verwenden von Analytics-Berichten mit Power BI</span><span class="sxs-lookup"><span data-stu-id="c11ba-109">Create and use analytics reports with Power BI</span></span>
+  summary: <span data-ttu-id="c11ba-110">Trophäe für den Lernpfad „Erstellen und Verwenden von Analytics-Berichten mit Power BI“.</span><span class="sxs-lookup"><span data-stu-id="c11ba-110">Trophy for the 'Create and use analytics reports with Power BI' learning path.</span></span>
   iconUrl: http://via.placeholder.com/120x120
 - uid: learn.sample-module-bizapps.badge
   type: badge
-  title: <span data-ttu-id="2dd55-107">Beispielmodul mit CloudShell-Abzeichen</span><span class="sxs-lookup"><span data-stu-id="2dd55-107">Sample Module with CloudShell Badge</span></span>
-  summary: <span data-ttu-id="2dd55-108">Abzeichen für das Modul „Beispielmodul mit CloudShell“</span><span class="sxs-lookup"><span data-stu-id="2dd55-108">Badge for the 'Sample Module with CloudShell' module.</span></span>
+  title: <span data-ttu-id="c11ba-111">Beispielmodul mit CloudShell-Abzeichen</span><span class="sxs-lookup"><span data-stu-id="c11ba-111">Sample Module with CloudShell Badge</span></span>
+  summary: <span data-ttu-id="c11ba-112">Abzeichen für das Modul „Beispielmodul mit CloudShell“</span><span class="sxs-lookup"><span data-stu-id="c11ba-112">Badge for the 'Sample Module with CloudShell' module.</span></span>
   iconUrl: http://via.placeholder.com/120x120
 - uid: learn.sample-module-dynamics.badge
   type: badge
-  title: <span data-ttu-id="2dd55-109">Abzeichen für „Dynamics-Beispielmodul“</span><span class="sxs-lookup"><span data-stu-id="2dd55-109">Sample Module Dynamics Badge</span></span>
-  summary: <span data-ttu-id="2dd55-110">Abzeichen für das Modul „Dynamics-Beispielmodul“</span><span class="sxs-lookup"><span data-stu-id="2dd55-110">Badge for the 'Sample Module Dynamics' module.</span></span>
+  title: <span data-ttu-id="c11ba-113">Abzeichen für „Dynamics-Beispielmodul“</span><span class="sxs-lookup"><span data-stu-id="c11ba-113">Sample Module Dynamics Badge</span></span>
+  summary: <span data-ttu-id="c11ba-114">Abzeichen für das Modul „Dynamics-Beispielmodul“</span><span class="sxs-lookup"><span data-stu-id="c11ba-114">Badge for the 'Sample Module Dynamics' module.</span></span>
   iconUrl: http://via.placeholder.com/120x120
 - uid: learn.sample-module-power-apps.badge
   type: badge
-  title: <span data-ttu-id="2dd55-111">Abzeichen für das PowerApps-Beispielmodul</span><span class="sxs-lookup"><span data-stu-id="2dd55-111">Sample Module Power Apps Badge</span></span>
-  summary: <span data-ttu-id="2dd55-112">Abzeichen für das Modul „PowerApps-Beispielmodul“</span><span class="sxs-lookup"><span data-stu-id="2dd55-112">Badge for the 'Sample Module Power Apps' module.</span></span>
+  title: <span data-ttu-id="c11ba-115">Abzeichen für das PowerApps-Beispielmodul</span><span class="sxs-lookup"><span data-stu-id="c11ba-115">Sample Module Power Apps Badge</span></span>
+  summary: <span data-ttu-id="c11ba-116">Abzeichen für das Modul „PowerApps-Beispielmodul“</span><span class="sxs-lookup"><span data-stu-id="c11ba-116">Badge for the 'Sample Module Power Apps' module.</span></span>
   iconUrl: http://via.placeholder.com/120x120
 - uid: learn.sample-module-power-bi.badge
   type: badge
-  title: <span data-ttu-id="2dd55-113">Abzeichen für das Power BI-Beispielmodul</span><span class="sxs-lookup"><span data-stu-id="2dd55-113">Sample Module Power BI Badge</span></span>
-  summary: <span data-ttu-id="2dd55-114">Abzeichen für das Modul „Power BI-Beispielmodul“</span><span class="sxs-lookup"><span data-stu-id="2dd55-114">Badge for the 'Sample Module PowerBI' module.</span></span>
+  title: <span data-ttu-id="c11ba-117">Abzeichen für das Power BI-Beispielmodul</span><span class="sxs-lookup"><span data-stu-id="c11ba-117">Sample Module Power BI Badge</span></span>
+  summary: <span data-ttu-id="c11ba-118">Abzeichen für das Modul „Power BI-Beispielmodul“</span><span class="sxs-lookup"><span data-stu-id="c11ba-118">Badge for the 'Sample Module PowerBI' module.</span></span>
   iconUrl: http://via.placeholder.com/120x120
 - uid: learn.customer-service-cases.badge
   type: badge
-  title: <span data-ttu-id="2dd55-115">Abzeichen für Customer Service-Anfragen</span><span class="sxs-lookup"><span data-stu-id="2dd55-115">Customer Service Cases Badge</span></span>
-  summary: <span data-ttu-id="2dd55-116">Abzeichen für das Modul „Customer Service-Anfragen“</span><span class="sxs-lookup"><span data-stu-id="2dd55-116">Badge for the 'Customer Service Cases' module.</span></span>
+  title: <span data-ttu-id="c11ba-119">Abzeichen für Customer Service-Anfragen</span><span class="sxs-lookup"><span data-stu-id="c11ba-119">Customer Service Cases Badge</span></span>
+  summary: <span data-ttu-id="c11ba-120">Abzeichen für das Modul „Customer Service-Anfragen“</span><span class="sxs-lookup"><span data-stu-id="c11ba-120">Badge for the 'Customer Service Cases' module.</span></span>
   iconUrl: http://via.placeholder.com/120x120
 - uid: learn.customer-service-get-started.badge
   type: badge
-  title: <span data-ttu-id="2dd55-117">Abzeichen für „Erste Schritte mit Customer Service for Dynamics 365“</span><span class="sxs-lookup"><span data-stu-id="2dd55-117">Get started with Customer Service for Dynamics 365 Badge</span></span>
-  summary: <span data-ttu-id="2dd55-118">Abzeichen für das Modul „Erste Schritte mit Customer Service for Dynamics 365“</span><span class="sxs-lookup"><span data-stu-id="2dd55-118">Badge for the 'Get started with Customer Service for Dynamics 365' module.</span></span>
+  title: <span data-ttu-id="c11ba-121">Abzeichen für „Erste Schritte mit Customer Service for Dynamics 365“</span><span class="sxs-lookup"><span data-stu-id="c11ba-121">Get started with Customer Service for Dynamics 365 Badge</span></span>
+  summary: <span data-ttu-id="c11ba-122">Abzeichen für das Modul „Erste Schritte mit Customer Service for Dynamics 365“</span><span class="sxs-lookup"><span data-stu-id="c11ba-122">Badge for the 'Get started with Customer Service for Dynamics 365' module.</span></span>
   iconUrl: http://via.placeholder.com/120x120
 - uid: learn.powerapps-customize.badge
   type: badge
-  title: <span data-ttu-id="2dd55-119">Abzeichen für das Anpassen und Verwalten von PowerApps</span><span class="sxs-lookup"><span data-stu-id="2dd55-119">Customize and manage PowerApps Badge</span></span>
-  summary: <span data-ttu-id="2dd55-120">Abzeichen für das Modul „Anpassen und Verwalten von PowerApps“</span><span class="sxs-lookup"><span data-stu-id="2dd55-120">Badge for the 'Customize and manage PowerApps' module.</span></span>
+  title: <span data-ttu-id="c11ba-123">Abzeichen für das Anpassen und Verwalten von PowerApps</span><span class="sxs-lookup"><span data-stu-id="c11ba-123">Customize and manage PowerApps Badge</span></span>
+  summary: <span data-ttu-id="c11ba-124">Abzeichen für das Modul „Anpassen und Verwalten von PowerApps“</span><span class="sxs-lookup"><span data-stu-id="c11ba-124">Badge for the 'Customize and manage PowerApps' module.</span></span>
   iconUrl: http://via.placeholder.com/120x120
 - uid: learn.powerapps-get-started.badge
   type: badge
-  title: <span data-ttu-id="2dd55-121">Abzeichen für „Erste Schritte mit PowerApps“</span><span class="sxs-lookup"><span data-stu-id="2dd55-121">Get started with PowerApps Badge</span></span>
-  summary: <span data-ttu-id="2dd55-122">Abzeichen für das Modul „Erste Schritte mit PowerApps“</span><span class="sxs-lookup"><span data-stu-id="2dd55-122">Badge for the 'Get started with PowerApps' module.</span></span>
+  title: <span data-ttu-id="c11ba-125">Abzeichen für „Erste Schritte mit PowerApps“</span><span class="sxs-lookup"><span data-stu-id="c11ba-125">Get started with PowerApps Badge</span></span>
+  summary: <span data-ttu-id="c11ba-126">Abzeichen für das Modul „Erste Schritte mit PowerApps“</span><span class="sxs-lookup"><span data-stu-id="c11ba-126">Badge for the 'Get started with PowerApps' module.</span></span>
   iconUrl: http://via.placeholder.com/120x120
 - uid: learn.powerapps-manage.badge
   type: badge
-  title: <span data-ttu-id="2dd55-123">Abzeichen für das Verwalten von PowerApps</span><span class="sxs-lookup"><span data-stu-id="2dd55-123">Manage your PowerApps Badge</span></span>
-  summary: <span data-ttu-id="2dd55-124">Abzeichen für das Modul „Verwalten von PowerApps“</span><span class="sxs-lookup"><span data-stu-id="2dd55-124">Badge for the 'Manage your PowerApps' module.</span></span>
+  title: <span data-ttu-id="c11ba-127">Abzeichen für das Verwalten von PowerApps</span><span class="sxs-lookup"><span data-stu-id="c11ba-127">Manage your PowerApps Badge</span></span>
+  summary: <span data-ttu-id="c11ba-128">Abzeichen für das Modul „Verwalten von PowerApps“</span><span class="sxs-lookup"><span data-stu-id="c11ba-128">Badge for the 'Manage your PowerApps' module.</span></span>
   iconUrl: http://via.placeholder.com/120x120
 - uid: learn.flow-create-approval.badge
   type: badge
-  title: <span data-ttu-id="2dd55-125">Abzeichen für das Erstellen eines Genehmigungsflows</span><span class="sxs-lookup"><span data-stu-id="2dd55-125">Create an approval flow Badge</span></span>
-  summary: <span data-ttu-id="2dd55-126">Abzeichen für das Modul „Erstellen eines Genehmigungsflows“</span><span class="sxs-lookup"><span data-stu-id="2dd55-126">Badge for the 'Create an approval flow' module.</span></span>
+  title: <span data-ttu-id="c11ba-129">Abzeichen für das Erstellen eines Genehmigungsflows</span><span class="sxs-lookup"><span data-stu-id="c11ba-129">Create an approval flow Badge</span></span>
+  summary: <span data-ttu-id="c11ba-130">Abzeichen für das Modul „Erstellen eines Genehmigungsflows“</span><span class="sxs-lookup"><span data-stu-id="c11ba-130">Badge for the 'Create an approval flow' module.</span></span>
   iconUrl: http://via.placeholder.com/120x120
 - uid: learn.flow-get-started.badge
   type: badge
-  title: <span data-ttu-id="2dd55-127">Abzeichen „Erste Schritte mit Microsoft Flow“</span><span class="sxs-lookup"><span data-stu-id="2dd55-127">Get started with Microsoft Flow badge</span></span>
-  summary: <span data-ttu-id="2dd55-128">Abzeichen für das Modul „Erste Schritte mit Microsoft Flow“</span><span class="sxs-lookup"><span data-stu-id="2dd55-128">Badge for the 'Get started with Microsoft Flow' module.</span></span>
+  title: <span data-ttu-id="c11ba-131">Abzeichen „Erste Schritte mit Microsoft Flow“</span><span class="sxs-lookup"><span data-stu-id="c11ba-131">Get started with Microsoft Flow badge</span></span>
+  summary: <span data-ttu-id="c11ba-132">Abzeichen für das Modul „Erste Schritte mit Microsoft Flow“</span><span class="sxs-lookup"><span data-stu-id="c11ba-132">Badge for the 'Get started with Microsoft Flow' module.</span></span>
   iconUrl: http://via.placeholder.com/120x120
 - uid: learn.build-your-first-report.badge
   type: badge
-  title: <span data-ttu-id="2dd55-129">Erstellen und Freigeben Ihres ersten Power BI-Berichts</span><span class="sxs-lookup"><span data-stu-id="2dd55-129">Create and share your first Power BI report</span></span>
-  summary: <span data-ttu-id="2dd55-130">Abzeichen für das Modul „Erstellen und Freigeben Ihres ersten Power BI-Berichts“.</span><span class="sxs-lookup"><span data-stu-id="2dd55-130">Badge for the 'Create and share your first Power BI report' module.</span></span>
+  title: <span data-ttu-id="c11ba-133">Erstellen und Freigeben Ihres ersten Power BI-Berichts</span><span class="sxs-lookup"><span data-stu-id="c11ba-133">Create and share your first Power BI report</span></span>
+  summary: <span data-ttu-id="c11ba-134">Abzeichen für das Modul „Erstellen und Freigeben Ihres ersten Power BI-Berichts“.</span><span class="sxs-lookup"><span data-stu-id="c11ba-134">Badge for the 'Create and share your first Power BI report' module.</span></span>
   iconUrl: http://via.placeholder.com/120x120
 - uid: learn.get-started-with-power-bi.badge
   type: badge
-  title: <span data-ttu-id="2dd55-131">Abzeichen „Erste Schritte mit Power BI“</span><span class="sxs-lookup"><span data-stu-id="2dd55-131">Get started with Power BI badge</span></span>
-  summary: <span data-ttu-id="2dd55-132">Abzeichen für das Modul „Erste Schritte mit Power BI“</span><span class="sxs-lookup"><span data-stu-id="2dd55-132">Badge for the 'Get started with Power BI' module.</span></span>
+  title: <span data-ttu-id="c11ba-135">Abzeichen „Erste Schritte mit Power BI“</span><span class="sxs-lookup"><span data-stu-id="c11ba-135">Get started with Power BI badge</span></span>
+  summary: <span data-ttu-id="c11ba-136">Abzeichen für das Modul „Erste Schritte mit Power BI“</span><span class="sxs-lookup"><span data-stu-id="c11ba-136">Badge for the 'Get started with Power BI' module.</span></span>
   iconUrl: http://via.placeholder.com/120x120
 - uid: learn.powerapps-design-model-driven-apps.badge
   type: badge
-  title: <span data-ttu-id="2dd55-133">Erste Schritte mit modellgesteuerten Apps</span><span class="sxs-lookup"><span data-stu-id="2dd55-133">Get started with model-driven apps</span></span>
-  summary: <span data-ttu-id="2dd55-134">Abzeichen für das Modul „Erste Schritte mit modellgesteuerten PowerApps“</span><span class="sxs-lookup"><span data-stu-id="2dd55-134">Badge for the 'Get started with model-driven apps' module.</span></span>
+  title: <span data-ttu-id="c11ba-137">Erste Schritte mit modellgesteuerten Apps</span><span class="sxs-lookup"><span data-stu-id="c11ba-137">Get started with model-driven apps</span></span>
+  summary: <span data-ttu-id="c11ba-138">Abzeichen für das Modul „Erste Schritte mit modellgesteuerten PowerApps“</span><span class="sxs-lookup"><span data-stu-id="c11ba-138">Badge for the 'Get started with model-driven apps' module.</span></span>
   iconUrl: http://via.placeholder.com/120x120
 - uid: learn.powerapps-business-process-flow.badge
   type: badge
-  title: <span data-ttu-id="2dd55-135">Erste Schritte mit Geschäftsprozessflows</span><span class="sxs-lookup"><span data-stu-id="2dd55-135">Get started with business process flows</span></span>
-  summary: <span data-ttu-id="2dd55-136">Abzeichen für das Modul „Erste Schritte mit Geschäftsprozessflows“</span><span class="sxs-lookup"><span data-stu-id="2dd55-136">Badge for the 'Get started with business process flows' module.</span></span>
+  title: <span data-ttu-id="c11ba-139">Erste Schritte mit Geschäftsprozessflows</span><span class="sxs-lookup"><span data-stu-id="c11ba-139">Get started with business process flows</span></span>
+  summary: <span data-ttu-id="c11ba-140">Abzeichen für das Modul „Erste Schritte mit Geschäftsprozessflows“</span><span class="sxs-lookup"><span data-stu-id="c11ba-140">Badge for the 'Get started with business process flows' module.</span></span>
   iconUrl: http://via.placeholder.com/120x120
 - uid: learn.powerapps-common-data-service.badge
   type: badge
-  title: <span data-ttu-id="2dd55-137">Erste Schritte mit dem Common Data Service</span><span class="sxs-lookup"><span data-stu-id="2dd55-137">Get started with the Common Data Service</span></span>
-  summary: <span data-ttu-id="2dd55-138">Abzeichen für das Modul „Erste Schritte mit dem Common Data Service“</span><span class="sxs-lookup"><span data-stu-id="2dd55-138">Badge for the 'Get started with the Common Data Service' module.</span></span>
+  title: <span data-ttu-id="c11ba-141">Erste Schritte mit dem Common Data Service</span><span class="sxs-lookup"><span data-stu-id="c11ba-141">Get started with the Common Data Service</span></span>
+  summary: <span data-ttu-id="c11ba-142">Abzeichen für das Modul „Erste Schritte mit dem Common Data Service“</span><span class="sxs-lookup"><span data-stu-id="c11ba-142">Badge for the 'Get started with the Common Data Service' module.</span></span>
   iconUrl: http://via.placeholder.com/120x120
 metadata:
-  ms.openlocfilehash: baccc55e7f103cafa3b01b1b1d639ec53c253153
-  ms.sourcegitcommit: 61a4271dd1790759efa6eabe4c08c5d075effd85
+  ms.openlocfilehash: 9284f50bee6684a1346932ddf462a4687adefced
+  ms.sourcegitcommit: 6d796874539f76b734a7bb8ff95bef6b87bb9b00
   ms.translationtype: HT
   ms.contentlocale: de-DE
-  ms.lasthandoff: 09/06/2018
-  ms.locfileid: "43886785"
+  ms.lasthandoff: 09/11/2018
+  ms.locfileid: "44375511"
