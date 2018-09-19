@@ -1,19 +1,19 @@
 ### YamlMime:ModuleUnit
 uid: learn-bizapps.get-started-with-power-bi.4-exercise-touring-and-using-power-bi
 metadata:
-  title: '<span data-ttu-id="0d934-101">Übung: Einführung in den Power BI-Dienst und dessen Verwendung</span><span class="sxs-lookup"><span data-stu-id="0d934-101">Exercise - Tour and use the Power BI service</span></span>'
-  description: '<span data-ttu-id="0d934-102">Übung: Einführung in den Power BI-Dienst und dessen Verwendung</span><span class="sxs-lookup"><span data-stu-id="0d934-102">Exercise - Tour and use the Power BI service</span></span>'
+  title: <span data-ttu-id="41719-101">Einführung in den Power BI-Dienst und dessen Verwendung</span><span class="sxs-lookup"><span data-stu-id="41719-101">Tour and use the Power BI service</span></span>
+  description: <span data-ttu-id="41719-102">Einführung in den Power BI-Dienst und dessen Verwendung</span><span class="sxs-lookup"><span data-stu-id="41719-102">Tour and use the Power BI service</span></span>
   ms.date: 09/24/2018
   author: margoc
   ms.author: margoc
   ms.topic: interactive-tutorial
   ms.prod: learning-powerbi
-  ms.openlocfilehash: 47e0b6deeb8e182a61939780f48704e6fcd3909d
-  ms.sourcegitcommit: 0d11bb189c04e6a809981a561a7cbbb59fd8e5ae
+  ms.openlocfilehash: a6f6dff692518961e0e49dcd81bb3ba124f80535
+  ms.sourcegitcommit: 255768424a95e14dc5767f1710feb755467861ee
   ms.translationtype: HT
   ms.contentlocale: de-DE
-  ms.lasthandoff: 09/15/2018
-  ms.locfileid: "45651041"
-title: '<span data-ttu-id="0d934-103">Übung: Einführung in den Power BI-Dienst und dessen Verwendung</span><span class="sxs-lookup"><span data-stu-id="0d934-103">Exercise - Tour and use the Power BI service</span></span>'
+  ms.lasthandoff: 09/18/2018
+  ms.locfileid: "46119860"
+title: <span data-ttu-id="41719-103">Einführung in den Power BI-Dienst und dessen Verwendung</span><span class="sxs-lookup"><span data-stu-id="41719-103">Tour and use the Power BI service</span></span>
 durationInMinutes: 12
 content: '[!include[](includes/4-exercise-touring-and-using-power-bi.md)]'
