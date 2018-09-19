@@ -1,7 +1,7 @@
 Willkommen bei Microsoft Flow! In diesem Modul erfahren Sie, wie Sie zwei Flows erstellen:
 
-- Ein Flow, der E-Mail-Anlagen in Ihrem Microsoft OneDrive for Business-Konto automatisch speichert.
-- Ein Flow, der vorgeschlagene Tweets auf einer Microsoft SharePoint-Liste sammelt und diese anschließend postet, wenn sie genehmigt wurden.
+- Einen Flow, der E-Mail-Anlagen automatisch in Ihrem Microsoft OneDrive for Business-Konto speichert.
+- Einen Schaltflächenflow, den Sie aus der Microsoft Flow-App erstellen, um nach zehn Minuten eine Erinnerung an Sie zu senden.
 
 Wenn Sie Microsoft Flow noch nicht kennen, ist dieses Modul ein guter Einstieg. Wenn Sie bereits über Erfahrung verfügen, verknüpft dieses Modul Zusammenhänge und schließt eventuelle Lücken.
 
@@ -10,7 +10,7 @@ Microsoft Flow ist ein Onlinedienst für Workflows, der Ereignisse (als *Workflo
 
 ![Das Konzept von Flow](../media/flow-conceptual.png)
 
-Wenn Sie sich registrieren, können Sie eine Verbindung mit über 100 Diensten herstellen und Daten in der Cloud oder in lokalen Datenquellen wie SharePoint oder Microsoft SQL Server verwalten. Die Liste der Anwendungen und Dienste, die Sie mit Microsoft Flow verwenden können, wird ständig erweitert.
+Wenn Sie sich registrieren, können Sie eine Verbindung mit über 220 Diensten herstellen und Daten in der Cloud oder in lokalen Datenquellen wie SharePoint und Microsoft SQL Server verwalten. Die Liste der Anwendungen, die Sie mit Microsoft Flow verwenden können, wird ständig erweitert.
 
 ![Liste der Dienste](../media/flow-services.png)
 
@@ -22,7 +22,6 @@ Sie können beispielsweise folgende Aufgaben automatisieren:
 
 * Automatische Antworten auf wichtige Benachrichtigungen oder E-Mails
 * Erfassen und Nachverfolgen neuer Vertriebsleads
-* Kopieren von Dateien von Dienst zu Dienst
 * Kopieren aller E-Mail-Anlagen in Ihr OneDrive for Business-Konto
 * Sammeln von Daten über Ihr Unternehmen und Freigeben dieser Informationen für Ihr Team
 * Automatisieren von Genehmigungsworkflows
@@ -37,9 +36,11 @@ Sie können auch Microsoft Flow verwenden, um Dateien zu kopieren. Beispielsweis
 
 ![Liste derselben Dateien in SharePoint](../media/sharepoint-files.png) 
 
-Sie können überwachen, wie andere Personen sich über Ihr Unternehmen äußern, indem Sie einen Flow erstellen, der immer dann ausgeführt wird, wenn jemand einen Tweet mit einem bestimmten Hashtag postet. Der Flow kann nach Belieben Details zu jedem Tweet zu einer SQL Server-Datenbank, einer SharePoint-Liste oder einer Microsoft Excel-Datei, die auf OneDrive for Business gehostet wird, hinzufügen. 
+Sie können überwachen, wie andere Personen sich über Ihr Unternehmen äußern, indem Sie einen Flow erstellen, der immer dann ausgeführt wird, wenn jemand einen Tweet mit einem bestimmten Hashtag postet. Der Flow kann nach Belieben Details zu jedem Tweet zu einem Facebook-Post, einer SQL Server-Datenbank, einer SharePoint-Liste oder einer auf OneDrive for Business gehosteten Microsoft Excel-Datei hinzufügen. 
 
-Sie können Aktionen erstellen, um die gesammelten Daten mit Power BI zu verbinden, Trends zu erkennen und Fragen zu den Daten zu stellen.
+Sie können Aktionen erstellen, um die gesammelten Daten mit Microsoft Power BI zu verbinden, Trends in den Daten zu erkennen und Fragen zu den Daten zu stellen.
+
+Das folgende Beispiel zeigt einen Flow, der Tweets mit dem Hashtag #MicrosoftFlow in einer Excel-Datei speichert.
 
 ![Tweet](../media/tweets-to-excel.png)
 
@@ -68,18 +69,18 @@ Hier sind einige Aufgaben, die durchgeführt werden können:
 * Anzeigen detaillierter Berichte zum Ausführungsverlauf
 * Anzeigen und Filtern von Ausführungen nach Benachrichtigungstyp
 
-## <a name="a-brief-tour-of-microsoft-flow"></a>Tour durch Microsoft Flow
-Wir beginnen nun mit der Einführung in das Tool. Wir haben zahlreiche Informationen zur Verwendung von Microsoft Flow für Sie.
+## <a name="a-brief-tour-of-microsoft-flow"></a>Kurze Einführung in Microsoft Flow
+Wir beginnen nun mit der Einführung in Microsoft Flow. Wir haben zahlreiche Informationen zur Verwendung von Microsoft Flow für Sie.
 
-![Beginn der Tour](../media/start-of-tour.png)
+![Beginn der Einführung](../media/start-of-tour.png)
 
-Auf der Startseite finden Sie diese Menüs:
+Wenn Sie sich bei Microsoft Flow anmelden, sehen Sie die folgenden Menüs:
 
-* **Meine Flows:** Dort befinden sich Ihre Flows.
+* **Meine Flows:** Hier befinden sich Ihre Flows.
 * **Vorlagen:** Dort können Sie die beliebtesten Vorlagen auf einen Blick sehen. Die Vorlagen enthalten viele Anregungen für Flows, die Sie testen können.
-* **Genehmigungen:** Dort können Sie Genehmigungsprozesse automatisieren und optimieren.
-* **Connectors** (ehemals Dienste): Dort können Sie Dienste miteinander verbinden.
-* **Info:** Dort finden Sie Informationen, die Ihnen einen schnellen Einstieg in Microsoft Flow ermöglichen.
+* **Genehmigungen:** Hier können Sie Genehmigungsprozesse automatisieren und optimieren.
+* **Connectors** (ehemals Dienste): Hier können Sie Dienste miteinander verbinden.
+* **Info:** Hier finden Sie Informationen, die Ihnen einen schnellen Einstieg in Microsoft Flow ermöglichen.
 
 Im Folgenden wird das Menü **Info** erläutert, das folgende Optionen enthält:
 

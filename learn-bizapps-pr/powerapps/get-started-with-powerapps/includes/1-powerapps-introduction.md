@@ -1,6 +1,12 @@
 Willkommen bei Microsoft PowerApps. In diesem Onlinemodul machen Sie sich in Ihrem eigenen Arbeitstempo mit den grundlegenden Schritte zum Erstellen einer App vertraut.
 
-In diesem Einführungsmodul erfahren Sie, wie Sie aus den Daten in einer Microsoft Excel-Arbeitsmappe eine App erstellen. Zur Vorbereitung laden Sie die Arbeitsmappe herunter, die die Beispieldaten enthält. Dann laden Sie die Arbeitsmappe auf Microsoft OneDrive for Business hoch – dort können Sie die Daten für andere Benutzer freigeben. Anschließend erstellen Sie die App, ohne dabei eine traditionelle Programmiersprache wie z.B. C# verwenden zu müssen.
+ In diesem Modul:
+  - Finden Sie heraus, wie PowerApps die Effizienz Ihres Unternehmens steigern kann.
+  - Erfahren Sie, welche Technologien zum Ausführen von Aufgaben in PowerApps verwendet werden.
+  - Lernen Sie die verschiedenen Möglichkeiten zum Erstellen einer App in PowerApps kennen.
+  - Erstellen Sie Ihre erste App aus Daten in einer Microsoft Excel-Arbeitsmappe.
+
+In diesem Einführungsmodul erfahren Sie, wie Sie aus Daten in einer Microsoft Excel-Arbeitsmappe eine App erstellen. Vorab müssen Sie eine Arbeitsmappe mit Beispieldaten herunterladen. Anschließend laden Sie die Arbeitsmappe auf Microsoft OneDrive for Business hoch, wo Sie die Daten für andere Benutzer freigeben können. Anschließend erstellen Sie die App, ohne dabei eine traditionelle Programmiersprache wie z.B. C# verwenden zu müssen.
 
 PowerApps bietet folgende Möglichkeiten:
 

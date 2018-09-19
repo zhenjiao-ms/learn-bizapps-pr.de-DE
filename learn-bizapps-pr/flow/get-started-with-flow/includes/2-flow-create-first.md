@@ -1,11 +1,11 @@
-In dieser Einheit erfahren Sie mehr über die Microsoft Flow-Umgebung, während Sie Ihren ersten Flow erstellen.
+In dieser Lektion erstellen Sie Ihren ersten Flow und erfahren dabei mehr über Microsoft Flow.
 
 Es kann zeitaufwändig sein, in E-Mails nach Anhängen zu suchen. Der Flow, den Sie im Rahmen dieser Einheit erstellen, spart Zeit, indem all Ihre E-Mail-Anhänge in einem Ordner in Ihrem Microsoft OneDrive for Business-Konto gespeichert werden.
 
 ## <a name="choose-a-template"></a>Auswählen einer Vorlage
-Mit vielen der Vorlagen können Sie im Handumdrehen Flows erstellen. Diese unterstützen Sie beim Verknüpfen der Dienste, die Sie bereits auf bedeutsameren Weisen verwenden.
+Mit vielen der Vorlagen können Sie im Handumdrehen Flows erstellen. Diese unterstützen Sie beim Verbinden der Dienste, die Sie bereits für Ihre Zwecke nutzen.
 
-Öffnen Sie die [Microsoft Flow-Website](https://ms.flow.microsoft.com), und wählen Sie das Menü **Vorlagen** aus. Wenn Sie durch die Liste scrollen, werden Sie bemerken, dass Microsoft Flow die Verknüpfung mit vielen Diensten ermöglicht.
+Melden Sie sich bei [Microsoft Flow](https://ms.flow.microsoft.com) an, und klicken Sie auf das Menü **Vorlagen**. Sie können sich mit einem Microsoft-Konto für Microsoft Flow registrieren.
 
 Wählen Sie die Vorlage **Office 365-E-Mail-Anlagen in OneDrive for Business speichern** aus.
 
@@ -22,7 +22,7 @@ Sie werden dazu aufgefordert, Anmeldeinformationen für die Microsoft Office 365
 
     ![Speichern von Office 365-E-Mails](../media/save-flow-office-description.png)
 
-    Flow erstellt einen Ordner auf Ihrem OneDrive for Business-Konto und speichert alle Anhänge, die an Ihre geschäftliche E-Mail-Adresse gesendet werden, in diesem Ordner.
+    Microsoft Flow erstellt einen Ordner in Ihrem OneDrive for Business-Konto und speichert alle Anhänge, die an Ihre geschäftliche E-Mail-Adresse gesendet werden, in diesem Ordner.
 
     ![Erfolgreiche Erstellung](../media/create-successful.png)
 

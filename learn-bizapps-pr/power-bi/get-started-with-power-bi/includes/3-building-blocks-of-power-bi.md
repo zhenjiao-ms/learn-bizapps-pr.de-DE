@@ -54,9 +54,9 @@ In Power BI ist eine **Kachel** eine einzelne Visualisierung in einem Bericht od
 
 ![Power BI-Kacheln](../media/pbi-bblocks_04.png)
 
-Wenn Sie in Power BI einen Bericht oder ein Dashboard *erstellen*, können Sie die Kacheln so verschieben oder anordnen, wie dies für die Darstellung Ihrer Informationen am besten geeignet ist. Sie können sie wie gewünscht vergrößern, die Höhe oder Breite ändern und sie in der Nähe von anderen Kacheln anordnen.
+Wenn Sie in Power BI einen Bericht oder ein Dashboard *erstellen*, können Sie die Kacheln wie gewünscht verschieben oder anordnen. Sie können sie vergrößern, die Höhe oder Breite ändern und sie in der Nähe von anderen Kacheln anordnen.
 
-Beim *Anzeigen* oder *Nutzen* eines Dashboards oder Berichts – wenn Sie also nicht der Ersteller oder Besitzer sind, aber das Dashboard oder der Bericht für Sie freigegeben wurde – können Sie damit interagieren, aber nicht die Größe der Kacheln oder ihre Anordnung ändern.
+Beim *Anzeigen* oder *Nutzen* eines Dashboards oder Berichts (wenn Sie also nicht der Ersteller oder Besitzer sind, aber das Dashboard oder der Bericht für Sie freigegeben wurde) können Sie damit interagieren, aber nicht die Größe der Kacheln oder ihre Anordnung ändern.
 
 ## <a name="all-together-now"></a>Zusammenfassung
 Dies sind die Grundlagen von Power BI und der einzelnen Komponenten. Wir fassen diese noch einmal kurz zusammen.
@@ -67,7 +67,7 @@ Nachdem Sie sich nun mit den grundlegenden Komponenten von Power BI vertraut gem
 
 Für einige Benutzer kann die Verwendung einer einzelnen Excel-Tabelle in einem Dataset und die anschließende Freigabe eines Dashboards für das Team eine unglaublich wertvolle Nutzung von Power BI bedeuten.
 
-Für andere Benutzer besteht der Wert von Power BI in der Verwendung von Azure SQL Data Warehouse-Echtzeittabellen, die mit anderen Datenbanken und einer Echtzeitquelle kombiniert und dann in Echtzeit gefiltert werden, um ein Dataset zu erstellen, mit dem der Fertigungsstatus lückenlos überwacht wird.
+Für andere Benutzer besteht der Wert von Power BI in der Verwendung von Azure SQL Data Warehouse-Echtzeittabellen, die mit anderen Datenbanken und Echtzeitquellen kombiniert werden, um ein jederzeit aktuelles Dataset zu erstellen.
 
 Der Prozess ist hierbei für beide Gruppen jeweils gleich: Erstellen von Datasets, Erstellen von ansprechenden visuellen Elementen und Freigeben für andere Benutzer. Und auch das Ergebnis ist praktisch identisch: Bändigen Ihrer ständig zunehmenden Datenmengen und Produzieren von verwertbaren Einblicken.
 

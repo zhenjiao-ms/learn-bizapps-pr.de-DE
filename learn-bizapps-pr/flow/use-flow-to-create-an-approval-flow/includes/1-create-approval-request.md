@@ -22,9 +22,9 @@ Im Folgenden erstellen Sie zunächst die SharePoint-Liste.
 1. Kopieren Sie die URL der SharePoint-Liste. Die URL verwenden Sie bei der Erstellung des Flows.
 
 ## <a name="step-two-create-an-approval-request-flow"></a>Schritt 2: Erstellen eines Flows für die Genehmigungsanforderung
-1. Klicken Sie auf der Microsoft Flow-Startseite auf **Genehmigungen**.
+1. Melden Sie sich bei [Microsoft Flow](https://ms.flow.microsoft.com) an, und wählen Sie **Genehmigungen** aus.
 
-1. Klicken Sie auf ****Genehmigungsflow erstellen**, scrollen Sie nach unten, und klicken Sie auf die Vorlage **Listenelemente nach Genehmigung in Twitter posten**. 
+1. Klicken Sie auf **Genehmigungsflow erstellen**, scrollen Sie nach unten, und wählen Sie die Vorlage **Listenelemente nach Genehmigung in Twitter posten** aus. 
 
     ![Auswählen der Vorlage](../media/create-approval.png)
 
@@ -34,8 +34,8 @@ Im Folgenden erstellen Sie zunächst die SharePoint-Liste.
 
 1. Geben Sie in Microsoft Flow in der Aktion **Wenn ein neues Element erstellt wird** die folgenden Werte ein:
 
-    * **Websiteadresse:** Geben Sie die SharePoint-Website-URL Ihres Teams ein.
-    * **Listenname:** Geben Sie *Contoso-Tweets* ein.
+    * **Websiteadresse:** Geben Sie die URL der SharePoint-Website Ihres Teams ein.
+    * **Listenname:** Wählen Sie *ContosoTweets* aus.
 
     ![Websiteadresse und Listenname](../media/site-address.png)
 

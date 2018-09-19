@@ -1,0 +1,58 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.flow-get-started.4-quiz-flow-get-started
+title: Überprüfen Ihrer Kenntnisse
+metadata:
+  title: 'Wissensbeurteilung: Erstellen eines Flows'
+  description: In dieser Wissensbeurteilung wird Ihr Wissen über die Erstellung von Flows getestet.
+  ms.date: 09/24/2018
+  author: margoc
+  ms.author: margoc
+  ms.topic: interactive-tutorial
+  ms.prod: learning-flow
+  ms.openlocfilehash: cdd283fda9ee2930f258818b45770d429abe36d2
+  ms.sourcegitcommit: 255768424a95e14dc5767f1710feb755467861ee
+  ms.translationtype: HT
+  ms.contentlocale: de-DE
+  ms.lasthandoff: 09/18/2018
+  ms.locfileid: "46120481"
+durationInMinutes: 4
+quiz:
+  title: 'Wissensbeurteilung: Erstellen eines Flows'
+  questions:
+  - content: Wo können Sie einen Flow erstellen?
+    choices:
+    - content: Auf der Microsoft Flow-Website.
+      incorrectExplanation: Die Microsoft Flow-Website ist nur ein Ort zum Starten eines Flows. Sie können einen Flow auch über die mobile App starten.
+      isCorrect: false
+    - content: In der Microsoft Flow-App.
+      correctExplanation: Einfache Flows können über die App gestartet werden.
+      isCorrect: false
+    - content: In Microsoft Dynamics 365.
+      incorrectExplanation: In Dynamics 365 können Sie eine Vielzahl von Apps und Diensten anzeigen. Dort werden jedoch keine Flows gestartet.
+      isCorrect: false
+    - content: In Microsoft PowerApps Studio
+      incorrectExplanation: In PowerApps Studio können Sie PowerApps-Apps entwerfen. Dort werden keine Flows gestartet, obwohl Flows mit PowerApps-Apps kompatibel sind.
+      isCorrect: false
+    - content: Auf der Flow-Website und in der Flow-App.
+      incorrectExplanation: Sie können einen Flow entweder auf der Flow-Website oder in der Flow-App erstellen.
+      isCorrect: true
+    - content: Alle oben genannten Möglichkeiten sind zutreffend.
+      incorrectExplanation: Sie können einen Flow nur auf der Flow-Website oder in der Flow-App erstellen.
+      isCorrect: false
+    - content: Keine der oben genannten Möglichkeiten
+      incorrectExplanation: Sie können einen Flow nur entweder auf der Flow-Website oder in der Flow-App erstellen.
+      isCorrect: false
+  - content: Welche der folgenden Aussagen über Flows trifft zu?
+    choices:
+    - content: Sie reagieren auf Trigger.
+      incorrectExplanation: Flows reagieren auf Trigger, führen aber auch Aktionen aus.
+      isCorrect: false
+    - content: Sie führen Aktionen aus.
+      correctExplanation: Flows können Aktionen ausführen, reagieren aber auch auf Trigger.
+      isCorrect: false
+    - content: Alle oben genannten Möglichkeiten.
+      incorrectExplanation: Flows reagieren auf Trigger und führen Aktionen aus.
+      isCorrect: true
+    - content: Keine der oben genannten Möglichkeiten
+      incorrectExplanation: Flows reagieren auf Trigger und führen Aktionen aus.
+      isCorrect: false

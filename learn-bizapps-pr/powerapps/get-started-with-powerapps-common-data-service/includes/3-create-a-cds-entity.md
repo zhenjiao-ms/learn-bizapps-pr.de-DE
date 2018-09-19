@@ -8,10 +8,6 @@ In dieser Lektion erstellen Sie eine Entität und passen anschließend wichtige 
 
 Dieses Tutorial orientiert sich am Unternehmen Contoso, das einen Haustierpflegedienst für Hunde und Katzen betreibt. Contoso benötigt eine App zum Nachverfolgen von Kunden und Haustieren, die von den Mitarbeitern auf einer Vielzahl von Geräten genutzt werden kann.
 
-## <a name="prerequisites"></a>Voraussetzungen
-
-Melden Sie sich bei [Microsoft PowerApps](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) an. Wenn Sie nicht bereits über ein PowerApps-Konto verfügen, klicken Sie auf [powerapps.com](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) auf den Link **Steigen Sie kostenlos ein**.
-
 ## <a name="create-a-custom-entity"></a>Erstellen einer benutzerdefinierten Entität
 
 1. Erweitern Sie im linken Navigationsbereich **Daten**. Wählen Sie **Entitäten** und dann **Neue Entität** erstellen aus.
