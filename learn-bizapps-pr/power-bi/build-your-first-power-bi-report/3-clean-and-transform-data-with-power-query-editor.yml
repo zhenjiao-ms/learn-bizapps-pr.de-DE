@@ -1,19 +1,19 @@
 ### YamlMime:ModuleUnit
 uid: learn-bizapps.build-your-first-report.3-clean-and-transform-data-with-power-query-editor
 metadata:
-  title: <span data-ttu-id="8e142-101">Bereinigen und Transformieren von Daten mit dem Power Query-Editor</span><span class="sxs-lookup"><span data-stu-id="8e142-101">Clean and transform data with Power Query editor</span></span>
-  description: <span data-ttu-id="8e142-102">Bereinigen und Transformieren von Daten mit dem Power Query-Editor</span><span class="sxs-lookup"><span data-stu-id="8e142-102">Clean and transform data with Power Query editor</span></span>
+  title: <span data-ttu-id="c77c5-101">Bereinigen und Transformieren von Daten mit dem Power Query-Editor</span><span class="sxs-lookup"><span data-stu-id="c77c5-101">Clean and transform data with Power Query Editor</span></span>
+  description: <span data-ttu-id="c77c5-102">Bereinigen und Transformieren von Daten mit dem Power Query-Editor</span><span class="sxs-lookup"><span data-stu-id="c77c5-102">Clean and transform data with Power Query Editor</span></span>
   ms.date: 09/24/2018
   author: margoc
   ms.author: margoc
   ms.topic: interactive-tutorial
   ms.prod: learning-powerbi
-  ms.openlocfilehash: 1c9c83a17a7e91d06855f86f280e91accf96dd8b
-  ms.sourcegitcommit: 88398f21cabb7c194b4292d6f3a4a10049eab76d
+  ms.openlocfilehash: 7aa6127147df9a0971bd7526d918b0b84b45dc2a
+  ms.sourcegitcommit: 0d11bb189c04e6a809981a561a7cbbb59fd8e5ae
   ms.translationtype: HT
   ms.contentlocale: de-DE
-  ms.lasthandoff: 09/12/2018
-  ms.locfileid: "44500312"
-title: <span data-ttu-id="8e142-103">Bereinigen und Transformieren von Daten mit dem Power Query-Editor</span><span class="sxs-lookup"><span data-stu-id="8e142-103">Clean and transform data with Power Query editor</span></span>
+  ms.lasthandoff: 09/15/2018
+  ms.locfileid: "45651110"
+title: <span data-ttu-id="c77c5-103">Bereinigen und Transformieren von Daten mit dem Power Query-Editor</span><span class="sxs-lookup"><span data-stu-id="c77c5-103">Clean and transform data with Power Query Editor</span></span>
 durationInMinutes: 20
 content: '[!include[](includes/3-clean-and-transform-data-with-power-query-editor.md)]'

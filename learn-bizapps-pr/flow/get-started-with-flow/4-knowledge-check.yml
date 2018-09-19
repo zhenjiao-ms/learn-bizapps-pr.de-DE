@@ -1,0 +1,58 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.flow-get-started.4-quiz-flow-get-started
+title: <span data-ttu-id="aa3f4-101">Überprüfen Ihrer Kenntnisse</span><span class="sxs-lookup"><span data-stu-id="aa3f4-101">Check your knowledge</span></span>
+metadata:
+  title: '<span data-ttu-id="aa3f4-102">Wissensbeurteilung: Erstellen eines Flows</span><span class="sxs-lookup"><span data-stu-id="aa3f4-102">Knowledge check: Create a flow</span></span>'
+  description: <span data-ttu-id="aa3f4-103">In dieser Wissensbeurteilung wird Ihr Wissen über die Erstellung von Flows getestet.</span><span class="sxs-lookup"><span data-stu-id="aa3f4-103">This knowledge check tests your knowledge of how to create a flow.</span></span>
+  ms.date: 09/24/2018
+  author: margoc
+  ms.author: margoc
+  ms.topic: interactive-tutorial
+  ms.prod: learning-flow
+  ms.openlocfilehash: cdd283fda9ee2930f258818b45770d429abe36d2
+  ms.sourcegitcommit: 255768424a95e14dc5767f1710feb755467861ee
+  ms.translationtype: HT
+  ms.contentlocale: de-DE
+  ms.lasthandoff: 09/18/2018
+  ms.locfileid: "46120481"
+durationInMinutes: 4
+quiz:
+  title: '<span data-ttu-id="aa3f4-104">Wissensbeurteilung: Erstellen eines Flows</span><span class="sxs-lookup"><span data-stu-id="aa3f4-104">Knowledge check: Create a flow</span></span>'
+  questions:
+  - content: <span data-ttu-id="aa3f4-105">Wo können Sie einen Flow erstellen?</span><span class="sxs-lookup"><span data-stu-id="aa3f4-105">Where can you create a flow?</span></span>
+    choices:
+    - content: <span data-ttu-id="aa3f4-106">Auf der Microsoft Flow-Website.</span><span class="sxs-lookup"><span data-stu-id="aa3f4-106">Only on the Microsoft Flow website.</span></span>
+      incorrectExplanation: <span data-ttu-id="aa3f4-107">Die Microsoft Flow-Website ist nur ein Ort zum Starten eines Flows.</span><span class="sxs-lookup"><span data-stu-id="aa3f4-107">The Microsoft Flow website is only one place where you start a flow.</span></span> <span data-ttu-id="aa3f4-108">Sie können einen Flow auch über die mobile App starten.</span><span class="sxs-lookup"><span data-stu-id="aa3f4-108">You can also start a flow on the mobile app.</span></span>
+      isCorrect: false
+    - content: <span data-ttu-id="aa3f4-109">In der Microsoft Flow-App.</span><span class="sxs-lookup"><span data-stu-id="aa3f4-109">In the Microsoft Flow app.</span></span>
+      correctExplanation: <span data-ttu-id="aa3f4-110">Einfache Flows können über die App gestartet werden.</span><span class="sxs-lookup"><span data-stu-id="aa3f4-110">Simple flows can be started from the app.</span></span>
+      isCorrect: false
+    - content: <span data-ttu-id="aa3f4-111">In Microsoft Dynamics 365.</span><span class="sxs-lookup"><span data-stu-id="aa3f4-111">In Microsoft Dynamics 365.</span></span>
+      incorrectExplanation: <span data-ttu-id="aa3f4-112">In Dynamics 365 können Sie eine Vielzahl von Apps und Diensten anzeigen.</span><span class="sxs-lookup"><span data-stu-id="aa3f4-112">Dynamics 365 is where you can view many apps and services.</span></span> <span data-ttu-id="aa3f4-113">Dort werden jedoch keine Flows gestartet.</span><span class="sxs-lookup"><span data-stu-id="aa3f4-113">It isn't where you start a flow.</span></span>
+      isCorrect: false
+    - content: <span data-ttu-id="aa3f4-114">In Microsoft PowerApps Studio</span><span class="sxs-lookup"><span data-stu-id="aa3f4-114">In Microsoft PowerApps Studio.</span></span>
+      incorrectExplanation: <span data-ttu-id="aa3f4-115">In PowerApps Studio können Sie PowerApps-Apps entwerfen.</span><span class="sxs-lookup"><span data-stu-id="aa3f4-115">PowerApps Studio is where you can design PowerApps apps.</span></span> <span data-ttu-id="aa3f4-116">Dort werden keine Flows gestartet, obwohl Flows mit PowerApps-Apps kompatibel sind.</span><span class="sxs-lookup"><span data-stu-id="aa3f4-116">It isn't where you start a flow, even though flows can work with PowerApps apps.</span></span>
+      isCorrect: false
+    - content: <span data-ttu-id="aa3f4-117">Auf der Flow-Website und in der Flow-App.</span><span class="sxs-lookup"><span data-stu-id="aa3f4-117">On the Flow website and in the Flow app.</span></span>
+      incorrectExplanation: <span data-ttu-id="aa3f4-118">Sie können einen Flow entweder auf der Flow-Website oder in der Flow-App erstellen.</span><span class="sxs-lookup"><span data-stu-id="aa3f4-118">You can create a flow in either the Flow website or the Flow app.</span></span>
+      isCorrect: true
+    - content: <span data-ttu-id="aa3f4-119">Alle oben genannten Möglichkeiten sind zutreffend.</span><span class="sxs-lookup"><span data-stu-id="aa3f4-119">All of the above</span></span>
+      incorrectExplanation: <span data-ttu-id="aa3f4-120">Sie können einen Flow nur auf der Flow-Website oder in der Flow-App erstellen.</span><span class="sxs-lookup"><span data-stu-id="aa3f4-120">You can only create a flow from the Flow website or the Flow app.</span></span>
+      isCorrect: false
+    - content: <span data-ttu-id="aa3f4-121">Keine der oben genannten Möglichkeiten</span><span class="sxs-lookup"><span data-stu-id="aa3f4-121">None of the above</span></span>
+      incorrectExplanation: <span data-ttu-id="aa3f4-122">Sie können einen Flow nur entweder auf der Flow-Website oder in der Flow-App erstellen.</span><span class="sxs-lookup"><span data-stu-id="aa3f4-122">You can only create a flow in either the Flow website or the Flow app.</span></span>
+      isCorrect: false
+  - content: <span data-ttu-id="aa3f4-123">Welche der folgenden Aussagen über Flows trifft zu?</span><span class="sxs-lookup"><span data-stu-id="aa3f4-123">Which of the following statements about flows is true?</span></span>
+    choices:
+    - content: <span data-ttu-id="aa3f4-124">Sie reagieren auf Trigger.</span><span class="sxs-lookup"><span data-stu-id="aa3f4-124">They respond to triggers.</span></span>
+      incorrectExplanation: <span data-ttu-id="aa3f4-125">Flows reagieren auf Trigger, führen aber auch Aktionen aus.</span><span class="sxs-lookup"><span data-stu-id="aa3f4-125">Flows respond to triggers, but also execute actions.</span></span>
+      isCorrect: false
+    - content: <span data-ttu-id="aa3f4-126">Sie führen Aktionen aus.</span><span class="sxs-lookup"><span data-stu-id="aa3f4-126">They execute actions.</span></span>
+      correctExplanation: <span data-ttu-id="aa3f4-127">Flows können Aktionen ausführen, reagieren aber auch auf Trigger.</span><span class="sxs-lookup"><span data-stu-id="aa3f4-127">Flows can execute actions, but also respond to triggers.</span></span>
+      isCorrect: false
+    - content: <span data-ttu-id="aa3f4-128">Alle oben genannten Möglichkeiten.</span><span class="sxs-lookup"><span data-stu-id="aa3f4-128">All of the above.</span></span>
+      incorrectExplanation: <span data-ttu-id="aa3f4-129">Flows reagieren auf Trigger und führen Aktionen aus.</span><span class="sxs-lookup"><span data-stu-id="aa3f4-129">Flows respond to triggers and execute actions.</span></span>
+      isCorrect: true
+    - content: <span data-ttu-id="aa3f4-130">Keine der oben genannten Möglichkeiten</span><span class="sxs-lookup"><span data-stu-id="aa3f4-130">None of the above.</span></span>
+      incorrectExplanation: <span data-ttu-id="aa3f4-131">Flows reagieren auf Trigger und führen Aktionen aus.</span><span class="sxs-lookup"><span data-stu-id="aa3f4-131">Flows respond to triggers and execute actions.</span></span>
+      isCorrect: false

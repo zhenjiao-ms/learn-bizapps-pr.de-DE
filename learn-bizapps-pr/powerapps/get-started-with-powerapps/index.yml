@@ -8,12 +8,12 @@ metadata:
   ms.author: margoc
   ms.topic: interactive-tutorial
   ms.prod: learning-powerapps
-  ms.openlocfilehash: e5c941821552cafdf3bcb0bb33fa8f1abc91af2f
-  ms.sourcegitcommit: 19236e5c58c29cfa95f8c68b280c7234cdfaf7e2
+  ms.openlocfilehash: 1a433b0a6913ec7669b70878add274b8e419d67b
+  ms.sourcegitcommit: 0d11bb189c04e6a809981a561a7cbbb59fd8e5ae
   ms.translationtype: HT
   ms.contentlocale: de-DE
-  ms.lasthandoff: 09/14/2018
-  ms.locfileid: "45600757"
+  ms.lasthandoff: 09/15/2018
+  ms.locfileid: "45651204"
 title: Erste Schritte mit PowerApps
 summary: Lernen Sie die Grundlagen von PowerApps kennen, und erfahren Sie, wie Sie das Tool in Ihrer Organisation einsetzen können.
 abstract: >
@@ -26,7 +26,7 @@ abstract: >
   - Welche Möglichkeiten Sie zum Erstellen einer App in PowerApps haben
 
   - Wie Sie Ihre erste App aus Daten in einer Excel-Arbeitsmappe erstellen
-prerequisites: Keine
+prerequisites: Zugriff auf Microsoft Excel und OneDrive for Business
 iconUrl: /learn/achievements/get-started-with-powerapps.svg
 levels:
 - beginner
@@ -43,4 +43,5 @@ units:
 - learn-bizapps.powerapps-get-started.4-powerapps-ways-to-build
 - learn-bizapps.powerapps-get-started.5-powerapps-create-first
 - learn-bizapps.powerapps-get-started.6-powerapps-quiz-get-started
+- learn-bizapps.powerapps-get-started.7-summary-cleanup
 achievement: learn.powerapps-get-started.badge

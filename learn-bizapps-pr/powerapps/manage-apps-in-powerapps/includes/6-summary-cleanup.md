@@ -1,0 +1,5 @@
+<span data-ttu-id="cad37-101">Lassen Sie uns kurz wiederholen, was wir in diesem Modul behandelt haben.</span><span class="sxs-lookup"><span data-stu-id="cad37-101">Let’s do a quick review of what we covered in this module.</span></span>
+
+<span data-ttu-id="cad37-102">Sie haben erfahren, wie Sie App-Versionen überprüfen und wiederherstellen.</span><span class="sxs-lookup"><span data-stu-id="cad37-102">You learned how to review and restore app versions.</span></span> <span data-ttu-id="cad37-103">Sie haben:</span><span class="sxs-lookup"><span data-stu-id="cad37-103">You got to:</span></span>
+  - <span data-ttu-id="cad37-104">Erfahren, wie Sie eine App freigeben, einschließlich Berechtigungen und Benachrichtigungen</span><span class="sxs-lookup"><span data-stu-id="cad37-104">Explore how to share an app, including permissions and notifications.</span></span>
+  - <span data-ttu-id="cad37-105">Erfahren Sie, wie Sie Umgebungen erstellen und verwalten und die Sicherheit verwalten.</span><span class="sxs-lookup"><span data-stu-id="cad37-105">Learn how to create and manage environments, and how to manage security.</span></span>

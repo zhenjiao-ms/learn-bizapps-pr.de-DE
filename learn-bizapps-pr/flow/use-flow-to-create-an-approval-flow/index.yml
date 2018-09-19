@@ -8,21 +8,16 @@ metadata:
   ms.author: margoc
   ms.topic: interactive-tutorial
   ms.prod: learning-flow
-  ms.openlocfilehash: 2235971a0907a9c22fb58b29a54844c5f3a867dd
-  ms.sourcegitcommit: 19236e5c58c29cfa95f8c68b280c7234cdfaf7e2
+  ms.openlocfilehash: 61e71adae79d77dff0254a474a95d100637a678e
+  ms.sourcegitcommit: 0d11bb189c04e6a809981a561a7cbbb59fd8e5ae
   ms.translationtype: HT
   ms.contentlocale: de-DE
-  ms.lasthandoff: 09/14/2018
-  ms.locfileid: "45600688"
+  ms.lasthandoff: 09/15/2018
+  ms.locfileid: "45651133"
 title: Erstellen eines Genehmigungsflows
-summary: Lernen Sie die Grundlagen für das Erstellen eines Genehmigungsflows für eine SharePoint-Liste kennen.
-abstract: >
-  In diesem Modul erfahren Sie,
-
-  - Wie Sie einen einfachen Flow erstellen, der E-Mail-Anlagen in Ihrem Microsoft OneDrive for Business-Konto speichert
-
-  - Wie Sie einen komplizierteren Flow erstellen, der eine Microsoft SharePoint-Liste verwendet, in der Mitarbeiter Tweets vorschlagen können, die nach ihrer Genehmigung automatisch im Twitter-Konto des Unternehmens gepostet werden
-prerequisites: Keine
+summary: Machen Sie sich mit den Grundlagen der Erstellung eines Genehmigungsflows für eine SharePoint-Liste vertraut.
+abstract: In diesem Modul erstellen Sie einen Genehmigungsflow, der eine SharePoint-Liste verwendet. Sie erfahren, wie Sie eine SharePoint-Liste erstellen, in der Benutzer Twitter-Tweets vorschlagen, die später genehmigt und veröffentlicht werden können.
+prerequisites: Rechte zum Erstellen einer SharePoint-Liste, Twitter-Konto
 iconUrl: /learn/achievements/use-flow-to-create-an-approval-flow.svg
 levels:
 - beginner
@@ -35,6 +30,6 @@ products:
 units:
 - learn-bizapps.flow-create-approval.1-create-approval-request
 - learn-bizapps.flow-create-approval.2-process-approval-request
-- learn-bizapps.flow-create-approval.3-flow-review
-- learn-bizapps.flow-create-approval.4-quiz-flow-approval
+- learn-bizapps.flow-create-approval.3-quiz-flow-approval
+- learn-bizapps.flow-create-approval.4-summary-cleanup
 achievement: learn.flow-create-approval.badge

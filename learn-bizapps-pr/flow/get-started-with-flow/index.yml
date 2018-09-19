@@ -2,27 +2,22 @@
 uid: learn-bizapps.flow-get-started
 metadata:
   title: Erste Schritte mit Microsoft Flow
-  description: Informationen zum Erstellen eines Genehmigungsflows für eine SharePoint-Liste.
+  description: Erfahren Sie, wie Sie einfache Flows erstellen, die Ihnen die Arbeit erleichtern.
   ms.date: 09/24/2018
   author: margoc
   ms.author: margoc
   ms.topic: interactive-tutorial
   ms.prod: learning-flow
-  ms.openlocfilehash: 3b0ffdf36a190dc557fe6de3933c4ddae529aa83
-  ms.sourcegitcommit: 19236e5c58c29cfa95f8c68b280c7234cdfaf7e2
+  ms.openlocfilehash: 549ee00b9549867251101f3fa1b359aeadd67cac
+  ms.sourcegitcommit: 0d11bb189c04e6a809981a561a7cbbb59fd8e5ae
   ms.translationtype: HT
   ms.contentlocale: de-DE
-  ms.lasthandoff: 09/14/2018
-  ms.locfileid: "45600619"
+  ms.lasthandoff: 09/15/2018
+  ms.locfileid: "45651179"
 title: Erste Schritte mit Microsoft Flow
 summary: Microsoft Flow ist ein Onlineworkflowdienst, der Ereignisse (sogenannte *Workflows*) für die gängigsten Apps und Dienste automatisiert.
-abstract: >
-  In diesem Modul erfahren Sie,
-
-  - Wie Sie einen Flow erstellen, der E-Mail-Anlagen in Ihrem Microsoft OneDrive for Business-Konto automatisch speichert
-
-  - Wie Sie einen Flow erstellen, der vorgeschlagene Tweets auf einer Microsoft SharePoint-Liste sammelt und diese postet, wenn sie genehmigt wurden
-prerequisites: Keine
+abstract: In diesem Modul erstellen Sie einen Flow, der E-Mail-Anlagen automatisch speichert. Außerdem erfahren Sie, wie Sie einen Schaltflächenflow erstellen, um eine Erinnerung an sich selbst zu senden.
+prerequisites: Sie müssen für Microsoft Flow registriert sein und über ein OneDrive for Business-Konto verfügen.
 iconUrl: /learn/achievements/get-started-with-flow.svg
 levels:
 - beginner
@@ -37,4 +32,5 @@ units:
 - learn-bizapps.flow-get-started.2-flow-create-first
 - learn-bizapps.flow-get-started.3-flow-mobile-app
 - learn-bizapps.flow-get-started.4-quiz-flow-get-started
+- learn-bizapps.flow-get-started.5-summary-cleanup
 achievement: learn.flow-get-started.badge

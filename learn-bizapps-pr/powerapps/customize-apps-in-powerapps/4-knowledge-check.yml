@@ -1,0 +1,57 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.powerapps-customize.4-quiz-customize-an-app
+title: <span data-ttu-id="608be-101">Überprüfen Ihrer Kenntnisse</span><span class="sxs-lookup"><span data-stu-id="608be-101">Check your knowledge</span></span>
+metadata:
+  title: '<span data-ttu-id="608be-102">Wissensbeurteilung: Anpassen einer App</span><span class="sxs-lookup"><span data-stu-id="608be-102">Knowledge check: Customize an app</span></span>'
+  description: <span data-ttu-id="608be-103">In dieser Wissensbeurteilung wird Ihr Wissen über das Anpassen einer App getestet.</span><span class="sxs-lookup"><span data-stu-id="608be-103">This knowledge check tests your knowledge of how to customize an app.</span></span>
+  ms.date: 09/24/2018
+  author: margoc
+  ms.author: margoc
+  ms.topic: interactive-tutorial
+  ms.prod: learning-powerapps
+  ms.openlocfilehash: 82d2ff755d6a59383574480af47e439c95eeecbc
+  ms.sourcegitcommit: 255768424a95e14dc5767f1710feb755467861ee
+  ms.translationtype: HT
+  ms.contentlocale: de-DE
+  ms.lasthandoff: 09/18/2018
+  ms.locfileid: "46120757"
+durationInMinutes: 5
+quiz:
+  title: '<span data-ttu-id="608be-104">Wissensbeurteilung: Anpassen einer App</span><span class="sxs-lookup"><span data-stu-id="608be-104">Knowledge check: Customize an app</span></span>'
+  questions:
+  - content: <span data-ttu-id="608be-105">Wo passen Sie in PowerApps eine App an?</span><span class="sxs-lookup"><span data-stu-id="608be-105">In PowerApps, where do you customize an app?</span></span>
+    choices:
+    - content: <span data-ttu-id="608be-106">web.powerapps.com</span><span class="sxs-lookup"><span data-stu-id="608be-106">web.powerapps.com</span></span>
+      isCorrect: false
+      incorrectExplanation: <span data-ttu-id="608be-107">Unter web.powerapps.com können Sie alle Ihre Apps anzeigen.</span><span class="sxs-lookup"><span data-stu-id="608be-107">Web.powerapps.com is where you can view all your apps.</span></span> <span data-ttu-id="608be-108">Sie können sie dort aber nicht anpassen.</span><span class="sxs-lookup"><span data-stu-id="608be-108">It isn't where you customize them.</span></span>
+    - content: <span data-ttu-id="608be-109">PowerApps Studio</span><span class="sxs-lookup"><span data-stu-id="608be-109">PowerApps Studio</span></span>
+      correctExplanation: <span data-ttu-id="608be-110">Die Anpassung von Apps erfolgt in PowerApps Studio.</span><span class="sxs-lookup"><span data-stu-id="608be-110">PowerApps Studio is where you customize your apps.</span></span>
+      isCorrect: true
+    - content: <span data-ttu-id="608be-111">Microsoft SharePoint</span><span class="sxs-lookup"><span data-stu-id="608be-111">Microsoft SharePoint</span></span>
+      incorrectExplanation: <span data-ttu-id="608be-112">SharePoint kann die Datenquelle für Apps sein, aber Sie können Apps dort nicht anpassen.</span><span class="sxs-lookup"><span data-stu-id="608be-112">SharePoint can be a data source for apps, but you don't customize apps there.</span></span>
+      isCorrect: false
+    - content: <span data-ttu-id="608be-113">Microsoft AppSource</span><span class="sxs-lookup"><span data-stu-id="608be-113">Microsoft AppSource</span></span>
+      incorrectExplanation: <span data-ttu-id="608be-114">Sie installieren Apps über Microsoft AppSource, aber die Anpassung erfolgt in PowerApps Studio.</span><span class="sxs-lookup"><span data-stu-id="608be-114">You install apps from Microsoft AppSource, but you customize them in PowerApps Studio.</span></span>
+      isCorrect: false
+  - content: <span data-ttu-id="608be-115">Welche der folgenden Antwortmöglichkeiten ist kein App-Bildschirm, der von PowerApps generiert wird?</span><span class="sxs-lookup"><span data-stu-id="608be-115">Which of the following isn't a screen in apps that PowerApps generates?</span></span>
+    choices:
+    - content: <span data-ttu-id="608be-116">Bildschirm zum Durchsuchen</span><span class="sxs-lookup"><span data-stu-id="608be-116">Browse screen</span></span>
+      incorrectExplanation: <span data-ttu-id="608be-117">Der Bildschirm zum Durchsuchen wird in Apps, die von PowerApps generiert werden, standardmäßig geöffnet.</span><span class="sxs-lookup"><span data-stu-id="608be-117">The browse screen opens by default in apps that PowerApps generates.</span></span>
+      isCorrect: false
+    - content: <span data-ttu-id="608be-118">Bildschirm zum Bearbeiten/Erstellen</span><span class="sxs-lookup"><span data-stu-id="608be-118">Edit/create screen</span></span>
+      incorrectExplanation: <span data-ttu-id="608be-119">Wenn PowerApps eine App generiert, enthält diese einen Bildschirm zum Durchsuchen, einen Bildschirm mit Details und einen Bildschirm zum Bearbeiten/Erstellen.</span><span class="sxs-lookup"><span data-stu-id="608be-119">When PowerApps generates an app, it contains browse, details, and edit/create screens.</span></span>
+      isCorrect: false
+    - content: <span data-ttu-id="608be-120">Vorschaubereich</span><span class="sxs-lookup"><span data-stu-id="608be-120">Preview pane</span></span>
+      correctExplanation: <span data-ttu-id="608be-121">Obwohl die Schaltfläche „Ausführen“ Ihre App so startet, dass Sie eine Vorschau anzeigen können, ist der Vorschaubereich kein Hauptbildschirm.</span><span class="sxs-lookup"><span data-stu-id="608be-121">Although the Run button does start your app so that you can preview it, the Preview pane isn't a main screen.</span></span>
+      isCorrect: true
+  - content: <span data-ttu-id="608be-122">Welcher Bildschirm wird in Apps, die von PowerApps generiert werden, standardmäßig geöffnet?</span><span class="sxs-lookup"><span data-stu-id="608be-122">Which screen opens by default in apps that PowerApps generates?</span></span>
+    choices:
+    - content: <span data-ttu-id="608be-123">Vorschaubereich</span><span class="sxs-lookup"><span data-stu-id="608be-123">Preview pane</span></span>
+      incorrectExplanation: <span data-ttu-id="608be-124">Die Schaltfläche „Ausführen“ startet Ihre App so, dass Sie eine Vorschau anzeigen können, aber der Vorschaubereich ist kein Hauptbildschirm.</span><span class="sxs-lookup"><span data-stu-id="608be-124">The Run button does start your app so that you can preview it, but the Preview pane isn't a main screen.</span></span>
+      isCorrect: false
+    - content: <span data-ttu-id="608be-125">Detailbildschirm</span><span class="sxs-lookup"><span data-stu-id="608be-125">Details screen</span></span>
+      incorrectExplanation: <span data-ttu-id="608be-126">Der Bildschirm zum Durchsuchen ist der erste Bildschirm.</span><span class="sxs-lookup"><span data-stu-id="608be-126">The browse screen is the first screen.</span></span> <span data-ttu-id="608be-127">In der Regel wird ein Detailbildschirm geöffnet, wenn ein bestimmtes Element im Bildschirm zum Durchsuchen ausgewählt wird.</span><span class="sxs-lookup"><span data-stu-id="608be-127">A details screen typically opens when a specific item is selected on the browse screen.</span></span>
+      isCorrect: false
+    - content: <span data-ttu-id="608be-128">Bildschirm zum Durchsuchen</span><span class="sxs-lookup"><span data-stu-id="608be-128">Browse screen</span></span>
+      correctExplanation: <span data-ttu-id="608be-129">Wenn PowerApps-Apps gestartet werden, ist der Bildschirm zum Durchsuchen immer der erste Bildschirm.</span><span class="sxs-lookup"><span data-stu-id="608be-129">When PowerApps apps start, the browse screen is always the first screen.</span></span>
+      isCorrect: true
