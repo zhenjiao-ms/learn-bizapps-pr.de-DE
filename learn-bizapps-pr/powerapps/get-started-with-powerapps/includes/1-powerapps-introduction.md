@@ -1,7 +1,7 @@
 Willkommen bei Microsoft PowerApps. In diesem Onlinemodul machen Sie sich in Ihrem eigenen Arbeitstempo mit den grundlegenden Schritte zum Erstellen einer App vertraut.
 
- In diesem Modul:
-  - Finden Sie heraus, wie PowerApps die Effizienz Ihres Unternehmens steigern kann.
+ Aufgaben in diesem Modul:
+  - Lernen Sie, wie PowerApps zur Effizienz Ihres Unternehmens beitragen kann.
   - Erfahren Sie, welche Technologien zum Ausführen von Aufgaben in PowerApps verwendet werden.
   - Lernen Sie die verschiedenen Möglichkeiten zum Erstellen einer App in PowerApps kennen.
   - Erstellen Sie Ihre erste App aus Daten in einer Microsoft Excel-Arbeitsmappe.
