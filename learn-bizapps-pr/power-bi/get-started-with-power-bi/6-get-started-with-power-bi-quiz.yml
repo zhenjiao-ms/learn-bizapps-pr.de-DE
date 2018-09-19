@@ -8,12 +8,12 @@ metadata:
   ms.author: davidi
   ms.topic: interactive-tutorial
   ms.prod: learning-powerbi
-  ms.openlocfilehash: 45e741b8a9c75180e9d62aaa437b9c788fbc9240
-  ms.sourcegitcommit: 18583a493b2543ebfcff8cc7002d2f0c67a47d3f
+  ms.openlocfilehash: bd78e7e8342d30f605bb44a16ee1dda876b4e208
+  ms.sourcegitcommit: 2ab0e9afe64e936cc4cf9c4059cb610ad59deca0
   ms.translationtype: HT
   ms.contentlocale: de-DE
-  ms.lasthandoff: 09/15/2018
-  ms.locfileid: "45659986"
+  ms.lasthandoff: 09/18/2018
+  ms.locfileid: "46012935"
 title: Überprüfen Sie Ihre Kenntnisse
 durationInMinutes: 10
 quiz:
@@ -22,13 +22,13 @@ quiz:
   - content: Wie sieht der allgemeine Ablauf von Aktivitäten in Power BI aus?
     choices:
     - content: Einen Bericht in Power BI Mobile erstellen, den Bericht für Power BI Desktop freigeben und den Bericht im Power BI-Dienst anzeigen und mit ihm interagieren
-      correctExplanation: Sie können keine Berichte in Power BI Mobile erstellen. Berichte werden in Power BI Desktop erstellt.
+      incorrectExplanation: Sie können keine Berichte in Power BI Mobile erstellen. Berichte werden in Power BI Desktop erstellt.
       isCorrect: false
     - content: Einen Bericht im Power BI-Dienst erstellen, den Bericht für Power BI Mobile freigeben und in Power BI Desktop mit dem Bericht interagieren
       incorrectExplanation: Der allgemeine Ablauf der Aktivitäten in Power BI beginnt nicht mit dem Erstellen eines Berichts im Power BI-Dienst. Normalerweise beginnt der Ablauf mit dem Erstellen eines Berichts in Power BI Desktop.
       isCorrect: false
     - content: Daten in Power BI Desktop importieren und einen Bericht erstellen, den Bericht für den Power BI-Dienst freigeben, Berichte und Dashboards im Dienst und in Power BI Mobile anzeigen und mit ihnen interagieren
-      incorrectExplanation: Der Power BI-Dienst ermöglicht es Ihnen, Berichte und Dashboards anzuzeigen und mit ihnen zu interagieren, das Strukturieren von Daten ist mit dem Dienst jedoch nicht möglich.
+      correctExplanation: Der Power BI-Dienst ermöglicht es Ihnen, Berichte und Dashboards anzuzeigen und mit ihnen zu interagieren, das Strukturieren von Daten ist mit dem Dienst jedoch nicht möglich.
       isCorrect: true
     - content: Daten in Power BI Mobile importieren, einen Bericht erstellen und ihn anschließend für Power BI Desktop freigeben
       incorrectExplanation: Es ist nicht möglich, Daten direkt in Power BI Mobile zu importieren. Sie verwenden Power BI Desktop, um eine Verbindung mit Daten herzustellen und Berichte zu erstellen.
