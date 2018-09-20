@@ -4,9 +4,7 @@ Da Sie nun mit den Grundlagen vertraut sind, erstellen wir jetzt eine App in Mic
 In dieser Einheit wird erläutert, wie Sie eine App aus einer Beispiel-App, einer Vorlage, einer freigegebenen App oder einer Datenquelle erstellen. In der nächsten Einheit geht es dann um das Erstellen von Apps in der Praxis.
 
 ### <a name="check-out-some-sample-apps"></a>Übersicht über Beispiel-Apps
-<<<<<<< KOPFTEIL Unter [https://web.powerapps.com](https://web.powerapps.com) werden Sie mit einer Reihe von Beispiel-Apps begrüßt, die Sie in Ihrem Webbrowser verwenden können. Sehen Sie sich diese Apps genauer an, um einen Eindruck von den Möglichkeiten zu erhalten, über die Ihr Unternehmen von PowerApps profitieren kann.
-======= Unter [https://web.powerapps.com] werden Sie mit einer Reihe von Beispiel-Apps begrüßt, die Sie in Ihrem Webbrowser verwenden können. Sehen Sie sich diese Apps genauer an, um einen Eindruck von den Möglichkeiten zu erhalten, über die Ihr Unternehmen von PowerApps profitieren kann.
->>>>>>> master
+Unter [https://web.powerapps.com](https://web.powerapps.com) werden Sie mit einer Reihe von Beispiel-Apps begrüßt, die Sie in Ihrem Webbrowser verwenden können. Sehen Sie sich diese Apps genauer an, um einen Eindruck von den Möglichkeiten zu erhalten, über die Ihr Unternehmen von PowerApps profitieren kann.
 
 ![Beispiel-Apps für PowerApps](../media/powerapps-samples.png)
 

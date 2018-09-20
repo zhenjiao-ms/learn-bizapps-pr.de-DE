@@ -1,4 +1,4 @@
-Sie können Daten in einem Massenvorgang aus Microsoft Excel- oder CSV-Dateien in Ihre Common Data Service for Apps-Datenbank importieren.
+Sie können Daten in einem Massenvorgang aus Microsoft Excel- oder CSV-Dateien in Ihre Common Data Service for Apps-Datenbank importieren. 
 
 Jede Entität verfügt über Pflichtfelder, die in Ihrer Eingabedatei vorhanden sein müssen. Es wird empfohlen, eine Vorlage zu erstellen. Eine Vorlage spart Ihnen Zeit und Mühe. Exportieren Sie zuerst Daten aus der Entität. Sie nutzen die gleiche Datei (die mit Ihren Daten aktualisiert wurde), um Daten in die Entität zu importieren.
 
