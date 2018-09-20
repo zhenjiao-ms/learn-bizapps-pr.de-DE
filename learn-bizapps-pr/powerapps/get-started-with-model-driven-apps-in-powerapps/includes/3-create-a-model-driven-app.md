@@ -1,4 +1,4 @@
-In dieser Einheit erstellen Sie eine modellgesteuerte App mithilfe einer der Standardentitäten, die in Ihrer Microsoft PowerApps-Umgebung verfügbar sind.
+In dieser Einheit erfahren Sie, wie Sie eine modellgesteuerte App mithilfe einer der Standardentitäten erstellen, die in Ihrer Microsoft PowerApps-Umgebung verfügbar sind.
 
 ## <a name="create-a-model-driven-app"></a>Erstellen einer modellgesteuerten App
 
@@ -11,9 +11,9 @@ In dieser Einheit erstellen Sie eine modellgesteuerte App mithilfe einer der Sta
     > [!IMPORTANT]
     > Wenn der Entwurfsmodus **Modellgesteuert** nicht verfügbar ist, müssen Sie möglicherweise [eine Umgebung erstellen](https://docs.microsoft.com/powerapps/administrator/create-environment).
 
-1. Wählen Sie im linken Bereich **Apps** und dann **App erstellen** aus.
+1. Klicken Sie im linken Bereich auf **Apps** und anschließend auf **App erstellen**.
 1. Geben Sie auf der Seite **Neue App erstellen** einen Namen und eine Beschreibung für die App ein.
-1. Wählen Sie **Fertig**aus. Ihre neue App wird im App-Designer angezeigt, und Sie können ihr nun Komponenten hinzufügen.
+1. Klicken Sie auf **Fertig**. Ihre neue App wird im App-Designer angezeigt, und Sie können ihr nun Komponenten hinzufügen.
 
 ## <a name="add-components-to-your-app"></a>Hinzufügen von Komponenten zu Ihrer App
 Sie fügen Ihrer App mit dem App-Designer Komponenten hinzu.
@@ -22,26 +22,26 @@ Sie fügen Ihrer App mit dem App-Designer Komponenten hinzu.
 
     ![Erstellen einer neuen Siteübersicht](../media/new-sitemap.png)
 
-2. Wählen Sie im Designer für die Siteübersicht **Neuer Unterbereich** und dann im rechten Bereich auf der Registerkarte **Eigenschaften** die folgenden Eigenschaften aus:
+2. Klicken Sie im Designer für die Siteübersicht auf **New Subarea** (Neuer Unterbereich), und wählen Sie dann im rechten Bereich auf der Registerkarte **Eigenschaften** die folgenden Eigenschaften aus:
 
     - **Typ**: *Entität*
     - **Entität**: *Konto*
 
     ![Hinzufügen von Komponenten zur Siteübersicht](../media/sitemap.png)
 
-3. Wählen Sie **Speichern und Schließen** aus.
-4. Wählen Sie im App-Designer **Formulare** und dann im rechten Bereich unter **Hauptformulare** das Formular **Konto** aus.
+3. Klicken Sie auf **Speichern und Schließen**.
+4. Klicken Sie erst im App-Designer auf **Formulare** und dann im rechten Bereich unter **Main Forms** (Hauptformulare) auf das Formular **Konto**.
 
-    ![Kontohauptformular](../media/main-form.png)
+    ![Hauptformular des Kontos](../media/main-form.png)
 
-5. Wählen Sie im App-Designer **Ansichten** und dann die folgenden Eigenschaften aus:
+5. Klicken Sie im App-Designer auf **Ansichten**, und wählen Sie dann die folgenden Eigenschaften aus:
 
     - Aktive Konten
     - Alle Konten
     - Meine aktiven Konten
 
-6. Wählen Sie im App-Designer **Diagramme** und dann das Diagramm **Firmen nach Branche** aus.
-7. Wählen Sie auf der App-Designer-Symbolleiste **Speichern** aus.
+6. Klicken Sie im App-Designer auf **Diagramme**, und wählen Sie dann das Diagramm **Accounts by Industry** (Firmen nach Branche) aus.
+7. Klicken Sie auf der App-Designer-Symbolleiste auf **Speichern**.
 
 <!-- ##  Validate your app
 This step checks for component dependencies that are required for the app to work, but haven't yet been added to the app. 

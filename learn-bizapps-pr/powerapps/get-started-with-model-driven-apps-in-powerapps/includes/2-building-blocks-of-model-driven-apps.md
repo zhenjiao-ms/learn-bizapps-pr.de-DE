@@ -11,7 +11,7 @@ Die Datenkomponenten bestimmen, auf welchen Daten die App basieren wird.
 | Optionssatzfeld | Diese Art von Feld zeigt ein Steuerelement an, das dem Benutzer ermöglicht, unter vordefinierten Optionen auszuwählen. Jede Option verfügt über einen Zahlenwert und eine Bezeichnung. Optionssatzfelder können entweder einen einzelnen Wert oder mehrere Werte erfordern. | Entity Designer |
 
 ## <a name="user-interface"></a>Benutzeroberfläche
-Die Komponenten der Benutzeroberfläche bestimmen, wie Benutzer mit der App interagieren. 
+Die Komponenten der Benutzeroberfläche bestimmen, wie Benutzer mit der App interagieren.
 
 | Komponente | Beschreibung | Designer |
 |-----------|-------------|----------|
@@ -40,8 +40,8 @@ Die Visualisierungskomponenten bestimmen, welche Art von Daten und Berichterstat
 
 | Komponente                   | Beschreibung | Designer |
 |-----------------------------|-------------|----------|
-| Diagramm                       | Diagramme sind einzelne grafische Visualisierungen, die in einer Ansicht oder einem Formular angezeigt oder einem Dashboard hinzugefügt werden können. | Diagramm-Designer |
-| Dashboard                   | Dashboards zeigen eine oder mehrere grafische Visualisierungen an, die eine Übersicht über handlungsrelevante Geschäftsdaten bieten. | Dashboard-Designer |
+|Diagramm                        | Diagramme sind einzelne grafische Visualisierungen, die in einer Ansicht oder einem Formular angezeigt oder einem Dashboard hinzugefügt werden können. | Diagramm-Designer |
+|Dashboard                    | Dashboards zeigen eine oder mehrere grafische Visualisierungen an, die eine Übersicht über handlungsrelevante Geschäftsdaten bieten. | Dashboard-Designer |
 | Microsoft Power BI Embedded | Power BI fügt Ihrer App eingebettete Power BI-Kacheln und Dashboards hinzu. Power BI ist ein cloudbasierter Dienst, der Einblicke in Business Intelligence (BI) bereitstellt. | Eine Kombination aus Diagramm-Designer, Dashboard-Designer und Power BI |
 
 ![Beispieldashboard](../media/dashboard-designer.png)

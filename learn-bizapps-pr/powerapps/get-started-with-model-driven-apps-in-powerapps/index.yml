@@ -2,23 +2,28 @@
 uid: learn-bizapps.powerapps-design-model-driven-apps
 metadata:
   title: Erste Schritte mit modellgesteuerten Apps
-  description: Der Entwurf einer modellgesteuerten App ist ein Ansatz, der sich auf das schnelle Hinzufügen von Komponenten zu Ihren Apps konzentriert. Zu diesen Komponenten gehören Dashboards, Formulare, Ansichten und Diagramme. Mit keinem bzw. sehr wenig Code können Sie Apps erstellen, die einfach oder sehr komplex sind. Im Gegensatz zur Canvas-App-Entwicklung, in der der Designer die vollständige Kontrolle über das App-Layout hat, wird ein Großteil des Layouts in modellgesteuerten Apps von den Komponenten bestimmt, die Sie hinzufügen. Anders gesagt, der Schwerpunkt liegt mehr auf dem schnellen Anzeigen Ihrer Geschäftsdaten und der Entscheidungsfindung als auf anspruchsvollem App-Design.
+  description: Der Entwurf einer modellgesteuerten App ist ein Ansatz, der sich auf das schnelle Hinzufügen von Komponenten zu Ihren Apps konzentriert. Zu diesen Komponenten gehören Dashboards, Formulare, Ansichten und Diagramme. Mit keinem bzw. sehr wenig Code können Sie Apps erstellen, die einfach oder sehr komplex sind. Im Gegensatz zur Canvas-App-Entwicklung, in der der Designer die vollständige Kontrolle über das App-Layout hat, wird ein Großteil des Layouts in modellgesteuerten Apps von den Komponenten bestimmt, die Sie hinzufügen. Der Schwerpunkt liegt also eher auf dem schnellen Anzeigen Ihrer Geschäftsdaten und der Entscheidungsfindung als auf anspruchsvollem App-Design.
   ms.date: 09/24/2018
   author: margoc
   ms.author: margoc
   ms.topic: interactive-tutorial
   ms.prod: learning-powerapps
-  ms.openlocfilehash: 51feec8f5a4646e622a8eeebbd9732412bb4dfa3
-  ms.sourcegitcommit: 88398f21cabb7c194b4292d6f3a4a10049eab76d
+  ms.openlocfilehash: 70a0fd39334c8886097c4bffddf90a62f4e7bda7
+  ms.sourcegitcommit: 19236e5c58c29cfa95f8c68b280c7234cdfaf7e2
   ms.translationtype: HT
   ms.contentlocale: de-DE
-  ms.lasthandoff: 09/12/2018
-  ms.locfileid: "44500349"
+  ms.lasthandoff: 09/14/2018
+  ms.locfileid: "45600734"
 title: Erste Schritte mit modellgesteuerten Apps
-summary: Erfahren Sie, wie Sie Geschäftsdaten schnell mit einem modellgesteuerten Ansatz anzeigen.
-abstract: Der Entwurf einer modellgesteuerten App ist ein Ansatz, der sich auf das schnelle Hinzufügen von Komponenten zu Ihren Apps konzentriert. Zu diesen Komponenten gehören Dashboards, Formulare, Ansichten und Diagramme. Mit keinem bzw. sehr wenig Code können Sie Apps erstellen, die einfach oder sehr komplex sind. Im Gegensatz zur Canvas-App-Entwicklung, in der der Designer die vollständige Kontrolle über das App-Layout hat, wird ein Großteil des Layouts in modellgesteuerten Apps von den Komponenten bestimmt, die Sie hinzufügen. Anders gesagt, der Schwerpunkt liegt mehr auf dem schnellen Anzeigen Ihrer Geschäftsdaten und der Entscheidungsfindung als auf anspruchsvollem App-Design.
+summary: Der Entwurf einer modellgesteuerten App ist ein Ansatz, der sich auf das schnelle Hinzufügen von Komponenten zu Ihren Apps konzentriert. Zu diesen Komponenten gehören Dashboards, Formulare, Ansichten und Diagramme. Mit keinem bzw. sehr wenig Code können Sie Apps erstellen, die einfach oder sehr komplex sind.
+abstract: >
+  In diesem Modul lernen Sie Folgendes:
+
+  - Entwerfen modellgesteuerter Apps
+
+  - Erstellen einer modellgesteuerten App
 prerequisites: Keine
-iconUrl: http://via.placeholder.com/120x120
+iconUrl: /learn/achievements/get-started-with-model-driven-apps-in-powerapps.svg
 levels:
 - beginner
 roles:

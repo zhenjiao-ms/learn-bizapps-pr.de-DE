@@ -4,82 +4,62 @@ achievements:
   type: trophy
   title: Trophäe für das Automatisieren eines Unternehmensprozesses mithilfe von Flow
   summary: Trophäe für den Lernpfad „Automatisieren eines Unternehmensprozesses mithilfe von Flow“
-  iconUrl: http://via.placeholder.com/120x120
+  iconUrl: /learn/achievements/automate-process-using-flow.svg
 - uid: learn.create-powerapps.trophy
   type: trophy
   title: Trophäe für das Erstellen einer App in PowerApps
   summary: Trophäe für den Lernpfad „Erstellen einer App in PowerApps“
-  iconUrl: http://via.placeholder.com/120x120
+  iconUrl: /learn/achievements/create-powerapps.svg
 - uid: learn.customer-service-hub-cases-slas.trophy
   type: trophy
   title: Arbeiten mit Fällen und SLAs in Dynamics 365 for Customer Service
-  summary: Trophäe für den Lernpfad „Arbeiten mit Fällen und SLAs in Dynamics 365 for Customer Service“
-  iconUrl: http://via.placeholder.com/120x120
+  summary: Preis für den Lernpfad „Arbeiten mit Fällen und SLAs in Dynamics 365 for Customer Service“
+  iconUrl: /learn/achievements/work-with-cases-and-slas-in-dynamics-365-for-customer-service.svg
 - uid: learn.create-app-models-business-processes.trophy
   type: trophy
   title: Erstellen einer modellgesteuerten Anwendung
   summary: Trophäe für den Lernpfad „Erstellen einer modellgesteuerten Anwendung“.
-  iconUrl: http://via.placeholder.com/120x120
+  iconUrl: /learn/achievements/create-app-models-business-processes.svg
 - uid: learn.create-use-analytics-reports-power-bi.trophy
   type: trophy
   title: Erstellen und Verwenden von Analytics-Berichten mit Power BI
-  summary: Trophäe für den Lernpfad „Erstellen und Verwenden von Analytics-Berichten mit Power BI“.
-  iconUrl: http://via.placeholder.com/120x120
-- uid: learn.sample-module-bizapps.badge
-  type: badge
-  title: Beispielmodul mit CloudShell-Abzeichen
-  summary: Abzeichen für das Modul „Beispielmodul mit CloudShell“
-  iconUrl: http://via.placeholder.com/120x120
-- uid: learn.sample-module-dynamics.badge
-  type: badge
-  title: Abzeichen für „Dynamics-Beispielmodul“
-  summary: Abzeichen für das Modul „Dynamics-Beispielmodul“
-  iconUrl: http://via.placeholder.com/120x120
-- uid: learn.sample-module-power-apps.badge
-  type: badge
-  title: Abzeichen für das PowerApps-Beispielmodul
-  summary: Abzeichen für das Modul „PowerApps-Beispielmodul“
-  iconUrl: http://via.placeholder.com/120x120
-- uid: learn.sample-module-power-bi.badge
-  type: badge
-  title: Abzeichen für das Power BI-Beispielmodul
-  summary: Abzeichen für das Modul „Power BI-Beispielmodul“
-  iconUrl: http://via.placeholder.com/120x120
+  summary: Preis für den Lernpfad „Erstellen und Verwenden von Analytics-Berichten mit Power BI“.
+  iconUrl: /learn/achievements/create-use-analytics-reports-power-bi.svg
 - uid: learn.customer-service-cases.badge
   type: badge
-  title: Abzeichen für Customer Service-Anfragen
+  title: Badge für Kundenserviceanfragen
   summary: Abzeichen für das Modul „Customer Service-Anfragen“
-  iconUrl: http://via.placeholder.com/120x120
+  iconUrl: /learn/achievements/get-started-with-cases-for-dynamics-365-customer-service.svg
 - uid: learn.customer-service-get-started.badge
   type: badge
   title: Abzeichen für „Erste Schritte mit Customer Service for Dynamics 365“
   summary: Abzeichen für das Modul „Erste Schritte mit Customer Service for Dynamics 365“
-  iconUrl: http://via.placeholder.com/120x120
+  iconUrl: /learn/achievements/get-started-with-dynamics-365-for-customer-service.svg
 - uid: learn.powerapps-customize.badge
   type: badge
   title: Abzeichen für das Anpassen und Verwalten von PowerApps
   summary: Abzeichen für das Modul „Anpassen und Verwalten von PowerApps“
-  iconUrl: http://via.placeholder.com/120x120
+  iconUrl: /learn/achievements/customize-apps-in-powerapps.svg
 - uid: learn.powerapps-get-started.badge
   type: badge
   title: Abzeichen für „Erste Schritte mit PowerApps“
   summary: Abzeichen für das Modul „Erste Schritte mit PowerApps“
-  iconUrl: http://via.placeholder.com/120x120
+  iconUrl: /learn/achievements/get-started-with-powerapps.svg
 - uid: learn.powerapps-manage.badge
   type: badge
   title: Abzeichen für das Verwalten von PowerApps
   summary: Abzeichen für das Modul „Verwalten von PowerApps“
-  iconUrl: http://via.placeholder.com/120x120
+  iconUrl: /learn/achievements/manage-apps-in-powerapps.svg
 - uid: learn.flow-create-approval.badge
   type: badge
   title: Abzeichen für das Erstellen eines Genehmigungsflows
   summary: Abzeichen für das Modul „Erstellen eines Genehmigungsflows“
-  iconUrl: http://via.placeholder.com/120x120
+  iconUrl: /learn/achievements/use-flow-to-create-an-approval-flow.svg
 - uid: learn.flow-get-started.badge
   type: badge
   title: Abzeichen „Erste Schritte mit Microsoft Flow“
   summary: Abzeichen für das Modul „Erste Schritte mit Microsoft Flow“
-  iconUrl: http://via.placeholder.com/120x120
+  iconUrl: /learn/achievements/get-started-with-flow.svg
 - uid: learn.build-your-first-report.badge
   type: badge
   title: Erstellen und Freigeben Ihres ersten Power BI-Berichts
@@ -94,7 +74,7 @@ achievements:
   type: badge
   title: Erste Schritte mit modellgesteuerten Apps
   summary: Abzeichen für das Modul „Erste Schritte mit modellgesteuerten PowerApps“
-  iconUrl: http://via.placeholder.com/120x120
+  iconUrl: /learn/achievements/get-started-with-model-driven-apps-in-powerapps.svg
 - uid: learn.powerapps-business-process-flow.badge
   type: badge
   title: Erste Schritte mit Geschäftsprozessflows
@@ -104,11 +84,11 @@ achievements:
   type: badge
   title: Erste Schritte mit dem Common Data Service
   summary: Abzeichen für das Modul „Erste Schritte mit dem Common Data Service“
-  iconUrl: http://via.placeholder.com/120x120
+  iconUrl: /learn/achievements/get-started-with-powerapps-common-data-service.svg
 metadata:
-  ms.openlocfilehash: 9284f50bee6684a1346932ddf462a4687adefced
-  ms.sourcegitcommit: 6d796874539f76b734a7bb8ff95bef6b87bb9b00
+  ms.openlocfilehash: 26e53c947523abb49995474fcb1f42d803943557
+  ms.sourcegitcommit: 19236e5c58c29cfa95f8c68b280c7234cdfaf7e2
   ms.translationtype: HT
   ms.contentlocale: de-DE
-  ms.lasthandoff: 09/11/2018
-  ms.locfileid: "44375511"
+  ms.lasthandoff: 09/14/2018
+  ms.locfileid: "45600849"
