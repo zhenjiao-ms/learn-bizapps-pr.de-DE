@@ -1,23 +1,23 @@
 ### YamlMime:LearningPath
 uid: learn-bizapps.automate-process-using-flow
 metadata:
-  title: Automatisieren eines Unternehmensprozesses mithilfe von Flow
+  title: Automatisieren eines Unternehmensprozesses mithilfe von Microsoft Flow
   description: In diesem Lernpfad erhalten Sie Informationen zu Microsoft Flow und zum Erstellen von zwei Arten von Unternehmensworkflows.
   ms.date: 09/24/2018
   author: margoc
   ms.author: margoc
   ms.topic: interactive-tutorial
   ms.prod: learning-flow
-  ms.openlocfilehash: 3327a92f6658d81e0cec6402a2b8715e04a2785e
-  ms.sourcegitcommit: 6d796874539f76b734a7bb8ff95bef6b87bb9b00
+  ms.openlocfilehash: 50cebc48779e7733f7799552a74566905f75c47b
+  ms.sourcegitcommit: 0d11bb189c04e6a809981a561a7cbbb59fd8e5ae
   ms.translationtype: HT
   ms.contentlocale: de-DE
-  ms.lasthandoff: 09/11/2018
-  ms.locfileid: "44374936"
-title: Automatisieren eines Unternehmensprozesses mithilfe von Flow
+  ms.lasthandoff: 09/15/2018
+  ms.locfileid: "45650788"
+title: Automatisieren eines Unternehmensprozesses mithilfe von Microsoft Flow
 summary: In diesem Lernpfad erhalten Sie Informationen zu Microsoft Flow und zum Erstellen von zwei Arten von Unternehmensworkflows.
 prerequisites: "- Vertrautheit mit SharePoint, OneDrive und Excel. \n"
-iconUrl: http://via.placeholder.com/120x120
+iconUrl: /learn/achievements/automate-process-using-flow.svg
 levels:
 - beginner
 roles:
