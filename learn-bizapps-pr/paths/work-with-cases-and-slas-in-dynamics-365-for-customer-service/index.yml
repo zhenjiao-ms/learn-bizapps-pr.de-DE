@@ -7,18 +7,18 @@ metadata:
   author: margoc
   ms.author: margoc
   ms.topic: interactive-tutorial
-  ms.prod: learning-d365
-  ms.openlocfilehash: 16186f40f1e827348a182299cc8d661fa18e2591
-  ms.sourcegitcommit: a6cdd11ea6d5cffdd264c005b6e2f15c00854553
+  ms.prod: learning-d365-customer-service
+  ms.openlocfilehash: d3cc8f60a0d310f97e44607c1b7d73ca4181c654
+  ms.sourcegitcommit: 19236e5c58c29cfa95f8c68b280c7234cdfaf7e2
   ms.translationtype: HT
   ms.contentlocale: de-DE
-  ms.lasthandoff: 09/10/2018
-  ms.locfileid: "44331350"
+  ms.lasthandoff: 09/14/2018
+  ms.locfileid: "45600533"
 title: Arbeiten mit Fällen und SLAs in Dynamics 365 for Customer Service
-summary: Erlernen Sie die Grundlagen des Customer Service-Hubs und der Arbeit mit Fällen.
+summary: In diesem Lernpfad werden die Grundlagen des Customer Service-Hubs und das Arbeiten mit Fällen vorgestellt.
 prerequisites: >
   - Holen Sie sich ein Testabonnement von Dynamics 365 for Customer Engagement.
-iconUrl: http://via.placeholder.com/120x120
+iconUrl: /learn/achievements/work-with-cases-and-slas-in-dynamics-365-for-customer-service.svg
 levels:
 - beginner
 roles:

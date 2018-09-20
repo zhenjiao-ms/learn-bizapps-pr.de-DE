@@ -8,21 +8,22 @@ metadata:
   ms.author: margoc
   ms.topic: interactive-tutorial
   ms.prod: learning-powerapps
-  ms.openlocfilehash: 8d2808d6328ba07f29c177ca3f80a8cb71090b73
-  ms.sourcegitcommit: a6cdd11ea6d5cffdd264c005b6e2f15c00854553
+  ms.openlocfilehash: b997acf17ba588d040001c0590c18c219cdd8e9b
+  ms.sourcegitcommit: 19236e5c58c29cfa95f8c68b280c7234cdfaf7e2
   ms.translationtype: HT
   ms.contentlocale: de-DE
-  ms.lasthandoff: 09/10/2018
-  ms.locfileid: "44326617"
+  ms.lasthandoff: 09/14/2018
+  ms.locfileid: "45600573"
 title: Erstellen einer App in PowerApps
 summary: In diesem Lernpfad erhalten Sie eine Einführung in PowerApps und Unterstützung beim Erstellen und Anpassen einer App und erfahren, wie Sie erstellte Apps verwalten und verteilen können.
 prerequisites: "- Vertrautheit mit OneDrive, SharePoint und Excel. \n"
-iconUrl: http://via.placeholder.com/120x120
+iconUrl: /learn/achievements/create-powerapps.svg
 levels:
 - beginner
 roles:
 - business-user
 products:
+- bizapps
 - bizapps-power-apps
 modules:
 - learn-bizapps.powerapps-get-started
