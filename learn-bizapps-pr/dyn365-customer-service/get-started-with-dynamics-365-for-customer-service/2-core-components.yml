@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.customer-service-get-started.2-customer-service-get-started-core-components
+title: Kernkomponenten des Customer Service
+metadata:
+  title: Kernkomponenten des Customer Service
+  description: Informationen über die Kernkomponenten von Dynamics 365 for Customer Service.
+  ms.date: 09/24/2018
+  author: margoc
+  ms.author: margoc
+  ms.topic: interactive-tutorial
+  ms.prod: learning-d365-customer-service
+durationInMinutes: 5
+content: |
+  [!include[](includes/2-customer-service-get-started-core-components.md)]

@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.customer-service-cases.1-customer-service-manage-cases
+title: Informationen über Anfragen
+metadata:
+  title: Informationen über Anfragen
+  description: Informationen über Anfragen.
+  ms.date: 09/24/2018
+  author: margoc
+  ms.author: margoc
+  ms.topic: interactive-tutorial
+  ms.prod: learning-d365-customer-service
+durationInMinutes: 15
+content: |
+  [!include[](includes/1-customer-service-manage-cases.md)]

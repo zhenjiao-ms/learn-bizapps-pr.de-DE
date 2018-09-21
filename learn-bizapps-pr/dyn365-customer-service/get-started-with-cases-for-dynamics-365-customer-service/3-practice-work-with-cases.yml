@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.customer-service-cases.3-practice-customer-service
+title: Üben Sie die Arbeit mit Kundenanfragen
+metadata:
+  title: Üben Sie die Arbeit mit Kundenanfragen
+  description: Üben Sie die Arbeit mit Kundenanfragen.
+  ms.date: 09/24/2018
+  author: margoc
+  ms.author: margoc
+  ms.topic: interactive-tutorial
+  ms.prod: learning-d365-customer-service
+durationInMinutes: 10
+content: |
+  [!include[](includes/3-practice-customer-service.md)]

@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.customer-service-cases.2-customer-service-automate-cases
+title: Informationen über das Arbeiten mit Anfragen
+metadata:
+  title: Informationen über das Arbeiten mit Anfragen
+  description: Informationen über das Arbeiten mit Anfragen.
+  ms.date: 09/24/2018
+  author: margoc
+  ms.author: margoc
+  ms.topic: interactive-tutorial
+  ms.prod: learning-d365-customer-service
+durationInMinutes: 10
+content: |
+  [!include[](includes/2-customer-service-automate-cases.md)]
