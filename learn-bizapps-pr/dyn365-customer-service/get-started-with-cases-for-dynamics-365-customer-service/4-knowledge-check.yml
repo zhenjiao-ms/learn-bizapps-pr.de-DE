@@ -1,0 +1,51 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.customer-service-cases.4-customer-service-cases-get-started-quiz
+metadata:
+  title: 'Wissenscheck: Verwalten von Anfragen'
+  description: In diesem Wissenscheck wird Ihr Wissen zum Umgang mit Anfragen abgefragt.
+  ms.date: 09/24/2018
+  author: margoc
+  ms.author: margoc
+  ms.topic: interactive-tutorial
+  ms.prod: learning-d365-customer-service
+title: Überprüfen Sie Ihr Wissen
+durationInMinutes: 3
+quiz:
+  title: 'Wissenscheck: Verwalten von Anfragen'
+  questions:
+    - content: Bei welcher der folgenden Antworten handelt es sich um einen Key Performance Indicator (KPI)?
+      choices:
+        - content: Kundenzufriedenheit (CSAT).
+          correctExplanation: Kundenzufriedenheit (CSAT) ist einer der wichtigsten KPIs eines Unternehmens.
+          isCorrect: true
+        - content: Wartezeit.
+          incorrectExplanation: 'Wartezeit ist kein KPI. Sie misst Anomalien in einem Netzwerk, die es verlangsamen können.'
+          isCorrect: false
+        - content: Durchschnittliche Ladezeit.
+          incorrectExplanation: Bei der durchschnittlichen Bearbeitungszeit handelt es sich um die durchschnittliche Dauer einer Transaktion und damit um einen wichtigen KPI. Die durchschnittliche Ladezeit bezieht sich auf die Websiteleistung und ist kein KPI.
+          isCorrect: false
+        - content: Kosten pro Abschluss.
+          incorrectExplanation: 'Bei den Kosten pro Kontakt handelt es sich um einen KPI, der die Kosten eines Kundenkontakts in Dollar misst. Bei den Kosten pro Abschluss handelt es sich um keinen KPI.'
+          isCorrect: false
+    - content: Welche der folgenden Aussagen über Anfragen trifft zu?
+      choices:
+        - content: Nur eine Anfrage kann einem Kundendatensatz zugeordnet sein.
+          incorrectExplanation: Mehrere Anfragen können einem Kundendatensatz zugeordnet sein.
+          isCorrect: false
+        - content: Bei Anfragen handelt es sich um den grundlegenden Datensatztyp der Serviceverwaltung.
+          correctExplanation: Die Serviceverwaltung basiert hauptsächlich auf Kundenanfragen.
+          isCorrect: true
+        - content: 'Alle zugeordneten Aktivitäten für einen Anfragendatensatz können unvollständig sein, bevor die Anfrage abgeschlossen werden kann.'
+          incorrectExplanation: 'Ein Anfragendatensatz kann keine nicht abgeschlossenen Aktivitäten aufweisen. Der Benutzer wird darüber informiert, dass nicht abgeschlossene Aktivitäten abgebrochen werden, wenn die Anfrage abgeschlossen wird.'
+          isCorrect: false
+    - content: Welche der folgenden Anweisungen zum Stornieren und Löschen von Anfragen ist wahr?
+      choices:
+        - content: 'Anfragen können immer gelöscht werden, wenn der Kunde möchte, dass dies geschieht.'
+          incorrectExplanation: Manchmal verhindern die Sicherheitsrichtlinien eines Unternehmens das Löschen von Anfragen.
+          isCorrect: false
+        - content: Eine gelöschte Anfrage kann später erneut aktiviert werden.
+          incorrectExplanation: Das Löschen einer Anfrage ist eine dauerhafte Aktion und kann nicht rückgängig gemacht werden.
+          isCorrect: false
+        - content: 'Wenn Anfragen geschlossen wurden, können sie erneut aktiviert werden.'
+          correctExplanation: 'Wenn ein Kunde ein Problem hat, das in Verbindung mit einer früheren Anfrage steht, kann die ursprüngliche Anfrage erneut aktiviert werden.'
+          isCorrect: true

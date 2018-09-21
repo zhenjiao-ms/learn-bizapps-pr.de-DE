@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.customer-service-get-started.1-customer-service-get-started-overview
+title: Einführung zu Dynamics 365 for Customer Service
+metadata:
+  title: Erste Schritte mit Dynamics 365 for Customer Service
+  description: Erste Schritte mit Dynamics 365 for Customer Service.
+  ms.date: 09/24/2018
+  author: margoc
+  ms.author: margoc
+  ms.topic: interactive-tutorial
+  ms.prod: learning-d365-customer-service
+durationInMinutes: 5
+content: |
+  [!include[](includes/1-customer-service-get-started-overview.md)]

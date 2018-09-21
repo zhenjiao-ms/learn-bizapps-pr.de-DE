@@ -1,0 +1,32 @@
+### YamlMime:Module
+uid: learn-bizapps.customer-service-get-started
+metadata:
+  title: Erste Schritte mit Dynamics 365 for Customer Service
+  description: 'Kundenservice ist ein wichtiger Aspekt der Strategie für das Kundenbeziehungsmanagement. Microsoft Dynamics 365 for Customer Service bietet vielerlei Funktionen, die Organisationen für die Verwaltung der Dienste verwenden können, die sie den Kunden anbieten.'
+  ms.date: 09/24/2018
+  author: margoc
+  ms.author: margoc
+  ms.topic: interactive-tutorial
+  ms.prod: learning-d365
+title: Erste Schritte mit Dynamics 365 for Customer Service
+summary: 'Kundenservice ist ein wichtiger Aspekt der Strategie für das Kundenbeziehungsmanagement. Microsoft Dynamics 365 for Customer Service bietet vielerlei Funktionen, die Organisationen für die Verwaltung der Dienste verwenden können, die sie den Kunden anbieten.'
+abstract: |
+  In diesem Modul werden Sie:
+  - die Komponenten von Dynamics 365 for Customer Service kennenlernen
+  - lernen, wie Sie Dynamics 365 for Customer Service optimieren, um Ihre Kundenbeziehungen zu verbessern
+prerequisites: Keine/r/s
+iconUrl: /learn/achievements/get-started-with-cases-for-dynamics-365-customer-service.svg
+levels:
+  - beginner
+roles:
+  - business-user
+products:
+  - bizapps
+  - bizapps-d365
+units:
+  - learn-bizapps.customer-service-get-started.1-customer-service-get-started-overview
+  - learn-bizapps.customer-service-get-started.2-customer-service-get-started-core-components
+  - learn-bizapps.customer-service-get-started.3-customer-service-get-started-modern
+  - learn-bizapps.customer-service-get-started.4-quiz-customer-service
+  - learn-bizapps.customer-service-get-started.5-summary-cleanup
+achievement: learn.customer-service-get-started.badge

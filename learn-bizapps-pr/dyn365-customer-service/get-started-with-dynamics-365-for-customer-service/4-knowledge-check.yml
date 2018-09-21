@@ -1,0 +1,51 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.customer-service-get-started.4-quiz-customer-service
+metadata:
+  title: Wissenscheck zu Customer Service
+  description: In diesem Wissenscheck wird Ihr Wissen über Dynamics 365 for Customer Service abgefragt.
+  ms.date: 09/24/2018
+  author: margoc
+  ms.author: margoc
+  ms.topic: interactive-tutorial
+  ms.prod: learning-d365-customer-service
+title: Überprüfen Sie Ihr Wissen
+durationInMinutes: 5
+quiz:
+  title: Wissenscheck zu Customer Service
+  questions:
+    - content: Welche der folgenden Aussagen über modernen Kundenservice trifft zu?
+      choices:
+        - content: Interaktion über Facebook und Twitter ist wichtig und wächst.
+          correctExplanation: 'Die Kunden verwenden immer mehr Social Media-Plattformen, um mit Unternehmen zu kommunizieren. Daher werden diese Plattformen zu einer wichtigen Komponente bei der Behebung von Problemen, die Kunden mit Produkten und Diensten haben.'
+          isCorrect: true
+        - content: 'Das Vernetzen von Produkten, wie Schaltern und mechanischen Teilen, mit dem Internet ist keine Aufgabe des Kundenservice.'
+          incorrectExplanation: 'Soweit vernetzte Produkte Teil des Internets der Dinge werden, können Daten, die über die Verbindungen erfasst werden, ein wichtiger Bestandteil der im Kundenservice verwendeten Daten werden.'
+          isCorrect: false
+        - content: Das Internet der Dinge ist Teil des Self-Service.
+          incorrectExplanation: 'Self-Service umfasst das Internet der Dinge in der Regel nicht. Self-Service umfasst Dinge, wie eine Wissensdatenbank und durchsuchbare Supportwebsites.'
+          isCorrect: false
+        - content: 'Daten, die über das Internet der Dinge erfasst werden, sind in Wissensdatenbanken enthalten.'
+          incorrectExplanation: 'Daten aus vernetzten Produkten werden nicht in Wissensdatenbanken erfasst. Wissensdatenbankartikel werden von einem Unternehmen oder einer Serviceorganisation entwickelt, damit sie besser auf Probleme reagieren können, die Kunden mit Produkten oder Diensten haben.'
+          isCorrect: false
+    - content: Welche der folgenden Aussagen über soziale Medien trifft zu?
+      choices:
+        - content: 'Wissensdatenbanken sind ein wichtiger Bestandteil sozialer Medien, weil jeder die dort erfassten Informationen nutzen kann.'
+          incorrectExplanation: 'Dies ist nur bedingt wahr. Wissensdatenbanken bilden einen Verlauf von Produkt- und Serviceproblemen, den Agents verwenden können. Einige der Probleme können aus sozialen Medien und anderen Quellen stammen.'
+          isCorrect: false
+        - content: Instagram gehört auch zu den sozialen Medien.
+          correctExplanation: 'Zu den sozialen Medien gehören Dienste, in denen Benutzer Informationen teilen und Fragen stellen können. Instagram, Facebook und Twitter sind nur einige von vielen Beispielen.'
+          isCorrect: true
+        - content: Soziale Medien sind langsam und bei der Lösung von Kundenproblemen nicht effektiv.
+          incorrectExplanation: 'Soziale Medien bieten eine Plattform, auf der Kundenprobleme direkt und rasch bearbeitet werden können, insbesondere wenn die Antwort schnell und einfach ist.'
+          isCorrect: false
+    - content: Welche der folgenden Antworten ist NICHT Teil eines modernen Kundenkontaktverlaufs beim Abruf von Hilfe für ein Produkt oder einen Service?
+      choices:
+        - content: 'Automatisierte Bots, die programmiert sind, um Suchanfragen eines Kunden zu beantworten.'
+          incorrectExplanation: 'Wenn automatisierte Bots sorgfältig entwickelt wurden, können sie ein wesentlicher Bestandteil des modernen Kundenkontaktverlaufs zum Abrufen weiterer Hilfe werden, da sie Fragen auf Grundlage einer wachsenden Sammlung von Informationen und Lösungen beantworten können, die ein Unternehmen in zahlreichen Quellen und Wissensdatenbanken gesammelt hat.'
+          isCorrect: false
+        - content: Was passiert nach dem Lösen des Problems eines Kunden?
+          incorrectExplanation: 'Die Aktivitäten der Serviceagents eines Unternehmens nach dem Lösen von Kundenproblemen wird als Nachbearbeitung bezeichnet. Dies wird immer wichtiger für die Verbesserung von Kundenbeziehungen, insbesondere langfristig.'
+          isCorrect: false
+        - content: Ausfüllen eines Gewährleistungsanspruchs zu einem fehlerhaften Teil in einem Geschäft.
+          correctExplanation: 'Beim modernen Kundenkontaktverlauf wird es immer wichtiger, wie Kunden Probleme schnell und effektiv beheben können. Chatsitzungen, soziale Medien und Websitesuchen sind viel schneller, als mit jemandem in einem Geschäft zu sprechen.'
+          isCorrect: true

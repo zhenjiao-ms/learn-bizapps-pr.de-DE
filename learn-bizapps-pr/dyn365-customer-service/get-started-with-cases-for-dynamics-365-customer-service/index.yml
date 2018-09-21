@@ -1,0 +1,29 @@
+### YamlMime:Module
+uid: learn-bizapps.customer-service-cases
+metadata:
+  title: Erste Schritte mit Anfragen für Dynamics 365 for Customer Service
+  description: Erste Schritte mit Anfragen für Dynamics for Customer Service.
+  ms.date: 09/24/2018
+  author: margoc
+  ms.author: margoc
+  ms.topic: interactive-tutorial
+  ms.prod: learning-d365-customer-service
+title: Erste Schritte mit der Verwaltung von Anfragen in Dynamics 365 for Customer Service
+summary: In diesem Modul erlernen Sie die Grundlagen der ersten Schritte mit Anfragen für Customer Service.
+abstract: 'In diesem Modul erfahren Sie: - in welchem Zusammenhang Anfragen zu Key Performance Indicators und Aktivitäten stehen. - wie Anfragen abgeschlossen werden.'
+prerequisites: Keine/r/s
+iconUrl: /learn/achievements/get-started-with-dynamics-365-for-customer-service.svg
+levels:
+  - beginner
+roles:
+  - business-user
+products:
+  - bizapps
+  - bizapps-d365
+units:
+  - learn-bizapps.customer-service-cases.1-customer-service-manage-cases
+  - learn-bizapps.customer-service-cases.2-customer-service-automate-cases
+  - learn-bizapps.customer-service-cases.3-practice-customer-service
+  - learn-bizapps.customer-service-cases.4-customer-service-cases-get-started-quiz
+  - learn-bizapps.customer-service-cases.5-summary-cleanup
+achievement: learn.customer-service-cases.badge
