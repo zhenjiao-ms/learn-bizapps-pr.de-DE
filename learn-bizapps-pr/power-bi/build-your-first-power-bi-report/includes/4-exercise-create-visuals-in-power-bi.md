@@ -51,9 +51,9 @@ Wählen Sie einen leeren Bereich des Zeichenbereichs aus, sodass kein Visual aus
 
 **Zweites Visual**
 
-Ziehen Sie **State** aus **RetirementStats** in einen leeren Bereich des Zeichenbereichs. Ziehen Sie dann das Feld **State**, danach das Feld **Health care quality** (Qualität des Gesundheitswesens) und das Feld **Well-being** (Gemeinwohl) auf dieses Visual. Nun ändern wir das Visual in den Typ **Linien- und gruppiertes Säulendiagramm**, indem Sie im Bereich **Visualisierungen** die Kachel dieses Visuals auswählen.
+Ziehen Sie **State** aus **RetirementStats** in einen leeren Bereich des Zeichenbereichs. Ziehen Sie dann das Feld **Overall rank** (Allgemeine Rangfolge), danach das Feld **Health care quality** (Qualität des Gesundheitswesens) und das Feld **Well-being** (Gemeinwohl) auf dieses Visual. Nun ändern wir das Visual in den Typ **Linien- und gruppiertes Säulendiagramm**, indem wir im Bereich **Visualisierungen** die Kachel dieses Visuals auswählen.
 
-Wir haben es fast geschafft. Verschieben Sie auf der Registerkarte **Felder**das Feld **Well-being** zu **Zeilenwerte**. Das folgende Bild zeigt, wie Ihr Visual nun aussehen soll.
+Wir haben es fast geschafft. Verschieben Sie auf der Registerkarte **Felder**das Feld **Well-being** zu **Zeilenwerte**. Das folgende Bild zeigt, wie Ihr Visual nun aussehen soll. Beachten Sie, dass die Darstellung eines Visuals durch die Reihenfolge der Felder in den einzelnen Buckets verändert wird. Beispielsweise befindet sich **Health care quality** (Qualität des Gesundheitswesens) im Bucket **Column values** (Spaltenwerte) oberhalb von **Overall rank** (Allgemeine Rangfolge), wie in der folgenden Abbildung dargestellt. 
 
 ![Fertiges Visual](../media/pbid-visuals_04d.png)
 

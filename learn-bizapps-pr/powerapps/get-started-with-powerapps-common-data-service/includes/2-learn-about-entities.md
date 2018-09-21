@@ -6,13 +6,8 @@ In Common Data Service für Apps sind Metadaten (also Daten über Daten) eine Sa
 
 Die Apps, die Ihre Kunden zur Interaktion mit den Daten in Ihrer Umgebung verwenden, sind von den Entitätsmetadaten abhängig und werden bei der Anpassung der Metadaten entsprechend geändert. 
 
-<<<<<<< KOPFTEIL
-## <a name="when-to-use-standard-entities-and-when-to-create-new-entities"></a>Wann sollten Standardentitäten und neue Entitäten erstellt werden?
-<a name="common-data-service-for-apps-comes-with-a-number-of-standard-entities-that-support-core-business-application-capabilities-each-entity-also-contains-a-number-of-metadata-fields-that-represent-common-data-that-the-system-needs-to-store-for-that-entity-we-recommend-that-you-become-very-familiar-with-the-catalog-of-standard-entities-and-use-them-where-possible-because-any-applications-written-with-standard-entities-will-work-as-you-expect-in-your-environment-without-additional-effort"></a>Common Data Service für Apps bietet mehrere Standardentitäten, die die wichtigsten Funktionen für Geschäftsanwendungen unterstützen. Jede Entität enthält außerdem eine Reihe von Metadatenfeldern. Diese stellen allgemeine Daten dar, die das System für diese Entität speichern muss. Es wird empfohlen, dass Sie sich mit dem Katalog der Standardentitäten genau vertraut machen und diese nach Möglichkeit verwenden, da jede Anwendung, die mit Standardentitäten geschrieben wird, in Ihrer Umgebung ohne zusätzlichen Aufwand wie erwartet funktioniert.
-=======
-## <a name="when-to-use-standard-entities-and-when-to-create-new-entities"></a>Wann sollten Standardentitäten und neue Entitäten erstellt werden?
-CDS für Apps bietet mehrere Standardentitäten, die die wichtigsten Funktionen für Geschäftsanwendungen unterstützen. Jede Entität weist außerdem mehrere Metadatenfelder auf, die allgemeine Daten darstellen, die das System für diese Entität speichern muss. Es wird empfohlen, dass Sie sich mit dem Katalog der Standardentitäten vertraut machen und diese nach Möglichkeit verwenden, da jede Anwendung, die mit Standardentitäten geschrieben wird, in Ihrer Umgebung ohne zusätzlichen Aufwand wie erwartet funktioniert.
->>>>>>> master
+## <a name="when-to-use-standard-entities-and-when-to-create-new-entities"></a>Wann sollten Standardentitäten verwendet und wann neue Entitäten erstellt werden?
+Common Data Service für Apps bietet mehrere Standardentitäten, die die wichtigsten Funktionen für Geschäftsanwendungen unterstützen. Jede Entität enthält außerdem eine Reihe von Metadatenfeldern. Diese stellen allgemeine Daten dar, die das System für diese Entität speichern muss. Es wird empfohlen, dass Sie sich mit dem Katalog der Standardentitäten genau vertraut machen und diese nach Möglichkeit verwenden, da jede Anwendung, die mit Standardentitäten geschrieben wird, in Ihrer Umgebung ohne zusätzlichen Aufwand wie erwartet funktioniert.
 
 Bei kleineren Änderungen müssen Sie möglicherweise keine benutzerdefinierte Entität erstellen: 
 
@@ -37,18 +32,12 @@ Neben der Definition, wie Datensätze mit anderen Datensätzen in Beziehung gese
 - Wie sollten Personen, die einen Datensatz anzeigen, die zugehörigen Datensätze einsehen können?
 
 ## <a name="entity-types"></a>Entitätstypen
-<<<<<<< KOPFTEIL Vor dem Erstellen oder Bearbeiten von Entitäten in Common Data Service für Apps sollten Sie die verschiedenen Entitätstypen verstehen, die Sie erstellen können. Nach der Erstellung einer benutzerdefinierten Entität kann der Entitätstyp nicht mehr geändert werden. 
+Vor dem Erstellen oder Bearbeiten von Entitäten in Common Data Service für Apps sollten Sie die verschiedenen Entitätstypen kennen, die Sie erstellen können. Nach der Erstellung einer benutzerdefinierten Entität kann der Entitätstyp nicht mehr geändert werden. 
 
 ### <a name="types-of-entity-owners"></a>Typen von Entitätsbesitzern
- <a name="when-you-create-a-custom-entity-the-options-for-ownership-are-user-or-team-owned-or-organization-owned-after-an-entity-is-created-you-cant-change-the-ownership"></a>Wenn Sie eine benutzerdefinierte Entität erstellen, stehen als Besitzoptionen *User or team owned* (Im Besitz der Benutzer/des Teams) und *Organization-owned* (Im Besitz der Organisation) zur Auswahl. Nach der Erstellung einer Entität können Sie den Besitz nicht ändern. 
-=======
-Vor dem Erstellen oder Bearbeiten von Entitäten in CDS für Apps ist es ratsam, die verschiedenen Entitätstypen kennenzulernen, die Sie erstellen können. Nach der Erstellung einer benutzerdefinierten Entität können Sie den Entitätstyp nicht ändern. 
+ Wenn Sie eine benutzerdefinierte Entität erstellen, stehen als Besitzoptionen *User or team owned* (Im Besitz der Benutzer/des Teams) und *Organization-owned* (Im Besitz der Organisation) zur Auswahl. Nach der Erstellung einer Entität können Sie den Besitz nicht ändern. 
 
-### <a name="types-of-entity-owners"></a>Typen von Entitätsbesitzern
-Wenn Sie eine benutzerdefinierte Entität erstellen, sind die Optionen für den Besitz *Im Besitz von Benutzern/Team* und *Im Besitz der Organisation*. Nach der Erstellung einer Entität können Sie den Besitz nicht ändern. 
->>>>>>> master
-
-- **User or team owned** (Im Besitz der Benutzer/des Teams): Aktionen, die auf diese Datensätze angewendet werden können, lassen sich auf Benutzerebene steuern.
+- **Im Besitz des Benutzers/Teams**: Aktionen, die auf diese Datensätze angewendet werden können, lassen sich auf Benutzerebene steuern.
 - **Im Besitz der Organisation**: Der Zugriff auf die Daten wird auf Organisationsebene gesteuert.
 
 ### <a name="activity-entities"></a>Aktivitätsentitäten
