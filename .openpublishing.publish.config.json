@@ -27,9 +27,8 @@
     "sync_notification_subscribers": [],
     "branches_to_filter": [
     "live-sxs",
-    "master-sxs",
-    "live"
-    ],
+    "master-sxs"
+       ],
     "git_repository_url_open_to_public_contributors": "https://github.com/MicrosoftDocs/learn-bizapps.de-de",
     "git_repository_branch_open_to_public_contributors": "master",
     "continue_with_document_error": false,
